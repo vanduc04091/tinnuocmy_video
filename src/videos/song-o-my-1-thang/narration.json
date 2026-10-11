@@ -1,0 +1,55 @@
+{
+  "slug": "song-o-my-1-thang",
+  "title": "Sống ở Mỹ một tháng hết bao nhiêu tiền?",
+  "_syntax": "[hiển thị|đọc] = chữ hiện ở phụ đề | chữ giọng đọc sẽ đọc. {key} = mốc thời gian để hình ảnh xuất hiện đúng lúc.",
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "[3.000 đô la|Ba ngàn đô la] một tháng. {vn}Ở Việt Nam, đó là thu nhập mà nhiều người mơ ước. {us}Nhưng ở Mỹ, với không ít người, con số này chỉ vừa đủ để trang trải. {q}Vậy rốt cuộc, sống ở Mỹ một tháng hết bao nhiêu tiền? {data}Hôm nay, chúng ta sẽ tính từng khoản một, dựa trên số liệu mới nhất năm [2026|hai ngàn không trăm hai mươi sáu]."
+    },
+    {
+      "id": "assumptions",
+      "text": "Xin chào quý vị và các bạn, đây là Tin Nước Mỹ. Để con số có ý nghĩa, chúng ta cần thống nhất vài giả định. {p1}Đây là chi phí cho một người độc thân, {p2}thuê một căn hộ một phòng ngủ, {p3}sống ở một thành phố có mức giá trung bình, {p4}và đi làm bằng xe hơi riêng, như phần lớn người Mỹ. {p5}Tất cả là tiền chi tiêu sau thuế. {end}Cuối video, chúng ta sẽ xem con số thay đổi thế nào nếu quý vị sống ở New York, ở một thành phố nhỏ, hay là du học sinh."
+    },
+    {
+      "id": "housing",
+      "text": "Khoản đầu tiên, và cũng là khoản lớn nhất: tiền nhà. {median}Theo dữ liệu giá thuê tháng Chín năm [2026|hai ngàn không trăm hai mươi sáu], giá thuê trung vị của một căn hộ một phòng ngủ, tính trên toàn nước Mỹ, là khoảng [1.518 đô|một ngàn năm trăm mười tám đô]. {gap}Nhưng con số này che giấu một khoảng cách rất lớn. {nyc}Ở New York, căn một phòng ngủ có giá trung vị khoảng [4.580 đô|bốn ngàn năm trăm tám mươi đô]. {sf}San Francisco cũng xấp xỉ [4.400 đô|bốn ngàn bốn trăm đô]. {rule}Một lưu ý thực tế: chủ nhà ở Mỹ thường yêu cầu thu nhập gấp khoảng ba lần tiền thuê, {deposit}và quý vị nên chuẩn bị sẵn tiền cọc, thường từ một đến hai tháng tiền nhà. {pick}Trong bảng tính của chúng ta, tiền nhà là [1.500 đô|một ngàn năm trăm đô] mỗi tháng."
+    },
+    {
+      "id": "utilities",
+      "text": "Tiếp theo là các hóa đơn tiện ích. {power}Điện, nước, gas và rác cho một căn hộ nhỏ thường rơi vào khoảng [100 đến 250 đô|một trăm đến hai trăm năm mươi đô], tùy mùa và tùy tiểu bang. {season}Mùa hè ở Texas hay mùa đông ở vùng Trung Tây có thể đẩy hóa đơn lên khá cao. {net}Internet tốc độ cao khoảng [60 đến 80 đô|sáu mươi đến tám mươi đô]. {phone}Điện thoại di động, nếu chọn các nhà mạng giá rẻ, chỉ khoảng [30 đến 50 đô|ba mươi đến năm mươi đô]. {pick}Cộng lại, chúng ta tính [250 đô|hai trăm năm mươi đô] cho nhóm này."
+    },
+    {
+      "id": "food",
+      "text": "Về ăn uống. {usda}Bộ Nông nghiệp Mỹ ước tính, một người trưởng thành tự nấu ăn ở mức tiết kiệm cần khoảng [250 đến 320 đô|hai trăm năm mươi đến ba trăm hai mươi đô] mỗi tháng. {out}Nhưng thực tế, ít ai tự nấu đủ cả ba bữa. Một bữa trưa ở ngoài thường từ [15 đến 20 đô|mười lăm đến hai mươi đô], chưa kể tiền tip. {pick}Vì vậy, một ngân sách thực tế hơn, gồm đi chợ và thỉnh thoảng ăn ngoài, là khoảng [500 đô|năm trăm đô] một tháng. {tip}Mẹo nhỏ: các chợ Á Đông và chợ Việt thường rẻ hơn đáng kể cho những món ăn quen thuộc."
+    },
+    {
+      "id": "car",
+      "text": "Khoản thứ tư có thể khiến nhiều người bất ngờ: chiếc xe. {aaa}Theo Hiệp hội Ô tô Mỹ, chi phí sở hữu một chiếc xe mới, tính cả khấu hao, bảo hiểm, xăng và bảo dưỡng, là khoảng [11.577 đô|mười một ngàn năm trăm bảy mươi bảy đô] một năm, tức gần [965 đô|chín trăm sáu mươi lăm đô] mỗi tháng. {used}Nếu mua một chiếc xe cũ đáng tin cậy, con số này có thể giảm xuống khoảng [600 đến 700 đô|sáu trăm đến bảy trăm đô], gồm tiền góp xe, bảo hiểm, xăng và sửa chữa. {ins}Riêng bảo hiểm xe cho người mới đến Mỹ, chưa có lịch sử lái xe, thường cao hơn mức trung bình. {pick}Chúng ta chọn [650 đô|sáu trăm năm mươi đô] cho khoản này."
+    },
+    {
+      "id": "health",
+      "text": "Và đây là khoản mà người mới sang thường bỏ sót: bảo hiểm sức khỏe. {job}Nếu quý vị đi làm toàn thời gian, công ty thường trả phần lớn phí bảo hiểm; phần người lao động đóng trung bình chỉ khoảng [120 đô|một trăm hai mươi đô] mỗi tháng. {aca}Nhưng nếu tự mua trên sàn bảo hiểm của chính phủ, theo một tổ chức nghiên cứu y tế độc lập, phí trung bình năm [2026|hai ngàn không trăm hai mươi sáu] cho một người bốn mươi tuổi là [625 đô|sáu trăm hai mươi lăm đô] mỗi tháng, trước khi được trợ cấp. {warn}Đừng bao giờ sống ở Mỹ mà không có bảo hiểm: chỉ một lần vào phòng cấp cứu có thể tốn hàng ngàn đô. {pick}Trong bảng tính, chúng ta giả định quý vị có bảo hiểm qua công ty: [150 đô|một trăm năm mươi đô], đã gồm các khoản đồng chi trả."
+    },
+    {
+      "id": "other",
+      "text": "Cuối cùng là những khoản nhỏ, nhưng cộng lại không hề nhỏ: {i1}quần áo, {i2}đồ dùng cá nhân, {i3}cắt tóc, {i4}giặt đồ, {i5}các gói xem phim, {i6}một buổi đi chơi cuối tuần. {pick}Ở mức tiết chế, chúng ta tính khoảng [300 đô|ba trăm đô] mỗi tháng. {note}Và đó là chưa kể tiền gửi về gia đình, hay tiết kiệm cho tương lai."
+    },
+    {
+      "id": "total",
+      "text": "Giờ hãy cộng tất cả lại. {l1}Tiền nhà [1.500|một ngàn năm trăm]. {l2}Tiện ích [250|hai trăm năm mươi]. {l3}Ăn uống [500|năm trăm]. {l4}Xe hơi [650|sáu trăm năm mươi]. {l5}Bảo hiểm sức khỏe [150|một trăm năm mươi]. {l6}Chi tiêu khác [300|ba trăm]. {sum}Tổng cộng: khoảng [3.350 đô|ba ngàn ba trăm năm mươi đô] một tháng, {vnd}tương đương hơn [85 triệu đồng|tám mươi lăm triệu đồng]. {income}Để chi tiêu được như vậy sau thuế mà vẫn để dành được một ít, thu nhập trước thuế của quý vị nên ở mức khoảng [55.000 đô|năm mươi lăm ngàn đô] một năm trở lên."
+    },
+    {
+      "id": "scenarios",
+      "text": "Nhưng như đã nói, nơi quý vị sống quyết định phần lớn chi phí. {small}Ở một thành phố nhỏ hoặc vùng ven, với tiền nhà khoảng một ngàn đô, tổng chi phí có thể chỉ khoảng [2.700 đô|hai ngàn bảy trăm đô]. {big}Ngược lại, ở New York hay San Francisco, dù có thể bỏ xe để đi tàu điện, tiền nhà hơn bốn ngàn đô sẽ đẩy tổng chi phí lên khoảng [6.000 đô|sáu ngàn đô] hoặc hơn. {student}Còn với du học sinh, ở ghép với bạn, không có xe, dùng bảo hiểm của trường, chi phí sinh hoạt thường vào khoảng [1.500 đến 2.000 đô|một ngàn năm trăm đến hai ngàn đô] mỗi tháng, chưa tính học phí."
+    },
+    {
+      "id": "tips",
+      "text": "Vậy làm sao để giảm chi phí? Có ba điều quý vị nên làm ngay. {t1}Một: giữ tiền nhà dưới khoảng ba mươi phần trăm thu nhập; ở ghép là cách tiết kiệm nhanh nhất trong những năm đầu. {t2}Hai: mua xe cũ đáng tin cậy, và so sánh giá bảo hiểm xe ở nhiều hãng mỗi năm. {t3}Ba: xây dựng lịch sử tín dụng càng sớm càng tốt, vì điểm tín dụng tốt giúp quý vị thuê nhà dễ hơn, vay mua xe và mua nhà với lãi suất thấp hơn."
+    },
+    {
+      "id": "outro",
+      "text": "Tóm lại, một người độc thân ở thành phố có mức giá trung bình cần khoảng [3.350 đô|ba ngàn ba trăm năm mươi đô] mỗi tháng để sống ổn định ở Mỹ. {q}Còn quý vị đang sống ở đâu, và chi phí mỗi tháng của quý vị là bao nhiêu? Hãy chia sẻ ở phần bình luận để mọi người cùng tham khảo. {sub}Nếu thấy video hữu ích, đừng quên đăng ký kênh Tin Nước Mỹ. Hẹn gặp lại quý vị trong video tiếp theo."
+    }
+  ]
+}

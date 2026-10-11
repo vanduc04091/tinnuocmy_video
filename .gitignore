@@ -1,0 +1,9 @@
+node_modules/
+# Video đã render: chỉ lưu trên máy, không đẩy lên GitHub
+out/
+# Giọng đọc sinh tự động bằng `npm run tts` (tạo lại được bất cứ lúc nào)
+public/audio/
+public/music/*.mp3
+.DS_Store
+*.log
+__pycache__/

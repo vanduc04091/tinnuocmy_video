@@ -1,0 +1,12 @@
+{
+  "name": "Tin Nước Mỹ",
+  "tagline": "Cuộc sống & du học tại Mỹ",
+  "voice": "vi-VN-NamMinhNeural",
+  "rate": "-4%",
+  "pitch": "+0Hz",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "sceneLeadInSec": 0.35,
+  "sceneTailSec": 0.75
+}
