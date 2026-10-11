@@ -518,7 +518,7 @@ const Outro = () => (
       </AbsoluteFill>
     </Window>
     <div style={{position: 'absolute', bottom: 26, width: '100%', textAlign: 'center', fontSize: 19, color: theme.faint}}>
-      Số liệu mang tính tham khảo, không phải tư vấn tài chính · Video nền: Pexels
+      Số liệu mang tính tham khảo, không phải tư vấn tài chính · Video nền: Pixabay
     </div>
   </>
 );

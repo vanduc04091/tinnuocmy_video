@@ -1,6 +1,6 @@
 # Kịch bản tập 1 (bản ghép) — Sống Ở Mỹ Một Tháng Hết Bao Nhiêu Tiền? Sự Thật Không Phải Ai Cũng Biết
 
-- **Phong cách:** phóng sự giải thích; cảnh quay thật về nước Mỹ (Pexels), số liệu hiện ở một khung bên cạnh, nhạc nền + hiệu ứng âm thanh
+- **Phong cách:** phóng sự giải thích; cảnh quay thật về nước Mỹ (Pixabay), số liệu hiện ở một khung bên cạnh, nhạc nền + hiệu ứng âm thanh
 - **Giọng:** `vi-VN-HoaiMyNeural` (nữ), tốc độ `-2%`
 - **Thời lượng dự kiến:** ~7 phút
 - **Lời đọc dùng để dựng:** `src/videos/song-o-my-phong-su/narration.json`
@@ -26,7 +26,7 @@
 | 5 | Câu "Nếu mua nhà…" của bản gốc lệch khỏi hồ sơ người thuê nhà, kéo dài video | Bỏ, để dành cho một tập riêng về mua nhà |
 | 6 | Câu chung chung "phụ thuộc vào…" lặp lại ở mọi phần | Giữ một lần mỗi phần, ngay sau đó đưa con số cụ thể |
 | 7 | Tên tiếng Anh (MIT, Bellaire, Little Saigon) giọng TTS đọc khó nghe | Viết cách đọc: "em ai ti", "Be-le", "Lít-tồ Sài Gòn"; Orange County đọc là "Quận Cam" như cách người Việt ở Mỹ gọi |
-| 8 | "Hình ảnh AI" về nơi có thật dễ trông giả, phải khai báo với YouTube | Dùng cảnh quay thật từ Pexels (miễn phí, dùng thương mại được) |
+| 8 | "Hình ảnh AI" về nơi có thật dễ trông giả, phải khai báo với YouTube | Dùng cảnh quay thật từ Pixabay (miễn phí, dùng thương mại được) |
 
 ## Kiểm tra số liệu
 

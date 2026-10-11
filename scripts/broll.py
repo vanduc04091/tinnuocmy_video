@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Tải cảnh quay nền (b-roll) từ Pexels cho một video.
+"""Tải cảnh quay nền (b-roll) từ Pixabay (hoặc Pexels) cho một video.
 
     python3 scripts/broll.py song-o-my-phong-su [--force] [--only intro-0,housing-2]
 
-Cần biến môi trường PEXELS_API_KEY (lấy miễn phí tại https://www.pexels.com/api/).
+Cần biến môi trường PIXABAY_API_KEY (miễn phí: đăng ký tài khoản Pixabay, key nằm ở
+https://pixabay.com/api/docs/). Ai đã có key Pexels cũ có thể dùng PEXELS_API_KEY.
 Nên chạy SAU `npm run tts` để biết mỗi cảnh quay cần dài bao nhiêu giây.
 
 Đọc  src/videos/<slug>/shots.json  (+ public/audio/<slug>/manifest.json nếu có)
@@ -25,7 +26,8 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
-API = "https://api.pexels.com/videos/search"
+PEXELS_API = "https://api.pexels.com/videos/search"
+PIXABAY_API = "https://pixabay.com/api/videos/"
 MAX_CLIP_SEC = 20  # cắt bớt để tiết kiệm dung lượng
 
 
@@ -62,19 +64,50 @@ def shot_needs(slug, shots):
     return needs
 
 
-def search(query, key, need):
+def search_pixabay(query, key):
+    q = urllib.parse.urlencode({"key": key, "q": query, "video_type": "film", "per_page": 50, "safesearch": "true"})
+    data = json.loads(http_get(f"{PIXABAY_API}?{q}"))
+    out = []
+    for h in data.get("hits", []):
+        files = [v for v in h.get("videos", {}).values() if v.get("url") and (v.get("width") or 0) >= 1280]
+        if not files:
+            continue
+        f = min(files, key=lambda v: abs(v["width"] - 1920))
+        out.append({
+            "id": f"pixabay-{h['id']}", "duration": h.get("duration", 0), "link": f["url"],
+            "url": h.get("pageURL", ""), "author": h.get("user", "Pixabay"),
+            "authorUrl": f"https://pixabay.com/users/{h.get('user', '')}-{h.get('user_id', '')}/",
+            "source": "Pixabay",
+        })
+    return out
+
+
+def search_pexels(query, key):
     q = urllib.parse.urlencode({"query": query, "orientation": "landscape", "size": "medium", "per_page": 30})
-    data = json.loads(http_get(f"{API}?{q}", {"Authorization": key}))
-    videos = data.get("videos", [])
-    # Ưu tiên clip đủ dài, rồi tới clip dài nhất
-    return sorted(videos, key=lambda v: (v["duration"] < need + 1, -min(v["duration"], 30)))
+    data = json.loads(http_get(f"{PEXELS_API}?{q}", {"Authorization": key}))
+    out = []
+    for v in data.get("videos", []):
+        files = [f for f in v["video_files"] if f.get("file_type") == "video/mp4" and (f.get("width") or 0) >= 1280]
+        if not files:
+            continue
+        f = min(files, key=lambda f: abs((f.get("width") or 0) - 1920))
+        out.append({
+            "id": f"pexels-{v['id']}", "duration": v["duration"], "link": f["link"], "url": v["url"],
+            "author": v["user"]["name"], "authorUrl": v["user"]["url"], "source": "Pexels",
+        })
+    return out
 
 
-def best_file(video):
-    files = [f for f in video["video_files"] if f.get("file_type") == "video/mp4" and (f.get("width") or 0) >= 1280]
-    if not files:
-        return None
-    return min(files, key=lambda f: abs((f.get("width") or 0) - 1920))
+def search(query, keys, need):
+    """Tìm ở mọi nguồn có key; ưu tiên clip đủ dài, rồi clip dài hơn."""
+    found = []
+    for name, fn in (("pixabay", search_pixabay), ("pexels", search_pexels)):
+        if keys.get(name):
+            try:
+                found += fn(query, keys[name])
+            except Exception as e:  # noqa: BLE001
+                print(f"    ! {name}: {e}")
+    return sorted(found, key=lambda v: (v["duration"] < need + 1, -min(v["duration"], 30)))
 
 
 def main():
@@ -84,9 +117,10 @@ def main():
     ap.add_argument("--only", help="chỉ tải các cảnh này, ví dụ intro-0,housing-2")
     args = ap.parse_args()
 
-    key = os.environ.get("PEXELS_API_KEY")
-    if not key:
-        sys.exit("Thiếu PEXELS_API_KEY. Lấy key miễn phí tại https://www.pexels.com/api/ rồi đặt biến môi trường.")
+    keys = {"pixabay": os.environ.get("PIXABAY_API_KEY"), "pexels": os.environ.get("PEXELS_API_KEY")}
+    if not any(keys.values()):
+        sys.exit("Thiếu PIXABAY_API_KEY. Đăng ký miễn phí tại https://pixabay.com, key nằm ở https://pixabay.com/api/docs/ "
+                 "rồi đặt biến môi trường PIXABAY_API_KEY.")
 
     shots = json.loads((ROOT / "src/videos" / args.slug / "shots.json").read_text(encoding="utf-8"))["scenes"]
     out_dir = ROOT / "public/broll" / args.slug
@@ -95,7 +129,7 @@ def main():
     manifest = json.loads(man_path.read_text(encoding="utf-8")) if man_path.exists() else {"shots": {}}
     needs = shot_needs(args.slug, shots)
     only = set(args.only.split(",")) if args.only else None
-    used = {v.get("pexelsId") for v in manifest["shots"].values() if v.get("pexelsId")}
+    used = {v.get("sourceId") for v in manifest["shots"].values() if v.get("sourceId")}
     ff = ffmpeg_cmd()
 
     for scene, items in shots.items():
@@ -109,18 +143,11 @@ def main():
                 continue
             need = needs[sid]
             print(f"  > {sid}: \"{it['query']}\" (cần ~{need:.1f}s)", flush=True)
-            try:
-                candidates = [v for v in search(it["query"], key, need) if v["id"] not in used]
-            except Exception as e:  # noqa: BLE001
-                print(f"    ! lỗi tìm kiếm: {e}")
-                continue
+            candidates = [v for v in search(it["query"], keys, need) if v["id"] not in used]
             for video in candidates:
-                f = best_file(video)
-                if not f:
-                    continue
                 tmp = out_dir / f"{sid}.download.mp4"
                 try:
-                    tmp.write_bytes(http_get(f["link"]))
+                    tmp.write_bytes(http_get(video["link"]))
                     clip = min(video["duration"], MAX_CLIP_SEC, max(need + 2, 8))
                     subprocess.run(
                         ff + ["-y", "-v", "error", "-i", str(tmp), "-t", f"{clip:.2f}", "-an",
@@ -138,21 +165,22 @@ def main():
                     "file": dst.name,
                     "query": it["query"],
                     "durationSec": round(clip, 2),
-                    "pexelsId": video["id"],
+                    "sourceId": video["id"],
+                    "source": video["source"],
                     "url": video["url"],
-                    "author": video["user"]["name"],
-                    "authorUrl": video["user"]["url"],
+                    "author": video["author"],
+                    "authorUrl": video["authorUrl"],
                 }
                 man_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
-                print(f"    ✓ {video['duration']}s — {video['user']['name']}")
+                print(f"    ✓ {video['duration']}s — {video['author']} ({video['source']})")
                 break
             else:
                 print("    ! không tìm được clip phù hợp — hãy đổi từ khóa trong shots.json")
 
     missing = [f"{s}-{i}" for s, items in shots.items() for i in range(len(items)) if f"{s}-{i}" not in manifest["shots"]]
-    credits = sorted({(v["author"], v["authorUrl"]) for v in manifest["shots"].values()})
+    credits = sorted({(v.get("source", "Pexels"), v["author"], v["authorUrl"]) for v in manifest["shots"].values()})
     (out_dir / "credits.txt").write_text(
-        "Video nền: Pexels (https://www.pexels.com)\n" + "\n".join(f"- {a}: {u}" for a, u in credits) + "\n",
+        "Video nền: Pixabay / Pexels\n" + "\n".join(f"- {a} ({src}): {u}" for src, a, u in credits) + "\n",
         encoding="utf-8",
     )
     print(f"Xong. Có {len(manifest['shots'])} cảnh quay; thiếu {len(missing)}: {', '.join(missing) or 'không'}")

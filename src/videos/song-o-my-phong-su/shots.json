@@ -1,5 +1,5 @@
 {
-  "_help": "Cảnh quay nền. at = mốc {key} trong narration.json hoặc số giây; offset = giây cộng thêm; query = từ khóa tìm trên Pexels (tiếng Anh). Tải: npm run broll -- song-o-my-phong-su",
+  "_help": "Cảnh quay nền. at = mốc {key} trong narration.json hoặc số giây; offset = giây cộng thêm; query = từ khóa tìm trên Pixabay (tiếng Anh). Tải: npm run broll -- song-o-my-phong-su",
   "scenes": {
     "intro": [
       {"at": 0, "query": "american suburb neighborhood aerial"},

@@ -22,11 +22,11 @@ src/
     ├── registry.ts           # danh sách video
     └── song-o-my-phong-su/   (và song-o-my-1-thang/ — bản slide cũ)
         ├── narration.json    # LỜI ĐỌC (sửa lời ở đây)
-        ├── shots.json        # danh sách cảnh quay nền (từ khóa Pexels) — chỉ video phóng sự
+        ├── shots.json        # danh sách cảnh quay nền (từ khóa tìm kiếm) — chỉ video phóng sự
         └── index.tsx         # đồ họa từng cảnh, số liệu
 scripts/
 ├── tts.py                    # tạo giọng đọc Edge TTS + phụ đề + mốc thời gian
-├── broll.py                  # tải cảnh quay từ Pexels theo shots.json
+├── broll.py                  # tải cảnh quay từ Pixabay/Pexels theo shots.json
 ├── music.py                  # tổng hợp nhạc nền + hiệu ứng âm thanh
 └── render.mjs                # render ra out/
 docs/kich-ban/                # kịch bản, bản review, nguồn số liệu
@@ -47,12 +47,13 @@ pip install edge-tts
 
 ```bash
 npm run tts -- song-o-my-phong-su        # 1. giọng đọc (HoaiMy)
-npm run broll -- song-o-my-phong-su      # 2. tải cảnh quay từ Pexels (cần PEXELS_API_KEY)
+npm run broll -- song-o-my-phong-su      # 2. tải cảnh quay từ Pixabay (cần PIXABAY_API_KEY)
 npm run render -- song-o-my-phong-su     # 3. render -> out/song-o-my-phong-su.mp4
 ```
 
-- **PEXELS_API_KEY**: đăng ký miễn phí tại https://www.pexels.com/api/ rồi đặt biến môi trường
-  (Windows PowerShell: `$env:PEXELS_API_KEY="..."`, macOS/Linux: `export PEXELS_API_KEY=...`).
+- **PIXABAY_API_KEY**: đăng ký tài khoản miễn phí tại https://pixabay.com, key hiện ở https://pixabay.com/api/docs/
+  (Windows PowerShell: `$env:PIXABAY_API_KEY="..."`, macOS/Linux: `export PIXABAY_API_KEY=...`).
+  Pexels đã tạm dừng cấp key mới (10/2026); ai còn key Pexels cũ có thể đặt thêm `PEXELS_API_KEY`.
 - Cảnh quay chưa ưng: sửa từ khóa trong `shots.json` rồi `npm run broll -- song-o-my-phong-su --force --only housing-2`,
   hoặc chép video của bạn vào `public/broll/song-o-my-phong-su/housing-2.mp4`.
 - Tên tác giả cảnh quay (dán vào mô tả YouTube): `public/broll/<slug>/credits.txt`.
