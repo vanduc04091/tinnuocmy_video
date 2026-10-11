@@ -134,3 +134,11 @@ mỗi con số trên màn hình khớp lời đọc; nguồn số liệu hiện 
 
 **Cần nghe lại sau khi tạo giọng trên PC:** cách giọng `vi-VN-NamMinhNeural` đọc "New York", "San Francisco", "Texas", "tip", "gas".
 Nếu đọc chưa hay, sửa vế "đọc" trong `narration.json`, ví dụ `[New York|Niu Oóc]`, rồi chạy lại `npm run tts`.
+
+### Review sau khi có giọng đọc thật (Edge TTS, vi-VN-NamMinhNeural)
+
+- Lời đọc: 12/12 cảnh có mốc thời gian từng từ; hình và phụ đề khớp đúng câu đọc.
+- Khoảng lặng giữa các cảnh lúc đầu là 2,3 giây (hụt nhịp) → giảm khoảng đệm đầu/cuối cảnh còn 0,2 s / 0,3 s.
+- Âm lượng tổng chỉ -19,8 LUFS, nhỏ hơn chuẩn YouTube (-14 LUFS; YouTube không tự tăng âm lượng)
+  → `npm run render` tự chuẩn hóa về -14 LUFS sau khi render.
+- Nghỉ giữa các câu khoảng 1 giây: giữ nguyên, nhịp chậm rõ hợp khán giả lớn tuổi.

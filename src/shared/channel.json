@@ -7,6 +7,6 @@
   "fps": 30,
   "width": 1920,
   "height": 1080,
-  "sceneLeadInSec": 0.35,
-  "sceneTailSec": 0.75
+  "sceneLeadInSec": 0.2,
+  "sceneTailSec": 0.3
 }

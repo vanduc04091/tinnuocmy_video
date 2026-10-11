@@ -2,27 +2,46 @@
 //   npm run render -- song-o-my-1-thang            -> out/song-o-my-1-thang.mp4
 //   npm run render -- song-o-my-1-thang --no-audio -> cho phép render khi chưa tạo giọng
 // Các tham số khác được chuyển thẳng cho `remotion render` (vd: --scale=0.5, --frames=0-300).
+// Sau khi render, âm lượng được chuẩn hóa về -14 LUFS (chuẩn YouTube) bằng ffmpeg đi kèm Remotion.
 import {spawnSync} from 'node:child_process';
-import {existsSync, mkdirSync} from 'node:fs';
+import {existsSync, mkdirSync, renameSync, rmSync} from 'node:fs';
 
 const [slug, ...rest] = process.argv.slice(2);
 if (!slug) {
   console.error('Cách dùng: npm run render -- <slug> [--no-audio] [tham số remotion...]');
   process.exit(1);
 }
-const allowNoAudio = rest.includes('--no-audio');
+const noAudio = rest.includes('--no-audio');
 const passthrough = rest.filter((a) => a !== '--no-audio');
 
-if (!existsSync(`public/audio/${slug}/manifest.json`) && !allowNoAudio) {
+if (!existsSync(`public/audio/${slug}/manifest.json`) && !noAudio) {
   console.error(`Chưa có giọng đọc cho "${slug}". Chạy trước:  npm run tts -- ${slug}`);
   console.error('(hoặc thêm --no-audio để render bản xem thử không tiếng)');
   process.exit(1);
 }
 
+const run = (args) => {
+  console.log('>', 'npx', args.join(' '));
+  return spawnSync('npx', args, {stdio: 'inherit', shell: process.platform === 'win32'}).status ?? 1;
+};
+
 mkdirSync('out', {recursive: true});
-const output = passthrough.find((a) => !a.startsWith('-')) ?? `out/${slug}${allowNoAudio ? '-khong-tieng' : ''}.mp4`;
-const args = ['remotion', 'render', 'src/index.ts', slug, output, ...passthrough.filter((a) => a !== output)];
-console.log('>', 'npx', args.join(' '));
-const res = spawnSync('npx', args, {stdio: 'inherit', shell: process.platform === 'win32'});
-if (res.status === 0) console.log(`\nĐã lưu: ${output}`);
-process.exit(res.status ?? 1);
+const output = passthrough.find((a) => !a.startsWith('-')) ?? `out/${slug}${noAudio ? '-khong-tieng' : ''}.mp4`;
+const raw = noAudio ? output : output.replace(/\.mp4$/, '.raw.mp4');
+const status = run(['remotion', 'render', 'src/index.ts', slug, raw, ...passthrough.filter((a) => a !== output)]);
+if (status !== 0) process.exit(status);
+
+if (!noAudio) {
+  console.log('\nChuẩn hóa âm lượng về -14 LUFS...');
+  const norm = run([
+    'remotion', 'ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-i', raw,
+    '-c:v', 'copy', '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-ar', '48000', '-c:a', 'aac', '-b:a', '192k',
+    output,
+  ]);
+  if (norm === 0) rmSync(raw);
+  else {
+    console.warn('Không chuẩn hóa được âm lượng, giữ bản gốc.');
+    renameSync(raw, output);
+  }
+}
+console.log(`\nĐã lưu: ${output}`);
