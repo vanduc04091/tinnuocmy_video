@@ -46,3 +46,12 @@
 - AAA Your Driving Costs 2025: $11.577/năm ≈ $965/tháng. https://newsroom.aaa.com/2025/09/aaa-new-vehicle-costs-drop-to-11577/
 - KFF 2026, phí benchmark ACA 40 tuổi: Texas $661, California $570. https://www.beckerspayer.com/payer/aca/states-ranked-by-average-aca-benchmark-premiums-in-2026/
 - Chi tiêu cá nhân $250 và chi phí du học sinh: ước tính, ghi rõ trên màn hình
+
+## Review bản dựng (cảnh quay thật)
+
+- Lần tải đầu (tìm tự động): khoảng một nửa cảnh lệch nội dung (chim bồ câu thay cho "người xem hóa đơn", tiền euro, pháo hoa…).
+  Nguyên nhân: script ưu tiên clip dài hơn clip đúng chủ đề; từ khóa quá dài.
+  → Sửa script giữ thứ tự liên quan, rút gọn từ khóa, xem trước 6 ứng viên/cảnh và **ghim tay 63 clip** (`id` trong shots.json).
+- Bản cuối: 6:36, 1920×1080, âm lượng -14,0 LUFS, nhạc nền nhỏ hơn giọng ~20 dB khi có lời, không có khoảng lặng.
+- Đã soát 24 mốc: khung số liệu, bản đồ, bảng so sánh Houston – Quận Cam, hóa đơn, nút đăng ký hiện đúng câu đọc.
+- Còn hạn chế: kho video miễn phí gần như không có cảnh người Việt / chợ Việt ở Houston hay Little Saigon — nên thay bằng clip tự quay nếu có.
