@@ -1,0 +1,361 @@
+{
+  "_help": "Cảnh quay nền. at = mốc {key} trong narration.json hoặc số giây; query = từ khóa NGẮN tìm trên Pixabay (tiếng Anh); id = mã video Pixabay để ghim đúng clip đã chọn. Tải: npm run broll -- luong-4000-usd",
+  "scenes": {
+    "hook": [
+      {
+        "at": 0,
+        "query": "dollar money",
+        "id": 172891
+      },
+      {
+        "at": 1.8,
+        "query": "american city street",
+        "id": 1044
+      },
+      {
+        "at": "vnd",
+        "query": "ho chi minh city",
+        "id": 32499
+      },
+      {
+        "at": "think",
+        "query": "airport travel",
+        "id": 29806
+      },
+      {
+        "at": "b1",
+        "query": "apartment complex",
+        "id": 83812
+      },
+      {
+        "at": "b3",
+        "query": "gas station",
+        "id": 175
+      },
+      {
+        "at": "b4",
+        "query": "hospital",
+        "id": 49815
+      },
+      {
+        "at": "b5",
+        "query": "paying bills",
+        "id": 9908
+      },
+      {
+        "at": "diff",
+        "query": "small town",
+        "id": 48985
+      },
+      {
+        "at": "plan",
+        "query": "calculator budget",
+        "id": 59139
+      },
+      {
+        "at": "go",
+        "query": "new york city",
+        "id": 272517
+      }
+    ],
+    "paycheck": [
+      {
+        "at": 0,
+        "query": "office worker",
+        "id": 107425
+      },
+      {
+        "at": "gross",
+        "query": "contract signing",
+        "id": 198890
+      },
+      {
+        "at": "fed",
+        "query": "tax",
+        "id": 293084
+      },
+      {
+        "at": "fica",
+        "query": "elderly couple",
+        "id": 377024
+      },
+      {
+        "at": "state",
+        "query": "texas",
+        "id": 252871
+      },
+      {
+        "at": "net",
+        "query": "banking app phone",
+        "id": 90
+      },
+      {
+        "at": "ca",
+        "query": "california",
+        "id": 272828
+      },
+      {
+        "at": "why",
+        "query": "insurance documents",
+        "id": 80314
+      },
+      {
+        "at": "rule",
+        "query": "wallet money",
+        "id": 50629
+      }
+    ],
+    "budget": [
+      {
+        "at": 0,
+        "query": "houston",
+        "id": 114822
+      },
+      {
+        "at": "who",
+        "query": "woman walking city",
+        "id": 126837
+      },
+      {
+        "at": "start",
+        "query": "atm money",
+        "id": 20857
+      },
+      {
+        "at": "c1",
+        "query": "apartment interior",
+        "id": 258301
+      },
+      {
+        "at": "c2",
+        "query": "driving car",
+        "id": 133699
+      },
+      {
+        "at": "c3",
+        "query": "grocery store",
+        "id": 4730
+      },
+      {
+        "at": "c4",
+        "query": "doctor",
+        "id": 49808
+      },
+      {
+        "at": "c5",
+        "query": "smartphone",
+        "id": 142641
+      },
+      {
+        "at": "c6",
+        "query": "shopping",
+        "id": 12876
+      },
+      {
+        "at": "left",
+        "query": "piggy bank",
+        "id": 93550
+      },
+      {
+        "at": "net4k",
+        "query": "saving money",
+        "id": 153460
+      },
+      {
+        "at": "thin",
+        "query": "worried woman",
+        "id": 293081
+      },
+      {
+        "at": "car",
+        "query": "car breakdown",
+        "id": 30
+      }
+    ],
+    "place": [
+      {
+        "at": 0,
+        "query": "highway road trip",
+        "id": 18082
+      },
+      {
+        "at": "oc",
+        "query": "los angeles palm trees",
+        "id": 32859
+      },
+      {
+        "at": "cost",
+        "query": "california apartments",
+        "id": 33552
+      },
+      {
+        "at": "gap",
+        "query": "empty wallet",
+        "id": 50628
+      },
+      {
+        "at": "how",
+        "query": "young friends",
+        "id": 41820
+      },
+      {
+        "at": "nyc",
+        "query": "manhattan",
+        "id": 30978
+      },
+      {
+        "at": "same",
+        "query": "city crowd",
+        "id": 3627
+      }
+    ],
+    "family": [
+      {
+        "at": 0,
+        "query": "family home",
+        "id": 1027
+      },
+      {
+        "at": "fam",
+        "query": "mother baby",
+        "id": 79155
+      },
+      {
+        "at": "need",
+        "query": "suburb houses",
+        "id": 3584
+      },
+      {
+        "at": "more",
+        "query": "family shopping",
+        "id": 1887
+      },
+      {
+        "at": "both",
+        "query": "couple talking",
+        "id": 50311
+      },
+      {
+        "at": "why",
+        "query": "family dinner",
+        "id": 363828
+      }
+    ],
+    "mind": [
+      {
+        "at": 0,
+        "query": "man thinking window",
+        "id": 122389
+      },
+      {
+        "at": "why",
+        "query": "bank account",
+        "id": 349089
+      },
+      {
+        "at": "fed",
+        "query": "us capitol",
+        "id": 239278
+      },
+      {
+        "at": "q1",
+        "query": "unemployed",
+        "id": 126558
+      },
+      {
+        "at": "q2",
+        "query": "flat tire",
+        "id": 36656
+      },
+      {
+        "at": "q3",
+        "query": "apartment for rent",
+        "id": 198898
+      },
+      {
+        "at": "q4",
+        "query": "hospital bill",
+        "id": 21114
+      },
+      {
+        "at": "feel",
+        "query": "woman phone worried",
+        "id": 44637
+      },
+      {
+        "at": "social",
+        "query": "social media scrolling",
+        "id": 1360
+      },
+      {
+        "at": "hidden",
+        "query": "luxury house",
+        "id": 221342
+      },
+      {
+        "at": "compare",
+        "query": "sad woman phone",
+        "id": 272619
+      }
+    ],
+    "tips": [
+      {
+        "at": 0,
+        "query": "notebook planning",
+        "id": 65404
+      },
+      {
+        "at": "t1",
+        "query": "house keys",
+        "id": 114254
+      },
+      {
+        "at": "t1b",
+        "query": "coffee cup",
+        "id": 31673
+      },
+      {
+        "at": "t2",
+        "query": "savings jar",
+        "id": 138315
+      },
+      {
+        "at": "t3",
+        "query": "car maintenance",
+        "id": 177401
+      },
+      {
+        "at": "t4",
+        "query": "phone social media",
+        "id": 130647
+      }
+    ],
+    "outro": [
+      {
+        "at": 0,
+        "query": "houston skyline",
+        "id": 3134
+      },
+      {
+        "at": "v2",
+        "query": "san francisco",
+        "id": 30084
+      },
+      {
+        "at": "v3",
+        "query": "family walking",
+        "id": 151296
+      },
+      {
+        "at": "key",
+        "query": "sunset city",
+        "id": 230248
+      },
+      {
+        "at": "q",
+        "query": "american flag",
+        "id": 276973
+      }
+    ]
+  }
+}

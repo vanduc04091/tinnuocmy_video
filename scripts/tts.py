@@ -144,22 +144,92 @@ def locate_words(spoken, words):
         idx = low.find(text.lower(), cursor)
         if idx < 0:
             continue
-        located.append((idx, start, end))
+        located.append((idx, start, end, idx + len(text)))
         cursor = idx + len(text)
     return located
+
+
+def ffmpeg_cmd():
+    if shutil.which("ffmpeg"):
+        return ["ffmpeg"]
+    return ["npx.cmd" if os.name == "nt" else "npx", "remotion", "ffmpeg"]
+
+
+def tighten_audio(mp3, spoken, words, cfg):
+    """Rút ngắn khoảng nghỉ dài giữa các từ (Edge TTS nghỉ ~1 giây sau mỗi dấu chấm).
+
+    Dựa vào mốc từng từ: khoảng lặng sau dấu chấm/hỏi/than còn `sentence` giây, sau dấu phẩy còn `comma` giây.
+    Trả về (words đã dời mốc, thời lượng mới) — hoặc None nếu không làm được (thiếu numpy/ffmpeg).
+    """
+    try:
+        import numpy as np
+    except ImportError:
+        print("    ! chưa cài numpy — bỏ qua bước làm giọng trôi chảy (pip install numpy)")
+        return None
+    sr = 24000
+    ff = ffmpeg_cmd()
+    raw = subprocess.run(ff + ["-v", "error", "-i", str(mp3), "-f", "f32le", "-ac", "1", "-ar", str(sr), "-"],
+                         capture_output=True, check=True).stdout
+    pcm = np.frombuffer(raw, dtype=np.float32)
+    located = locate_words(spoken, words)
+    if len(located) < 2:
+        return None
+    cuts = []  # (bắt đầu, kết thúc) tính bằng giây
+    lead = located[0][1]
+    if lead > 0.08:
+        cuts.append((0.0, lead - 0.08))
+    for (i0, s0, e0, end_idx), (i1, s1, _, _) in zip(located, located[1:]):
+        between = spoken[end_idx:i1]
+        target = cfg["sentence"] if any(c in between for c in ".?!") else cfg["comma"] if any(c in between for c in ",;:") else None
+        gap = s1 - e0
+        if target is not None and gap > target + 0.04:
+            cuts.append((e0 + target / 2, s1 - target / 2))
+    tail = located[-1][2] + 0.25
+    total = len(pcm) / sr
+    if total > tail:
+        cuts.append((tail, total))
+
+    keep, prev = [], 0.0
+    for a, b in cuts:
+        keep.append((prev, a))
+        prev = b
+    keep.append((prev, total))
+    fade = int(0.008 * sr)
+    pieces = []
+    for a, b in keep:
+        seg = pcm[int(a * sr):int(b * sr)].copy()
+        if len(seg) > 2 * fade:
+            seg[:fade] *= np.linspace(0, 1, fade)
+            seg[-fade:] *= np.linspace(1, 0, fade)
+        pieces.append(seg)
+    out = np.concatenate(pieces) if pieces else pcm
+    subprocess.run(ff + ["-y", "-v", "error", "-f", "f32le", "-ar", str(sr), "-ac", "1", "-i", "-",
+                         "-c:a", "libmp3lame", "-b:a", "64k", str(mp3)], input=out.tobytes(), check=True)
+
+    def remap(t):
+        removed = 0.0
+        for a, b in cuts:
+            if t >= b:
+                removed += b - a
+            elif t > a:
+                removed += t - a
+        return t - removed
+
+    new_words = [(w, round(remap(st), 3), round(remap(en), 3)) for w, st, en in words]
+    return new_words, len(out) / sr
 
 
 def make_timer(spoken, located, duration):
     if located:
         def start_at(i):
-            for idx, start, _ in located:
+            for idx, start, _, _ in located:
                 if idx >= i:
                     return start
             return located[-1][2]
 
         def end_at(i):
             best = located[0][2]
-            for idx, _, end in located:
+            for idx, _, end, _ in located:
                 if idx < i:
                     best = end
             return best
@@ -171,7 +241,8 @@ def make_timer(spoken, located, duration):
 
 def build_scene(scene, cfg, out_dir, force):
     display, spoken, segments, markers = parse(scene["text"])
-    key = hashlib.sha1(f'{spoken}|{cfg["voice"]}|{cfg["rate"]}|{cfg["pitch"]}'.encode()).hexdigest()[:12]
+    tighten = cfg.get("tighten")
+    key = hashlib.sha1(f'{spoken}|{cfg["voice"]}|{cfg["rate"]}|{cfg["pitch"]}{f"|{tighten}" if tighten else ""}'.encode()).hexdigest()[:12]
     mp3 = out_dir / f'{scene["id"]}.mp3'
     cache = out_dir / f'{scene["id"]}.words.json'
 
@@ -180,16 +251,21 @@ def build_scene(scene, cfg, out_dir, force):
         if cached.get("hash") == key:
             words, nbytes = [tuple(w) for w in cached["words"]], mp3.stat().st_size
             print(f'  = {scene["id"]} (giữ nguyên)')
-            return finish(scene, display, spoken, segments, markers, words, mp3, nbytes, key)
+            return finish(scene, display, spoken, segments, markers, words, mp3, nbytes, key, cached.get("duration"))
 
     print(f'  > {scene["id"]} ...', flush=True)
     words, nbytes = asyncio.run(synth(spoken, cfg["voice"], cfg["rate"], cfg["pitch"], mp3))
-    cache.write_text(json.dumps({"hash": key, "words": words}, ensure_ascii=False), encoding="utf-8")
-    return finish(scene, display, spoken, segments, markers, words, mp3, nbytes, key)
+    duration = None
+    if tighten:
+        res = tighten_audio(mp3, spoken, words, tighten)
+        if res:
+            words, duration = res
+    cache.write_text(json.dumps({"hash": key, "words": words, "duration": duration}, ensure_ascii=False), encoding="utf-8")
+    return finish(scene, display, spoken, segments, markers, words, mp3, nbytes, key, duration)
 
 
-def finish(scene, display, spoken, segments, markers, words, mp3, nbytes, key):
-    duration = audio_duration(mp3, nbytes)
+def finish(scene, display, spoken, segments, markers, words, mp3, nbytes, key, duration=None):
+    duration = duration or audio_duration(mp3, nbytes)
     located = locate_words(spoken, words)
     if not located:
         print(f'    ! {scene["id"]}: không có mốc từng từ, chia thời gian theo độ dài chữ')
@@ -231,6 +307,7 @@ def main():
     narration = json.loads(src.read_text(encoding="utf-8"))
     for k in ("voice", "rate", "pitch"):
         cfg[k] = getattr(args, k, None) or narration.get(k) or cfg[k]
+    cfg["tighten"] = narration.get("tighten")  # rút ngắn khoảng nghỉ cho giọng trôi chảy (tùy chọn)
 
     out_dir = ROOT / "public/audio" / args.slug
     out_dir.mkdir(parents=True, exist_ok=True)

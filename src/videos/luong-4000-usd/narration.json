@@ -1,0 +1,42 @@
+{
+  "slug": "luong-4000-usd",
+  "title": "Lương 4.000 USD/tháng sống ở Mỹ có đủ không?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "+0%",
+  "tighten": {"sentence": 0.42, "comma": 0.2},
+  "_syntax": "[hiển thị|đọc] = phụ đề | giọng đọc. {key} = mốc để cảnh quay/đồ họa đổi đúng lúc. tighten = rút ngắn khoảng nghỉ giữa câu/sau dấu phẩy (giây).",
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Nếu bạn kiếm được [4.000 đô la|bốn ngàn đô la] mỗi tháng ở Mỹ, liệu số tiền đó có đủ để sống thoải mái? {vnd}Quy ra tiền Việt, đó là hơn [100 triệu đồng|một trăm triệu đồng]. {think}Nhiều người ở Việt Nam nghe mức thu nhập này có thể nghĩ rằng chỉ cần sang Mỹ đi làm là sẽ có cuộc sống dư dả. {but}Nhưng ở Mỹ, {b1}tiền thuê nhà, {b2}thực phẩm, {b3}xăng xe, {b4}bảo hiểm y tế và {b5}các hóa đơn hằng tháng có thể lấy đi phần lớn số tiền đó. {diff}Và mức sống của một người độc thân ở thành phố nhỏ sẽ rất khác với một gia đình có con ở California hay New York. {plan}Hôm nay, chúng ta sẽ tính cụ thể: với [4.000 đô|bốn ngàn đô] một tháng, bạn phải chi những khoản gì, còn lại bao nhiêu, và có tiết kiệm được hay không. {go}Hãy cùng Tin Nước Mỹ tìm hiểu qua những con số thực tế."
+    },
+    {
+      "id": "paycheck",
+      "text": "Trước hết, có một sự thật mà người mới sang Mỹ thường bất ngờ. {gross}[4.000 đô|Bốn ngàn đô] ghi trên hợp đồng không phải là [4.000 đô|bốn ngàn đô] về tài khoản. {fed}Với một người độc thân ở Texas, thuế thu nhập liên bang năm [2026|hai ngàn không trăm hai mươi sáu] lấy đi khoảng [300 đô|ba trăm đô] mỗi tháng. {fica}Tiền đóng an sinh xã hội và bảo hiểm y tế cho người già, gọi là [Medicare|Mê-đi-ke], lấy thêm khoảng [306 đô|ba trăm lẻ sáu đô]. {state}May mắn là Texas không thu thuế thu nhập tiểu bang. {net}Kết quả: bạn thực nhận khoảng [3.400 đô|ba ngàn bốn trăm đô]. {ca}Nếu làm cùng mức lương ở California, sau thuế tiểu bang và bảo hiểm khuyết tật, con số này chỉ còn khoảng [3.260 đô|ba ngàn hai trăm sáu mươi đô]. {why}Và đó là chưa trừ phí bảo hiểm sức khỏe hay tiền đóng quỹ hưu trí, nếu công ty khấu trừ thẳng vào lương. {rule}Vì vậy, trước khi hỏi một mức lương có đủ sống không, hãy hỏi: mỗi tháng thực sự về tay bao nhiêu?"
+    },
+    {
+      "id": "budget",
+      "text": "Giờ hãy đặt [3.400 đô|ba ngàn bốn trăm đô] đó vào một cuộc sống cụ thể. {who}Vẫn là nhân vật của tập trước: một người độc thân, thuê căn hộ nhỏ, có xe hơi, sống ở Houston, Texas. {start}Lương về: [3.400 đô|ba ngàn bốn trăm đô]. {c1}Nhà ở và điện nước: trừ [1.270|một ngàn hai trăm bảy mươi]. {c2}Đi lại: trừ [740|bảy trăm bốn mươi]. {c3}Ăn uống: trừ [325|ba trăm hai mươi lăm]. {c4}Sức khỏe: trừ [270|hai trăm bảy mươi]. {c5}Internet và điện thoại: trừ [135|một trăm ba mươi lăm]. {c6}Chi tiêu cá nhân: trừ [250|hai trăm năm mươi]. {left}Cuối tháng, bạn còn lại khoảng [400 đô|bốn trăm đô]. {ok}Nghe không tệ. Bạn trả đủ mọi hóa đơn và vẫn còn dư một ít. {net4k}Còn nếu [4.000 đô|bốn ngàn đô] là số tiền thực nhận, bạn sẽ dư khoảng một ngàn đô, đủ để bắt đầu tiết kiệm nghiêm túc. {thin}Nhưng [400 đô|bốn trăm đô] là một vùng đệm rất mỏng. {car}Chỉ cần xe hỏng một lần, hay một hóa đơn khám bệnh bất ngờ, là khoản dư của cả tháng biến mất."
+    },
+    {
+      "id": "place",
+      "text": "Bây giờ, giữ nguyên mức lương, chỉ đổi nơi ở. {oc}Chuyển sang Quận Cam, California, nơi có khu [Little Saigon|Lít-tồ Sài Gòn]. {net}Lương thực nhận giảm còn khoảng [3.260 đô|ba ngàn hai trăm sáu mươi đô], {cost}trong khi chi phí cho cùng lối sống đó lên tới khoảng [4.600 đô|bốn ngàn sáu trăm đô]. {gap}Mỗi tháng, bạn thiếu hơn [1.300 đô|một ngàn ba trăm đô]. {how}Muốn sống được, bạn phải ở ghép, bỏ bớt xe, hoặc tìm việc lương cao hơn. {nyc}Ở New York hay vùng Vịnh San Francisco, nơi riêng tiền thuê căn một phòng ngủ đã hơn [4.000 đô|bốn ngàn đô], mức lương này gần như không đủ để sống một mình. {same}Cùng một con số trên phiếu lương, nhưng ở nơi này bạn để dành được tiền, còn ở nơi khác, bạn phải xoay xở từng tháng."
+    },
+    {
+      "id": "family",
+      "text": "Giờ hãy thay đổi thêm một điều: bạn không còn sống một mình. {fam}Bạn có vợ hoặc chồng ở nhà chăm con nhỏ, và chỉ một người đi làm. {need}Theo [MIT|em ai ti], một gia đình như vậy ở Houston cần thu nhập khoảng [72.000 đô|bảy mươi hai ngàn đô] một năm, tức khoảng [6.000 đô|sáu ngàn đô] mỗi tháng trước thuế, chỉ để trang trải những nhu cầu cơ bản. {vs}So với [4.000 đô|bốn ngàn đô], khoảng cách là [2.000 đô|hai ngàn đô] mỗi tháng. {more}Nhà rộng hơn, thực phẩm nhiều hơn, bảo hiểm cho cả gia đình, đồ dùng cho con: khoản nào cũng nhân lên. {both}Vì vậy, khi một người nói [4.000 đô|bốn ngàn đô] là dư dả, còn người khác nói là chật vật, có khi cả hai đều đúng. {why}Họ chỉ đang sống hai cuộc sống rất khác nhau."
+    },
+    {
+      "id": "mind",
+      "text": "Nhưng câu chuyện không chỉ nằm ở những con số. {safe}Có những người vẫn trả đủ hóa đơn mỗi tháng, nhưng chưa bao giờ thấy an tâm về tiền bạc. {why}Bởi vì cảm giác an toàn không chỉ đến từ số tiền bạn kiếm được, mà từ việc bạn có chịu được một cú sốc bất ngờ hay không. {fed}Theo khảo sát của Cục Dự trữ Liên bang Mỹ, cứ mười người trưởng thành thì chỉ khoảng sáu người có thể trả ngay một khoản chi bất ngờ [400 đô|bốn trăm đô] bằng tiền mặt. {q1}Nếu ngày mai mất việc thì sao? {q2}Nếu xe hỏng? {q3}Nếu tiền nhà tăng? {q4}Nếu có một hóa đơn y tế lớn? {feel}Khi quỹ dự phòng quá mỏng, mỗi câu hỏi đó trở thành một nỗi lo thường trực. Bạn xem số dư tài khoản nhiều hơn, cân nhắc lâu hơn trước mỗi món đồ, và đôi khi thấy có lỗi khi tiêu tiền cho niềm vui của chính mình. {social}Áp lực còn lớn hơn khi mạng xã hội ngày nào cũng cho bạn thấy nhà đẹp, xe sang và những kỳ nghỉ đắt tiền của người khác. {hidden}Nhưng bạn không thấy họ đang nợ bao nhiêu, có được gia đình hỗ trợ hay không, và lối sống đó có bền vững hay không. {compare}So cuộc sống thật của mình với khoảnh khắc đẹp nhất của người khác, ai cũng sẽ thấy mình đang tụt lại phía sau."
+    },
+    {
+      "id": "tips",
+      "text": "Vậy nếu đang sống với [4.000 đô|bốn ngàn đô] một tháng, bạn nên làm gì? {t1}Thứ nhất, nhìn vào khoản lớn nhất trước. Một nguyên tắc phổ biến là tiền nhà không nên vượt quá khoảng ba mươi phần trăm thu nhập trước thuế, tức khoảng [1.200 đô|một ngàn hai trăm đô]. {t1b}Bớt được vài trăm đô tiền nhà có tác dụng hơn rất nhiều so với việc cắt từng ly cà phê. {t2}Thứ hai, xây quỹ dự phòng từng bước. Ba tháng chi phí ở Houston là khoảng [9.000 đô|chín ngàn đô]. {t2b}Để dành [400 đô|bốn trăm đô] mỗi tháng, bạn cần gần hai năm. Nghe thì lâu, nhưng mỗi tháng trôi qua, vùng đệm của bạn lại dày thêm. {t3}Thứ ba, chia nhỏ những khoản không đến hằng tháng, như bảo dưỡng xe hay phí bảo hiểm năm, để chúng không trở thành cú sốc. {t4}Và cuối cùng, đừng lấy cuộc sống trên mạng của người khác làm thước đo thành công của mình."
+    },
+    {
+      "id": "outro",
+      "text": "Vậy, lương [4.000 đô|bốn ngàn đô] một tháng ở Mỹ có đủ sống không? {v1}Với một người độc thân ở thành phố có chi phí vừa phải như Houston: đủ, nhưng vùng đệm khá mỏng. {v2}Ở Quận Cam, New York hay San Francisco: rất khó nếu sống một mình. {v3}Còn nếu phải nuôi gia đình: chật vật ở hầu hết mọi nơi. {key}Sự thoải mái không chỉ nằm ở số tiền bạn kiếm được, mà ở khoảng cách giữa số tiền đó và những gì cuộc sống đòi hỏi ở bạn. {q}Còn bạn, nếu sống ở Mỹ với [4.000 đô|bốn ngàn đô] mỗi tháng, bạn nghĩ mình sẽ sống thoải mái hay chật vật? Hãy chia sẻ ở phần bình luận. {sub}Nếu thấy video hữu ích, hãy đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo về cuộc sống, việc làm và chi phí sinh hoạt tại Mỹ."
+    }
+  ]
+}
