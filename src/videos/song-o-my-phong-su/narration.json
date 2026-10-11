@@ -1,0 +1,53 @@
+{
+  "slug": "song-o-my-phong-su",
+  "title": "Sống Ở Mỹ Một Tháng Hết Bao Nhiêu Tiền? Sự Thật Không Phải Ai Cũng Biết",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-2%",
+  "_syntax": "[hiển thị|đọc] = phụ đề | giọng đọc. {key} = mốc để cảnh quay/đồ họa đổi đúng lúc.",
+  "scenes": [
+    {
+      "id": "intro",
+      "text": "Một tháng sống ở Mỹ tốn bao nhiêu tiền? {n30}[30 triệu đồng|Ba mươi triệu đồng], {n50}[50 triệu đồng|năm mươi triệu đồng], hay thậm chí {n100}hơn [100 triệu đồng|một trăm triệu đồng]? {p1}Có người cho rằng chỉ cần có công việc ổn định là có thể sống thoải mái tại Mỹ. {p2}Nhưng cũng có người đi làm cả tháng, nhận lương xong đã phải dành phần lớn số tiền đó để trả {b1}tiền nhà, {b2}tiền xe, {b3}bảo hiểm và {b4}thực phẩm. {q}Vậy thực tế, nếu một người Việt sang Mỹ sinh sống, mỗi tháng cần chuẩn bị bao nhiêu tiền?"
+    },
+    {
+      "id": "profile",
+      "text": "Để có câu trả lời cụ thể thay vì nói chung chung, chúng ta sẽ lấy một ví dụ: {who}một người độc thân, {home}thuê một căn hộ nhỏ, {car}có xe hơi để đi làm, {city}sống ở Houston, Texas, nơi có một trong những cộng đồng người Việt đông nhất nước Mỹ. {src}Các con số chủ yếu lấy từ bộ tính chi phí sinh hoạt của Học viện Công nghệ Massachusetts, viết tắt là [MIT|em ai ti], cho cùng một khu vực. {oc}Cuối video, chúng ta sẽ so sánh với Quận Cam, California, nơi có khu [Little Saigon|Lít-tồ Sài Gòn] nổi tiếng."
+    },
+    {
+      "id": "housing",
+      "text": "Khoản chi tiêu đầu tiên, và thường là lớn nhất tại Mỹ, chính là tiền nhà. {loc}Chi phí thuê nhà phụ thuộc rất nhiều vào nơi bạn sinh sống. {zumper}Ở Houston, giá thuê trung vị một căn hộ một phòng ngủ trên các trang cho thuê năm [2026|hai ngàn không trăm hai mươi sáu] dao động khoảng [1.050 đến 1.300 đô|một ngàn không trăm năm mươi đến một ngàn ba trăm đô] mỗi tháng. {extra}Ngoài tiền thuê nhà, bạn còn có thể phải trả tiền {e1}điện, nước, {e2}internet, {e3}chỗ đậu xe và {e4}bảo hiểm người thuê nhà. {mit}Theo [MIT|em ai ti], tiền nhà cộng điện nước cơ bản cho một người ở Houston vào khoảng [1.270 đô|một ngàn hai trăm bảy mươi đô] một tháng. {why}Vì vậy, khi tìm hiểu cuộc sống ở Mỹ, bạn không nên chỉ hỏi một câu là lương bao nhiêu. {key}Điều quan trọng hơn là sau khi trả tiền nhà và các chi phí thiết yếu, {left}bạn còn lại bao nhiêu tiền để sinh hoạt."
+    },
+    {
+      "id": "food",
+      "text": "Khoản chi tiếp theo là ăn uống. {think}Nhiều người nghĩ rằng đi siêu thị ở Mỹ sẽ rất đắt đỏ. {real}Nhưng thực tế, số tiền bạn chi phụ thuộc vào {f1}thói quen mua sắm, {f2}loại thực phẩm và {f3}số người trong gia đình. {mit}Với một người chủ yếu tự nấu ăn, [MIT|em ai ti] ước tính tiền thực phẩm ở Houston khoảng [325 đô|ba trăm hai mươi lăm đô] một tháng. {eatout}Nếu thường xuyên ăn nhà hàng hoặc đặt đồ ăn, con số này sẽ cao hơn nhiều. {small}Những khoản tưởng chừng nhỏ như {s1}cà phê, {s2}đồ uống và {s3}đồ ăn nhanh cũng có thể cộng lại thành một khoản đáng kể vào cuối tháng. {tip}Một lợi thế ở Houston: khu [Bellaire|Be-le] có rất nhiều chợ và quán Việt, giúp bạn mua đồ quen thuộc với giá dễ chịu hơn."
+    },
+    {
+      "id": "transport",
+      "text": "Ở nhiều khu vực của Mỹ, và đặc biệt là Houston, ô tô gần như là thứ bắt buộc. {not}Nhưng sở hữu một chiếc xe không chỉ có tiền mua xe. {c}Bạn còn phải tính đến {c1}xăng, {c2}bảo hiểm, {c3}bảo dưỡng và {c4}sửa chữa. {aaa}Theo Hiệp hội Ô tô Mỹ, tổng chi phí nuôi một chiếc xe mới trung bình gần [965 đô|chín trăm sáu mươi lăm đô] mỗi tháng. {mit}Còn theo [MIT|em ai ti], chi phí đi lại thực tế của một người ở Houston vào khoảng [740 đô|bảy trăm bốn mươi đô] một tháng. {transit}Ở những thành phố có giao thông công cộng thuận tiện như New York, bạn có thể không cần xe. {suburb}Nhưng tại Houston và nhiều vùng ngoại ô, không có xe riêng sẽ khiến việc đi làm, mua sắm và đưa đón con cái khó khăn hơn rất nhiều."
+    },
+    {
+      "id": "health",
+      "text": "Một khoản mà người mới sang Mỹ cần đặc biệt lưu ý là bảo hiểm sức khỏe. {even}Ngay cả khi có bảo hiểm, bạn vẫn phải trả {h1}phí bảo hiểm hằng tháng, {h2}khoản khấu trừ trước khi bảo hiểm chi trả, và {h3}một phần chi phí mỗi lần khám chữa bệnh. {job}Nếu đi làm toàn thời gian, công ty thường đóng phần lớn phí bảo hiểm. {aca}Còn nếu tự mua trên sàn bảo hiểm của chính phủ, phí trung bình năm [2026|hai ngàn không trăm hai mươi sáu] cho một người bốn mươi tuổi ở Texas là [661 đô|sáu trăm sáu mươi mốt đô] mỗi tháng, trước khi được trợ cấp. {mit}Trong bảng tính, chúng ta dùng ước tính của [MIT|em ai ti] cho người có bảo hiểm qua công ty: khoảng [270 đô|hai trăm bảy mươi đô] mỗi tháng, gồm cả phí bảo hiểm và tiền khám chữa bệnh tự trả."
+    },
+    {
+      "id": "other",
+      "text": "Cuối cùng là {net}internet, điện thoại, và {other}các khoản chi tiêu cá nhân như quần áo, cắt tóc, giải trí. {pick}Chúng ta tính khoảng [135 đô|một trăm ba mươi lăm đô] cho internet và điện thoại, {pick2}cộng thêm [250 đô|hai trăm năm mươi đô] cho chi tiêu cá nhân ở mức tiết chế."
+    },
+    {
+      "id": "total",
+      "text": "Giờ hãy cộng tất cả lại. {l1}Nhà ở và điện nước [1.270|một ngàn hai trăm bảy mươi]. {l2}Ăn uống [325|ba trăm hai mươi lăm]. {l3}Đi lại [740|bảy trăm bốn mươi]. {l4}Sức khỏe [270|hai trăm bảy mươi]. {l5}Internet và điện thoại [135|một trăm ba mươi lăm]. {l6}Chi tiêu cá nhân [250|hai trăm năm mươi]. {sum}Tổng cộng: khoảng [3.000 đô|ba ngàn đô] một tháng, {vnd}tương đương gần [80 triệu đồng|tám mươi triệu đồng]. {income}Theo [MIT|em ai ti], để trang trải mức sống cơ bản này, một người ở Houston cần thu nhập khoảng [22 đô|hai mươi hai đô] một giờ, tức khoảng [46.000 đô|bốn mươi sáu ngàn đô] một năm trước thuế."
+    },
+    {
+      "id": "states",
+      "text": "Vậy có phải sống ở Mỹ nơi nào cũng đắt đỏ như nhau? {no}Câu trả lời là không. {diff}Chi phí nhà ở, thuế, đi lại và các dịch vụ thiết yếu có thể khác nhau đáng kể giữa các bang, thậm chí giữa các thành phố trong cùng một bang. {ca}Hãy thử đặt cùng người đó vào Quận Cam, California. {rent}Giá thuê chuẩn do chính phủ Mỹ công bố cho căn một phòng ngủ ở đây là khoảng [2.750 đô|hai ngàn bảy trăm năm mươi đô], hơn gấp đôi Houston. {total}Cộng các khoản khác, tổng chi phí lên tới khoảng [4.600 đô|bốn ngàn sáu trăm đô] một tháng, {vnd}tức hơn [100 triệu đồng|một trăm triệu đồng]. {wage}Mức thu nhập cần có theo [MIT|em ai ti] là khoảng [36 đô|ba mươi sáu đô] một giờ, so với [22 đô|hai mươi hai đô] ở Houston. {tax}Thuế cũng khác: Texas không thu thuế thu nhập tiểu bang, còn California thu từ một đến hơn mười ba phần trăm. {but}Nhưng một nơi có chi phí thấp hơn chưa chắc đã giúp bạn tiết kiệm hơn, nếu {jobs}cơ hội việc làm hạn chế, {pay}mức lương thấp hơn, hoặc {commute}phải di chuyển quãng đường dài mỗi ngày. {so}Vì vậy, bạn nên so sánh tổng chi phí sinh hoạt với thu nhập, thay vì chỉ dựa vào một khoản chi riêng lẻ."
+    },
+    {
+      "id": "student",
+      "text": "Còn với du học sinh, bức tranh khác hẳn. {share}Nếu ở ghép với bạn, {nocar}đi xe buýt hoặc đi chung xe, {ins}và dùng bảo hiểm của trường, chi phí sinh hoạt ở Houston thường vào khoảng [1.400 đến 1.800 đô|một ngàn bốn trăm đến một ngàn tám trăm đô] mỗi tháng, {tuition}chưa tính học phí."
+    },
+    {
+      "id": "outro",
+      "text": "Như vậy, để biết sống ở Mỹ tốn bao nhiêu tiền mỗi tháng, chúng ta cần xem xét ít nhất năm yếu tố: {o1}tiền nhà, {o2}ăn uống, {o3}đi lại, {o4}bảo hiểm và {o5}chi tiêu cá nhân. {none}Không có một con số phù hợp cho tất cả mọi người: {ex}một người độc thân ở Houston cần khoảng [3.000 đô|ba ngàn đô], ở Quận Cam khoảng [4.600 đô|bốn ngàn sáu trăm đô], và một gia đình có con nhỏ sẽ cần nhiều hơn thế. {key}Điều quan trọng nhất là so sánh thu nhập thực nhận với chi phí sinh hoạt tại chính nơi bạn dự định sống. {q}Theo bạn, một gia đình Việt Nam sống tại Mỹ cần tối thiểu bao nhiêu tiền mỗi tháng? Hãy chia sẻ ý kiến của bạn ở phần bình luận. {sub}Đừng quên đăng ký kênh để cùng tìm hiểu thêm những câu chuyện thực tế về cuộc sống, thu nhập và chi phí sinh hoạt tại Mỹ."
+    }
+  ]
+}

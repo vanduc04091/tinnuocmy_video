@@ -15,14 +15,19 @@ src/
 │   ├── defineVideo.tsx       # ghép lời đọc + audio + hình thành một video
 │   ├── narration/            # đọc manifest audio, tính thời gian từng cảnh, phụ đề
 │   ├── components/           # nền, logo, phụ đề, biểu đồ, thẻ số liệu, ô ngân sách…
+│   ├── broll/                # cảnh quay nền: đổi cảnh theo lời đọc, chuyển mờ, đẩy máy chậm
+│   ├── overlays/             # đồ họa phóng sự: khung số liệu, nhãn địa danh, tiêu đề chương, bản đồ Mỹ
 │   └── layouts/              # bố cục cảnh: mở đầu, khoản chi, danh sách, hóa đơn, so sánh, kết
 └── videos/                   # ── RIÊNG từng video ──
     ├── registry.ts           # danh sách video
-    └── song-o-my-1-thang/
+    └── song-o-my-phong-su/   (và song-o-my-1-thang/ — bản slide cũ)
         ├── narration.json    # LỜI ĐỌC (sửa lời ở đây)
-        └── index.tsx         # hình ảnh từng cảnh, số liệu
+        ├── shots.json        # danh sách cảnh quay nền (từ khóa Pexels) — chỉ video phóng sự
+        └── index.tsx         # đồ họa từng cảnh, số liệu
 scripts/
 ├── tts.py                    # tạo giọng đọc Edge TTS + phụ đề + mốc thời gian
+├── broll.py                  # tải cảnh quay từ Pexels theo shots.json
+├── music.py                  # tổng hợp nhạc nền + hiệu ứng âm thanh
 └── render.mjs                # render ra out/
 docs/kich-ban/                # kịch bản, bản review, nguồn số liệu
 public/audio/                 # (tự sinh, không đưa lên git)
@@ -38,7 +43,22 @@ npm install
 pip install edge-tts
 ```
 
-## Làm video "Sống ở Mỹ một tháng hết bao nhiêu tiền?"
+## Tập 1 (bản phóng sự, cảnh quay thật): `song-o-my-phong-su`
+
+```bash
+npm run tts -- song-o-my-phong-su        # 1. giọng đọc (HoaiMy)
+npm run broll -- song-o-my-phong-su      # 2. tải cảnh quay từ Pexels (cần PEXELS_API_KEY)
+npm run render -- song-o-my-phong-su     # 3. render -> out/song-o-my-phong-su.mp4
+```
+
+- **PEXELS_API_KEY**: đăng ký miễn phí tại https://www.pexels.com/api/ rồi đặt biến môi trường
+  (Windows PowerShell: `$env:PEXELS_API_KEY="..."`, macOS/Linux: `export PEXELS_API_KEY=...`).
+- Cảnh quay chưa ưng: sửa từ khóa trong `shots.json` rồi `npm run broll -- song-o-my-phong-su --force --only housing-2`,
+  hoặc chép video của bạn vào `public/broll/song-o-my-phong-su/housing-2.mp4`.
+- Tên tác giả cảnh quay (dán vào mô tả YouTube): `public/broll/<slug>/credits.txt`.
+- Nhạc nền + hiệu ứng (`public/sound/`) do `npm run music` tự tổng hợp — không vướng bản quyền.
+
+## Bản cũ dạng slide: `song-o-my-1-thang`
 
 ```bash
 npm run tts -- song-o-my-1-thang       # 1. tạo giọng đọc (cần internet)

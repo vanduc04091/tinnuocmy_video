@@ -4,7 +4,7 @@
 // Các tham số khác được chuyển thẳng cho `remotion render` (vd: --scale=0.5, --frames=0-300).
 // Sau khi render, âm lượng được chuẩn hóa về -14 LUFS (chuẩn YouTube) bằng ffmpeg đi kèm Remotion.
 import {spawnSync} from 'node:child_process';
-import {existsSync, mkdirSync, renameSync, rmSync} from 'node:fs';
+import {existsSync, mkdirSync, readFileSync, renameSync, rmSync} from 'node:fs';
 
 const [slug, ...rest] = process.argv.slice(2);
 if (!slug) {
@@ -12,7 +12,7 @@ if (!slug) {
   process.exit(1);
 }
 const noAudio = rest.includes('--no-audio');
-const passthrough = rest.filter((a) => a !== '--no-audio');
+const passthrough = rest.filter((a) => a !== '--no-audio' && a !== '--allow-missing-broll');
 
 if (!existsSync(`public/audio/${slug}/manifest.json`) && !noAudio) {
   console.error(`Chưa có giọng đọc cho "${slug}". Chạy trước:  npm run tts -- ${slug}`);
@@ -24,6 +24,20 @@ const run = (args) => {
   console.log('>', 'npx', args.join(' '));
   return spawnSync('npx', args, {stdio: 'inherit', shell: process.platform === 'win32'}).status ?? 1;
 };
+
+// Video có shots.json thì phải có đủ cảnh quay (npm run broll) trước khi render bản chính thức
+const shotsPath = `src/videos/${slug}/shots.json`;
+if (existsSync(shotsPath) && !rest.includes('--allow-missing-broll')) {
+  const shots = JSON.parse(readFileSync(shotsPath, 'utf8')).scenes;
+  const manPath = `public/broll/${slug}/manifest.json`;
+  const have = existsSync(manPath) ? JSON.parse(readFileSync(manPath, 'utf8')).shots : {};
+  const missing = Object.entries(shots).flatMap(([scene, items]) => items.map((_, i) => `${scene}-${i}`)).filter((id) => !have[id]);
+  if (missing.length) {
+    console.error(`Thiếu ${missing.length} cảnh quay nền. Chạy trước:  npm run broll -- ${slug}`);
+    console.error('(hoặc thêm --allow-missing-broll để render bản nháp có ô báo thiếu cảnh)');
+    process.exit(1);
+  }
+}
 
 mkdirSync('out', {recursive: true});
 const output = passthrough.find((a) => !a.startsWith('-')) ?? `out/${slug}${noAudio ? '-khong-tieng' : ''}.mp4`;
