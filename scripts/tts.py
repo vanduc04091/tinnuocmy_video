@@ -16,6 +16,7 @@ import argparse
 import asyncio
 import hashlib
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -121,7 +122,9 @@ def audio_duration(path, nbytes):
 
 
 async def synth(spoken, voice, rate, pitch, out_path):
-    comm = edge_tts.Communicate(spoken, voice, rate=rate, pitch=pitch, boundary="WordBoundary")
+    # Dùng proxy hệ thống nếu có (edge-tts không tự đọc biến môi trường HTTPS_PROXY)
+    proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy") or None
+    comm = edge_tts.Communicate(spoken, voice, rate=rate, pitch=pitch, boundary="WordBoundary", proxy=proxy)
     audio = bytearray()
     words = []
     async for chunk in comm.stream():
