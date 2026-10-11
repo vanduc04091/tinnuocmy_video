@@ -64,8 +64,9 @@ def shot_needs(slug, shots):
     return needs
 
 
-def search_pixabay(query, key):
-    q = urllib.parse.urlencode({"key": key, "q": query, "video_type": "film", "per_page": 50, "safesearch": "true"})
+def search_pixabay(query, key, pin=None):
+    params = {"key": key, "id": pin} if pin else {"key": key, "q": query, "video_type": "film", "per_page": 50, "safesearch": "true"}
+    q = urllib.parse.urlencode(params)
     data = json.loads(http_get(f"{PIXABAY_API}?{q}"))
     out = []
     for h in data.get("hits", []):
@@ -98,8 +99,12 @@ def search_pexels(query, key):
     return out
 
 
-def search(query, keys, need):
-    """Tìm ở mọi nguồn có key; ưu tiên clip đủ dài, rồi clip dài hơn."""
+def search(query, keys, need, pin=None):
+    """Tìm ở mọi nguồn có key. Giữ thứ tự liên quan của nguồn; chỉ đẩy clip quá ngắn xuống cuối.
+
+    pin = mã video Pixabay đã chọn tay (trường "id" trong shots.json) → lấy đúng clip đó."""
+    if pin and keys.get("pixabay"):
+        return search_pixabay(query, keys["pixabay"], pin)
     found = []
     for name, fn in (("pixabay", search_pixabay), ("pexels", search_pexels)):
         if keys.get(name):
@@ -107,7 +112,7 @@ def search(query, keys, need):
                 found += fn(query, keys[name])
             except Exception as e:  # noqa: BLE001
                 print(f"    ! {name}: {e}")
-    return sorted(found, key=lambda v: (v["duration"] < need + 1, -min(v["duration"], 30)))
+    return sorted(found, key=lambda v: v["duration"] < min(need, 12))  # sort ổn định: giữ thứ tự liên quan
 
 
 def main():
@@ -143,7 +148,8 @@ def main():
                 continue
             need = needs[sid]
             print(f"  > {sid}: \"{it['query']}\" (cần ~{need:.1f}s)", flush=True)
-            candidates = [v for v in search(it["query"], keys, need) if v["id"] not in used]
+            pin = it.get("id")
+            candidates = [v for v in search(it["query"], keys, need, pin) if pin or v["id"] not in used]
             for video in candidates:
                 tmp = out_dir / f"{sid}.download.mp4"
                 try:

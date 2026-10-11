@@ -1,90 +1,342 @@
 {
-  "_help": "Cảnh quay nền. at = mốc {key} trong narration.json hoặc số giây; offset = giây cộng thêm; query = từ khóa tìm trên Pixabay (tiếng Anh). Tải: npm run broll -- song-o-my-phong-su",
+  "_help": "Cảnh quay nền. at = mốc {key} trong narration.json hoặc số giây; offset = giây cộng thêm; query = từ khóa NGẮN tìm trên Pixabay (tiếng Anh); id = mã video Pixabay để ghim đúng clip đã chọn. Tải: npm run broll -- song-o-my-phong-su",
   "scenes": {
     "intro": [
-      {"at": 0, "query": "american suburb neighborhood aerial"},
-      {"at": 1.4, "query": "person looking at bills worried"},
-      {"at": "n30", "query": "supermarket shopping cart aisle"},
-      {"at": "n50", "query": "cars traffic city street usa"},
-      {"at": "n100", "query": "counting dollar bills"},
-      {"at": "p1", "query": "office worker smiling laptop"},
-      {"at": "p2", "query": "tired worker evening commute"},
-      {"at": "q", "query": "airplane landing airport"}
+      {
+        "at": 0,
+        "query": "suburb aerial",
+        "id": 136838
+      },
+      {
+        "at": 1.4,
+        "query": "bills stress",
+        "id": 107264
+      },
+      {
+        "at": "n30",
+        "query": "supermarket",
+        "id": 159164
+      },
+      {
+        "at": "n50",
+        "query": "traffic city night",
+        "id": 19627
+      },
+      {
+        "at": "n100",
+        "query": "dollar money",
+        "id": 20857
+      },
+      {
+        "at": "p1",
+        "query": "office work",
+        "id": 273921
+      },
+      {
+        "at": "p2",
+        "query": "commuter tired",
+        "id": 83875
+      },
+      {
+        "at": "q",
+        "query": "airplane landing",
+        "id": 32945
+      }
     ],
     "profile": [
-      {"at": 0, "query": "young asian woman walking city"},
-      {"at": "home", "query": "small apartment interior"},
-      {"at": "car", "query": "driving car highway"},
-      {"at": "city", "query": "houston skyline"},
-      {"at": "src", "query": "calculator spreadsheet laptop"},
-      {"at": "oc", "query": "southern california palm trees street"}
+      {
+        "at": 0,
+        "query": "woman walking city",
+        "id": 126837
+      },
+      {
+        "at": "home",
+        "query": "apartment interior",
+        "id": 258301
+      },
+      {
+        "at": "car",
+        "query": "driving highway",
+        "id": 2165
+      },
+      {
+        "at": "city",
+        "query": "houston",
+        "id": 114822
+      },
+      {
+        "at": "src",
+        "query": "laptop typing",
+        "id": 107425
+      },
+      {
+        "at": "oc",
+        "query": "los angeles palm trees",
+        "id": 32859
+      }
     ],
     "housing": [
-      {"at": 0, "query": "apartment complex exterior"},
-      {"at": "loc", "query": "suburban houses aerial"},
-      {"at": "zumper", "query": "apartment for rent tour"},
-      {"at": "extra", "query": "electricity bill paper"},
-      {"at": "e3", "query": "apartment parking lot"},
-      {"at": "mit", "query": "moving boxes new apartment"},
-      {"at": "why", "query": "paycheck salary money"},
-      {"at": "key", "query": "budget planning notebook"}
+      {
+        "at": 0,
+        "query": "apartment building",
+        "id": 57922
+      },
+      {
+        "at": "loc",
+        "query": "suburb houses",
+        "id": 327922
+      },
+      {
+        "at": "zumper",
+        "query": "apartment living room",
+        "id": 200666
+      },
+      {
+        "at": "extra",
+        "query": "electricity meter",
+        "id": 159678
+      },
+      {
+        "at": "e3",
+        "query": "parking lot aerial",
+        "id": 271386
+      },
+      {
+        "at": "mit",
+        "query": "moving house boxes",
+        "id": 282084
+      },
+      {
+        "at": "why",
+        "query": "paycheck money dollar",
+        "id": 172891
+      },
+      {
+        "at": "key",
+        "query": "budget notebook",
+        "id": 1028
+      }
     ],
     "food": [
-      {"at": 0, "query": "grocery store produce"},
-      {"at": "real", "query": "woman grocery shopping"},
-      {"at": "mit", "query": "cooking at home kitchen"},
-      {"at": "eatout", "query": "food delivery bag"},
-      {"at": "small", "query": "coffee shop latte"},
-      {"at": "s3", "query": "fast food burger"},
-      {"at": "tip", "query": "asian market vegetables"}
+      {
+        "at": 0,
+        "query": "grocery store",
+        "id": 31960
+      },
+      {
+        "at": "real",
+        "query": "grocery shopping woman",
+        "id": 4730
+      },
+      {
+        "at": "mit",
+        "query": "cooking kitchen",
+        "id": 1498
+      },
+      {
+        "at": "eatout",
+        "query": "takeout food",
+        "id": 23258
+      },
+      {
+        "at": "small",
+        "query": "coffee cup cafe",
+        "id": 3595
+      },
+      {
+        "at": "s3",
+        "query": "burger fries",
+        "id": 78962
+      },
+      {
+        "at": "tip",
+        "query": "vietnamese pho",
+        "id": 11671
+      }
     ],
     "transport": [
-      {"at": 0, "query": "highway traffic aerial"},
-      {"at": "not", "query": "car dealership"},
-      {"at": "c1", "query": "gas station pumping fuel"},
-      {"at": "c3", "query": "car mechanic garage"},
-      {"at": "aaa", "query": "new car showroom"},
-      {"at": "mit", "query": "driving car city"},
-      {"at": "transit", "query": "new york subway train"},
-      {"at": "suburb", "query": "suburban road cars"}
+      {
+        "at": 0,
+        "query": "highway traffic",
+        "id": 53582
+      },
+      {
+        "at": "not",
+        "query": "car showroom",
+        "id": 184734
+      },
+      {
+        "at": "c1",
+        "query": "gas station",
+        "id": 175
+      },
+      {
+        "at": "c3",
+        "query": "car mechanic",
+        "id": 177412
+      },
+      {
+        "at": "aaa",
+        "query": "new car",
+        "id": 1406
+      },
+      {
+        "at": "mit",
+        "query": "driving car",
+        "id": 133694
+      },
+      {
+        "at": "transit",
+        "query": "new york subway",
+        "id": 130092
+      },
+      {
+        "at": "suburb",
+        "query": "suburb road",
+        "id": 6037
+      }
     ],
     "health": [
-      {"at": 0, "query": "hospital hallway"},
-      {"at": "even", "query": "medical bill paperwork"},
-      {"at": "h3", "query": "doctor examining patient"},
-      {"at": "job", "query": "office team meeting"},
-      {"at": "aca", "query": "person laptop insurance form"},
-      {"at": "mit", "query": "pharmacy medicine"}
+      {
+        "at": 0,
+        "query": "hospital",
+        "id": 66598
+      },
+      {
+        "at": "even",
+        "query": "medical bills",
+        "id": 49816
+      },
+      {
+        "at": "h3",
+        "query": "doctor patient",
+        "id": 49808
+      },
+      {
+        "at": "job",
+        "query": "office meeting",
+        "id": 87593
+      },
+      {
+        "at": "aca",
+        "query": "paperwork form",
+        "id": 3188
+      },
+      {
+        "at": "mit",
+        "query": "medicine pills",
+        "id": 377600
+      }
     ],
     "other": [
-      {"at": 0, "query": "wifi router smartphone"},
-      {"at": "other", "query": "clothing store shopping"},
-      {"at": "pick2", "query": "friends cafe laughing"}
+      {
+        "at": 0,
+        "query": "smartphone wifi",
+        "id": 142641
+      },
+      {
+        "at": "other",
+        "query": "clothing store",
+        "id": 30703
+      },
+      {
+        "at": "pick2",
+        "query": "friends cafe",
+        "id": 24114
+      }
     ],
     "total": [
-      {"at": 0, "query": "calculator money desk"}
+      {
+        "at": 0,
+        "query": "dollar calculator",
+        "id": 153458
+      }
     ],
     "states": [
-      {"at": 0, "query": "usa map"},
-      {"at": "diff", "query": "road trip highway usa"},
-      {"at": "ca", "query": "orange county california aerial"},
-      {"at": "rent", "query": "california apartments palm trees"},
-      {"at": "tax", "query": "tax forms calculator"},
-      {"at": "but", "query": "texas suburb houses"},
-      {"at": "commute", "query": "long commute traffic jam"},
-      {"at": "so", "query": "family planning finances"}
+      {
+        "at": 0,
+        "query": "usa map",
+        "id": 30095
+      },
+      {
+        "at": "diff",
+        "query": "road trip usa",
+        "id": 247675
+      },
+      {
+        "at": "ca",
+        "query": "orange county california",
+        "id": 243325
+      },
+      {
+        "at": "rent",
+        "query": "california palm trees",
+        "id": 31091
+      },
+      {
+        "at": "tax",
+        "query": "tax documents",
+        "id": 293084
+      },
+      {
+        "at": "but",
+        "query": "suburban houses street",
+        "id": 31094
+      },
+      {
+        "at": "commute",
+        "query": "traffic jam",
+        "id": 10881
+      },
+      {
+        "at": "so",
+        "query": "family finances",
+        "id": 225947
+      }
     ],
     "student": [
-      {"at": 0, "query": "university campus students"},
-      {"at": "share", "query": "roommates apartment"},
-      {"at": "nocar", "query": "city bus"},
-      {"at": "ins", "query": "student library studying"}
+      {
+        "at": 0,
+        "query": "university campus",
+        "id": 90933
+      },
+      {
+        "at": "share",
+        "query": "friends living room",
+        "id": 202134
+      },
+      {
+        "at": "nocar",
+        "query": "city bus",
+        "id": 142755
+      },
+      {
+        "at": "ins",
+        "query": "students library",
+        "id": 140807
+      }
     ],
     "outro": [
-      {"at": 0, "query": "city skyline sunset"},
-      {"at": "none", "query": "family dinner home"},
-      {"at": "key", "query": "couple reviewing budget"},
-      {"at": "q", "query": "american flag waving"}
+      {
+        "at": 0,
+        "query": "city skyline sunset",
+        "id": 231405
+      },
+      {
+        "at": "none",
+        "query": "family dinner",
+        "id": 172686
+      },
+      {
+        "at": "key",
+        "query": "couple budget",
+        "id": 172681
+      },
+      {
+        "at": "q",
+        "query": "american flag",
+        "id": 3415
+      }
     ]
   }
 }
