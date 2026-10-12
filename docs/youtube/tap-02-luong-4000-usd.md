@@ -21,13 +21,13 @@ Lương 4.000 USD mỗi tháng — hơn 100 triệu đồng — sống ở Mỹ 
 
 ⏱ Nội dung:
 0:00 Lương 4.000 đô ở Mỹ có đủ sống?
-0:40 4.000 đô không phải 4.000 đô: lương thực nhận sau thuế
-1:28 Một tháng ở Houston: tiền đi đâu hết?
-2:20 Cùng lương, khác nơi ở: Houston vs Quận Cam, New York
-2:58 Nếu phải nuôi gia đình
-3:35 Vì sao kiếm được tiền vẫn thấy bất an?
-4:35 4 cách sống dễ thở hơn với 4.000 đô
-5:18 Kết luận
+0:52 4.000 đô không phải 4.000 đô: lương thực nhận sau thuế
+1:49 Một tháng ở Houston: tiền đi đâu hết?
+2:57 Cùng lương, khác nơi ở: Houston vs Quận Cam, New York
+3:42 Nếu phải nuôi gia đình
+4:31 Vì sao kiếm được tiền vẫn thấy bất an?
+5:44 4 cách sống dễ thở hơn với 4.000 đô
+6:42 Kết luận
 
 📊 Nguồn số liệu (truy cập 10/2026):
 • IRS — biểu thuế và khấu trừ chuẩn 2026; California FTB & EDD (SDI 1,3%)
@@ -40,7 +40,7 @@ Thuế là ước tính cho người độc thân dùng khấu trừ chuẩn, ch
 🔔 Đăng ký Tin Nước Mỹ để xem tiếp các tập về cuộc sống, việc làm và chi phí sinh hoạt tại Mỹ.
 ▶ Tập 1 — Sống ở Mỹ một tháng hết bao nhiêu tiền?: [dán link tập 1]
 
-Video nền: Pixabay. Nhạc nền: Tin Nước Mỹ tự sản xuất.
+Video nền: Pixabay. Nhạc nền: Tin Nước Mỹ tự sản xuất. Giọng đọc: AI (ElevenLabs).
 
 #luongomy #songomy #chiphisinhhoat #nguoivietomy #thueomy #houston #littlesaigon
 ```

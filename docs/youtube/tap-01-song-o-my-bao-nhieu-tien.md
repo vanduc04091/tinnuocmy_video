@@ -20,16 +20,16 @@ Sống ở Mỹ một tháng hết bao nhiêu tiền? 30 triệu, 50 triệu hay
 
 ⏱ Nội dung:
 0:00 Sống ở Mỹ tốn bao nhiêu tiền?
-0:28 Hồ sơ mẫu: một người độc thân ở Houston
-0:57 Tiền nhà và điện nước
-1:44 Ăn uống, đi chợ
-2:24 Xe hơi và đi lại
-3:05 Bảo hiểm sức khỏe (premium, deductible, copay)
-3:44 Internet, điện thoại, chi tiêu cá nhân
-4:00 Tổng chi phí một tháng
-4:34 Houston vs Quận Cam: bang nào rẻ hơn?
-5:37 Chi phí cho du học sinh
-5:52 Kết luận
+0:27 Hồ sơ mẫu: một người độc thân ở Houston
+0:59 Tiền nhà và điện nước
+1:49 Ăn uống, đi chợ
+2:33 Xe hơi và đi lại
+3:18 Bảo hiểm sức khỏe (premium, deductible, copay)
+4:02 Internet, điện thoại, chi tiêu cá nhân
+4:18 Tổng chi phí một tháng
+4:56 Houston vs Quận Cam: bang nào rẻ hơn?
+6:11 Chi phí cho du học sinh
+6:28 Kết luận
 
 📊 Nguồn số liệu (truy cập 10/2026):
 • MIT Living Wage Calculator — Houston-Pasadena-The Woodlands, TX; Orange County, CA
@@ -42,7 +42,7 @@ Số liệu mang tính tham khảo, không phải tư vấn tài chính. Chi ph�
 💬 Bạn đang sống ở đâu tại Mỹ và chi phí mỗi tháng của bạn là bao nhiêu? Hãy chia sẻ ở phần bình luận!
 🔔 Đăng ký kênh Tin Nước Mỹ để xem thêm video về cuộc sống, việc làm, du học và chi phí sinh hoạt tại Mỹ.
 
-Video nền: Pixabay. Nhạc nền: Tin Nước Mỹ tự sản xuất.
+Video nền: Pixabay. Nhạc nền: Tin Nước Mỹ tự sản xuất. Giọng đọc: AI (ElevenLabs).
 
 #songomy #chiphisinhhoat #nguoivietomy #duhocmy #houston #littlesaigon #cuocsongmy
 ```
