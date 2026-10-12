@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Tạo giọng đọc bằng Edge TTS cho một video.
+"""Tạo giọng đọc (Edge TTS hoặc ElevenLabs) cho một video.
 
     python3 scripts/tts.py song-o-my-1-thang [--force] [--voice vi-VN-HoaiMyNeural]
 
@@ -11,9 +11,14 @@ Cú pháp trong "text":
     [hiển thị|đọc]  -> phụ đề hiện "hiển thị", giọng đọc đọc "đọc"
     {key}           -> mốc thời gian, không được đọc
 Cảnh nào không đổi lời/giọng sẽ được bỏ qua (dùng lại mp3 cũ), trừ khi có --force.
+
+Chọn ElevenLabs bằng khối "tts" trong narration.json:
+    "tts": {"provider": "elevenlabs", "voiceId": "...", "model": "eleven_multilingual_v2"}
+Key đọc từ biến môi trường ELEVENLABS_API_KEY hoặc file .env ở thư mục dự án (không đưa lên git).
 """
 import argparse
 import asyncio
+import base64
 import hashlib
 import json
 import os
@@ -21,17 +26,30 @@ import re
 import shutil
 import subprocess
 import sys
+import urllib.request
 from pathlib import Path
 
 try:
     import edge_tts
 except ImportError:
-    sys.exit("Chưa cài edge-tts. Chạy:  pip install edge-tts")
+    edge_tts = None
 
 if hasattr(sys.stdout, "reconfigure"):  # console Windows mặc định không phải UTF-8
     sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
+
+
+def load_dotenv():
+    """Nạp biến từ file .env ở thư mục dự án (KEY=giá trị mỗi dòng) nếu chưa có trong môi trường."""
+    env = ROOT / ".env"
+    if not env.exists():
+        return
+    for line in env.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if line and not line.startswith("#") and "=" in line:
+            k, v = line.split("=", 1)
+            os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 TOKEN = re.compile(r"\[([^|\]]+)\|([^\]]+)\]|\{(\w+)\}")
 MAX_CUE_CHARS = 86
 TICKS = 10_000_000  # edge-tts dùng đơn vị 100ns
@@ -118,7 +136,46 @@ def audio_duration(path, nbytes):
             return float(out)
         except Exception:
             pass
-    return nbytes * 8 / 48_000  # edge-tts: mp3 48 kbps mono
+    return nbytes * 8 / 48_000  # edge-tts: mp3 48 kbps mono (ElevenLabs luôn qua bước tighten hoặc ffprobe)
+
+
+def synth_elevenlabs(spoken, tts, out_path):
+    """ElevenLabs: trả về mốc từng từ (dựng từ mốc từng ký tự của API with-timestamps)."""
+    key = os.environ.get("ELEVENLABS_API_KEY")
+    if not key:
+        sys.exit("Thiếu ELEVENLABS_API_KEY (đặt biến môi trường hoặc thêm vào file .env).")
+    body = json.dumps({
+        "text": spoken,
+        "model_id": tts.get("model", "eleven_multilingual_v2"),
+        "language_code": tts.get("language", "vi"),
+        "voice_settings": tts.get("settings", {"stability": 0.5, "similarity_boost": 0.8, "style": 0.15, "use_speaker_boost": True, "speed": 1.0}),
+    }).encode()
+    url = f'https://api.elevenlabs.io/v1/text-to-speech/{tts["voiceId"]}/with-timestamps?output_format=mp3_44100_128'
+    req = urllib.request.Request(url, data=body, headers={"xi-api-key": key, "Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=300) as res:
+            data = json.loads(res.read())
+    except urllib.error.HTTPError as e:
+        sys.exit(f"ElevenLabs lỗi {e.code}: {e.read().decode(errors='ignore')[:300]}")
+    audio = base64.b64decode(data["audio_base64"])
+    out_path.write_bytes(audio)
+    al = data.get("alignment") or data.get("normalized_alignment") or {}
+    words, cur, start, end = [], "", None, None
+    for ch, st, en in zip(al.get("characters", []), al.get("character_start_times_seconds", []), al.get("character_end_times_seconds", [])):
+        if ch.isspace():
+            if cur:
+                words.append((cur, start, end))
+            cur, start = "", None
+            continue
+        if start is None:
+            start = st
+        cur += ch
+        end = en
+    if cur:
+        words.append((cur, start, end))
+    # bỏ dấu câu dính ở hai đầu từ để định vị trong câu
+    words = [(w.strip(".,:;?!\"'“”()…"), a, b) for w, a, b in words]
+    return [w for w in words if w[0]], len(audio)
 
 
 async def synth(spoken, voice, rate, pitch, out_path):
@@ -242,7 +299,9 @@ def make_timer(spoken, located, duration):
 def build_scene(scene, cfg, out_dir, force):
     display, spoken, segments, markers = parse(scene["text"])
     tighten = cfg.get("tighten")
-    key = hashlib.sha1(f'{spoken}|{cfg["voice"]}|{cfg["rate"]}|{cfg["pitch"]}{f"|{tighten}" if tighten else ""}'.encode()).hexdigest()[:12]
+    tts = cfg.get("tts") or {}
+    provider = f'|{json.dumps(tts, sort_keys=True)}' if tts.get("provider") == "elevenlabs" else ""
+    key = hashlib.sha1(f'{spoken}|{cfg["voice"]}|{cfg["rate"]}|{cfg["pitch"]}{f"|{tighten}" if tighten else ""}{provider}'.encode()).hexdigest()[:12]
     mp3 = out_dir / f'{scene["id"]}.mp3'
     cache = out_dir / f'{scene["id"]}.words.json'
 
@@ -254,12 +313,20 @@ def build_scene(scene, cfg, out_dir, force):
             return finish(scene, display, spoken, segments, markers, words, mp3, nbytes, key, cached.get("duration"))
 
     print(f'  > {scene["id"]} ...', flush=True)
-    words, nbytes = asyncio.run(synth(spoken, cfg["voice"], cfg["rate"], cfg["pitch"], mp3))
+    if provider:
+        words, nbytes = synth_elevenlabs(spoken, tts, mp3)
+        duration_hint = nbytes * 8 / 128_000  # mp3_44100_128
+    else:
+        if edge_tts is None:
+            sys.exit("Chưa cài edge-tts. Chạy:  pip install edge-tts")
+        words, nbytes = asyncio.run(synth(spoken, cfg["voice"], cfg["rate"], cfg["pitch"], mp3))
+        duration_hint = None
     duration = None
     if tighten:
         res = tighten_audio(mp3, spoken, words, tighten)
         if res:
             words, duration = res
+    duration = duration or (None if shutil.which("ffprobe") else duration_hint)
     cache.write_text(json.dumps({"hash": key, "words": words, "duration": duration}, ensure_ascii=False), encoding="utf-8")
     return finish(scene, display, spoken, segments, markers, words, mp3, nbytes, key, duration)
 
@@ -308,10 +375,15 @@ def main():
     for k in ("voice", "rate", "pitch"):
         cfg[k] = getattr(args, k, None) or narration.get(k) or cfg[k]
     cfg["tighten"] = narration.get("tighten")  # rút ngắn khoảng nghỉ cho giọng trôi chảy (tùy chọn)
+    cfg["tts"] = narration.get("tts")  # {"provider": "elevenlabs", ...} hoặc bỏ trống = Edge TTS
+    load_dotenv()
 
     out_dir = ROOT / "public/audio" / args.slug
     out_dir.mkdir(parents=True, exist_ok=True)
-    print(f'Giọng: {cfg["voice"]}  tốc độ: {cfg["rate"]}  ->  {out_dir.relative_to(ROOT)}')
+    if cfg["tts"] and cfg["tts"].get("provider") == "elevenlabs":
+        print(f'Giọng ElevenLabs: {cfg["tts"].get("name", cfg["tts"]["voiceId"])}  ->  {out_dir.relative_to(ROOT)}')
+    else:
+        print(f'Giọng: {cfg["voice"]}  tốc độ: {cfg["rate"]}  ->  {out_dir.relative_to(ROOT)}')
 
     scenes = [build_scene(s, cfg, out_dir, args.force) for s in narration["scenes"]]
     manifest = {"slug": args.slug, "voice": cfg["voice"], "rate": cfg["rate"], "scenes": scenes}

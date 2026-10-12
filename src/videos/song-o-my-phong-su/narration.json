@@ -1,8 +1,23 @@
 {
   "slug": "song-o-my-phong-su",
   "title": "Sống Ở Mỹ Một Tháng Hết Bao Nhiêu Tiền? Sự Thật Không Phải Ai Cũng Biết",
-  "voice": "vi-VN-HoaiMyNeural",
-  "rate": "-2%",
+  "tts": {
+    "provider": "elevenlabs",
+    "voiceId": "jdlxsPOZOHdGEfcItXVu",
+    "name": "Hien - Warm and Deep Broadcaster (giọng nữ Hà Nội)",
+    "model": "eleven_v3",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.8,
+      "style": 0.15,
+      "use_speaker_boost": true,
+      "speed": 1.0
+    }
+  },
+  "tighten": {
+    "sentence": 0.5,
+    "comma": 0.25
+  },
   "_syntax": "[hiển thị|đọc] = phụ đề | giọng đọc. {key} = mốc để cảnh quay/đồ họa đổi đúng lúc.",
   "scenes": [
     {

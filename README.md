@@ -25,7 +25,7 @@ src/
         ├── shots.json        # danh sách cảnh quay nền (từ khóa tìm kiếm) — chỉ video phóng sự
         └── index.tsx         # đồ họa từng cảnh, số liệu
 scripts/
-├── tts.py                    # tạo giọng đọc Edge TTS + phụ đề + mốc thời gian
+├── tts.py                    # tạo giọng đọc (ElevenLabs hoặc Edge TTS) + phụ đề + mốc thời gian
 ├── broll.py                  # tải cảnh quay từ Pixabay/Pexels theo shots.json
 ├── music.py                  # tổng hợp nhạc nền + hiệu ứng âm thanh
 └── render.mjs                # render ra out/
@@ -40,13 +40,31 @@ Cần [Node.js 20+](https://nodejs.org) và [Python 3.9+](https://www.python.org
 
 ```bash
 npm install
-pip install edge-tts
+pip install edge-tts numpy
 ```
+
+**Khóa API:** chép `.env.example` thành `.env` rồi điền key (file `.env` không bao giờ được đưa lên git):
+
+```
+ELEVENLABS_API_KEY=sk_...      # giọng đọc ElevenLabs (tập 1, tập 2)
+PIXABAY_API_KEY=...            # tải cảnh quay
+```
+
+## Giọng đọc
+
+Mỗi video chọn giọng trong `narration.json`:
+
+- **ElevenLabs** (đang dùng cho tập 1 và 2): khối `"tts": {"provider": "elevenlabs", "voiceId": "...", "model": "eleven_v3"}`.
+  Giọng hiện tại: *Hien – Warm and Deep Broadcaster* (nữ, Hà Nội). Đổi giọng: thay `voiceId` bằng mã giọng tiếng Việt khác
+  trong thư viện ElevenLabs (Voice Library → lọc Vietnamese), rồi `npm run tts -- <slug> --force`.
+  Lưu ý: `eleven_multilingual_v2` **không** hỗ trợ tiếng Việt — dùng `eleven_v3` hoặc `eleven_turbo_v2_5`.
+- **Edge TTS** (miễn phí): bỏ khối `tts`, đặt `"voice": "vi-VN-HoaiMyNeural"`.
+- `"tighten": {"sentence": 0.5, "comma": 0.25}` rút ngắn khoảng nghỉ quá dài sau dấu câu (giây).
 
 ## Tập 1 (bản phóng sự, cảnh quay thật): `song-o-my-phong-su`
 
 ```bash
-npm run tts -- song-o-my-phong-su        # 1. giọng đọc (HoaiMy)
+npm run tts -- song-o-my-phong-su        # 1. giọng đọc (ElevenLabs, cần ELEVENLABS_API_KEY)
 npm run broll -- song-o-my-phong-su      # 2. tải cảnh quay từ Pixabay (cần PIXABAY_API_KEY)
 npm run render -- song-o-my-phong-su     # 3. render -> out/song-o-my-phong-su.mp4
 ```

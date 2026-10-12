@@ -8,3 +8,6 @@ public/music/*.mp3
 .DS_Store
 *.log
 __pycache__/
+
+# Khóa API (ElevenLabs, Pixabay…): chỉ lưu trên máy, KHÔNG đưa lên git
+.env
