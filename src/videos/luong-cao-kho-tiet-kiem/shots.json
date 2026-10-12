@@ -1,0 +1,250 @@
+{
+  "_help": "Cảnh quay nền. at = mốc {key} hoặc số giây; query = từ khóa NGẮN trên Pixabay; id = mã video Pixabay đã chọn. Tải: npm run broll -- luong-cao-kho-tiet-kiem",
+  "scenes": {
+    "hook": [
+      {
+        "at": 0,
+        "query": "office laptop work",
+        "id": 273927
+      },
+      {
+        "at": "vnd",
+        "query": "dollar money",
+        "id": 20857
+      },
+      {
+        "at": "pct",
+        "query": "stressed man bills",
+        "id": 83875
+      },
+      {
+        "at": "mid",
+        "query": "city commuters",
+        "id": 29885
+      },
+      {
+        "at": "plan",
+        "query": "credit card shopping",
+        "id": 12876
+      }
+    ],
+    "profile": [
+      {
+        "at": 0,
+        "query": "san francisco",
+        "id": 30084
+      },
+      {
+        "at": "p2",
+        "query": "programmer coding",
+        "id": 215189
+      },
+      {
+        "at": "p3",
+        "query": "office team meeting",
+        "id": 137265
+      },
+      {
+        "at": "p4",
+        "query": "city apartment night",
+        "id": 3134
+      }
+    ],
+    "tax": [
+      {
+        "at": 0,
+        "query": "tax documents",
+        "id": 293084
+      },
+      {
+        "at": "fica",
+        "query": "calculator",
+        "id": 209854
+      },
+      {
+        "at": "net",
+        "query": "banking app phone",
+        "id": 38084
+      },
+      {
+        "at": "third",
+        "query": "counting money",
+        "id": 50628
+      }
+    ],
+    "housing": [
+      {
+        "at": 0,
+        "query": "san francisco houses",
+        "id": 114
+      },
+      {
+        "at": "rent",
+        "query": "apartment interior",
+        "id": 258301
+      },
+      {
+        "at": "share",
+        "query": "apartment building",
+        "id": 216470
+      },
+      {
+        "at": "buy",
+        "query": "house for sale",
+        "id": 198888
+      },
+      {
+        "at": "pay",
+        "query": "luxury house",
+        "id": 92009
+      },
+      {
+        "at": "us",
+        "query": "suburb houses",
+        "id": 21132
+      }
+    ],
+    "debt": [
+      {
+        "at": 0,
+        "query": "car dealership",
+        "id": 2165
+      },
+      {
+        "at": "car",
+        "query": "new car",
+        "id": 1406
+      },
+      {
+        "at": "student",
+        "query": "graduation",
+        "id": 370206
+      },
+      {
+        "at": "card",
+        "query": "credit card payment",
+        "id": 349094
+      }
+    ],
+    "creep": [
+      {
+        "at": 0,
+        "query": "restaurant dinner",
+        "id": 10878
+      },
+      {
+        "at": "raise",
+        "query": "luxury car",
+        "id": 2029
+      },
+      {
+        "at": "shed",
+        "query": "shopping mall",
+        "id": 24114
+      },
+      {
+        "at": "sub",
+        "query": "watching tv",
+        "id": 61702
+      },
+      {
+        "at": "real",
+        "query": "smartphone apps",
+        "id": 42408
+      }
+    ],
+    "family": [
+      {
+        "at": 0,
+        "query": "ho chi minh city",
+        "id": 140421
+      },
+      {
+        "at": "vn",
+        "query": "ho chi minh city",
+        "id": 148774
+      },
+      {
+        "at": "hcm",
+        "query": "saigon traffic",
+        "id": 32499
+      },
+      {
+        "at": "duty",
+        "query": "elderly couple",
+        "id": 172681
+      }
+    ],
+    "month": [
+      {
+        "at": 0,
+        "query": "man calculator bills",
+        "id": 59139
+      },
+      {
+        "at": "c4",
+        "query": "grocery shopping",
+        "id": 4730
+      },
+      {
+        "at": "left",
+        "query": "piggy bank",
+        "id": 138317
+      },
+      {
+        "at": "fed",
+        "query": "worried man",
+        "id": 107264
+      }
+    ],
+    "tips": [
+      {
+        "at": 0,
+        "query": "saving money jar",
+        "id": 12751
+      },
+      {
+        "at": "t2",
+        "query": "apartment",
+        "id": 269527
+      },
+      {
+        "at": "t3",
+        "query": "car lot",
+        "id": 29947
+      },
+      {
+        "at": "t4",
+        "query": "paying card",
+        "id": 209456
+      },
+      {
+        "at": "t5",
+        "query": "stock market chart",
+        "id": 308077
+      },
+      {
+        "at": "fund",
+        "query": "bank",
+        "id": 127943
+      }
+    ],
+    "outro": [
+      {
+        "at": 0,
+        "query": "golden gate bridge",
+        "id": 17962
+      },
+      {
+        "at": "key",
+        "query": "city sunset",
+        "id": 173137
+      },
+      {
+        "at": "q",
+        "query": "city night skyline",
+        "id": 30154
+      }
+    ]
+  }
+}

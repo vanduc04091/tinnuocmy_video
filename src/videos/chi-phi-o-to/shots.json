@@ -1,0 +1,233 @@
+{
+  "_help": "Cảnh quay nền. at = mốc {key} hoặc số giây; query = từ khóa NGẮN trên Pixabay; id = mã video Pixabay đã chọn. Tải: npm run broll -- chi-phi-o-to",
+  "scenes": {
+    "hook": [
+      {
+        "at": 0,
+        "query": "highway traffic",
+        "id": 53582
+      },
+      {
+        "at": "need",
+        "query": "suburb driveway car",
+        "id": 209869
+      },
+      {
+        "at": "work",
+        "query": "commute traffic",
+        "id": 209542
+      },
+      {
+        "at": "ans",
+        "query": "young driver",
+        "id": 28132
+      },
+      {
+        "at": "plan",
+        "query": "car driving road",
+        "id": 133698
+      }
+    ],
+    "buy": [
+      {
+        "at": 0,
+        "query": "parking garage",
+        "id": 131033
+      },
+      {
+        "at": "new",
+        "query": "new car showroom",
+        "id": 1406
+      },
+      {
+        "at": "seg",
+        "query": "parking lot cars",
+        "id": 59354
+      },
+      {
+        "at": "used",
+        "query": "parking lot cars",
+        "id": 29947
+      },
+      {
+        "at": "tariff",
+        "query": "cargo ship port",
+        "id": 23215
+      },
+      {
+        "at": "tax",
+        "query": "signing contract",
+        "id": 198901
+      }
+    ],
+    "loan": [
+      {
+        "at": 0,
+        "query": "signing documents",
+        "id": 212508
+      },
+      {
+        "at": "avg",
+        "query": "calculator",
+        "id": 3928
+      },
+      {
+        "at": "credit",
+        "query": "credit card",
+        "id": 349094
+      },
+      {
+        "at": "tiers",
+        "query": "laptop finance",
+        "id": 293084
+      },
+      {
+        "at": "nocredit",
+        "query": "airport arrivals",
+        "id": 11119
+      }
+    ],
+    "insurance": [
+      {
+        "at": 0,
+        "query": "car accident",
+        "id": 93869
+      },
+      {
+        "at": "avg",
+        "query": "insurance",
+        "id": 80314
+      },
+      {
+        "at": "states",
+        "query": "texas highway",
+        "id": 243119
+      },
+      {
+        "at": "young",
+        "query": "young driver",
+        "id": 133699
+      },
+      {
+        "at": "newbie",
+        "query": "student driver",
+        "id": 133707
+      }
+    ],
+    "fuel": [
+      {
+        "at": 0,
+        "query": "gas station",
+        "id": 175
+      },
+      {
+        "at": "nat",
+        "query": "gas station",
+        "id": 159708
+      },
+      {
+        "at": "ca",
+        "query": "california highway",
+        "id": 243327
+      },
+      {
+        "at": "miles",
+        "query": "road trip",
+        "id": 1101
+      },
+      {
+        "at": "cost",
+        "query": "fuel gauge",
+        "id": 282082
+      }
+    ],
+    "hidden": [
+      {
+        "at": 0,
+        "query": "car mechanic",
+        "id": 11576
+      },
+      {
+        "at": "dep",
+        "query": "old car",
+        "id": 30
+      },
+      {
+        "at": "maint",
+        "query": "tire change",
+        "id": 36656
+      },
+      {
+        "at": "reg",
+        "query": "signing documents",
+        "id": 349087
+      },
+      {
+        "at": "park",
+        "query": "parking garage",
+        "id": 131034
+      }
+    ],
+    "total": [
+      {
+        "at": 0,
+        "query": "car interior night",
+        "id": 21985
+      },
+      {
+        "at": "sum",
+        "query": "car dashboard",
+        "id": 4053
+      }
+    ],
+    "tips": [
+      {
+        "at": 0,
+        "query": "car showroom",
+        "id": 2165
+      },
+      {
+        "at": "t2",
+        "query": "old car",
+        "id": 13598
+      },
+      {
+        "at": "t3",
+        "query": "bank",
+        "id": 20857
+      },
+      {
+        "at": "t4",
+        "query": "laptop",
+        "id": 3576
+      },
+      {
+        "at": "t5",
+        "query": "electric car",
+        "id": 24122
+      },
+      {
+        "at": "lic",
+        "query": "student driver",
+        "id": 43459
+      }
+    ],
+    "outro": [
+      {
+        "at": 0,
+        "query": "car sunset road",
+        "id": 22544
+      },
+      {
+        "at": "key",
+        "query": "highway sunset",
+        "id": 3249
+      },
+      {
+        "at": "q",
+        "query": "city night traffic",
+        "id": 88921
+      }
+    ]
+  }
+}

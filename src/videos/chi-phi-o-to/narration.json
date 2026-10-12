@@ -1,0 +1,52 @@
+{
+  "slug": "chi-phi-o-to",
+  "title": "Chi phí mua và nuôi một chiếc ô tô ở Mỹ",
+  "tts": {
+    "provider": "elevenlabs",
+    "voiceId": "jdlxsPOZOHdGEfcItXVu",
+    "name": "Hien - Warm and Deep Broadcaster (giọng nữ Hà Nội)",
+    "model": "eleven_v3",
+    "tempo": 1.12,
+    "settings": {"stability": 0.5, "similarity_boost": 0.8, "style": 0.15, "use_speaker_boost": true}
+  },
+  "tighten": {"sentence": 0.42, "comma": 0.2},
+  "_syntax": "[hiển thị|đọc] = phụ đề | giọng đọc. {key} = mốc để cảnh quay/đồ họa đổi đúng lúc.",
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Ở Việt Nam, mua được ô tô là một dấu mốc lớn. Ở Mỹ, ô tô gần như là đôi chân. {need}Hơn chín trên mười hộ gia đình Mỹ có ít nhất một chiếc xe, {work}và gần tám trên mười người lao động đi làm bằng ô tô. {q}Vậy mua và nuôi một chiếc xe ở Mỹ tốn bao nhiêu? {ans}Theo Hiệp hội Ô tô Mỹ AAA, sở hữu một chiếc xe mới tốn trung bình gần [12.900 đô|mười hai ngàn chín trăm đô] mỗi năm, tức hơn [1.000 đô|một ngàn đô] mỗi tháng. {plan}Hôm nay, Tin Nước Mỹ sẽ tính từng khoản, từ lúc ký hợp đồng mua xe đến mỗi ngày xe lăn bánh."
+    },
+    {
+      "id": "buy",
+      "text": "Khoản đầu tiên: giá mua. {new}Giá giao dịch trung bình của một chiếc xe mới ở Mỹ hiện khoảng [50.000 đô|năm mươi ngàn đô]. {seg}Xe sedan nhỏ gọn khoảng [28.000|hai mươi tám ngàn], SUV nhỏ gọn khoảng [38.000|ba mươi tám ngàn], còn bán tải cỡ lớn gần [67.000 đô|sáu mươi bảy ngàn đô]. {used}Xe cũ cũng không rẻ: giá rao bán trung bình khoảng [27.000 đô|hai mươi bảy ngàn đô]. {tariff}Thuế nhập khẩu ô tô áp từ năm [2025|hai ngàn không trăm hai mươi lăm] ước tính đã đẩy chi phí mỗi chiếc xe nhập tăng thêm từ năm ngàn đến gần chín ngàn đô, và một phần đã chuyển sang người mua. {tax}Rồi đến thuế khi mua xe: Texas [6,25%|sáu phẩy hai lăm phần trăm], California tối thiểu [7,25%|bảy phẩy hai lăm phần trăm]. {taxusd}Với chiếc xe [50.000 đô|năm mươi ngàn đô], đó là thêm từ [3.100|ba ngàn một trăm] đến hơn [3.600 đô|ba ngàn sáu trăm đô]."
+    },
+    {
+      "id": "loan",
+      "text": "Khoản thứ hai: tiền vay. {share}Hơn tám trên mười người mua xe mới phải vay. {avg}Khoản vay trung bình khoảng [43.600 đô|bốn mươi ba ngàn sáu trăm đô], kéo dài gần sáu năm, tiền góp khoảng [765 đô|bảy trăm sáu mươi lăm đô] mỗi tháng. {k}Và một kỷ lục mới: hơn [21%|hai mươi mốt phần trăm] người mua xe mới phải trả từ [1.000 đô|một ngàn đô] trở lên mỗi tháng. {credit}Đây là điều người mới sang Mỹ cần biết: lãi suất phụ thuộc rất nhiều vào điểm tín dụng. {tiers}Với xe cũ, người có điểm tín dụng xuất sắc trả lãi khoảng [6,3%|sáu phẩy ba phần trăm] một năm. Người có điểm rất thấp phải trả gần [22%|hai mươi hai phần trăm], gấp hơn ba lần. {ex}Vay [25.000 đô|hai mươi lăm ngàn đô] trong năm năm, tiền lãi chênh nhau gần [12.000 đô|mười hai ngàn đô]. {nocredit}Mới sang, chưa có lịch sử tín dụng, bạn rất dễ rơi vào nhóm lãi suất cao."
+    },
+    {
+      "id": "insurance",
+      "text": "Khoản thứ ba: bảo hiểm, bắt buộc nếu muốn lái xe. {avg}Bảo hiểm toàn diện trung bình ở Mỹ khoảng [2.360 đô|hai ngàn ba trăm sáu mươi đô] một năm. {states}Nhưng mỗi bang một khác: California khoảng [1.900 đô|một ngàn chín trăm đô], còn Texas hơn [3.600 đô|ba ngàn sáu trăm đô], gần gấp đôi. {young}Tài xế hai mươi tuổi trả trung bình khoảng [4.700 đô|bốn ngàn bảy trăm đô] một năm. {newbie}Người mới sang, chưa có lịch sử lái xe ở Mỹ, cũng thường bị tính phí cao hơn trong vài năm đầu."
+    },
+    {
+      "id": "fuel",
+      "text": "Khoản thứ tư: xăng. {nat}Giữa tháng Mười năm [2026|hai ngàn không trăm hai mươi sáu], giá xăng thường trung bình toàn nước Mỹ khoảng [4,36 đô|bốn đô ba mươi sáu xu] một ga-lông, {ca}còn ở California là hơn [6,30 đô|sáu đô ba mươi xu]. {miles}Một tài xế Mỹ chạy trung bình khoảng [13.500 dặm|mười ba ngàn năm trăm dặm] mỗi năm, tức gần [22.000 cây số|hai mươi hai ngàn cây số]. {cost}Với một chiếc xe chạy khoảng hai mươi lăm dặm mỗi ga-lông, tiền xăng mỗi năm khoảng [2.350 đô|hai ngàn ba trăm năm mươi đô] theo giá trung bình toàn quốc, {cacost}và khoảng [3.400 đô|ba ngàn bốn trăm đô] ở California."
+    },
+    {
+      "id": "hidden",
+      "text": "Khoản thứ năm là những chi phí ít ai để ý. {dep}Lớn nhất là mất giá. Theo AAA, một chiếc xe mới mất trung bình khoảng [4.400 đô|bốn ngàn bốn trăm đô] giá trị mỗi năm trong năm năm đầu. {five}Sau năm năm, xe thường chỉ còn khoảng sáu mươi phần trăm giá trị, hoặc thấp hơn. {maint}Bảo dưỡng, sửa chữa và thay lốp: khoảng [1.750 đô|một ngàn bảy trăm năm mươi đô] một năm. {reg}Phí đăng ký, biển số và thuế hằng năm: khoảng [800 đô|tám trăm đô]. {park}Còn ở trung tâm New York hay San Francisco, riêng chỗ đậu xe có thể tốn vài trăm đô mỗi tháng."
+    },
+    {
+      "id": "total",
+      "text": "Giờ hãy cộng lại theo cách tính của AAA, cho một chiếc xe mới chạy mười lăm ngàn dặm mỗi năm. {l1}Mất giá [4.420|bốn ngàn bốn trăm hai mươi]. {l2}Lãi vay [1.180|một ngàn một trăm tám mươi]. {l3}Bảo hiểm [2.100|hai ngàn một trăm]. {l4}Xăng [2.600|hai ngàn sáu trăm]. {l5}Bảo dưỡng và lốp [1.760|một ngàn bảy trăm sáu mươi]. {l6}Đăng ký và thuế [800|tám trăm]. {sum}Tổng cộng gần [12.900 đô|mười hai ngàn chín trăm đô] một năm, {mo}tức gần [1.070 đô|một ngàn không trăm bảy mươi đô] mỗi tháng, {vnd}khoảng [28 triệu đồng|hai mươi tám triệu đồng]. {rule}Theo quy tắc phổ biến, chi phí xe không nên vượt quá mười phần trăm thu nhập trước thuế. {income}Tức là bạn cần thu nhập gần [129.000 đô|một trăm hai mươi chín ngàn đô] một năm để nuôi một chiếc xe mới trung bình cho thật thoải mái."
+    },
+    {
+      "id": "tips",
+      "text": "Vậy làm sao để nuôi xe nhẹ nhàng hơn? {t1}Một: quy tắc hai mươi, bốn, mười. Trả trước ít nhất [20%|hai mươi phần trăm], vay không quá bốn năm, và tổng chi phí xe không quá [10%|mười phần trăm] thu nhập. {t2}Hai: cân nhắc xe đã qua sử dụng hai, ba năm tuổi, vì người chủ đầu tiên đã gánh phần mất giá nặng nhất. {t3}Ba: xây dựng điểm tín dụng trước khi vay, và so sánh lãi suất ở ngân hàng hoặc hiệp hội tín dụng trước khi bước vào đại lý. {t4}Bốn: so sánh báo giá bảo hiểm mỗi năm. {t5}Năm: chọn xe tiết kiệm nhiên liệu. Theo AAA năm nay, sedan hybrid cỡ trung có chi phí sở hữu thấp nhất, khoảng [10.200 đô|mười ngàn hai trăm đô] một năm. {lic}Và nếu bạn mới sang: bằng lái Việt Nam không đổi trực tiếp được ở Texas hay California, bạn cần thi lý thuyết và thi lái để có bằng của tiểu bang."
+    },
+    {
+      "id": "outro",
+      "text": "Tóm lại, giá mua chỉ là phần nổi của tảng băng. {key}Mỗi năm, nuôi một chiếc xe mới tốn khoảng một phần tư giá trị chiếc xe đó. {q}Còn bạn, chiếc xe của bạn tốn bao nhiêu mỗi tháng, và bạn chọn xe mới hay xe cũ? Hãy chia sẻ ở phần bình luận. {sub}Đừng quên đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo."
+    }
+  ]
+}

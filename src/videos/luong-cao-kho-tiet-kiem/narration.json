@@ -1,0 +1,56 @@
+{
+  "slug": "luong-cao-kho-tiet-kiem",
+  "title": "Vì sao nhiều người Mỹ có lương cao vẫn khó tiết kiệm?",
+  "tts": {
+    "provider": "elevenlabs",
+    "voiceId": "jdlxsPOZOHdGEfcItXVu",
+    "name": "Hien - Warm and Deep Broadcaster (giọng nữ Hà Nội)",
+    "model": "eleven_v3",
+    "tempo": 1.12,
+    "settings": {"stability": 0.5, "similarity_boost": 0.8, "style": 0.15, "use_speaker_boost": true}
+  },
+  "tighten": {"sentence": 0.42, "comma": 0.2},
+  "_syntax": "[hiển thị|đọc] = phụ đề | giọng đọc. {key} = mốc để cảnh quay/đồ họa đổi đúng lúc.",
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Lương [150.000 đô|một trăm năm mươi ngàn đô] một năm, {vnd}tức khoảng [3,9 tỷ đồng|ba phẩy chín tỷ đồng]. Ở Việt Nam, đó là mức thu nhập mơ ước. {pct}Vậy mà theo một khảo sát lớn đầu năm [2026|hai ngàn không trăm hai mươi sáu], gần một nửa người Mỹ có thu nhập trên [150.000 đô|một trăm năm mươi ngàn đô] vẫn sống cảnh hết tháng hết tiền. {mid}Ở nhóm thu nhập từ [100.000|một trăm ngàn] đến [150.000 đô|một trăm năm mươi ngàn đô], con số này là hơn sáu trên mười người. {plan}Lương cao như vậy, tiền đi đâu hết? Hôm nay, Tin Nước Mỹ sẽ lần theo từng đồng."
+    },
+    {
+      "id": "profile",
+      "text": "Hãy theo chân một người: {p1}độc thân, {p2}kỹ sư phần mềm ở San Francisco, {p3}lương [150.000 đô|một trăm năm mươi ngàn đô] một năm, tức [12.500 đô|mười hai ngàn rưỡi đô] mỗi tháng trước thuế. {p4}Không thiếu tiền, nhưng cũng không hề dư dả như nhiều người nghĩ."
+    },
+    {
+      "id": "tax",
+      "text": "Khoản đầu tiên rời khỏi tài khoản: thuế. {fed}Thuế thu nhập liên bang: khoảng [2.060 đô|hai ngàn không trăm sáu mươi đô] mỗi tháng. {fica}An sinh xã hội và [Medicare|Mê-đi-ke]: khoảng [960 đô|chín trăm sáu mươi đô]. {ca}Thuế tiểu bang California và bảo hiểm khuyết tật: gần [970 đô|chín trăm bảy mươi đô]. {net}Từ [12.500|mười hai ngàn rưỡi], về tay còn khoảng [8.500 đô|tám ngàn rưỡi đô]. {third}Gần một phần ba tiền lương đã đi mất, trước khi kịp chạm vào tài khoản."
+    },
+    {
+      "id": "housing",
+      "text": "Khoản thứ hai, và cũng là lớn nhất: nhà ở. {rent}Giá thuê trung vị một căn hộ một phòng ngủ ở San Francisco hiện khoảng [4.400 đô|bốn ngàn bốn trăm đô] một tháng, tăng hơn [25%|hai mươi lăm phần trăm] chỉ trong một năm. {share}Tức hơn một nửa số tiền về tay, trong khi lời khuyên phổ biến là tiền nhà không nên vượt quá [30%|ba mươi phần trăm]. {buy}Còn mua nhà? Giá nhà trung vị ở San Francisco khoảng [1,55 triệu đô|một phẩy năm lăm triệu đô]. {pay}Trả trước [20%|hai mươi phần trăm], vay ba mươi năm với lãi suất hiện tại khoảng [7,4%|bảy phẩy bốn phần trăm], tiền góp mỗi tháng gần [8.600 đô|tám ngàn sáu trăm đô], {more}nhiều hơn toàn bộ lương về tay của người kỹ sư này. {us}Ngay cả căn nhà giá trung vị toàn nước Mỹ, khoảng [429.000 đô|bốn trăm hai mươi chín ngàn đô], tiền góp cũng gần [2.400 đô|hai ngàn bốn trăm đô] mỗi tháng."
+    },
+    {
+      "id": "debt",
+      "text": "Khoản thứ ba: những món nợ cố định. {car}Xe hơi: tiền góp trung bình cho một chiếc xe mới ở Mỹ là khoảng [765 đô|bảy trăm sáu mươi lăm đô] mỗi tháng, {k}và cứ năm người mua xe mới thì có một người trả trên [1.000 đô|một ngàn đô] mỗi tháng. {student}Nợ sinh viên: trung bình mỗi người vay liên bang còn nợ gần [40.000 đô|bốn mươi ngàn đô]. Trả trong mười năm, đó là khoảng [450 đô|bốn trăm năm mươi đô] mỗi tháng. {card}Và thẻ tín dụng: người Mỹ đang nợ tổng cộng khoảng [1.260 tỷ đô|một ngàn hai trăm sáu mươi tỷ đô], với lãi suất trung bình trên [21%|hai mươi mốt phần trăm] một năm."
+    },
+    {
+      "id": "creep",
+      "text": "Khoản thứ tư khó thấy nhất, gọi là lạm phát lối sống. {raise}Lương tăng, chi tiêu cũng tăng theo: xe đẹp hơn, nhà rộng hơn, nhà hàng thay cho bữa cơm nhà. {shed}Khảo sát của Cục Dự trữ Liên bang cho thấy số người tăng chi tiêu trong năm còn nhiều hơn số người được tăng thu nhập. {choice}Và trong nhóm thu nhập trên [150.000 đô|một trăm năm mươi ngàn đô] đang sống hết tháng hết tiền, gần một nửa thừa nhận đó là do lựa chọn của chính họ. {sub}Những khoản nhỏ cũng cộng dồn: một khảo sát cho thấy người Mỹ nghĩ mình chi khoảng [86 đô|tám mươi sáu đô] mỗi tháng cho các dịch vụ trả phí định kỳ, {real}nhưng thực tế là [219 đô|hai trăm mười chín đô]."
+    },
+    {
+      "id": "family",
+      "text": "Với người Việt, còn một khoản rất riêng: {home}gửi tiền về quê. {vn}Năm [2024|hai ngàn không trăm hai mươi bốn], kiều hối về Việt Nam đạt khoảng [16 tỷ đô|mười sáu tỷ đô]. {hcm}Riêng Thành phố Hồ Chí Minh, năm [2025|hai ngàn không trăm hai mươi lăm] nhận hơn [10 tỷ đô|mười tỷ đô]. {duty}Phụng dưỡng cha mẹ, giúp đỡ anh chị em là tình nghĩa. Nhưng nếu không có kế hoạch, khoản này có thể lấy đi phần tiền lẽ ra dành cho tương lai của chính mình."
+    },
+    {
+      "id": "month",
+      "text": "Giờ hãy ghép lại một tháng của người kỹ sư này. {start}Về tay [8.510 đô|tám ngàn năm trăm mười đô]. {c1}Tiền nhà [4.400|bốn ngàn bốn trăm]. {c2}Góp xe [765|bảy trăm sáu mươi lăm]. {c3}Nợ sinh viên [450|bốn trăm năm mươi]. {c4}Ăn uống và sinh hoạt khoảng [1.500|một ngàn rưỡi]. {c5}Gửi về gia đình [500|năm trăm]. {c6}Các dịch vụ trả phí và mua trả sau [220|hai trăm hai mươi]. {left}Còn lại khoảng [675 đô|sáu trăm bảy mươi lăm đô], chưa tới [6%|sáu phần trăm] tiền lương. {rate}Con số này gần với tỷ lệ tiết kiệm trung bình của người Mỹ hiện nay: chỉ khoảng [4%|bốn phần trăm] thu nhập. {fed}Ngay cả trong nhóm thu nhập trên [100.000 đô|một trăm ngàn đô], cứ bốn người thì có một người không có đủ tiền dự phòng cho ba tháng."
+    },
+    {
+      "id": "tips",
+      "text": "Vậy làm sao để lương cao thực sự giữ lại được tiền? {t1}Một: trả cho mình trước. Ngày lương về, tự động chuyển một phần vào tiết kiệm, và đóng quỹ hưu trí [401(k)|bốn không một kê] đủ để nhận phần công ty đóng thêm, trung bình gần [5%|năm phần trăm] lương. Đó là tiền miễn phí. {t2}Hai: giữ tiền nhà dưới [30%|ba mươi phần trăm] thu nhập, kể cả khi phải ở ghép hoặc ở xa trung tâm hơn. {t3}Ba: chọn xe vừa túi tiền, có thể là xe đã qua sử dụng hai, ba năm, tránh khoản góp cả ngàn đô. {t4}Bốn: trả hết dư nợ thẻ tín dụng mỗi tháng. {t5}Năm: mỗi lần được tăng lương, để dành ít nhất một nửa phần tăng thêm. {fund}Và giữ quỹ khẩn cấp ba đến sáu tháng chi tiêu trong tài khoản tiết kiệm lãi suất cao, hiện khoảng [4%|bốn phần trăm] một năm, thay vì chưa tới [0,4%|không phẩy bốn phần trăm] của tài khoản thông thường."
+    },
+    {
+      "id": "outro",
+      "text": "Tóm lại, lương cao không tự động giúp bạn giàu. {key}Điều quyết định là khoảng cách giữa số tiền bạn kiếm được và số tiền bạn tiêu đi. {q}Còn bạn, nếu được tăng lương một ngàn đô mỗi tháng, bạn sẽ làm gì đầu tiên? Hãy chia sẻ ở phần bình luận. {sub}Đừng quên đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo."
+    }
+  ]
+}
