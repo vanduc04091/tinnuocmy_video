@@ -216,7 +216,7 @@ const VerdictScene = () => (
     </Window>
     <Window from="key" to="q">
       <Dim v={0.4} />
-      <BigLine at="key" text="Rẻ hơn ≠ tiết kiệm hơn — quan trọng là bạn giữ lại được bao nhiêu" size={72} />
+      <BigLine at="key" to="q" text="Rẻ hơn ≠ tiết kiệm hơn — quan trọng là bạn giữ lại được bao nhiêu" size={72} />
     </Window>
     <Window from="q">
       <Dim v={0.5} />

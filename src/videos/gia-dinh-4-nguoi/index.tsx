@@ -212,7 +212,7 @@ const Outro = () => (
     </Window>
     <Window from="key" to="q">
       <Dim v={0.4} />
-      <BigLine at="key" text="Ở Mỹ, gia đình có con nhỏ gần như cần cả hai vợ chồng đi làm" size={74} />
+      <BigLine at="key" to="q" text="Ở Mỹ, gia đình có con nhỏ gần như cần cả hai vợ chồng đi làm" size={74} />
     </Window>
     <Window from="q">
       <Dim v={0.5} />
