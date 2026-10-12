@@ -1,0 +1,242 @@
+{
+  "_help": "Cảnh quay nền. at = mốc {key} hoặc số giây; query = từ khóa NGẮN trên Pixabay; id = mã video Pixabay đã chọn. Tải: npm run broll -- gia-dinh-4-nguoi",
+  "scenes": {
+    "hook": [
+      {
+        "at": 0,
+        "query": "family dinner",
+        "id": 363828
+      },
+      {
+        "at": "g1",
+        "query": "dollar money",
+        "id": 172888
+      },
+      {
+        "at": "g3",
+        "query": "family shopping",
+        "id": 1887
+      },
+      {
+        "at": "ans",
+        "query": "houston skyline",
+        "id": 3134
+      },
+      {
+        "at": "plan",
+        "query": "receipts bills",
+        "id": 153458
+      }
+    ],
+    "profile": [
+      {
+        "at": 0,
+        "query": "family park",
+        "id": 237649
+      },
+      {
+        "at": "p2",
+        "query": "daycare kids",
+        "id": 49394
+      },
+      {
+        "at": "p3",
+        "query": "school bus",
+        "id": 38590
+      },
+      {
+        "at": "p4",
+        "query": "houston",
+        "id": 114822
+      },
+      {
+        "at": "src",
+        "query": "calculator laptop",
+        "id": 64215
+      }
+    ],
+    "housing": [
+      {
+        "at": 0,
+        "query": "apartment complex",
+        "id": 83812
+      },
+      {
+        "at": "rent",
+        "query": "apartment living room",
+        "id": 200666
+      },
+      {
+        "at": "more",
+        "query": "house backyard",
+        "id": 24510
+      }
+    ],
+    "childcare": [
+      {
+        "at": 0,
+        "query": "kindergarten classroom",
+        "id": 49395
+      },
+      {
+        "at": "mit",
+        "query": "toddler playing",
+        "id": 33631
+      },
+      {
+        "at": "vs",
+        "query": "mother worried",
+        "id": 79155
+      },
+      {
+        "at": "us",
+        "query": "kindergarten",
+        "id": 31516
+      },
+      {
+        "at": "vn",
+        "query": "grandmother grandchild",
+        "id": 6096
+      }
+    ],
+    "food": [
+      {
+        "at": 0,
+        "query": "grocery store",
+        "id": 31960
+      },
+      {
+        "at": "usda",
+        "query": "cooking family kitchen",
+        "id": 1498
+      },
+      {
+        "at": "mit",
+        "query": "grocery cart",
+        "id": 1735
+      },
+      {
+        "at": "real",
+        "query": "kids eating",
+        "id": 334213
+      }
+    ],
+    "health": [
+      {
+        "at": 0,
+        "query": "pediatrician",
+        "id": 66598
+      },
+      {
+        "at": "kff",
+        "query": "insurance documents",
+        "id": 80314
+      },
+      {
+        "at": "share",
+        "query": "doctor child",
+        "id": 35493
+      },
+      {
+        "at": "mit",
+        "query": "dentist",
+        "id": 288798
+      }
+    ],
+    "transport": [
+      {
+        "at": 0,
+        "query": "traffic highway",
+        "id": 53582
+      },
+      {
+        "at": "cars",
+        "query": "family car trip",
+        "id": 536
+      },
+      {
+        "at": "cost",
+        "query": "gas station",
+        "id": 159708
+      },
+      {
+        "at": "other",
+        "query": "school supplies",
+        "id": 206779
+      }
+    ],
+    "total": [
+      {
+        "at": 0,
+        "query": "calculator money",
+        "id": 68559
+      }
+    ],
+    "oc": [
+      {
+        "at": 0,
+        "query": "huntington beach",
+        "id": 287695
+      },
+      {
+        "at": "need",
+        "query": "california suburb",
+        "id": 209538
+      },
+      {
+        "at": "why",
+        "query": "palm trees street",
+        "id": 32859
+      }
+    ],
+    "tips": [
+      {
+        "at": 0,
+        "query": "family home",
+        "id": 1027
+      },
+      {
+        "at": "t1",
+        "query": "grandparents",
+        "id": 225946
+      },
+      {
+        "at": "t2",
+        "query": "car interior friends",
+        "id": 4053
+      },
+      {
+        "at": "t3",
+        "query": "asian supermarket",
+        "id": 1643
+      },
+      {
+        "at": "t4",
+        "query": "tax documents",
+        "id": 293084
+      }
+    ],
+    "outro": [
+      {
+        "at": 0,
+        "query": "family sunset",
+        "id": 197560
+      },
+      {
+        "at": "key",
+        "query": "parents working",
+        "id": 87593
+      },
+      {
+        "at": "q",
+        "query": "family hug",
+        "id": 35676
+      },
+      {
+        "at": "sub",
+        "query": "american flag",
+        "id": 214115
+      }
+    ]
+  }
+}

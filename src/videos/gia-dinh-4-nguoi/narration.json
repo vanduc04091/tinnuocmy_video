@@ -1,0 +1,60 @@
+{
+  "slug": "gia-dinh-4-nguoi",
+  "title": "Một gia đình 4 người tại Mỹ chi bao nhiêu tiền mỗi tháng?",
+  "tts": {
+    "provider": "elevenlabs",
+    "voiceId": "jdlxsPOZOHdGEfcItXVu",
+    "name": "Hien - Warm and Deep Broadcaster (giọng nữ Hà Nội)",
+    "model": "eleven_v3",
+    "tempo": 1.12,
+    "settings": {"stability": 0.5, "similarity_boost": 0.8, "style": 0.15, "use_speaker_boost": true}
+  },
+  "tighten": {"sentence": 0.42, "comma": 0.2},
+  "_syntax": "[hiển thị|đọc] = phụ đề | giọng đọc. {key} = mốc để cảnh quay/đồ họa đổi đúng lúc.",
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Một gia đình bốn người ở Mỹ: hai vợ chồng và hai con nhỏ. Mỗi tháng, họ cần bao nhiêu tiền? {g1}[50 triệu|Năm mươi triệu]? {g2}[100 triệu|Một trăm triệu]? {g3}Hay gần [200 triệu đồng|hai trăm triệu đồng]? {ans}Câu trả lời có thể khiến bạn bất ngờ. Chỉ để sống ở mức cơ bản tại Houston, một trong những thành phố dễ thở nhất nước Mỹ, gia đình này cần gần [7.000 đô|bảy ngàn đô] mỗi tháng. {plan}Hôm nay, Tin Nước Mỹ sẽ đi qua từng khoản, và có một khoản còn đắt hơn cả tiền nhà."
+    },
+    {
+      "id": "profile",
+      "text": "Gia đình của chúng ta: {p1}hai vợ chồng đều đi làm toàn thời gian, {p2}một bé ba tuổi đi nhà trẻ, {p3}một bé tám tuổi học trường công, {p4}sống ở Houston, Texas. {src}Các con số chủ yếu lấy từ bộ tính chi phí sinh hoạt của [MIT|em ai ti], cùng phương pháp như những tập trước."
+    },
+    {
+      "id": "housing",
+      "text": "Khoản đầu tiên: nhà ở. {rent}Một căn hộ hai phòng ngủ ở Houston, gồm điện nước cơ bản, tốn khoảng [1.510 đô|một ngàn năm trăm mười đô] mỗi tháng. {more}Muốn thuê nhà riêng ba phòng ngủ có sân cho con chơi, con số này sẽ cao hơn đáng kể."
+    },
+    {
+      "id": "childcare",
+      "text": "Và đây là khoản khiến nhiều phụ huynh mới sang Mỹ choáng váng: tiền giữ trẻ. {mit}Nhà trẻ cho bé nhỏ và giữ trẻ sau giờ học cho bé lớn tốn khoảng [1.690 đô|một ngàn sáu trăm chín mươi đô] mỗi tháng. {vs}Nhiều hơn cả tiền nhà. {us}Trên toàn nước Mỹ, giá gửi trẻ trung bình năm [2025|hai ngàn không trăm hai mươi lăm] là khoảng [13.200 đô|mười ba ngàn hai trăm đô] một năm cho mỗi bé. {ca}Ở California, có nơi trên [20.000 đô|hai mươi ngàn đô]. {vn}Đó là lý do nhiều gia đình Việt nhờ ông bà sang giúp trông cháu. Một quyết định có thể tiết kiệm phần lớn khoản chi lớn nhất này."
+    },
+    {
+      "id": "food",
+      "text": "Tiền ăn. {usda}Bộ Nông nghiệp Mỹ tính rằng một gia đình bốn người, nấu ăn ở nhà ở mức tiết kiệm, cần khoảng [1.020 đô|một ngàn không trăm hai mươi đô] mỗi tháng. {mit}Với giá cả ở Houston, [MIT|em ai ti] ước tính khoảng [940 đô|chín trăm bốn mươi đô]. {real}Trẻ con đang tuổi lớn, thêm vài bữa ăn ngoài cuối tuần hay quà sinh nhật bạn bè, con số này rất dễ cao hơn."
+    },
+    {
+      "id": "health",
+      "text": "Bảo hiểm sức khỏe cho cả nhà. {kff}Theo khảo sát của tổ chức KFF năm [2025|hai ngàn không trăm hai mươi lăm], gói bảo hiểm gia đình qua công ty có giá trung bình khoảng [27.000 đô|hai mươi bảy ngàn đô] một năm. {share}Công ty trả phần lớn, nhưng người lao động vẫn tự đóng khoảng [570 đô|năm trăm bảy mươi đô] mỗi tháng. {mit}Cộng thêm tiền khám, thuốc và nha khoa cho hai đứa trẻ, [MIT|em ai ti] ước tính khoảng [920 đô|chín trăm hai mươi đô] mỗi tháng."
+    },
+    {
+      "id": "transport",
+      "text": "Đi lại. {cars}Ở Houston, hai vợ chồng cùng đi làm gần như cần hai chiếc xe. {cost}Xăng, bảo hiểm và bảo dưỡng cho hai xe: khoảng [1.240 đô|một ngàn hai trăm bốn mươi đô] mỗi tháng. {other}Cuối cùng là internet, điện thoại, quần áo, đồ dùng học tập và hoạt động cho con: khoảng [680 đô|sáu trăm tám mươi đô]."
+    },
+    {
+      "id": "total",
+      "text": "Giờ hãy cộng lại. {l1}Nhà ở [1.510|một ngàn năm trăm mười]. {l2}Giữ trẻ [1.690|một ngàn sáu trăm chín mươi]. {l3}Ăn uống [940|chín trăm bốn mươi]. {l4}Sức khỏe [920|chín trăm hai mươi]. {l5}Đi lại [1.240|một ngàn hai trăm bốn mươi]. {l6}Các khoản khác [680|sáu trăm tám mươi]. {sum}Tổng cộng gần [7.000 đô|bảy ngàn đô] mỗi tháng, {vnd}tương đương hơn [180 triệu đồng|một trăm tám mươi triệu đồng]. {income}Để có số tiền này sau thuế, theo [MIT|em ai ti], hai vợ chồng cần tổng thu nhập khoảng [102.000 đô|một trăm lẻ hai ngàn đô] một năm. {median}Trong khi thu nhập trung vị của một hộ gia đình ở Texas chỉ khoảng [77.500 đô|bảy mươi bảy ngàn rưỡi đô]. {ctc}May mắn là có hỗ trợ: tín dụng thuế trẻ em năm [2026|hai ngàn không trăm hai mươi sáu] tối đa [2.200 đô|hai ngàn hai trăm đô] mỗi con, tức khoảng [370 đô|ba trăm bảy mươi đô] mỗi tháng cho hai con."
+    },
+    {
+      "id": "oc",
+      "text": "Còn nếu gia đình này sống ở Quận Cam, California? {need}Theo [MIT|em ai ti], họ cần thu nhập khoảng [164.000 đô|một trăm sáu mươi bốn ngàn đô] một năm trước thuế, {month}tức hơn [13.000 đô|mười ba ngàn đô] mỗi tháng. {why}Tiền nhà và tiền giữ trẻ ở đây đều cao hơn Houston rất nhiều."
+    },
+    {
+      "id": "tips",
+      "text": "Vậy các gia đình Việt ở Mỹ xoay xở như thế nào? {t1}Một: nhờ ông bà hoặc người thân trông trẻ, cắt khoản lớn nhất. {t2}Hai: sống gần chỗ làm hoặc đi chung xe, để cả nhà chỉ cần một chiếc xe. {t3}Ba: nấu ăn ở nhà, mua thực phẩm số lượng lớn ở chợ Á Đông hay các cửa hàng bán sỉ. {t4}Bốn: tận dụng tín dụng thuế trẻ em, và tìm hiểu chương trình bảo hiểm y tế cho trẻ em của tiểu bang nếu gia đình đủ điều kiện."
+    },
+    {
+      "id": "outro",
+      "text": "Tóm lại, một gia đình bốn người ở Houston cần gần [7.000 đô|bảy ngàn đô] mỗi tháng để sống ở mức cơ bản. {oc}Ở Quận Cam, gần gấp đôi. {key}Đó là lý do ở Mỹ, hầu hết các gia đình có con nhỏ đều cần cả hai vợ chồng cùng đi làm. {q}Còn gia đình bạn, mỗi tháng đang chi khoảng bao nhiêu, và khoản nào là lớn nhất? Hãy chia sẻ ở phần bình luận. {sub}Đừng quên đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo."
+    }
+  ]
+}

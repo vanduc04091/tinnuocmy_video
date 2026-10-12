@@ -1,0 +1,251 @@
+{
+  "_help": "Cảnh quay nền. at = mốc {key} hoặc số giây; query = từ khóa NGẮN trên Pixabay; id = mã video Pixabay đã chọn. Tải: npm run broll -- california-vs-texas",
+  "scenes": {
+    "hook": [
+      {
+        "at": 0,
+        "query": "california coast",
+        "id": 272828
+      },
+      {
+        "at": 1.5,
+        "query": "texas",
+        "id": 252871
+      },
+      {
+        "at": "vn",
+        "query": "vietnamese restaurant",
+        "id": 2339
+      },
+      {
+        "at": "move",
+        "query": "moving van",
+        "id": 20090
+      },
+      {
+        "at": "q",
+        "query": "dollar money",
+        "id": 46922
+      },
+      {
+        "at": "plan",
+        "query": "usa map",
+        "id": 30095
+      },
+      {
+        "at": "go",
+        "query": "highway road trip",
+        "id": 93587
+      }
+    ],
+    "income-tax": [
+      {
+        "at": 0,
+        "query": "tax return",
+        "id": 293084
+      },
+      {
+        "at": "tx",
+        "query": "texas flag",
+        "id": 272768
+      },
+      {
+        "at": "ca",
+        "query": "california sign",
+        "id": 133607
+      },
+      {
+        "at": "ex",
+        "query": "salary",
+        "id": 50621
+      },
+      {
+        "at": "high",
+        "query": "office skyscraper",
+        "id": 214888
+      },
+      {
+        "at": "win",
+        "query": "cowboy",
+        "id": 316584
+      }
+    ],
+    "sales-tax": [
+      {
+        "at": 0,
+        "query": "cash register",
+        "id": 172894
+      },
+      {
+        "at": "ca",
+        "query": "shopping mall",
+        "id": 12876
+      },
+      {
+        "at": "tx",
+        "query": "supermarket",
+        "id": 21117
+      },
+      {
+        "at": "ex",
+        "query": "electronics store",
+        "id": 24114
+      }
+    ],
+    "housing": [
+      {
+        "at": 0,
+        "query": "suburb houses aerial",
+        "id": 327922
+      },
+      {
+        "at": "buy",
+        "query": "los angeles houses",
+        "id": 32859
+      },
+      {
+        "at": "tx",
+        "query": "neighborhood houses",
+        "id": 137210
+      },
+      {
+        "at": "ratio",
+        "query": "new house",
+        "id": 121409
+      },
+      {
+        "at": "rent",
+        "query": "apartment exterior",
+        "id": 76398
+      },
+      {
+        "at": "but",
+        "query": "house keys",
+        "id": 125777
+      },
+      {
+        "at": "ptax",
+        "query": "property tax",
+        "id": 29886
+      },
+      {
+        "at": "ins",
+        "query": "hail storm",
+        "id": 39332
+      },
+      {
+        "at": "win",
+        "query": "family new home",
+        "id": 1027
+      }
+    ],
+    "energy": [
+      {
+        "at": 0,
+        "query": "gas station",
+        "id": 159708
+      },
+      {
+        "at": "gas",
+        "query": "refueling car",
+        "id": 175
+      },
+      {
+        "at": "elec",
+        "query": "electricity meter",
+        "id": 159678
+      },
+      {
+        "at": "heat",
+        "query": "texas heat sun",
+        "id": 4753
+      },
+      {
+        "at": "win",
+        "query": "power lines",
+        "id": 355270
+      }
+    ],
+    "income": [
+      {
+        "at": 0,
+        "query": "tech office",
+        "id": 108640
+      },
+      {
+        "at": "med",
+        "query": "office workers",
+        "id": 6389
+      },
+      {
+        "at": "why",
+        "query": "hospital nurse",
+        "id": 49811
+      },
+      {
+        "at": "but",
+        "query": "engineer",
+        "id": 136259
+      },
+      {
+        "at": "win",
+        "query": "san francisco",
+        "id": 30084
+      }
+    ],
+    "score": [
+      {
+        "at": 0,
+        "query": "scoreboard stadium",
+        "id": 208387
+      },
+      {
+        "at": "single",
+        "query": "houston skyline",
+        "id": 3134
+      },
+      {
+        "at": "family",
+        "query": "family walking",
+        "id": 151296
+      }
+    ],
+    "verdict": [
+      {
+        "at": 0,
+        "query": "crossroads",
+        "id": 62368
+      },
+      {
+        "at": "v1",
+        "query": "family house",
+        "id": 42803
+      },
+      {
+        "at": "v2",
+        "query": "california tech office",
+        "id": 87592
+      },
+      {
+        "at": "v3",
+        "query": "asian family",
+        "id": 15952
+      },
+      {
+        "at": "key",
+        "query": "calculator",
+        "id": 59139
+      },
+      {
+        "at": "q",
+        "query": "sunset city",
+        "id": 80724
+      },
+      {
+        "at": "sub",
+        "query": "american flag",
+        "id": 175322
+      }
+    ]
+  }
+}

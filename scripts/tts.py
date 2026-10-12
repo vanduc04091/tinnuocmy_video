@@ -276,6 +276,15 @@ def tighten_audio(mp3, spoken, words, cfg):
     return new_words, len(out) / sr
 
 
+def speed_up(mp3, words, tempo):
+    """Tăng tốc độ đọc, giữ nguyên cao độ giọng (ffmpeg atempo); co mốc từng từ theo cùng tỷ lệ."""
+    tmp = mp3.with_suffix(".tmp.mp3")
+    subprocess.run(ffmpeg_cmd() + ["-y", "-v", "error", "-i", str(mp3), "-filter:a", f"atempo={tempo}",
+                                   "-c:a", "libmp3lame", "-b:a", "128k", str(tmp)], check=True)
+    tmp.replace(mp3)
+    return [(w, round(a / tempo, 3), round(b / tempo, 3)) for w, a, b in words]
+
+
 def make_timer(spoken, located, duration):
     if located:
         def start_at(i):
@@ -322,6 +331,10 @@ def build_scene(scene, cfg, out_dir, force):
         words, nbytes = asyncio.run(synth(spoken, cfg["voice"], cfg["rate"], cfg["pitch"], mp3))
         duration_hint = None
     duration = None
+    tempo = float(tts.get("tempo", 1.0)) if provider else 1.0
+    if tempo != 1.0:
+        words = speed_up(mp3, words, tempo)
+        duration_hint = duration_hint / tempo if duration_hint else None
     if tighten:
         res = tighten_audio(mp3, spoken, words, tighten)
         if res:

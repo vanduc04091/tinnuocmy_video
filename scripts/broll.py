@@ -3,7 +3,7 @@
 
     python3 scripts/broll.py song-o-my-phong-su [--force] [--only intro-0,housing-2]
 
-Cần biến môi trường PIXABAY_API_KEY (miễn phí: đăng ký tài khoản Pixabay, key nằm ở
+Cần PIXABAY_API_KEY (biến môi trường hoặc file .env ở thư mục dự án) (miễn phí: đăng ký tài khoản Pixabay, key nằm ở
 https://pixabay.com/api/docs/). Ai đã có key Pexels cũ có thể dùng PEXELS_API_KEY.
 Nên chạy SAU `npm run tts` để biết mỗi cảnh quay cần dài bao nhiêu giây.
 
@@ -29,6 +29,17 @@ ROOT = Path(__file__).resolve().parent.parent
 PEXELS_API = "https://api.pexels.com/videos/search"
 PIXABAY_API = "https://pixabay.com/api/videos/"
 MAX_CLIP_SEC = 20  # cắt bớt để tiết kiệm dung lượng
+
+
+def load_dotenv():
+    """Nạp KEY=giá trị từ file .env ở thư mục dự án (không ghi đè biến môi trường có sẵn)."""
+    env = ROOT / ".env"
+    if env.exists():
+        for line in env.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
 
 def http_get(url, headers=None):
@@ -122,6 +133,7 @@ def main():
     ap.add_argument("--only", help="chỉ tải các cảnh này, ví dụ intro-0,housing-2")
     args = ap.parse_args()
 
+    load_dotenv()
     keys = {"pixabay": os.environ.get("PIXABAY_API_KEY"), "pexels": os.environ.get("PEXELS_API_KEY")}
     if not any(keys.values()):
         sys.exit("Thiếu PIXABAY_API_KEY. Đăng ký miễn phí tại https://pixabay.com, key nằm ở https://pixabay.com/api/docs/ "

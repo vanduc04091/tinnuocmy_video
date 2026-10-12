@@ -1,0 +1,48 @@
+{
+  "slug": "california-vs-texas",
+  "title": "California và Texas: Sống ở đâu tiết kiệm hơn?",
+  "tts": {
+    "provider": "elevenlabs",
+    "voiceId": "jdlxsPOZOHdGEfcItXVu",
+    "name": "Hien - Warm and Deep Broadcaster (giọng nữ Hà Nội)",
+    "model": "eleven_v3",
+    "tempo": 1.12,
+    "settings": {"stability": 0.5, "similarity_boost": 0.8, "style": 0.15, "use_speaker_boost": true}
+  },
+  "tighten": {"sentence": 0.42, "comma": 0.2},
+  "_syntax": "[hiển thị|đọc] = phụ đề | giọng đọc. {key} = mốc để cảnh quay/đồ họa đổi đúng lúc.",
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "California hay Texas? {vn}Đây là hai bang có nhiều người Việt nhất nước Mỹ. Khoảng một phần ba người Mỹ gốc Việt sống ở California, và Texas đứng thứ hai. {move}Nhiều năm qua, rất nhiều gia đình đã rời California để chuyển sang Texas, với một lý do quen thuộc: sống ở Texas rẻ hơn. {q}Nhưng rẻ hơn có thật sự là tiết kiệm hơn? {plan}Hôm nay, chúng ta sẽ cho hai bang đối đầu qua năm hiệp: {r1}thuế thu nhập, {r2}thuế mua sắm, {r3}nhà ở, {r4}xăng và điện, {r5}và cuối cùng là tiền lương. {go}Bên nào thắng, hãy cùng Tin Nước Mỹ xem những con số thực tế."
+    },
+    {
+      "id": "income-tax",
+      "text": "Hiệp một: thuế thu nhập. {tx}Texas không thu thuế thu nhập tiểu bang. Không một đồng nào. {ca}California thì thu theo bậc, từ một đến mười ba phần trăm, cao nhất nước Mỹ. {ex}Với mức lương [4.000 đô|bốn ngàn đô] một tháng như tập trước, người ở Texas thực nhận khoảng [3.400 đô|ba ngàn bốn trăm đô], còn ở California khoảng [3.260 đô|ba ngàn hai trăm sáu mươi đô]. {diff}Chênh lệch khoảng [130 đô|một trăm ba mươi đô] mỗi tháng, tức gần [1.600 đô|một ngàn sáu trăm đô] một năm. {high}Lương càng cao, khoảng cách này càng lớn. {win}Hiệp một: Texas thắng."
+    },
+    {
+      "id": "sales-tax",
+      "text": "Hiệp hai: thuế mua sắm, loại thuế cộng thêm khi bạn thanh toán ở quầy. {ca}Ở California, mức trung bình cả thuế tiểu bang và địa phương là khoảng chín phần trăm. {tx}Ở Texas, khoảng tám phẩy hai phần trăm. {ex}Mua một chiếc tivi [1.000 đô|một ngàn đô], bạn trả thêm khoảng [90 đô|chín mươi đô] ở California và [82 đô|tám mươi hai đô] ở Texas. {win}Chênh lệch không lớn. Hiệp hai: Texas thắng sát nút."
+    },
+    {
+      "id": "housing",
+      "text": "Hiệp ba, và đây là hiệp quyết định: nhà ở. {buy}Giá nhà trung vị ở California năm [2026|hai ngàn không trăm hai mươi sáu] là khoảng [888.000 đô|tám trăm tám mươi tám ngàn đô]. {tx}Ở Texas, khoảng [330.000 đô|ba trăm ba mươi ngàn đô]. {ratio}Nghĩa là với cùng số tiền, bạn mua được gần ba căn nhà ở Texas cho mỗi căn ở California. {rent}Tiền thuê cũng vậy: căn một phòng ngủ ở Quận Cam đắt hơn gấp đôi ở Houston. {but}Nhưng Texas có một cái bẫy: thuế nhà đất. {ptax}Texas thu khoảng một phẩy sáu phần trăm giá trị nhà mỗi năm, gấp đôi mức khoảng không phẩy bảy phần trăm của California. {math}Dù vậy, vì nhà ở Texas rẻ hơn rất nhiều, tiền thuế nhà đất mỗi tháng vẫn thấp hơn: khoảng [440 đô|bốn trăm bốn mươi đô], so với khoảng [520 đô|năm trăm hai mươi đô] ở California. {ins}Thêm một lưu ý: bảo hiểm nhà ở Texas đắt vì bão và mưa đá, còn ở California, nhiều vùng khó mua bảo hiểm vì cháy rừng. {win}Hiệp ba: Texas thắng đậm."
+    },
+    {
+      "id": "energy",
+      "text": "Hiệp bốn: xăng và điện. {gas}Tháng Chín năm [2026|hai ngàn không trăm hai mươi sáu], giá xăng trung bình ở California là khoảng [6,24 đô|sáu đô hai mươi bốn xu] một gallon, cao nhất nước Mỹ. Ở Texas, khoảng [3,96 đô|ba đô chín mươi sáu xu]. {gasm}Đổ bốn mươi gallon một tháng, người ở California trả nhiều hơn khoảng [90 đô|chín mươi đô]. {elec}Giá điện ở California cũng gấp đôi Texas. Cùng một mức dùng điện, hóa đơn ở California có thể lên khoảng [300 đô|ba trăm đô], còn ở Texas khoảng [150 đô|một trăm năm mươi đô]. {heat}Nhưng mùa hè Texas rất nóng, máy lạnh chạy gần như cả ngày, nên khoảng cách thực tế hẹp hơn. {win}Hiệp bốn: Texas thắng."
+    },
+    {
+      "id": "income",
+      "text": "Đến đây, Texas đang dẫn bốn không. Nhưng hiệp cuối có thể lật ngược tất cả: tiền lương. {med}Thu nhập trung vị của một hộ gia đình ở California là khoảng [100.000 đô|một trăm ngàn đô] một năm. Ở Texas, khoảng [77.500 đô|bảy mươi bảy ngàn rưỡi đô]. {gap}Chênh lệch hơn [22.000 đô|hai mươi hai ngàn đô] mỗi năm. {why}Nhiều ngành như công nghệ, y tế hay kỹ thuật trả lương ở California cao hơn hẳn, đủ để bù cho chi phí đắt đỏ. {but}Nhưng lợi thế này chỉ đến với bạn nếu chính nghề của bạn được trả cao ở California. {win}Hiệp năm: California thắng."
+    },
+    {
+      "id": "score",
+      "text": "Vậy kết quả cuối cùng là gì? {tally}Texas thắng bốn hiệp, California thắng một. {single}Với một người độc thân, như chúng ta đã tính ở tập một, sống ở Houston tốn khoảng [3.000 đô|ba ngàn đô] mỗi tháng, còn ở Quận Cam khoảng [4.600 đô|bốn ngàn sáu trăm đô]. {family}Với một gia đình bốn người, hai vợ chồng cùng đi làm, theo [MIT|em ai ti], ở Houston cần thu nhập khoảng [102.000 đô|một trăm lẻ hai ngàn đô] một năm. Ở Quận Cam, con số này lên tới khoảng [164.000 đô|một trăm sáu mươi bốn ngàn đô]."
+    },
+    {
+      "id": "verdict",
+      "text": "Vậy nên chuyển sang Texas không? {v1}Nếu bạn có thu nhập trung bình, muốn mua nhà và nuôi con: Texas gần như chắc chắn giúp bạn tiết kiệm hơn. {v2}Nếu bạn làm trong ngành trả lương cao ở California, hoặc đã có nhà từ lâu với thuế nhà đất thấp: ở lại California có thể vẫn có lợi. {v3}Và đừng quên những thứ không có trên bảng tính: thời tiết, gia đình, cộng đồng người Việt và cơ hội việc làm cho chính bạn. {key}Rẻ hơn không tự động có nghĩa là tiết kiệm hơn. Điều quan trọng là bạn giữ lại được bao nhiêu sau khi trả hết mọi chi phí. {q}Còn bạn, nếu được chọn, bạn sẽ sống ở California hay Texas? Hãy chia sẻ lý do ở phần bình luận. {sub}Và đừng quên đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo."
+    }
+  ]
+}
