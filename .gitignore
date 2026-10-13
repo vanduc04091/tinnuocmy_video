@@ -1,8 +1,7 @@
 node_modules/
 # Video đã render: chỉ lưu trên máy, không đẩy lên GitHub
 out/
-# Giọng đọc sinh tự động bằng `npm run tts` (tạo lại được bất cứ lúc nào)
-public/audio/
+# Giọng đọc (public/audio/) ĐƯỢC đưa lên git: git pull là có, không phải tạo lại (tốn credit ElevenLabs)
 public/broll/
 public/music/*.mp3
 .DS_Store

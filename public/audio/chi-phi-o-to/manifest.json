@@ -1,0 +1,589 @@
+{
+  "slug": "chi-phi-o-to",
+  "voice": "vi-VN-NamMinhNeural",
+  "rate": "-4%",
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "hook.mp3",
+      "hash": "de115435b449",
+      "durationSec": 32.217,
+      "cues": [
+        {
+          "text": "Ở Việt Nam, mua được ô tô là một dấu mốc lớn.",
+          "start": 0.0,
+          "end": 3.107
+        },
+        {
+          "text": "Ở Mỹ, ô tô gần như là đôi chân.",
+          "start": 3.107,
+          "end": 5.857
+        },
+        {
+          "text": "Hơn chín trên mười hộ gia đình Mỹ có ít nhất một chiếc xe,",
+          "start": 5.857,
+          "end": 9.381
+        },
+        {
+          "text": "và gần tám trên mười người lao động đi làm bằng ô tô.",
+          "start": 9.381,
+          "end": 12.768
+        },
+        {
+          "text": "Vậy mua và nuôi một chiếc xe ở Mỹ tốn bao nhiêu?",
+          "start": 12.768,
+          "end": 16.6
+        },
+        {
+          "text": "Theo Hiệp hội Ô tô Mỹ AAA,",
+          "start": 16.6,
+          "end": 19.381
+        },
+        {
+          "text": "sở hữu một chiếc xe mới tốn trung bình gần 12.900 đô mỗi năm,",
+          "start": 19.381,
+          "end": 24.321
+        },
+        {
+          "text": "tức hơn 1.000 đô mỗi tháng.",
+          "start": 24.321,
+          "end": 26.321
+        },
+        {
+          "text": "Hôm nay, Tin Nước Mỹ sẽ tính từng khoản,",
+          "start": 26.321,
+          "end": 29.0
+        },
+        {
+          "text": "từ lúc ký hợp đồng mua xe đến mỗi ngày xe lăn bánh.",
+          "start": 29.0,
+          "end": 32.357
+        }
+      ],
+      "markers": {
+        "need": 5.857,
+        "work": 9.381,
+        "q": 12.768,
+        "ans": 16.6,
+        "plan": 26.321
+      }
+    },
+    {
+      "id": "buy",
+      "file": "buy.mp3",
+      "hash": "57769b008704",
+      "durationSec": 45.598,
+      "cues": [
+        {
+          "text": "Khoản đầu tiên: giá mua.",
+          "start": 0.0,
+          "end": 1.857
+        },
+        {
+          "text": "Giá giao dịch trung bình của một chiếc xe mới ở Mỹ hiện khoảng 50.000 đô.",
+          "start": 1.857,
+          "end": 6.464
+        },
+        {
+          "text": "Xe sedan nhỏ gọn khoảng 28.000, SUV nhỏ gọn khoảng 38.000,",
+          "start": 6.464,
+          "end": 12.25
+        },
+        {
+          "text": "còn bán tải cỡ lớn gần 67.000 đô.",
+          "start": 12.25,
+          "end": 15.277
+        },
+        {
+          "text": "Xe cũ cũng không rẻ: giá rao bán trung bình khoảng 27.000 đô.",
+          "start": 15.277,
+          "end": 19.741
+        },
+        {
+          "text": "Thuế nhập khẩu ô tô áp từ năm 2025 ước tính đã đẩy chi phí",
+          "start": 19.741,
+          "end": 24.866
+        },
+        {
+          "text": "mỗi chiếc xe nhập tăng thêm từ năm ngàn đến gần chín ngàn đô,",
+          "start": 24.866,
+          "end": 28.813
+        },
+        {
+          "text": "và một phần đã chuyển sang người mua.",
+          "start": 28.813,
+          "end": 31.304
+        },
+        {
+          "text": "Rồi đến thuế khi mua xe: Texas 6,25%, California tối thiểu 7,25%.",
+          "start": 31.304,
+          "end": 39.357
+        },
+        {
+          "text": "Với chiếc xe 50.000 đô, đó là thêm từ 3.100 đến hơn 3.600 đô.",
+          "start": 39.357,
+          "end": 45.59
+        }
+      ],
+      "markers": {
+        "new": 1.857,
+        "seg": 6.464,
+        "used": 15.277,
+        "tariff": 19.741,
+        "tax": 31.304,
+        "taxusd": 39.357
+      }
+    },
+    {
+      "id": "loan",
+      "file": "loan.mp3",
+      "hash": "e5a28814753c",
+      "durationSec": 47.812,
+      "cues": [
+        {
+          "text": "Khoản thứ hai: tiền vay.",
+          "start": 0.0,
+          "end": 2.134
+        },
+        {
+          "text": "Hơn tám trên mười người mua xe mới phải vay.",
+          "start": 2.134,
+          "end": 5.063
+        },
+        {
+          "text": "Khoản vay trung bình khoảng 43.600 đô,",
+          "start": 5.063,
+          "end": 8.116
+        },
+        {
+          "text": "kéo dài gần sáu năm, tiền góp khoảng 765 đô mỗi tháng.",
+          "start": 8.116,
+          "end": 12.753
+        },
+        {
+          "text": "Và một kỷ lục mới: hơn 21% người mua xe mới phải trả từ 1.000 đô trở lên mỗi tháng.",
+          "start": 12.753,
+          "end": 19.688
+        },
+        {
+          "text": "Đây là điều người mới sang Mỹ cần biết:",
+          "start": 19.688,
+          "end": 22.634
+        },
+        {
+          "text": "lãi suất phụ thuộc rất nhiều vào điểm tín dụng.",
+          "start": 22.634,
+          "end": 25.813
+        },
+        {
+          "text": "Với xe cũ, người có điểm tín dụng xuất sắc trả lãi khoảng 6,3% một năm.",
+          "start": 25.813,
+          "end": 31.491
+        },
+        {
+          "text": "Người có điểm rất thấp phải trả gần 22%, gấp hơn ba lần.",
+          "start": 31.491,
+          "end": 37.054
+        },
+        {
+          "text": "Vay 25.000 đô trong năm năm, tiền lãi chênh nhau gần 12.000 đô.",
+          "start": 37.054,
+          "end": 42.581
+        },
+        {
+          "text": "Mới sang, chưa có lịch sử tín dụng, bạn rất dễ rơi vào nhóm lãi suất cao.",
+          "start": 42.581,
+          "end": 47.795
+        }
+      ],
+      "markers": {
+        "share": 2.134,
+        "avg": 5.063,
+        "k": 12.753,
+        "credit": 19.688,
+        "tiers": 25.813,
+        "ex": 37.054,
+        "nocredit": 42.581
+      }
+    },
+    {
+      "id": "insurance",
+      "file": "insurance.mp3",
+      "hash": "f3ef9e5128cd",
+      "durationSec": 26.373,
+      "cues": [
+        {
+          "text": "Khoản thứ ba: bảo hiểm, bắt buộc nếu muốn lái xe.",
+          "start": 0.0,
+          "end": 3.768
+        },
+        {
+          "text": "Bảo hiểm toàn diện trung bình ở Mỹ khoảng 2.360 đô một năm.",
+          "start": 3.768,
+          "end": 8.393
+        },
+        {
+          "text": "Nhưng mỗi bang một khác: California khoảng 1.900 đô,",
+          "start": 8.393,
+          "end": 12.857
+        },
+        {
+          "text": "còn Texas hơn 3.600 đô, gần gấp đôi.",
+          "start": 12.857,
+          "end": 16.411
+        },
+        {
+          "text": "Tài xế hai mươi tuổi trả trung bình khoảng 4.700 đô một năm.",
+          "start": 16.411,
+          "end": 20.631
+        },
+        {
+          "text": "Người mới sang, chưa có lịch sử lái xe ở Mỹ,",
+          "start": 20.631,
+          "end": 23.829
+        },
+        {
+          "text": "cũng thường bị tính phí cao hơn trong vài năm đầu.",
+          "start": 23.829,
+          "end": 26.357
+        }
+      ],
+      "markers": {
+        "avg": 3.768,
+        "states": 8.393,
+        "young": 16.411,
+        "newbie": 20.631
+      }
+    },
+    {
+      "id": "fuel",
+      "file": "fuel.mp3",
+      "hash": "be93d08a0192",
+      "durationSec": 30.679,
+      "cues": [
+        {
+          "text": "Khoản thứ tư: xăng.",
+          "start": 0.0,
+          "end": 1.593
+        },
+        {
+          "text": "Giữa tháng Mười năm 2026,",
+          "start": 1.593,
+          "end": 4.361
+        },
+        {
+          "text": "giá xăng thường trung bình toàn nước Mỹ khoảng 4,36 đô một ga-lông,",
+          "start": 4.361,
+          "end": 9.521
+        },
+        {
+          "text": "còn ở California là hơn 6,30 đô.",
+          "start": 9.521,
+          "end": 12.861
+        },
+        {
+          "text": "Một tài xế Mỹ chạy trung bình khoảng 13.500 dặm mỗi năm, tức gần 22.000 cây số.",
+          "start": 12.861,
+          "end": 19.164
+        },
+        {
+          "text": "Với một chiếc xe chạy khoảng hai mươi lăm dặm mỗi ga-lông,",
+          "start": 19.164,
+          "end": 22.693
+        },
+        {
+          "text": "tiền xăng mỗi năm khoảng 2.350 đô theo giá trung bình toàn quốc,",
+          "start": 22.693,
+          "end": 27.426
+        },
+        {
+          "text": "và khoảng 3.400 đô ở California.",
+          "start": 27.426,
+          "end": 30.664
+        }
+      ],
+      "markers": {
+        "nat": 1.593,
+        "ca": 9.521,
+        "miles": 12.861,
+        "cost": 19.164,
+        "cacost": 27.426
+      }
+    },
+    {
+      "id": "hidden",
+      "file": "hidden.mp3",
+      "hash": "24c0176b586d",
+      "durationSec": 30.534,
+      "cues": [
+        {
+          "text": "Khoản thứ năm là những chi phí ít ai để ý.",
+          "start": 0.0,
+          "end": 2.75
+        },
+        {
+          "text": "Lớn nhất là mất giá.",
+          "start": 2.75,
+          "end": 4.486
+        },
+        {
+          "text": "Theo AAA, một chiếc xe mới mất trung bình khoảng",
+          "start": 4.486,
+          "end": 7.696
+        },
+        {
+          "text": "4.400 đô giá trị mỗi năm trong năm năm đầu.",
+          "start": 7.696,
+          "end": 10.714
+        },
+        {
+          "text": "Sau năm năm, xe thường chỉ còn khoảng sáu mươi phần trăm giá trị, hoặc thấp hơn.",
+          "start": 10.714,
+          "end": 15.196
+        },
+        {
+          "text": "Bảo dưỡng, sửa chữa và thay lốp: khoảng 1.750 đô một năm.",
+          "start": 15.196,
+          "end": 20.333
+        },
+        {
+          "text": "Phí đăng ký, biển số và thuế hằng năm: khoảng 800 đô.",
+          "start": 20.333,
+          "end": 24.777
+        },
+        {
+          "text": "Còn ở trung tâm New York hay San Francisco,",
+          "start": 24.777,
+          "end": 27.92
+        },
+        {
+          "text": "riêng chỗ đậu xe có thể tốn vài trăm đô mỗi tháng.",
+          "start": 27.92,
+          "end": 30.527
+        }
+      ],
+      "markers": {
+        "dep": 2.75,
+        "five": 10.714,
+        "maint": 15.196,
+        "reg": 20.333,
+        "park": 24.777
+      }
+    },
+    {
+      "id": "total",
+      "file": "total.mp3",
+      "hash": "ce04c2535577",
+      "durationSec": 49.124,
+      "cues": [
+        {
+          "text": "Giờ hãy cộng lại theo cách tính của AAA,",
+          "start": 0.0,
+          "end": 2.679
+        },
+        {
+          "text": "cho một chiếc xe mới chạy mười lăm ngàn dặm mỗi năm.",
+          "start": 2.679,
+          "end": 6.349
+        },
+        {
+          "text": "Mất giá 4.420.",
+          "start": 6.349,
+          "end": 9.563
+        },
+        {
+          "text": "Lãi vay 1.180.",
+          "start": 9.563,
+          "end": 12.51
+        },
+        {
+          "text": "Bảo hiểm 2.100.",
+          "start": 12.51,
+          "end": 15.412
+        },
+        {
+          "text": "Xăng 2.600.",
+          "start": 15.412,
+          "end": 17.787
+        },
+        {
+          "text": "Bảo dưỡng và lốp 1.760.",
+          "start": 17.787,
+          "end": 22.153
+        },
+        {
+          "text": "Đăng ký và thuế 800.",
+          "start": 22.153,
+          "end": 25.375
+        },
+        {
+          "text": "Tổng cộng gần 12.900 đô một năm, tức gần 1.070 đô mỗi tháng, khoảng 28 triệu đồng.",
+          "start": 25.375,
+          "end": 34.932
+        },
+        {
+          "text": "Theo quy tắc phổ biến,",
+          "start": 34.932,
+          "end": 37.234
+        },
+        {
+          "text": "chi phí xe không nên vượt quá mười phần trăm thu nhập trước thuế.",
+          "start": 37.234,
+          "end": 40.903
+        },
+        {
+          "text": "Tức là bạn cần thu nhập gần 129.000 đô một năm để",
+          "start": 40.903,
+          "end": 45.875
+        },
+        {
+          "text": "nuôi một chiếc xe mới trung bình cho thật thoải mái.",
+          "start": 45.875,
+          "end": 49.118
+        }
+      ],
+      "markers": {
+        "l1": 6.349,
+        "l2": 9.563,
+        "l3": 12.51,
+        "l4": 15.412,
+        "l5": 17.787,
+        "l6": 22.153,
+        "sum": 25.375,
+        "mo": 28.975,
+        "vnd": 32.587,
+        "rule": 34.932,
+        "income": 40.903
+      }
+    },
+    {
+      "id": "tips",
+      "file": "tips.mp3",
+      "hash": "fc8215074619",
+      "durationSec": 49.282,
+      "cues": [
+        {
+          "text": "Vậy làm sao để nuôi xe nhẹ nhàng hơn?",
+          "start": 0.0,
+          "end": 2.598
+        },
+        {
+          "text": "Một: quy tắc hai mươi, bốn, mười.",
+          "start": 2.598,
+          "end": 5.262
+        },
+        {
+          "text": "Trả trước ít nhất 20%, vay không quá bốn năm,",
+          "start": 5.262,
+          "end": 9.0
+        },
+        {
+          "text": "và tổng chi phí xe không quá 10% thu nhập.",
+          "start": 9.0,
+          "end": 11.964
+        },
+        {
+          "text": "Hai: cân nhắc xe đã qua sử dụng hai, ba năm tuổi,",
+          "start": 11.964,
+          "end": 16.214
+        },
+        {
+          "text": "vì người chủ đầu tiên đã gánh phần mất giá nặng nhất.",
+          "start": 16.214,
+          "end": 18.929
+        },
+        {
+          "text": "Ba: xây dựng điểm tín dụng trước khi vay,",
+          "start": 18.929,
+          "end": 21.953
+        },
+        {
+          "text": "và so sánh lãi suất ở ngân hàng hoặc hiệp hội tín dụng trước khi bước vào đại lý.",
+          "start": 21.953,
+          "end": 26.349
+        },
+        {
+          "text": "Bốn: so sánh báo giá bảo hiểm mỗi năm.",
+          "start": 26.349,
+          "end": 29.403
+        },
+        {
+          "text": "Năm: chọn xe tiết kiệm nhiên liệu.",
+          "start": 29.403,
+          "end": 32.706
+        },
+        {
+          "text": "Theo AAA năm nay, sedan hybrid cỡ trung có chi phí sở hữu thấp nhất,",
+          "start": 32.706,
+          "end": 37.89
+        },
+        {
+          "text": "khoảng 10.200 đô một năm.",
+          "start": 37.89,
+          "end": 39.992
+        },
+        {
+          "text": "Và nếu bạn mới sang:",
+          "start": 39.992,
+          "end": 41.82
+        },
+        {
+          "text": "bằng lái Việt Nam không đổi trực tiếp được ở Texas hay California,",
+          "start": 41.82,
+          "end": 46.188
+        },
+        {
+          "text": "bạn cần thi lý thuyết và thi lái để có bằng của tiểu bang.",
+          "start": 46.188,
+          "end": 49.278
+        }
+      ],
+      "markers": {
+        "t1": 2.598,
+        "t2": 11.964,
+        "t3": 18.929,
+        "t4": 26.349,
+        "t5": 29.403,
+        "lic": 39.992
+      }
+    },
+    {
+      "id": "outro",
+      "file": "outro.mp3",
+      "hash": "a5557e0e71bc",
+      "durationSec": 18.395,
+      "cues": [
+        {
+          "text": "Tóm lại, giá mua chỉ là phần nổi của tảng băng.",
+          "start": 0.0,
+          "end": 2.929
+        },
+        {
+          "text": "Mỗi năm, nuôi một chiếc xe mới tốn khoảng một phần tư giá trị chiếc xe đó.",
+          "start": 2.929,
+          "end": 7.634
+        },
+        {
+          "text": "Còn bạn, chiếc xe của bạn tốn bao nhiêu mỗi tháng, và bạn chọn xe mới hay xe cũ?",
+          "start": 7.634,
+          "end": 13.044
+        },
+        {
+          "text": "Hãy chia sẻ ở phần bình luận.",
+          "start": 13.044,
+          "end": 15.134
+        },
+        {
+          "text": "Đừng quên đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo.",
+          "start": 15.134,
+          "end": 18.384
+        }
+      ],
+      "markers": {
+        "key": 2.929,
+        "q": 7.634,
+        "sub": 15.134
+      }
+    }
+  ]
+}

@@ -30,25 +30,50 @@ scripts/
 ├── music.py                  # tổng hợp nhạc nền + hiệu ứng âm thanh
 └── render.mjs                # render ra out/
 docs/kich-ban/                # kịch bản, bản review, nguồn số liệu
-public/audio/                 # (tự sinh, không đưa lên git)
+public/audio/                 # giọng đọc + mốc thời gian (có trên git)
 out/                          # video thành phẩm (không đưa lên git)
 ```
 
-## Cài đặt lần đầu (trên PC)
+## Render trên PC (chỉ 2 bước)
 
-Cần [Node.js 20+](https://nodejs.org) và [Python 3.9+](https://www.python.org).
+Kịch bản, giọng đọc (`public/audio/`) và file SEO (`docs/youtube/`) đều có sẵn trên GitHub.
+Trên PC chỉ cần tải cảnh quay rồi render — **không** chạy `npm run tts` (tốn credit ElevenLabs).
+
+Lần đầu: cài [Node.js 20+](https://nodejs.org) và [Python 3.9+](https://www.python.org), rồi
 
 ```bash
+git clone https://github.com/vanduc04091/tinnuocmy_video.git
+cd tinnuocmy_video
+git checkout claude/gracious-faraday-5b34co
 npm install
-pip install edge-tts numpy
+copy .env.example .env          # Windows; macOS/Linux: cp .env.example .env
 ```
 
-**Khóa API:** chép `.env.example` thành `.env` rồi điền key (file `.env` không bao giờ được đưa lên git):
+Mở `.env`, điền `PIXABAY_API_KEY=...` (lấy ở https://pixabay.com/api/docs/ khi đã đăng nhập).
 
+Mỗi lần có tập mới:
+
+```bash
+git pull
+npm run broll -- <tên-video>     # 1. tải cảnh quay (miễn phí)
+npm run render -- <tên-video>    # 2. render -> out/<tên-video>.mp4 (1080p, -14 LUFS)
 ```
-ELEVENLABS_API_KEY=sk_...      # giọng đọc ElevenLabs (tập 1, tập 2)
-PIXABAY_API_KEY=...            # tải cảnh quay
-```
+
+| Tập | `<tên-video>` | SEO |
+|---|---|---|
+| 1 | `song-o-my-phong-su` | `docs/youtube/tap-01-song-o-my-bao-nhieu-tien.md` |
+| 2 | `luong-4000-usd` | `docs/youtube/tap-02-luong-4000-usd.md` |
+| 3 | `california-vs-texas` | `docs/youtube/tap-03-california-vs-texas.md` |
+| 4 | `gia-dinh-4-nguoi` | `docs/youtube/tap-04-gia-dinh-4-nguoi.md` |
+| 5 | `luong-cao-kho-tiet-kiem` | `docs/youtube/tap-05-luong-cao-kho-tiet-kiem.md` |
+| 6 | `chi-phi-o-to` | `docs/youtube/tap-06-chi-phi-o-to.md` |
+
+Tên tác giả cảnh quay (dán vào mô tả YouTube): `public/broll/<tên-video>/credits.txt`.
+
+## Tạo giọng đọc mới (chỉ khi sửa lời đọc)
+
+Cần `pip install edge-tts numpy` và `ELEVENLABS_API_KEY` trong `.env`, rồi `npm run tts -- <tên-video>` —
+chỉ những cảnh bị sửa lời mới gọi ElevenLabs. Nhớ commit lại `public/audio/<tên-video>/`.
 
 ## Giọng đọc
 

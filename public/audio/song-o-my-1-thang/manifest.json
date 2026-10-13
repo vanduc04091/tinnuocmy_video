@@ -1,0 +1,651 @@
+{
+  "slug": "song-o-my-1-thang",
+  "voice": "vi-VN-NamMinhNeural",
+  "rate": "-4%",
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "hook.mp3",
+      "hash": "77aae0f4cbd2",
+      "durationSec": 22.128,
+      "cues": [
+        {
+          "text": "3.000 đô la một tháng.",
+          "start": 0.1,
+          "end": 1.663
+        },
+        {
+          "text": "Ở Việt Nam, đó là thu nhập mà nhiều người mơ ước.",
+          "start": 2.537,
+          "end": 5.428
+        },
+        {
+          "text": "Nhưng ở Mỹ, với không ít người, con số này chỉ vừa đủ để trang trải.",
+          "start": 6.3,
+          "end": 10.688
+        },
+        {
+          "text": "Vậy rốt cuộc, sống ở Mỹ một tháng hết bao nhiêu tiền?",
+          "start": 11.56,
+          "end": 14.594
+        },
+        {
+          "text": "Hôm nay, chúng ta sẽ tính từng khoản một, dựa trên số liệu mới nhất năm 2026.",
+          "start": 15.467,
+          "end": 21.248
+        }
+      ],
+      "markers": {
+        "vn": 2.537,
+        "us": 6.3,
+        "q": 11.56,
+        "data": 15.467
+      }
+    },
+    {
+      "id": "assumptions",
+      "file": "assumptions.mp3",
+      "hash": "35d68688acdd",
+      "durationSec": 29.16,
+      "cues": [
+        {
+          "text": "Xin chào quý vị và các bạn, đây là Tin Nước Mỹ.",
+          "start": 0.1,
+          "end": 3.212
+        },
+        {
+          "text": "Để con số có ý nghĩa, chúng ta cần thống nhất vài giả định.",
+          "start": 4.086,
+          "end": 7.68
+        },
+        {
+          "text": "Đây là chi phí cho một người độc thân, thuê một căn hộ một phòng ngủ,",
+          "start": 8.553,
+          "end": 12.277
+        },
+        {
+          "text": "sống ở một thành phố có mức giá trung bình,",
+          "start": 12.277,
+          "end": 14.477
+        },
+        {
+          "text": "và đi làm bằng xe hơi riêng, như phần lớn người Mỹ.",
+          "start": 14.477,
+          "end": 17.524
+        },
+        {
+          "text": "Tất cả là tiền chi tiêu sau thuế.",
+          "start": 18.396,
+          "end": 20.428
+        },
+        {
+          "text": "Cuối video, chúng ta sẽ xem con số thay đổi thế nào nếu quý vị sống ở New York,",
+          "start": 21.3,
+          "end": 25.831
+        },
+        {
+          "text": "ở một thành phố nhỏ, hay là du học sinh.",
+          "start": 25.831,
+          "end": 28.279
+        }
+      ],
+      "markers": {
+        "p1": 8.553,
+        "p2": 10.584,
+        "p3": 12.277,
+        "p4": 14.477,
+        "p5": 18.396,
+        "end": 21.3
+      }
+    },
+    {
+      "id": "housing",
+      "file": "housing.mp3",
+      "hash": "a950ca51087a",
+      "durationSec": 42.168,
+      "cues": [
+        {
+          "text": "Khoản đầu tiên, và cũng là khoản lớn nhất: tiền nhà.",
+          "start": 0.1,
+          "end": 3.355
+        },
+        {
+          "text": "Theo dữ liệu giá thuê tháng Chín năm 2026,",
+          "start": 4.23,
+          "end": 7.719
+        },
+        {
+          "text": "giá thuê trung vị của một căn hộ một phòng ngủ,",
+          "start": 7.719,
+          "end": 10.323
+        },
+        {
+          "text": "tính trên toàn nước Mỹ, là khoảng 1.518 đô.",
+          "start": 10.323,
+          "end": 13.761
+        },
+        {
+          "text": "Nhưng con số này che giấu một khoảng cách rất lớn.",
+          "start": 14.633,
+          "end": 17.355
+        },
+        {
+          "text": "Ở New York, căn một phòng ngủ có giá trung vị khoảng 4.580 đô.",
+          "start": 18.227,
+          "end": 22.472
+        },
+        {
+          "text": "San Francisco cũng xấp xỉ 4.400 đô.",
+          "start": 23.344,
+          "end": 26.56
+        },
+        {
+          "text": "Một lưu ý thực tế: chủ nhà ở Mỹ thường yêu cầu thu nhập gấp khoảng ba lần tiền thuê,",
+          "start": 27.433,
+          "end": 32.472
+        },
+        {
+          "text": "và quý vị nên chuẩn bị sẵn tiền cọc, thường từ một đến hai tháng tiền nhà.",
+          "start": 32.472,
+          "end": 36.378
+        },
+        {
+          "text": "Trong bảng tính của chúng ta, tiền nhà là 1.500 đô mỗi tháng.",
+          "start": 37.251,
+          "end": 41.287
+        }
+      ],
+      "markers": {
+        "median": 4.23,
+        "gap": 14.633,
+        "nyc": 18.227,
+        "sf": 23.344,
+        "rule": 27.433,
+        "deposit": 32.472,
+        "pick": 37.251
+      }
+    },
+    {
+      "id": "utilities",
+      "file": "utilities.mp3",
+      "hash": "f30a9f4f7f4d",
+      "durationSec": 29.76,
+      "cues": [
+        {
+          "text": "Tiếp theo là các hóa đơn tiện ích.",
+          "start": 0.1,
+          "end": 2.053
+        },
+        {
+          "text": "Điện, nước, gas và rác cho một căn hộ nhỏ thường rơi vào khoảng 100 đến 250 đô,",
+          "start": 2.928,
+          "end": 8.448
+        },
+        {
+          "text": "tùy mùa và tùy tiểu bang.",
+          "start": 8.448,
+          "end": 9.907
+        },
+        {
+          "text": "Mùa hè ở Texas hay mùa đông ở vùng Trung Tây có thể đẩy hóa đơn lên khá cao.",
+          "start": 10.779,
+          "end": 15.31
+        },
+        {
+          "text": "Internet tốc độ cao khoảng 60 đến 80 đô.",
+          "start": 16.183,
+          "end": 19.021
+        },
+        {
+          "text": "Điện thoại di động, nếu chọn các nhà mạng giá rẻ, chỉ khoảng 30 đến 50 đô.",
+          "start": 19.894,
+          "end": 24.803
+        },
+        {
+          "text": "Cộng lại, chúng ta tính 250 đô cho nhóm này.",
+          "start": 25.675,
+          "end": 28.878
+        }
+      ],
+      "markers": {
+        "power": 2.928,
+        "season": 10.779,
+        "net": 16.183,
+        "phone": 19.894,
+        "pick": 25.675
+      }
+    },
+    {
+      "id": "food",
+      "file": "food.mp3",
+      "hash": "864d32b6c204",
+      "durationSec": 31.872,
+      "cues": [
+        {
+          "text": "Về ăn uống.",
+          "start": 0.1,
+          "end": 1.116
+        },
+        {
+          "text": "Bộ Nông nghiệp Mỹ ước tính,",
+          "start": 1.99,
+          "end": 3.618
+        },
+        {
+          "text": "một người trưởng thành tự nấu ăn ở mức tiết kiệm cần khoảng 250 đến 320 đô mỗi tháng.",
+          "start": 3.618,
+          "end": 9.06
+        },
+        {
+          "text": "Nhưng thực tế, ít ai tự nấu đủ cả ba bữa.",
+          "start": 9.933,
+          "end": 12.967
+        },
+        {
+          "text": "Một bữa trưa ở ngoài thường từ 15 đến 20 đô, chưa kể tiền tip.",
+          "start": 13.839,
+          "end": 18.136
+        },
+        {
+          "text": "Vì vậy, một ngân sách thực tế hơn,",
+          "start": 19.008,
+          "end": 21.287
+        },
+        {
+          "text": "gồm đi chợ và thỉnh thoảng ăn ngoài, là khoảng 500 đô một tháng.",
+          "start": 21.287,
+          "end": 25.141
+        },
+        {
+          "text": "Mẹo nhỏ: các chợ Á Đông và chợ Việt thường rẻ hơn đáng kể cho những món ăn quen thuộc.",
+          "start": 26.014,
+          "end": 30.988
+        }
+      ],
+      "markers": {
+        "usda": 1.99,
+        "out": 9.933,
+        "pick": 19.008,
+        "tip": 26.014
+      }
+    },
+    {
+      "id": "car",
+      "file": "car.mp3",
+      "hash": "b6714ada94c9",
+      "durationSec": 36.216,
+      "cues": [
+        {
+          "text": "Khoản thứ tư có thể khiến nhiều người bất ngờ: chiếc xe.",
+          "start": 0.1,
+          "end": 3.121
+        },
+        {
+          "text": "Theo Hiệp hội Ô tô Mỹ, chi phí sở hữu một chiếc xe mới, tính cả khấu hao,",
+          "start": 3.995,
+          "end": 8.735
+        },
+        {
+          "text": "bảo hiểm, xăng và bảo dưỡng, là khoảng 11.577 đô một năm, tức gần 965 đô mỗi tháng.",
+          "start": 8.735,
+          "end": 16.105
+        },
+        {
+          "text": "Nếu mua một chiếc xe cũ đáng tin cậy,",
+          "start": 16.977,
+          "end": 19.256
+        },
+        {
+          "text": "con số này có thể giảm xuống khoảng 600 đến 700 đô,",
+          "start": 19.256,
+          "end": 22.55
+        },
+        {
+          "text": "gồm tiền góp xe, bảo hiểm, xăng và sửa chữa.",
+          "start": 22.55,
+          "end": 25.818
+        },
+        {
+          "text": "Riêng bảo hiểm xe cho người mới đến Mỹ,",
+          "start": 26.691,
+          "end": 29.008
+        },
+        {
+          "text": "chưa có lịch sử lái xe, thường cao hơn mức trung bình.",
+          "start": 29.008,
+          "end": 31.99
+        },
+        {
+          "text": "Chúng ta chọn 650 đô cho khoản này.",
+          "start": 32.862,
+          "end": 35.336
+        }
+      ],
+      "markers": {
+        "aaa": 3.995,
+        "used": 16.977,
+        "ins": 26.691,
+        "pick": 32.862
+      }
+    },
+    {
+      "id": "health",
+      "file": "health.mp3",
+      "hash": "170f796a3047",
+      "durationSec": 40.176,
+      "cues": [
+        {
+          "text": "Và đây là khoản mà người mới sang thường bỏ sót: bảo hiểm sức khỏe.",
+          "start": 0.1,
+          "end": 3.967
+        },
+        {
+          "text": "Nếu quý vị đi làm toàn thời gian, công ty thường trả phần lớn phí bảo hiểm;",
+          "start": 4.842,
+          "end": 9.347
+        },
+        {
+          "text": "phần người lao động đóng trung bình chỉ khoảng 120 đô mỗi tháng.",
+          "start": 9.347,
+          "end": 12.863
+        },
+        {
+          "text": "Nhưng nếu tự mua trên sàn bảo hiểm của chính phủ,",
+          "start": 13.735,
+          "end": 16.482
+        },
+        {
+          "text": "theo một tổ chức nghiên cứu y tế độc lập,",
+          "start": 16.482,
+          "end": 18.696
+        },
+        {
+          "text": "phí trung bình năm 2026 cho một người bốn mươi tuổi là 625 đô mỗi tháng,",
+          "start": 18.696,
+          "end": 24.243
+        },
+        {
+          "text": "trước khi được trợ cấp.",
+          "start": 24.243,
+          "end": 25.258
+        },
+        {
+          "text": "Đừng bao giờ sống ở Mỹ mà không có bảo hiểm:",
+          "start": 26.131,
+          "end": 28.67
+        },
+        {
+          "text": "chỉ một lần vào phòng cấp cứu có thể tốn hàng ngàn đô.",
+          "start": 28.67,
+          "end": 31.378
+        },
+        {
+          "text": "Trong bảng tính, chúng ta giả định quý vị có bảo hiểm qua công ty:",
+          "start": 32.251,
+          "end": 36.209
+        },
+        {
+          "text": "150 đô, đã gồm các khoản đồng chi trả.",
+          "start": 36.209,
+          "end": 39.282
+        }
+      ],
+      "markers": {
+        "job": 4.842,
+        "aca": 13.735,
+        "warn": 26.131,
+        "pick": 32.251
+      }
+    },
+    {
+      "id": "other",
+      "file": "other.mp3",
+      "hash": "38340e73d141",
+      "durationSec": 19.44,
+      "cues": [
+        {
+          "text": "Cuối cùng là những khoản nhỏ, nhưng cộng lại không hề nhỏ: quần áo,",
+          "start": 0.1,
+          "end": 4.358
+        },
+        {
+          "text": "đồ dùng cá nhân, cắt tóc, giặt đồ, các gói xem phim, một buổi đi chơi cuối tuần.",
+          "start": 4.358,
+          "end": 9.54
+        },
+        {
+          "text": "Ở mức tiết chế, chúng ta tính khoảng 300 đô mỗi tháng.",
+          "start": 10.415,
+          "end": 13.865
+        },
+        {
+          "text": "Và đó là chưa kể tiền gửi về gia đình, hay tiết kiệm cho tương lai.",
+          "start": 14.738,
+          "end": 18.566
+        }
+      ],
+      "markers": {
+        "i1": 3.538,
+        "i2": 4.358,
+        "i3": 5.582,
+        "i4": 6.298,
+        "i5": 7.092,
+        "i6": 8.212,
+        "pick": 10.415,
+        "note": 14.738
+      }
+    },
+    {
+      "id": "total",
+      "file": "total.mp3",
+      "hash": "b02f373ae606",
+      "durationSec": 31.152,
+      "cues": [
+        {
+          "text": "Giờ hãy cộng tất cả lại.",
+          "start": 0.1,
+          "end": 1.741
+        },
+        {
+          "text": "Tiền nhà 1.500.",
+          "start": 2.615,
+          "end": 4.178
+        },
+        {
+          "text": "Tiện ích 250.",
+          "start": 5.05,
+          "end": 6.56
+        },
+        {
+          "text": "Ăn uống 500.",
+          "start": 7.433,
+          "end": 8.553
+        },
+        {
+          "text": "Xe hơi 650.",
+          "start": 9.425,
+          "end": 11.053
+        },
+        {
+          "text": "Bảo hiểm sức khỏe 150.",
+          "start": 11.925,
+          "end": 13.969
+        },
+        {
+          "text": "Chi tiêu khác 300.",
+          "start": 14.842,
+          "end": 16.287
+        },
+        {
+          "text": "Tổng cộng: khoảng 3.350 đô một tháng, tương đương hơn 85 triệu đồng.",
+          "start": 17.159,
+          "end": 22.146
+        },
+        {
+          "text": "Để chi tiêu được như vậy sau thuế mà vẫn để dành được một ít,",
+          "start": 23.019,
+          "end": 26.105
+        },
+        {
+          "text": "thu nhập trước thuế của quý vị nên ở mức khoảng 55.000 đô một năm trở lên.",
+          "start": 26.105,
+          "end": 30.271
+        }
+      ],
+      "markers": {
+        "l1": 2.615,
+        "l2": 5.05,
+        "l3": 7.433,
+        "l4": 9.425,
+        "l5": 11.925,
+        "l6": 14.842,
+        "sum": 17.159,
+        "vnd": 20.349,
+        "income": 23.019
+      }
+    },
+    {
+      "id": "scenarios",
+      "file": "scenarios.mp3",
+      "hash": "a2d5976d1588",
+      "durationSec": 32.376,
+      "cues": [
+        {
+          "text": "Nhưng như đã nói, nơi quý vị sống quyết định phần lớn chi phí.",
+          "start": 0.1,
+          "end": 3.798
+        },
+        {
+          "text": "Ở một thành phố nhỏ hoặc vùng ven, với tiền nhà khoảng một ngàn đô,",
+          "start": 4.672,
+          "end": 8.527
+        },
+        {
+          "text": "tổng chi phí có thể chỉ khoảng 2.700 đô.",
+          "start": 8.527,
+          "end": 11.118
+        },
+        {
+          "text": "Ngược lại, ở New York hay San Francisco, dù có thể bỏ xe để đi tàu điện,",
+          "start": 11.99,
+          "end": 16.912
+        },
+        {
+          "text": "tiền nhà hơn bốn ngàn đô sẽ đẩy tổng chi phí lên khoảng 6.000 đô hoặc hơn.",
+          "start": 16.912,
+          "end": 20.883
+        },
+        {
+          "text": "Còn với du học sinh, ở ghép với bạn, không có xe, dùng bảo hiểm của trường,",
+          "start": 21.756,
+          "end": 26.417
+        },
+        {
+          "text": "chi phí sinh hoạt thường vào khoảng 1.500 đến 2.000 đô mỗi tháng, chưa tính học phí.",
+          "start": 26.417,
+          "end": 31.495
+        }
+      ],
+      "markers": {
+        "small": 4.672,
+        "big": 11.99,
+        "student": 21.756
+      }
+    },
+    {
+      "id": "tips",
+      "file": "tips.mp3",
+      "hash": "7bff28ec24a1",
+      "durationSec": 27.504,
+      "cues": [
+        {
+          "text": "Vậy làm sao để giảm chi phí?",
+          "start": 0.1,
+          "end": 1.949
+        },
+        {
+          "text": "Có ba điều quý vị nên làm ngay.",
+          "start": 2.823,
+          "end": 4.672
+        },
+        {
+          "text": "Một: giữ tiền nhà dưới khoảng ba mươi phần trăm thu nhập;",
+          "start": 5.545,
+          "end": 8.878
+        },
+        {
+          "text": "ở ghép là cách tiết kiệm nhanh nhất trong những năm đầu.",
+          "start": 8.878,
+          "end": 11.495
+        },
+        {
+          "text": "Hai: mua xe cũ đáng tin cậy, và so sánh giá bảo hiểm xe ở nhiều hãng mỗi năm.",
+          "start": 12.368,
+          "end": 17.42
+        },
+        {
+          "text": "Ba: xây dựng lịch sử tín dụng càng sớm càng tốt,",
+          "start": 18.292,
+          "end": 21.3
+        },
+        {
+          "text": "vì điểm tín dụng tốt giúp quý vị thuê nhà dễ hơn,",
+          "start": 21.3,
+          "end": 24.269
+        },
+        {
+          "text": "vay mua xe và mua nhà với lãi suất thấp hơn.",
+          "start": 24.269,
+          "end": 26.612
+        }
+      ],
+      "markers": {
+        "t1": 5.545,
+        "t2": 12.368,
+        "t3": 18.292
+      }
+    },
+    {
+      "id": "outro",
+      "file": "outro.mp3",
+      "hash": "952eebd3f6ff",
+      "durationSec": 24.552,
+      "cues": [
+        {
+          "text": "Tóm lại, một người độc thân ở thành phố có mức giá trung",
+          "start": 0.1,
+          "end": 2.978
+        },
+        {
+          "text": "bình cần khoảng 3.350 đô mỗi tháng để sống ổn định ở Mỹ.",
+          "start": 2.978,
+          "end": 6.832
+        },
+        {
+          "text": "Còn quý vị đang sống ở đâu, và chi phí mỗi tháng của quý vị là bao nhiêu?",
+          "start": 7.706,
+          "end": 11.821
+        },
+        {
+          "text": "Hãy chia sẻ ở phần bình luận để mọi người cùng tham khảo.",
+          "start": 12.693,
+          "end": 15.779
+        },
+        {
+          "text": "Nếu thấy video hữu ích, đừng quên đăng ký kênh Tin Nước Mỹ.",
+          "start": 16.652,
+          "end": 20.428
+        },
+        {
+          "text": "Hẹn gặp lại quý vị trong video tiếp theo.",
+          "start": 21.3,
+          "end": 23.657
+        }
+      ],
+      "markers": {
+        "q": 7.706,
+        "sub": 16.652
+      }
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "slug": "luong-cao-kho-tiet-kiem",
+  "voice": "vi-VN-NamMinhNeural",
+  "rate": "-4%",
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "hook.mp3",
+      "hash": "d0145817330f",
+      "durationSec": 26.385,
+      "cues": [
+        {
+          "text": "Lương 150.000 đô một năm, tức khoảng 3,9 tỷ đồng.",
+          "start": 0.0,
+          "end": 3.571
+        },
+        {
+          "text": "Ở Việt Nam, đó là mức thu nhập mơ ước.",
+          "start": 3.571,
+          "end": 6.33
+        },
+        {
+          "text": "Vậy mà theo một khảo sát lớn đầu năm 2026,",
+          "start": 6.33,
+          "end": 9.661
+        },
+        {
+          "text": "gần một nửa người Mỹ có thu nhập trên 150.000 đô vẫn sống cảnh hết tháng hết tiền.",
+          "start": 9.661,
+          "end": 14.92
+        },
+        {
+          "text": "Ở nhóm thu nhập từ 100.000 đến 150.000 đô, con số này là hơn sáu trên mười người.",
+          "start": 14.92,
+          "end": 21.161
+        },
+        {
+          "text": "Lương cao như vậy, tiền đi đâu hết?",
+          "start": 21.161,
+          "end": 23.733
+        },
+        {
+          "text": "Hôm nay, Tin Nước Mỹ sẽ lần theo từng đồng.",
+          "start": 23.733,
+          "end": 26.375
+        }
+      ],
+      "markers": {
+        "vnd": 1.893,
+        "pct": 6.33,
+        "mid": 14.92,
+        "plan": 21.161
+      }
+    },
+    {
+      "id": "profile",
+      "file": "profile.mp3",
+      "hash": "785752322297",
+      "durationSec": 13.078,
+      "cues": [
+        {
+          "text": "Hãy theo chân một người: độc thân, kỹ sư phần mềm ở San Francisco,",
+          "start": 0.0,
+          "end": 5.107
+        },
+        {
+          "text": "lương 150.000 đô một năm, tức 12.500 đô mỗi tháng trước thuế.",
+          "start": 5.107,
+          "end": 9.298
+        },
+        {
+          "text": "Không thiếu tiền, nhưng cũng không hề dư dả như nhiều người nghĩ.",
+          "start": 9.298,
+          "end": 13.072
+        }
+      ],
+      "markers": {
+        "p1": 1.464,
+        "p2": 2.5,
+        "p3": 5.107,
+        "p4": 9.298
+      }
+    },
+    {
+      "id": "tax",
+      "file": "tax.mp3",
+      "hash": "7de4d74015ec",
+      "durationSec": 25.65,
+      "cues": [
+        {
+          "text": "Khoản đầu tiên rời khỏi tài khoản: thuế.",
+          "start": 0.0,
+          "end": 2.732
+        },
+        {
+          "text": "Thuế thu nhập liên bang: khoảng 2.060 đô mỗi tháng.",
+          "start": 2.732,
+          "end": 7.119
+        },
+        {
+          "text": "An sinh xã hội và Medicare: khoảng 960 đô.",
+          "start": 7.119,
+          "end": 11.536
+        },
+        {
+          "text": "Thuế tiểu bang California và bảo hiểm khuyết tật: gần 970 đô.",
+          "start": 11.536,
+          "end": 17.0
+        },
+        {
+          "text": "Từ 12.500, về tay còn khoảng 8.500 đô.",
+          "start": 17.0,
+          "end": 21.571
+        },
+        {
+          "text": "Gần một phần ba tiền lương đã đi mất, trước khi kịp chạm vào tài khoản.",
+          "start": 21.571,
+          "end": 25.643
+        }
+      ],
+      "markers": {
+        "fed": 2.732,
+        "fica": 7.119,
+        "ca": 11.536,
+        "net": 17.0,
+        "third": 21.571
+      }
+    },
+    {
+      "id": "housing",
+      "file": "housing.mp3",
+      "hash": "65a264fb9843",
+      "durationSec": 42.725,
+      "cues": [
+        {
+          "text": "Khoản thứ hai, và cũng là lớn nhất: nhà ở.",
+          "start": 0.0,
+          "end": 2.839
+        },
+        {
+          "text": "Giá thuê trung vị một căn hộ một phòng ngủ ở",
+          "start": 2.839,
+          "end": 5.482
+        },
+        {
+          "text": "San Francisco hiện khoảng 4.400 đô một tháng,",
+          "start": 5.482,
+          "end": 8.671
+        },
+        {
+          "text": "tăng hơn 25% chỉ trong một năm.",
+          "start": 8.671,
+          "end": 11.393
+        },
+        {
+          "text": "Tức hơn một nửa số tiền về tay,",
+          "start": 11.393,
+          "end": 13.596
+        },
+        {
+          "text": "trong khi lời khuyên phổ biến là tiền nhà không nên vượt quá 30%.",
+          "start": 13.596,
+          "end": 18.072
+        },
+        {
+          "text": "Còn mua nhà?",
+          "start": 18.072,
+          "end": 19.394
+        },
+        {
+          "text": "Giá nhà trung vị ở San Francisco khoảng 1,55 triệu đô.",
+          "start": 19.394,
+          "end": 23.668
+        },
+        {
+          "text": "Trả trước 20%, vay ba mươi năm với lãi suất hiện tại khoảng 7,4%,",
+          "start": 23.668,
+          "end": 29.115
+        },
+        {
+          "text": "tiền góp mỗi tháng gần 8.600 đô, nhiều hơn toàn bộ lương về tay của người kỹ sư này.",
+          "start": 29.115,
+          "end": 35.311
+        },
+        {
+          "text": "Ngay cả căn nhà giá trung vị toàn nước Mỹ,",
+          "start": 35.311,
+          "end": 37.715
+        },
+        {
+          "text": "khoảng 429.000 đô, tiền góp cũng gần 2.400 đô mỗi tháng.",
+          "start": 37.715,
+          "end": 42.715
+        }
+      ],
+      "markers": {
+        "rent": 2.839,
+        "share": 11.393,
+        "buy": 18.072,
+        "pay": 23.668,
+        "more": 32.048,
+        "us": 35.311
+      }
+    },
+    {
+      "id": "debt",
+      "file": "debt.mp3",
+      "hash": "bdda9ebfa154",
+      "durationSec": 31.993,
+      "cues": [
+        {
+          "text": "Khoản thứ ba: những món nợ cố định.",
+          "start": 0.0,
+          "end": 2.563
+        },
+        {
+          "text": "Xe hơi: tiền góp trung bình cho một chiếc xe mới ở Mỹ là khoảng 765 đô mỗi tháng,",
+          "start": 2.563,
+          "end": 9.111
+        },
+        {
+          "text": "và cứ năm người mua xe mới thì có một người trả trên 1.000 đô mỗi tháng.",
+          "start": 9.111,
+          "end": 13.912
+        },
+        {
+          "text": "Nợ sinh viên: trung bình mỗi người vay liên bang còn nợ gần 40.000 đô.",
+          "start": 13.912,
+          "end": 19.173
+        },
+        {
+          "text": "Trả trong mười năm, đó là khoảng 450 đô mỗi tháng.",
+          "start": 19.173,
+          "end": 23.055
+        },
+        {
+          "text": "Và thẻ tín dụng: người Mỹ đang nợ tổng cộng khoảng 1.260 tỷ đô,",
+          "start": 23.055,
+          "end": 28.752
+        },
+        {
+          "text": "với lãi suất trung bình trên 21% một năm.",
+          "start": 28.752,
+          "end": 31.984
+        }
+      ],
+      "markers": {
+        "car": 2.563,
+        "k": 9.111,
+        "student": 13.912,
+        "card": 23.055
+      }
+    },
+    {
+      "id": "creep",
+      "file": "creep.mp3",
+      "hash": "45b7f936cead",
+      "durationSec": 36.503,
+      "cues": [
+        {
+          "text": "Khoản thứ tư khó thấy nhất, gọi là lạm phát lối sống.",
+          "start": 0.0,
+          "end": 3.357
+        },
+        {
+          "text": "Lương tăng, chi tiêu cũng tăng theo: xe đẹp hơn,",
+          "start": 3.357,
+          "end": 6.804
+        },
+        {
+          "text": "nhà rộng hơn, nhà hàng thay cho bữa cơm nhà.",
+          "start": 6.804,
+          "end": 9.762
+        },
+        {
+          "text": "Khảo sát của Cục Dự trữ Liên bang cho thấy số người tăng chi",
+          "start": 9.762,
+          "end": 13.386
+        },
+        {
+          "text": "tiêu trong năm còn nhiều hơn số người được tăng thu nhập.",
+          "start": 13.386,
+          "end": 16.524
+        },
+        {
+          "text": "Và trong nhóm thu nhập trên 150.000 đô đang sống hết tháng hết tiền,",
+          "start": 16.524,
+          "end": 21.402
+        },
+        {
+          "text": "gần một nửa thừa nhận đó là do lựa chọn của chính họ.",
+          "start": 21.402,
+          "end": 24.571
+        },
+        {
+          "text": "Những khoản nhỏ cũng cộng dồn:",
+          "start": 24.571,
+          "end": 27.107
+        },
+        {
+          "text": "một khảo sát cho thấy người Mỹ nghĩ mình chi khoảng",
+          "start": 27.107,
+          "end": 30.464
+        },
+        {
+          "text": "86 đô mỗi tháng cho các dịch vụ trả phí định kỳ,",
+          "start": 30.464,
+          "end": 34.107
+        },
+        {
+          "text": "nhưng thực tế là 219 đô.",
+          "start": 34.107,
+          "end": 36.5
+        }
+      ],
+      "markers": {
+        "raise": 3.357,
+        "shed": 9.762,
+        "choice": 16.524,
+        "sub": 24.571,
+        "real": 34.107
+      }
+    },
+    {
+      "id": "family",
+      "file": "family.mp3",
+      "hash": "e195ad5066d7",
+      "durationSec": 25.437,
+      "cues": [
+        {
+          "text": "Với người Việt, còn một khoản rất riêng: gửi tiền về quê.",
+          "start": 0.0,
+          "end": 3.75
+        },
+        {
+          "text": "Năm 2024, kiều hối về Việt Nam đạt khoảng 16 tỷ đô.",
+          "start": 3.75,
+          "end": 9.404
+        },
+        {
+          "text": "Riêng Thành phố Hồ Chí Minh, năm 2025 nhận hơn 10 tỷ đô.",
+          "start": 9.404,
+          "end": 15.071
+        },
+        {
+          "text": "Phụng dưỡng cha mẹ, giúp đỡ anh chị em là tình nghĩa.",
+          "start": 15.071,
+          "end": 18.797
+        },
+        {
+          "text": "Nhưng nếu không có kế hoạch,",
+          "start": 18.797,
+          "end": 20.726
+        },
+        {
+          "text": "khoản này có thể lấy đi phần tiền lẽ ra dành cho tương lai của chính mình.",
+          "start": 20.726,
+          "end": 25.429
+        }
+      ],
+      "markers": {
+        "home": 2.143,
+        "vn": 3.75,
+        "hcm": 9.404,
+        "duty": 15.071
+      }
+    },
+    {
+      "id": "month",
+      "file": "month.mp3",
+      "hash": "f145e53d4a3c",
+      "durationSec": 39.25,
+      "cues": [
+        {
+          "text": "Giờ hãy ghép lại một tháng của người kỹ sư này.",
+          "start": 0.0,
+          "end": 2.524
+        },
+        {
+          "text": "Về tay 8.510 đô.",
+          "start": 2.524,
+          "end": 5.12
+        },
+        {
+          "text": "Tiền nhà 4.400.",
+          "start": 5.12,
+          "end": 7.322
+        },
+        {
+          "text": "Góp xe 765.",
+          "start": 7.322,
+          "end": 9.697
+        },
+        {
+          "text": "Nợ sinh viên 450.",
+          "start": 9.697,
+          "end": 12.314
+        },
+        {
+          "text": "Ăn uống và sinh hoạt khoảng 1.500.",
+          "start": 12.314,
+          "end": 14.885
+        },
+        {
+          "text": "Gửi về gia đình 500.",
+          "start": 14.885,
+          "end": 16.725
+        },
+        {
+          "text": "Các dịch vụ trả phí và mua trả sau 220.",
+          "start": 16.725,
+          "end": 20.993
+        },
+        {
+          "text": "Còn lại khoảng 675 đô, chưa tới 6% tiền lương.",
+          "start": 20.993,
+          "end": 26.243
+        },
+        {
+          "text": "Con số này gần với tỷ lệ tiết kiệm trung bình của người Mỹ hiện nay:",
+          "start": 26.243,
+          "end": 29.743
+        },
+        {
+          "text": "chỉ khoảng 4% thu nhập.",
+          "start": 29.743,
+          "end": 32.052
+        },
+        {
+          "text": "Ngay cả trong nhóm thu nhập trên 100.000 đô,",
+          "start": 32.052,
+          "end": 35.052
+        },
+        {
+          "text": "cứ bốn người thì có một người không có đủ tiền dự phòng cho ba tháng.",
+          "start": 35.052,
+          "end": 39.243
+        }
+      ],
+      "markers": {
+        "start": 2.524,
+        "c1": 5.12,
+        "c2": 7.322,
+        "c3": 9.697,
+        "c4": 12.314,
+        "c5": 14.885,
+        "c6": 16.725,
+        "left": 20.993,
+        "rate": 26.243,
+        "fed": 32.052
+      }
+    },
+    {
+      "id": "tips",
+      "file": "tips.mp3",
+      "hash": "701ea033b03b",
+      "durationSec": 48.892,
+      "cues": [
+        {
+          "text": "Vậy làm sao để lương cao thực sự giữ lại được tiền?",
+          "start": 0.0,
+          "end": 2.768
+        },
+        {
+          "text": "Một: trả cho mình trước.",
+          "start": 2.768,
+          "end": 5.186
+        },
+        {
+          "text": "Ngày lương về, tự động chuyển một phần vào tiết kiệm,",
+          "start": 5.186,
+          "end": 7.904
+        },
+        {
+          "text": "và đóng quỹ hưu trí 401(k) đủ để nhận phần công ty đóng thêm, trung bình gần 5% lương.",
+          "start": 7.904,
+          "end": 13.953
+        },
+        {
+          "text": "Đó là tiền miễn phí.",
+          "start": 13.953,
+          "end": 15.607
+        },
+        {
+          "text": "Hai: giữ tiền nhà dưới 30% thu nhập, kể cả khi phải ở ghép hoặc ở xa trung tâm hơn.",
+          "start": 15.607,
+          "end": 22.19
+        },
+        {
+          "text": "Ba: chọn xe vừa túi tiền, có thể là xe đã qua sử dụng hai,",
+          "start": 22.19,
+          "end": 26.81
+        },
+        {
+          "text": "ba năm, tránh khoản góp cả ngàn đô.",
+          "start": 26.81,
+          "end": 29.42
+        },
+        {
+          "text": "Bốn: trả hết dư nợ thẻ tín dụng mỗi tháng.",
+          "start": 29.42,
+          "end": 32.902
+        },
+        {
+          "text": "Năm: mỗi lần được tăng lương, để dành ít nhất một nửa phần tăng thêm.",
+          "start": 32.902,
+          "end": 37.955
+        },
+        {
+          "text": "Và giữ quỹ khẩn cấp ba đến sáu tháng chi tiêu trong tài khoản tiết kiệm lãi suất cao,",
+          "start": 37.955,
+          "end": 43.07
+        },
+        {
+          "text": "hiện khoảng 4% một năm, thay vì chưa tới 0,4% của tài khoản thông thường.",
+          "start": 43.07,
+          "end": 48.884
+        }
+      ],
+      "markers": {
+        "t1": 2.768,
+        "t2": 15.607,
+        "t3": 22.19,
+        "t4": 29.42,
+        "t5": 32.902,
+        "fund": 37.955
+      }
+    },
+    {
+      "id": "outro",
+      "file": "outro.mp3",
+      "hash": "166adcfb98f1",
+      "durationSec": 16.795,
+      "cues": [
+        {
+          "text": "Tóm lại, lương cao không tự động giúp bạn giàu.",
+          "start": 0.0,
+          "end": 2.814
+        },
+        {
+          "text": "Điều quyết định là khoảng cách giữa số tiền bạn kiếm được và số tiền bạn tiêu đi.",
+          "start": 2.814,
+          "end": 7.214
+        },
+        {
+          "text": "Còn bạn, nếu được tăng lương một ngàn đô mỗi tháng, bạn sẽ làm gì đầu tiên?",
+          "start": 7.214,
+          "end": 11.786
+        },
+        {
+          "text": "Hãy chia sẻ ở phần bình luận.",
+          "start": 11.786,
+          "end": 13.946
+        },
+        {
+          "text": "Đừng quên đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo.",
+          "start": 13.946,
+          "end": 16.786
+        }
+      ],
+      "markers": {
+        "key": 2.814,
+        "q": 7.214,
+        "sub": 13.946
+      }
+    }
+  ]
+}

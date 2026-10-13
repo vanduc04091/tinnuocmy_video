@@ -1,0 +1,520 @@
+{
+  "slug": "california-vs-texas",
+  "voice": "vi-VN-NamMinhNeural",
+  "rate": "-4%",
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "hook.mp3",
+      "hash": "4c5986315202",
+      "durationSec": 36.091,
+      "cues": [
+        {
+          "text": "California hay Texas?",
+          "start": 0.0,
+          "end": 1.75
+        },
+        {
+          "text": "Đây là hai bang có nhiều người Việt nhất nước Mỹ.",
+          "start": 1.75,
+          "end": 4.464
+        },
+        {
+          "text": "Khoảng một phần ba người Mỹ gốc Việt sống ở California, và Texas đứng thứ hai.",
+          "start": 4.464,
+          "end": 9.563
+        },
+        {
+          "text": "Nhiều năm qua, rất nhiều gia đình đã rời California để chuyển sang Texas,",
+          "start": 9.563,
+          "end": 14.313
+        },
+        {
+          "text": "với một lý do quen thuộc: sống ở Texas rẻ hơn.",
+          "start": 14.313,
+          "end": 17.837
+        },
+        {
+          "text": "Nhưng rẻ hơn có thật sự là tiết kiệm hơn?",
+          "start": 17.837,
+          "end": 21.42
+        },
+        {
+          "text": "Hôm nay, chúng ta sẽ cho hai bang đối đầu qua năm hiệp: thuế thu nhập,",
+          "start": 21.42,
+          "end": 26.499
+        },
+        {
+          "text": "thuế mua sắm, nhà ở, xăng và điện, và cuối cùng là tiền lương.",
+          "start": 26.499,
+          "end": 31.727
+        },
+        {
+          "text": "Bên nào thắng, hãy cùng Tin Nước Mỹ xem những con số thực tế.",
+          "start": 31.727,
+          "end": 36.084
+        }
+      ],
+      "markers": {
+        "vn": 1.75,
+        "move": 9.563,
+        "q": 17.837,
+        "plan": 21.42,
+        "r1": 24.913,
+        "r2": 26.499,
+        "r3": 27.652,
+        "r4": 28.37,
+        "r5": 29.656,
+        "go": 31.727
+      }
+    },
+    {
+      "id": "income-tax",
+      "file": "income-tax.mp3",
+      "hash": "a832a184bc07",
+      "durationSec": 31.431,
+      "cues": [
+        {
+          "text": "Hiệp một: thuế thu nhập.",
+          "start": 0.0,
+          "end": 1.631
+        },
+        {
+          "text": "Texas không thu thuế thu nhập tiểu bang.",
+          "start": 1.631,
+          "end": 4.238
+        },
+        {
+          "text": "Không một đồng nào.",
+          "start": 4.238,
+          "end": 5.597
+        },
+        {
+          "text": "California thì thu theo bậc, từ một đến mười ba phần trăm, cao nhất nước Mỹ.",
+          "start": 5.597,
+          "end": 10.786
+        },
+        {
+          "text": "Với mức lương 4.000 đô một tháng như tập trước,",
+          "start": 10.786,
+          "end": 13.964
+        },
+        {
+          "text": "người ở Texas thực nhận khoảng 3.400 đô, còn ở California khoảng 3.260 đô.",
+          "start": 13.964,
+          "end": 20.953
+        },
+        {
+          "text": "Chênh lệch khoảng 130 đô mỗi tháng, tức gần 1.600 đô một năm.",
+          "start": 20.953,
+          "end": 26.214
+        },
+        {
+          "text": "Lương càng cao, khoảng cách này càng lớn.",
+          "start": 26.214,
+          "end": 29.186
+        },
+        {
+          "text": "Hiệp một: Texas thắng.",
+          "start": 29.186,
+          "end": 31.429
+        }
+      ],
+      "markers": {
+        "tx": 1.631,
+        "ca": 5.597,
+        "ex": 10.786,
+        "diff": 20.953,
+        "high": 26.214,
+        "win": 29.186
+      }
+    },
+    {
+      "id": "sales-tax",
+      "file": "sales-tax.mp3",
+      "hash": "f30dd5a959b4",
+      "durationSec": 24.527,
+      "cues": [
+        {
+          "text": "Hiệp hai: thuế mua sắm, loại thuế cộng thêm khi bạn thanh toán ở quầy.",
+          "start": 0.0,
+          "end": 4.42
+        },
+        {
+          "text": "Ở California, mức trung bình cả thuế tiểu bang và địa phương là khoảng chín phần trăm.",
+          "start": 4.42,
+          "end": 9.92
+        },
+        {
+          "text": "Ở Texas, khoảng tám phẩy hai phần trăm.",
+          "start": 9.92,
+          "end": 12.697
+        },
+        {
+          "text": "Mua một chiếc tivi 1.000 đô, bạn trả thêm khoảng 90 đô ở California và 82 đô ở Texas.",
+          "start": 12.697,
+          "end": 19.972
+        },
+        {
+          "text": "Chênh lệch không lớn.",
+          "start": 19.972,
+          "end": 21.533
+        },
+        {
+          "text": "Hiệp hai: Texas thắng sát nút.",
+          "start": 21.533,
+          "end": 24.519
+        }
+      ],
+      "markers": {
+        "ca": 4.42,
+        "tx": 9.92,
+        "ex": 12.697,
+        "win": 19.972
+      }
+    },
+    {
+      "id": "housing",
+      "file": "housing.mp3",
+      "hash": "4ed6bfd16bdb",
+      "durationSec": 63.728,
+      "cues": [
+        {
+          "text": "Hiệp ba, và đây là hiệp quyết định: nhà ở.",
+          "start": 0.0,
+          "end": 3.518
+        },
+        {
+          "text": "Giá nhà trung vị ở California năm 2026 là khoảng 888.000 đô.",
+          "start": 3.518,
+          "end": 10.607
+        },
+        {
+          "text": "Ở Texas, khoảng 330.000 đô.",
+          "start": 10.607,
+          "end": 13.768
+        },
+        {
+          "text": "Nghĩa là với cùng số tiền,",
+          "start": 13.768,
+          "end": 16.107
+        },
+        {
+          "text": "bạn mua được gần ba căn nhà ở Texas cho mỗi căn ở California.",
+          "start": 16.107,
+          "end": 20.524
+        },
+        {
+          "text": "Tiền thuê cũng vậy: căn một phòng ngủ ở Quận Cam đắt hơn gấp đôi ở Houston.",
+          "start": 20.524,
+          "end": 26.417
+        },
+        {
+          "text": "Nhưng Texas có một cái bẫy: thuế nhà đất.",
+          "start": 26.417,
+          "end": 30.679
+        },
+        {
+          "text": "Texas thu khoảng một phẩy sáu phần trăm giá trị nhà mỗi năm,",
+          "start": 30.679,
+          "end": 34.268
+        },
+        {
+          "text": "gấp đôi mức khoảng không phẩy bảy phần trăm của California.",
+          "start": 34.268,
+          "end": 38.839
+        },
+        {
+          "text": "Dù vậy, vì nhà ở Texas rẻ hơn rất nhiều, tiền thuế nhà đất mỗi tháng vẫn thấp hơn:",
+          "start": 38.839,
+          "end": 44.612
+        },
+        {
+          "text": "khoảng 440 đô, so với khoảng 520 đô ở California.",
+          "start": 44.612,
+          "end": 50.762
+        },
+        {
+          "text": "Thêm một lưu ý: bảo hiểm nhà ở Texas đắt vì bão và mưa đá,",
+          "start": 50.762,
+          "end": 56.357
+        },
+        {
+          "text": "còn ở California, nhiều vùng khó mua bảo hiểm vì cháy rừng.",
+          "start": 56.357,
+          "end": 60.586
+        },
+        {
+          "text": "Hiệp ba: Texas thắng đậm.",
+          "start": 60.586,
+          "end": 63.714
+        }
+      ],
+      "markers": {
+        "buy": 3.518,
+        "tx": 10.607,
+        "ratio": 13.768,
+        "rent": 20.524,
+        "but": 26.417,
+        "ptax": 30.679,
+        "math": 38.839,
+        "ins": 50.762,
+        "win": 60.586
+      }
+    },
+    {
+      "id": "energy",
+      "file": "energy.mp3",
+      "hash": "0f4aaad5a474",
+      "durationSec": 41.797,
+      "cues": [
+        {
+          "text": "Hiệp bốn: xăng và điện.",
+          "start": 0.0,
+          "end": 2.164
+        },
+        {
+          "text": "Tháng Chín năm 2026,",
+          "start": 2.164,
+          "end": 5.066
+        },
+        {
+          "text": "giá xăng trung bình ở California là khoảng 6,24 đô một gallon, cao nhất nước Mỹ.",
+          "start": 5.066,
+          "end": 11.299
+        },
+        {
+          "text": "Ở Texas, khoảng 3,96 đô.",
+          "start": 11.299,
+          "end": 14.826
+        },
+        {
+          "text": "Đổ bốn mươi gallon một tháng, người ở California trả nhiều hơn khoảng 90 đô.",
+          "start": 14.826,
+          "end": 20.38
+        },
+        {
+          "text": "Giá điện ở California cũng gấp đôi Texas.",
+          "start": 20.38,
+          "end": 24.219
+        },
+        {
+          "text": "Cùng một mức dùng điện, hóa đơn ở California có thể lên khoảng 300 đô,",
+          "start": 24.219,
+          "end": 29.344
+        },
+        {
+          "text": "còn ở Texas khoảng 150 đô.",
+          "start": 29.344,
+          "end": 32.969
+        },
+        {
+          "text": "Nhưng mùa hè Texas rất nóng, máy lạnh chạy gần như cả ngày,",
+          "start": 32.969,
+          "end": 37.148
+        },
+        {
+          "text": "nên khoảng cách thực tế hẹp hơn.",
+          "start": 37.148,
+          "end": 39.119
+        },
+        {
+          "text": "Hiệp bốn: Texas thắng.",
+          "start": 39.119,
+          "end": 41.791
+        }
+      ],
+      "markers": {
+        "gas": 2.164,
+        "gasm": 14.826,
+        "elec": 20.38,
+        "heat": 32.969,
+        "win": 39.119
+      }
+    },
+    {
+      "id": "income",
+      "file": "income.mp3",
+      "hash": "5ae68df5eb87",
+      "durationSec": 34.178,
+      "cues": [
+        {
+          "text": "Đến đây, Texas đang dẫn bốn không.",
+          "start": 0.0,
+          "end": 2.369
+        },
+        {
+          "text": "Nhưng hiệp cuối có thể lật ngược tất cả: tiền lương.",
+          "start": 2.369,
+          "end": 6.036
+        },
+        {
+          "text": "Thu nhập trung vị của một hộ gia đình ở California là khoảng 100.000 đô một năm.",
+          "start": 6.036,
+          "end": 11.929
+        },
+        {
+          "text": "Ở Texas, khoảng 77.500 đô.",
+          "start": 11.929,
+          "end": 14.571
+        },
+        {
+          "text": "Chênh lệch hơn 22.000 đô mỗi năm.",
+          "start": 14.571,
+          "end": 17.42
+        },
+        {
+          "text": "Nhiều ngành như công nghệ, y tế hay kỹ thuật trả lương ở California cao hơn hẳn,",
+          "start": 17.42,
+          "end": 23.527
+        },
+        {
+          "text": "đủ để bù cho chi phí đắt đỏ.",
+          "start": 23.527,
+          "end": 25.36
+        },
+        {
+          "text": "Nhưng lợi thế này chỉ đến với bạn nếu chính nghề của bạn được trả cao ở California.",
+          "start": 25.36,
+          "end": 30.97
+        },
+        {
+          "text": "Hiệp năm: California thắng.",
+          "start": 30.97,
+          "end": 34.17
+        }
+      ],
+      "markers": {
+        "med": 6.036,
+        "gap": 14.571,
+        "why": 17.42,
+        "but": 25.36,
+        "win": 30.97
+      }
+    },
+    {
+      "id": "score",
+      "file": "score.mp3",
+      "hash": "7a373fb02626",
+      "durationSec": 27.297,
+      "cues": [
+        {
+          "text": "Vậy kết quả cuối cùng là gì?",
+          "start": 0.0,
+          "end": 1.5
+        },
+        {
+          "text": "Texas thắng bốn hiệp, California thắng một.",
+          "start": 1.5,
+          "end": 5.062
+        },
+        {
+          "text": "Với một người độc thân, như chúng ta đã tính ở tập một,",
+          "start": 5.062,
+          "end": 8.486
+        },
+        {
+          "text": "sống ở Houston tốn khoảng 3.000 đô mỗi tháng, còn ở Quận Cam khoảng 4.600 đô.",
+          "start": 8.486,
+          "end": 14.536
+        },
+        {
+          "text": "Với một gia đình bốn người, hai vợ chồng cùng đi làm,",
+          "start": 14.536,
+          "end": 17.929
+        },
+        {
+          "text": "theo MIT, ở Houston cần thu nhập khoảng 102.000 đô một năm.",
+          "start": 17.929,
+          "end": 23.357
+        },
+        {
+          "text": "Ở Quận Cam, con số này lên tới khoảng 164.000 đô.",
+          "start": 23.357,
+          "end": 27.286
+        }
+      ],
+      "markers": {
+        "tally": 1.5,
+        "single": 5.062,
+        "family": 14.536
+      }
+    },
+    {
+      "id": "verdict",
+      "file": "verdict.mp3",
+      "hash": "b741b46c2d42",
+      "durationSec": 42.331,
+      "cues": [
+        {
+          "text": "Vậy nên chuyển sang Texas không?",
+          "start": 0.0,
+          "end": 1.625
+        },
+        {
+          "text": "Nếu bạn có thu nhập trung bình, muốn mua nhà và nuôi con:",
+          "start": 1.625,
+          "end": 5.203
+        },
+        {
+          "text": "Texas gần như chắc chắn giúp bạn tiết kiệm hơn.",
+          "start": 5.203,
+          "end": 7.857
+        },
+        {
+          "text": "Nếu bạn làm trong ngành trả lương cao ở California,",
+          "start": 7.857,
+          "end": 10.814
+        },
+        {
+          "text": "hoặc đã có nhà từ lâu với thuế nhà đất thấp: ở lại California có thể vẫn có lợi.",
+          "start": 10.814,
+          "end": 16.429
+        },
+        {
+          "text": "Và đừng quên những thứ không có trên bảng tính: thời tiết,",
+          "start": 16.429,
+          "end": 20.196
+        },
+        {
+          "text": "gia đình, cộng đồng người Việt và cơ hội việc làm cho chính bạn.",
+          "start": 20.196,
+          "end": 24.321
+        },
+        {
+          "text": "Rẻ hơn không tự động có nghĩa là tiết kiệm hơn.",
+          "start": 24.321,
+          "end": 27.129
+        },
+        {
+          "text": "Điều quan trọng là bạn giữ lại được bao nhiêu sau khi trả hết mọi chi phí.",
+          "start": 27.129,
+          "end": 31.92
+        },
+        {
+          "text": "Còn bạn, nếu được chọn, bạn sẽ sống ở California hay Texas?",
+          "start": 31.92,
+          "end": 36.349
+        },
+        {
+          "text": "Hãy chia sẻ lý do ở phần bình luận.",
+          "start": 36.349,
+          "end": 38.694
+        },
+        {
+          "text": "Và đừng quên đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo.",
+          "start": 38.694,
+          "end": 42.313
+        }
+      ],
+      "markers": {
+        "v1": 1.625,
+        "v2": 7.857,
+        "v3": 16.429,
+        "key": 24.321,
+        "q": 31.92,
+        "sub": 38.694
+      }
+    }
+  ]
+}

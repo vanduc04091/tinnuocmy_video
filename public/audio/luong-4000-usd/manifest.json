@@ -1,0 +1,720 @@
+{
+  "slug": "luong-4000-usd",
+  "voice": "vi-VN-NamMinhNeural",
+  "rate": "-4%",
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "hook.mp3",
+      "hash": "3abb47286763",
+      "durationSec": 52.18,
+      "cues": [
+        {
+          "text": "Nếu bạn kiếm được 4.000 đô la mỗi tháng ở Mỹ, liệu số tiền đó có đủ để sống thoải mái?",
+          "start": 0.0,
+          "end": 5.82
+        },
+        {
+          "text": "Quy ra tiền Việt, đó là hơn 100 triệu đồng.",
+          "start": 5.82,
+          "end": 9.8
+        },
+        {
+          "text": "Nhiều người ở Việt Nam nghe mức thu nhập này có thể nghĩ",
+          "start": 9.8,
+          "end": 13.264
+        },
+        {
+          "text": "rằng chỉ cần sang Mỹ đi làm là sẽ có cuộc sống dư dả.",
+          "start": 13.264,
+          "end": 17.56
+        },
+        {
+          "text": "Nhưng ở Mỹ, tiền thuê nhà, thực phẩm, xăng xe,",
+          "start": 17.56,
+          "end": 22.2
+        },
+        {
+          "text": "bảo hiểm y tế và các hóa đơn hằng tháng có thể lấy đi phần lớn số tiền đó.",
+          "start": 22.2,
+          "end": 28.133
+        },
+        {
+          "text": "Và mức sống của một người độc thân ở thành phố nhỏ sẽ rất",
+          "start": 28.133,
+          "end": 32.224
+        },
+        {
+          "text": "khác với một gia đình có con ở California hay New York.",
+          "start": 32.224,
+          "end": 37.38
+        },
+        {
+          "text": "Hôm nay, chúng ta sẽ tính cụ thể: với 4.000 đô một tháng,",
+          "start": 37.38,
+          "end": 42.32
+        },
+        {
+          "text": "bạn phải chi những khoản gì, còn lại bao nhiêu, và có tiết kiệm được hay không.",
+          "start": 42.32,
+          "end": 48.06
+        },
+        {
+          "text": "Hãy cùng Tin Nước Mỹ tìm hiểu qua những con số thực tế.",
+          "start": 48.06,
+          "end": 52.18
+        }
+      ],
+      "markers": {
+        "vnd": 5.82,
+        "think": 9.8,
+        "but": 17.56,
+        "b1": 19.232,
+        "b2": 20.592,
+        "b3": 21.48,
+        "b4": 22.2,
+        "b5": 23.98,
+        "diff": 28.133,
+        "plan": 37.38,
+        "go": 48.06
+      }
+    },
+    {
+      "id": "paycheck",
+      "file": "paycheck.mp3",
+      "hash": "4f5c1aa8e2fa",
+      "durationSec": 56.32,
+      "cues": [
+        {
+          "text": "Trước hết, có một sự thật mà người mới sang Mỹ thường bất ngờ.",
+          "start": 0.0,
+          "end": 3.92
+        },
+        {
+          "text": "4.000 đô ghi trên hợp đồng không phải là 4.000 đô về tài khoản.",
+          "start": 3.92,
+          "end": 8.92
+        },
+        {
+          "text": "Với một người độc thân ở Texas,",
+          "start": 8.92,
+          "end": 11.152
+        },
+        {
+          "text": "thuế thu nhập liên bang năm 2026 lấy đi khoảng 300 đô mỗi tháng.",
+          "start": 11.152,
+          "end": 16.56
+        },
+        {
+          "text": "Tiền đóng an sinh xã hội và bảo hiểm y tế cho người già,",
+          "start": 16.56,
+          "end": 20.2
+        },
+        {
+          "text": "gọi là Medicare, lấy thêm khoảng 306 đô.",
+          "start": 20.2,
+          "end": 24.3
+        },
+        {
+          "text": "May mắn là Texas không thu thuế thu nhập tiểu bang.",
+          "start": 24.3,
+          "end": 28.14
+        },
+        {
+          "text": "Kết quả: bạn thực nhận khoảng 3.400 đô.",
+          "start": 28.14,
+          "end": 32.18
+        },
+        {
+          "text": "Nếu làm cùng mức lương ở California,",
+          "start": 32.18,
+          "end": 35.58
+        },
+        {
+          "text": "sau thuế tiểu bang và bảo hiểm khuyết tật, con số này chỉ còn khoảng 3.260 đô.",
+          "start": 35.58,
+          "end": 41.547
+        },
+        {
+          "text": "Và đó là chưa trừ phí bảo hiểm sức khỏe hay tiền đóng quỹ hưu trí,",
+          "start": 41.547,
+          "end": 46.7
+        },
+        {
+          "text": "nếu công ty khấu trừ thẳng vào lương.",
+          "start": 46.7,
+          "end": 49.147
+        },
+        {
+          "text": "Vì vậy, trước khi hỏi một mức lương có đủ sống không,",
+          "start": 49.147,
+          "end": 53.08
+        },
+        {
+          "text": "hãy hỏi: mỗi tháng thực sự về tay bao nhiêu?",
+          "start": 53.08,
+          "end": 56.32
+        }
+      ],
+      "markers": {
+        "gross": 3.92,
+        "fed": 8.92,
+        "fica": 16.56,
+        "state": 24.3,
+        "net": 28.14,
+        "ca": 32.18,
+        "why": 41.547,
+        "rule": 49.147
+      }
+    },
+    {
+      "id": "budget",
+      "file": "budget.mp3",
+      "hash": "2c68bb0a2dad",
+      "durationSec": 67.96,
+      "cues": [
+        {
+          "text": "Giờ hãy đặt 3.400 đô đó vào một cuộc sống cụ thể.",
+          "start": 0.0,
+          "end": 4.4
+        },
+        {
+          "text": "Vẫn là nhân vật của tập trước: một người độc thân,",
+          "start": 4.4,
+          "end": 8.112
+        },
+        {
+          "text": "thuê căn hộ nhỏ, có xe hơi, sống ở Houston, Texas.",
+          "start": 8.112,
+          "end": 12.92
+        },
+        {
+          "text": "Lương về: 3.400 đô.",
+          "start": 12.92,
+          "end": 15.68
+        },
+        {
+          "text": "Nhà ở và điện nước: trừ 1.270.",
+          "start": 15.68,
+          "end": 20.44
+        },
+        {
+          "text": "Đi lại: trừ 740.",
+          "start": 20.44,
+          "end": 24.3
+        },
+        {
+          "text": "Ăn uống: trừ 325.",
+          "start": 24.3,
+          "end": 27.56
+        },
+        {
+          "text": "Sức khỏe: trừ 270.",
+          "start": 27.56,
+          "end": 31.287
+        },
+        {
+          "text": "Internet và điện thoại: trừ 135.",
+          "start": 31.287,
+          "end": 35.42
+        },
+        {
+          "text": "Chi tiêu cá nhân: trừ 250.",
+          "start": 35.42,
+          "end": 39.66
+        },
+        {
+          "text": "Cuối tháng, bạn còn lại khoảng 400 đô.",
+          "start": 39.66,
+          "end": 43.42
+        },
+        {
+          "text": "Nghe không tệ.",
+          "start": 43.42,
+          "end": 44.8
+        },
+        {
+          "text": "Bạn trả đủ mọi hóa đơn và vẫn còn dư một ít.",
+          "start": 44.8,
+          "end": 48.72
+        },
+        {
+          "text": "Còn nếu 4.000 đô là số tiền thực nhận,",
+          "start": 48.72,
+          "end": 52.08
+        },
+        {
+          "text": "bạn sẽ dư khoảng một ngàn đô, đủ để bắt đầu tiết kiệm nghiêm túc.",
+          "start": 52.08,
+          "end": 57.727
+        },
+        {
+          "text": "Nhưng 400 đô là một vùng đệm rất mỏng.",
+          "start": 57.727,
+          "end": 61.06
+        },
+        {
+          "text": "Chỉ cần xe hỏng một lần, hay một hóa đơn khám bệnh bất ngờ,",
+          "start": 61.06,
+          "end": 65.587
+        },
+        {
+          "text": "là khoản dư của cả tháng biến mất.",
+          "start": 65.587,
+          "end": 67.96
+        }
+      ],
+      "markers": {
+        "who": 4.4,
+        "start": 12.92,
+        "c1": 15.68,
+        "c2": 20.44,
+        "c3": 24.3,
+        "c4": 27.56,
+        "c5": 31.287,
+        "c6": 35.42,
+        "left": 39.66,
+        "ok": 43.42,
+        "net4k": 48.72,
+        "thin": 57.727,
+        "car": 61.06
+      }
+    },
+    {
+      "id": "place",
+      "file": "place.mp3",
+      "hash": "9516d79241d9",
+      "durationSec": 43.98,
+      "cues": [
+        {
+          "text": "Bây giờ, giữ nguyên mức lương, chỉ đổi nơi ở.",
+          "start": 0.0,
+          "end": 3.173
+        },
+        {
+          "text": "Chuyển sang Quận Cam, California, nơi có khu Little Saigon.",
+          "start": 3.173,
+          "end": 7.64
+        },
+        {
+          "text": "Lương thực nhận giảm còn khoảng 3.260 đô,",
+          "start": 7.64,
+          "end": 11.067
+        },
+        {
+          "text": "trong khi chi phí cho cùng lối sống đó lên tới khoảng 4.600 đô.",
+          "start": 11.067,
+          "end": 16.08
+        },
+        {
+          "text": "Mỗi tháng, bạn thiếu hơn 1.300 đô.",
+          "start": 16.08,
+          "end": 19.36
+        },
+        {
+          "text": "Muốn sống được, bạn phải ở ghép, bỏ bớt xe, hoặc tìm việc lương cao hơn.",
+          "start": 19.36,
+          "end": 25.22
+        },
+        {
+          "text": "Ở New York hay vùng Vịnh San Francisco,",
+          "start": 25.22,
+          "end": 28.92
+        },
+        {
+          "text": "nơi riêng tiền thuê căn một phòng ngủ đã hơn 4.000 đô,",
+          "start": 28.92,
+          "end": 32.441
+        },
+        {
+          "text": "mức lương này gần như không đủ để sống một mình.",
+          "start": 32.441,
+          "end": 35.621
+        },
+        {
+          "text": "Cùng một con số trên phiếu lương, nhưng ở nơi này bạn để dành được tiền,",
+          "start": 35.621,
+          "end": 40.941
+        },
+        {
+          "text": "còn ở nơi khác, bạn phải xoay xở từng tháng.",
+          "start": 40.941,
+          "end": 43.981
+        }
+      ],
+      "markers": {
+        "oc": 3.173,
+        "net": 7.64,
+        "cost": 11.067,
+        "gap": 16.08,
+        "how": 19.36,
+        "nyc": 25.22,
+        "same": 35.621
+      }
+    },
+    {
+      "id": "family",
+      "file": "family.mp3",
+      "hash": "5ec44d6b7782",
+      "durationSec": 48.72,
+      "cues": [
+        {
+          "text": "Giờ hãy thay đổi thêm một điều: bạn không còn sống một mình.",
+          "start": 0.0,
+          "end": 4.16
+        },
+        {
+          "text": "Bạn có vợ hoặc chồng ở nhà chăm con nhỏ, và chỉ một người đi làm.",
+          "start": 4.16,
+          "end": 10.336
+        },
+        {
+          "text": "Theo MIT, một gia đình như vậy ở Houston cần thu nhập khoảng 72.000 đô một năm,",
+          "start": 10.336,
+          "end": 17.0
+        },
+        {
+          "text": "tức khoảng 6.000 đô mỗi tháng trước thuế, chỉ để trang trải những nhu cầu cơ bản.",
+          "start": 17.0,
+          "end": 22.8
+        },
+        {
+          "text": "So với 4.000 đô, khoảng cách là 2.000 đô mỗi tháng.",
+          "start": 22.8,
+          "end": 27.8
+        },
+        {
+          "text": "Nhà rộng hơn, thực phẩm nhiều hơn, bảo hiểm cho cả gia đình,",
+          "start": 27.8,
+          "end": 32.827
+        },
+        {
+          "text": "đồ dùng cho con: khoản nào cũng nhân lên.",
+          "start": 32.827,
+          "end": 36.293
+        },
+        {
+          "text": "Vì vậy, khi một người nói 4.000 đô là dư dả,",
+          "start": 36.293,
+          "end": 40.82
+        },
+        {
+          "text": "còn người khác nói là chật vật, có khi cả hai đều đúng.",
+          "start": 40.82,
+          "end": 45.573
+        },
+        {
+          "text": "Họ chỉ đang sống hai cuộc sống rất khác nhau.",
+          "start": 45.573,
+          "end": 48.72
+        }
+      ],
+      "markers": {
+        "fam": 4.16,
+        "need": 10.336,
+        "vs": 22.8,
+        "more": 27.8,
+        "both": 36.293,
+        "why": 45.573
+      }
+    },
+    {
+      "id": "mind",
+      "file": "mind.mp3",
+      "hash": "77b36de7166f",
+      "durationSec": 71.98,
+      "cues": [
+        {
+          "text": "Nhưng câu chuyện không chỉ nằm ở những con số.",
+          "start": 0.0,
+          "end": 2.427
+        },
+        {
+          "text": "Có những người vẫn trả đủ hóa đơn mỗi tháng,",
+          "start": 2.427,
+          "end": 5.227
+        },
+        {
+          "text": "nhưng chưa bao giờ thấy an tâm về tiền bạc.",
+          "start": 5.227,
+          "end": 7.68
+        },
+        {
+          "text": "Bởi vì cảm giác an toàn không chỉ đến từ số tiền bạn kiếm được,",
+          "start": 7.68,
+          "end": 11.733
+        },
+        {
+          "text": "mà từ việc bạn có chịu được một cú sốc bất ngờ hay không.",
+          "start": 11.733,
+          "end": 15.024
+        },
+        {
+          "text": "Theo khảo sát của Cục Dự trữ Liên bang Mỹ,",
+          "start": 15.024,
+          "end": 18.293
+        },
+        {
+          "text": "cứ mười người trưởng thành thì chỉ khoảng sáu người có",
+          "start": 18.293,
+          "end": 21.16
+        },
+        {
+          "text": "thể trả ngay một khoản chi bất ngờ 400 đô bằng tiền mặt.",
+          "start": 21.16,
+          "end": 25.04
+        },
+        {
+          "text": "Nếu ngày mai mất việc thì sao?",
+          "start": 25.04,
+          "end": 27.18
+        },
+        {
+          "text": "Nếu xe hỏng?",
+          "start": 27.18,
+          "end": 28.78
+        },
+        {
+          "text": "Nếu tiền nhà tăng?",
+          "start": 28.78,
+          "end": 30.89
+        },
+        {
+          "text": "Nếu có một hóa đơn y tế lớn?",
+          "start": 30.89,
+          "end": 33.22
+        },
+        {
+          "text": "Khi quỹ dự phòng quá mỏng, mỗi câu hỏi đó trở thành một nỗi lo thường trực.",
+          "start": 33.22,
+          "end": 38.5
+        },
+        {
+          "text": "Bạn xem số dư tài khoản nhiều hơn, cân nhắc lâu hơn trước mỗi món đồ,",
+          "start": 38.5,
+          "end": 43.707
+        },
+        {
+          "text": "và đôi khi thấy có lỗi khi tiêu tiền cho niềm vui của chính mình.",
+          "start": 43.707,
+          "end": 48.58
+        },
+        {
+          "text": "Áp lực còn lớn hơn khi mạng xã hội ngày nào cũng cho bạn thấy nhà đẹp,",
+          "start": 48.58,
+          "end": 53.74
+        },
+        {
+          "text": "xe sang và những kỳ nghỉ đắt tiền của người khác.",
+          "start": 53.74,
+          "end": 57.127
+        },
+        {
+          "text": "Nhưng bạn không thấy họ đang nợ bao nhiêu,",
+          "start": 57.127,
+          "end": 60.3
+        },
+        {
+          "text": "có được gia đình hỗ trợ hay không, và lối sống đó có bền vững hay không.",
+          "start": 60.3,
+          "end": 65.287
+        },
+        {
+          "text": "So cuộc sống thật của mình với khoảnh khắc đẹp nhất của người khác,",
+          "start": 65.287,
+          "end": 69.66
+        },
+        {
+          "text": "ai cũng sẽ thấy mình đang tụt lại phía sau.",
+          "start": 69.66,
+          "end": 71.98
+        }
+      ],
+      "markers": {
+        "safe": 2.427,
+        "why": 7.68,
+        "fed": 15.024,
+        "q1": 25.04,
+        "q2": 27.18,
+        "q3": 28.78,
+        "q4": 30.89,
+        "feel": 33.22,
+        "social": 48.58,
+        "hidden": 57.127,
+        "compare": 65.287
+      }
+    },
+    {
+      "id": "tips",
+      "file": "tips.mp3",
+      "hash": "b033c9180f0b",
+      "durationSec": 58.17,
+      "cues": [
+        {
+          "text": "Vậy nếu đang sống với 4.000 đô một tháng, bạn nên làm gì?",
+          "start": 0.0,
+          "end": 4.293
+        },
+        {
+          "text": "Thứ nhất, nhìn vào khoản lớn nhất trước.",
+          "start": 4.293,
+          "end": 7.93
+        },
+        {
+          "text": "Một nguyên tắc phổ biến là tiền nhà không nên vượt",
+          "start": 7.93,
+          "end": 11.12
+        },
+        {
+          "text": "quá khoảng ba mươi phần trăm thu nhập trước thuế,",
+          "start": 11.12,
+          "end": 13.92
+        },
+        {
+          "text": "tức khoảng 1.200 đô.",
+          "start": 13.92,
+          "end": 16.62
+        },
+        {
+          "text": "Bớt được vài trăm đô tiền nhà có tác dụng",
+          "start": 16.62,
+          "end": 19.34
+        },
+        {
+          "text": "hơn rất nhiều so với việc cắt từng ly cà phê.",
+          "start": 19.34,
+          "end": 22.88
+        },
+        {
+          "text": "Thứ hai, xây quỹ dự phòng từng bước.",
+          "start": 22.88,
+          "end": 27.067
+        },
+        {
+          "text": "Ba tháng chi phí ở Houston là khoảng 9.000 đô.",
+          "start": 27.067,
+          "end": 31.067
+        },
+        {
+          "text": "Để dành 400 đô mỗi tháng, bạn cần gần hai năm.",
+          "start": 31.067,
+          "end": 35.387
+        },
+        {
+          "text": "Nghe thì lâu, nhưng mỗi tháng trôi qua, vùng đệm của bạn lại dày thêm.",
+          "start": 35.387,
+          "end": 41.68
+        },
+        {
+          "text": "Thứ ba, chia nhỏ những khoản không đến hằng tháng,",
+          "start": 41.68,
+          "end": 45.62
+        },
+        {
+          "text": "như bảo dưỡng xe hay phí bảo hiểm năm, để chúng không trở thành cú sốc.",
+          "start": 45.62,
+          "end": 51.52
+        },
+        {
+          "text": "Và cuối cùng, đừng lấy cuộc sống trên mạng của",
+          "start": 51.52,
+          "end": 55.09
+        },
+        {
+          "text": "người khác làm thước đo thành công của mình.",
+          "start": 55.09,
+          "end": 58.17
+        }
+      ],
+      "markers": {
+        "t1": 4.293,
+        "t1b": 16.62,
+        "t2": 22.88,
+        "t2b": 31.067,
+        "t3": 41.68,
+        "t4": 51.52
+      }
+    },
+    {
+      "id": "outro",
+      "file": "outro.mp3",
+      "hash": "6a8a2419fd3c",
+      "durationSec": 50.16,
+      "cues": [
+        {
+          "text": "Vậy, lương 4.000 đô một tháng ở Mỹ có đủ sống không?",
+          "start": 0.0,
+          "end": 3.62
+        },
+        {
+          "text": "Với một người độc thân ở thành phố có chi phí vừa phải như Houston:",
+          "start": 3.62,
+          "end": 8.587
+        },
+        {
+          "text": "đủ, nhưng vùng đệm khá mỏng.",
+          "start": 8.587,
+          "end": 11.44
+        },
+        {
+          "text": "Ở Quận Cam, New York hay San Francisco: rất khó nếu sống một mình.",
+          "start": 11.44,
+          "end": 16.96
+        },
+        {
+          "text": "Còn nếu phải nuôi gia đình: chật vật ở hầu hết mọi nơi.",
+          "start": 16.96,
+          "end": 21.28
+        },
+        {
+          "text": "Sự thoải mái không chỉ nằm ở số tiền bạn kiếm được,",
+          "start": 21.28,
+          "end": 25.093
+        },
+        {
+          "text": "mà ở khoảng cách giữa số tiền đó và những gì cuộc sống đòi hỏi ở bạn.",
+          "start": 25.093,
+          "end": 30.12
+        },
+        {
+          "text": "Còn bạn, nếu sống ở Mỹ với 4.000 đô mỗi tháng,",
+          "start": 30.12,
+          "end": 34.76
+        },
+        {
+          "text": "bạn nghĩ mình sẽ sống thoải mái hay chật vật?",
+          "start": 34.76,
+          "end": 37.76
+        },
+        {
+          "text": "Hãy chia sẻ ở phần bình luận.",
+          "start": 37.76,
+          "end": 40.22
+        },
+        {
+          "text": "Nếu thấy video hữu ích,",
+          "start": 40.22,
+          "end": 42.7
+        },
+        {
+          "text": "hãy đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo về cuộc sống,",
+          "start": 42.7,
+          "end": 47.296
+        },
+        {
+          "text": "việc làm và chi phí sinh hoạt tại Mỹ.",
+          "start": 47.296,
+          "end": 50.16
+        }
+      ],
+      "markers": {
+        "v1": 3.62,
+        "v2": 11.44,
+        "v3": 16.96,
+        "key": 21.28,
+        "q": 30.12,
+        "sub": 40.22
+      }
+    }
+  ]
+}

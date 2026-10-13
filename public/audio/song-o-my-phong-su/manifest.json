@@ -1,0 +1,753 @@
+{
+  "slug": "song-o-my-phong-su",
+  "voice": "vi-VN-NamMinhNeural",
+  "rate": "-4%",
+  "scenes": [
+    {
+      "id": "intro",
+      "file": "intro.mp3",
+      "hash": "ffdb2c4a2c8f",
+      "durationSec": 27.04,
+      "cues": [
+        {
+          "text": "Một tháng sống ở Mỹ tốn bao nhiêu tiền?",
+          "start": 0.0,
+          "end": 2.347
+        },
+        {
+          "text": "30 triệu đồng, 50 triệu đồng, hay thậm chí hơn 100 triệu đồng?",
+          "start": 2.347,
+          "end": 7.174
+        },
+        {
+          "text": "Có người cho rằng chỉ cần có công việc ổn định là có thể sống thoải mái tại Mỹ.",
+          "start": 7.174,
+          "end": 12.294
+        },
+        {
+          "text": "Nhưng cũng có người đi làm cả tháng,",
+          "start": 12.294,
+          "end": 14.849
+        },
+        {
+          "text": "nhận lương xong đã phải dành phần lớn số tiền đó để trả tiền nhà,",
+          "start": 14.849,
+          "end": 18.833
+        },
+        {
+          "text": "tiền xe, bảo hiểm và thực phẩm.",
+          "start": 18.833,
+          "end": 21.201
+        },
+        {
+          "text": "Vậy thực tế, nếu một người Việt sang Mỹ sinh sống,",
+          "start": 21.201,
+          "end": 25.101
+        },
+        {
+          "text": "mỗi tháng cần chuẩn bị bao nhiêu tiền?",
+          "start": 25.101,
+          "end": 27.041
+        }
+      ],
+      "markers": {
+        "n30": 2.347,
+        "n50": 3.94,
+        "n100": 5.761,
+        "p1": 7.174,
+        "p2": 12.294,
+        "b1": 17.969,
+        "b2": 18.833,
+        "b3": 19.661,
+        "b4": 20.449,
+        "q": 21.201
+      }
+    },
+    {
+      "id": "profile",
+      "file": "profile.mp3",
+      "hash": "cc3f5eaf56f6",
+      "durationSec": 31.12,
+      "cues": [
+        {
+          "text": "Để có câu trả lời cụ thể thay vì nói chung chung,",
+          "start": 0.0,
+          "end": 3.08
+        },
+        {
+          "text": "chúng ta sẽ lấy một ví dụ: một người độc thân, thuê một căn hộ nhỏ,",
+          "start": 3.08,
+          "end": 7.973
+        },
+        {
+          "text": "có xe hơi để đi làm, sống ở Houston, Texas,",
+          "start": 7.973,
+          "end": 11.82
+        },
+        {
+          "text": "nơi có một trong những cộng đồng người Việt đông nhất nước Mỹ.",
+          "start": 11.82,
+          "end": 14.78
+        },
+        {
+          "text": "Các con số chủ yếu lấy từ bộ tính chi phí sinh",
+          "start": 14.78,
+          "end": 18.048
+        },
+        {
+          "text": "hoạt của Học viện Công nghệ Massachusetts,",
+          "start": 18.048,
+          "end": 20.688
+        },
+        {
+          "text": "viết tắt là MIT, cho cùng một khu vực.",
+          "start": 20.688,
+          "end": 24.053
+        },
+        {
+          "text": "Cuối video, chúng ta sẽ so sánh với Quận Cam,",
+          "start": 24.053,
+          "end": 27.673
+        },
+        {
+          "text": "California, nơi có khu Little Saigon nổi tiếng.",
+          "start": 27.673,
+          "end": 31.12
+        }
+      ],
+      "markers": {
+        "who": 4.84,
+        "home": 6.688,
+        "car": 7.973,
+        "city": 9.632,
+        "src": 14.78,
+        "oc": 24.053
+      }
+    },
+    {
+      "id": "housing",
+      "file": "housing.mp3",
+      "hash": "562e896e2467",
+      "durationSec": 49.68,
+      "cues": [
+        {
+          "text": "Khoản chi tiêu đầu tiên, và thường là lớn nhất tại Mỹ, chính là tiền nhà.",
+          "start": 0.0,
+          "end": 4.62
+        },
+        {
+          "text": "Chi phí thuê nhà phụ thuộc rất nhiều vào nơi bạn sinh sống.",
+          "start": 4.62,
+          "end": 8.28
+        },
+        {
+          "text": "Ở Houston, giá thuê trung vị một căn hộ một phòng ngủ trên các trang",
+          "start": 8.28,
+          "end": 12.62
+        },
+        {
+          "text": "cho thuê năm 2026 dao động khoảng 1.050 đến 1.300 đô mỗi tháng.",
+          "start": 12.62,
+          "end": 19.547
+        },
+        {
+          "text": "Ngoài tiền thuê nhà, bạn còn có thể phải trả tiền điện,",
+          "start": 19.547,
+          "end": 23.664
+        },
+        {
+          "text": "nước, internet, chỗ đậu xe và bảo hiểm người thuê nhà.",
+          "start": 23.664,
+          "end": 27.664
+        },
+        {
+          "text": "Theo MIT, tiền nhà cộng điện nước cơ bản cho một",
+          "start": 27.664,
+          "end": 31.96
+        },
+        {
+          "text": "người ở Houston vào khoảng 1.270 đô một tháng.",
+          "start": 31.96,
+          "end": 36.293
+        },
+        {
+          "text": "Vì vậy, khi tìm hiểu cuộc sống ở Mỹ, bạn không nên chỉ hỏi một câu là lương bao nhiêu.",
+          "start": 36.293,
+          "end": 42.656
+        },
+        {
+          "text": "Điều quan trọng hơn là sau khi trả tiền nhà và các chi phí thiết yếu,",
+          "start": 42.656,
+          "end": 47.66
+        },
+        {
+          "text": "bạn còn lại bao nhiêu tiền để sinh hoạt.",
+          "start": 47.66,
+          "end": 49.68
+        }
+      ],
+      "markers": {
+        "loc": 4.62,
+        "zumper": 8.28,
+        "extra": 19.547,
+        "e1": 23.008,
+        "e2": 24.382,
+        "e3": 25.26,
+        "e4": 26.28,
+        "mit": 27.664,
+        "why": 36.293,
+        "key": 42.656,
+        "left": 47.66
+      }
+    },
+    {
+      "id": "food",
+      "file": "food.mp3",
+      "hash": "b834c494055f",
+      "durationSec": 43.36,
+      "cues": [
+        {
+          "text": "Khoản chi tiếp theo là ăn uống.",
+          "start": 0.0,
+          "end": 2.24
+        },
+        {
+          "text": "Nhiều người nghĩ rằng đi siêu thị ở Mỹ sẽ rất đắt đỏ.",
+          "start": 2.24,
+          "end": 5.653
+        },
+        {
+          "text": "Nhưng thực tế, số tiền bạn chi phụ thuộc vào thói quen mua sắm,",
+          "start": 5.653,
+          "end": 10.352
+        },
+        {
+          "text": "loại thực phẩm và số người trong gia đình.",
+          "start": 10.352,
+          "end": 13.0
+        },
+        {
+          "text": "Với một người chủ yếu tự nấu ăn,",
+          "start": 13.0,
+          "end": 15.813
+        },
+        {
+          "text": "MIT ước tính tiền thực phẩm ở Houston khoảng 325 đô một tháng.",
+          "start": 15.813,
+          "end": 20.7
+        },
+        {
+          "text": "Nếu thường xuyên ăn nhà hàng hoặc đặt đồ ăn, con số này sẽ cao hơn nhiều.",
+          "start": 20.7,
+          "end": 26.093
+        },
+        {
+          "text": "Những khoản tưởng chừng nhỏ như cà phê,",
+          "start": 26.093,
+          "end": 29.653
+        },
+        {
+          "text": "đồ uống và đồ ăn nhanh cũng có thể cộng lại thành một khoản đáng kể vào cuối tháng.",
+          "start": 29.653,
+          "end": 34.94
+        },
+        {
+          "text": "Một lợi thế ở Houston: khu Bellaire có rất nhiều chợ và quán Việt,",
+          "start": 34.94,
+          "end": 40.688
+        },
+        {
+          "text": "giúp bạn mua đồ quen thuộc với giá dễ chịu hơn.",
+          "start": 40.688,
+          "end": 43.36
+        }
+      ],
+      "markers": {
+        "think": 2.24,
+        "real": 5.653,
+        "f1": 8.933,
+        "f2": 10.352,
+        "f3": 11.627,
+        "mit": 13.0,
+        "eatout": 20.7,
+        "small": 26.093,
+        "s1": 28.64,
+        "s2": 29.653,
+        "s3": 30.64,
+        "tip": 34.94
+      }
+    },
+    {
+      "id": "transport",
+      "file": "transport.mp3",
+      "hash": "88caad68505a",
+      "durationSec": 44.48,
+      "cues": [
+        {
+          "text": "Ở nhiều khu vực của Mỹ, và đặc biệt là Houston, ô tô gần như là thứ bắt buộc.",
+          "start": 0.0,
+          "end": 5.107
+        },
+        {
+          "text": "Nhưng sở hữu một chiếc xe không chỉ có tiền mua xe.",
+          "start": 5.107,
+          "end": 8.94
+        },
+        {
+          "text": "Bạn còn phải tính đến xăng, bảo hiểm, bảo dưỡng và sửa chữa.",
+          "start": 8.94,
+          "end": 13.712
+        },
+        {
+          "text": "Theo Hiệp hội Ô tô Mỹ,",
+          "start": 13.712,
+          "end": 15.952
+        },
+        {
+          "text": "tổng chi phí nuôi một chiếc xe mới trung bình gần 965 đô mỗi tháng.",
+          "start": 15.952,
+          "end": 21.24
+        },
+        {
+          "text": "Còn theo MIT, chi phí đi lại thực tế của một",
+          "start": 21.24,
+          "end": 24.92
+        },
+        {
+          "text": "người ở Houston vào khoảng 740 đô một tháng.",
+          "start": 24.92,
+          "end": 29.16
+        },
+        {
+          "text": "Ở những thành phố có giao thông công cộng thuận tiện như New York,",
+          "start": 29.16,
+          "end": 33.42
+        },
+        {
+          "text": "bạn có thể không cần xe.",
+          "start": 33.42,
+          "end": 34.96
+        },
+        {
+          "text": "Nhưng tại Houston và nhiều vùng ngoại ô, không có xe riêng sẽ khiến việc đi làm,",
+          "start": 34.96,
+          "end": 40.82
+        },
+        {
+          "text": "mua sắm và đưa đón con cái khó khăn hơn rất nhiều.",
+          "start": 40.82,
+          "end": 44.48
+        }
+      ],
+      "markers": {
+        "not": 5.107,
+        "c": 8.94,
+        "c1": 10.4,
+        "c2": 10.84,
+        "c3": 11.82,
+        "c4": 12.86,
+        "aaa": 13.712,
+        "mit": 21.24,
+        "transit": 29.16,
+        "suburb": 34.96
+      }
+    },
+    {
+      "id": "health",
+      "file": "health.mp3",
+      "hash": "8f675af3e841",
+      "durationSec": 44.08,
+      "cues": [
+        {
+          "text": "Một khoản mà người mới sang Mỹ cần đặc biệt lưu ý là bảo hiểm sức khỏe.",
+          "start": 0.0,
+          "end": 4.533
+        },
+        {
+          "text": "Ngay cả khi có bảo hiểm, bạn vẫn phải trả phí bảo hiểm hằng tháng,",
+          "start": 4.533,
+          "end": 9.32
+        },
+        {
+          "text": "khoản khấu trừ trước khi bảo hiểm chi trả, và một phần chi phí mỗi lần khám chữa bệnh.",
+          "start": 9.32,
+          "end": 15.04
+        },
+        {
+          "text": "Nếu đi làm toàn thời gian, công ty thường đóng phần lớn phí bảo hiểm.",
+          "start": 15.04,
+          "end": 19.32
+        },
+        {
+          "text": "Còn nếu tự mua trên sàn bảo hiểm của chính phủ,",
+          "start": 19.32,
+          "end": 22.3
+        },
+        {
+          "text": "phí trung bình năm 2026 cho một người bốn mươi tuổi ở Texas là 661 đô mỗi tháng,",
+          "start": 22.3,
+          "end": 30.52
+        },
+        {
+          "text": "trước khi được trợ cấp.",
+          "start": 30.52,
+          "end": 32.3
+        },
+        {
+          "text": "Trong bảng tính, chúng ta dùng ước tính của MIT cho người có bảo hiểm qua công ty:",
+          "start": 32.3,
+          "end": 38.126
+        },
+        {
+          "text": "khoảng 270 đô mỗi tháng, gồm cả phí bảo hiểm và tiền khám chữa bệnh tự trả.",
+          "start": 38.126,
+          "end": 44.08
+        }
+      ],
+      "markers": {
+        "even": 4.533,
+        "h1": 7.52,
+        "h2": 9.32,
+        "h3": 12.2,
+        "job": 15.04,
+        "aca": 19.32,
+        "mit": 32.3
+      }
+    },
+    {
+      "id": "other",
+      "file": "other.mp3",
+      "hash": "3686b3b57ecb",
+      "durationSec": 15.2,
+      "cues": [
+        {
+          "text": "Cuối cùng là internet, điện thoại,",
+          "start": 0.0,
+          "end": 2.267
+        },
+        {
+          "text": "và các khoản chi tiêu cá nhân như quần áo, cắt tóc, giải trí.",
+          "start": 2.267,
+          "end": 6.267
+        },
+        {
+          "text": "Chúng ta tính khoảng 135 đô cho internet và điện thoại,",
+          "start": 6.267,
+          "end": 10.848
+        },
+        {
+          "text": "cộng thêm 250 đô cho chi tiêu cá nhân ở mức tiết chế.",
+          "start": 10.848,
+          "end": 15.2
+        }
+      ],
+      "markers": {
+        "net": 0.613,
+        "other": 2.36,
+        "pick": 6.267,
+        "pick2": 10.848
+      }
+    },
+    {
+      "id": "total",
+      "file": "total.mp3",
+      "hash": "7bdd57fae7be",
+      "durationSec": 37.94,
+      "cues": [
+        {
+          "text": "Giờ hãy cộng tất cả lại.",
+          "start": 0.0,
+          "end": 1.8
+        },
+        {
+          "text": "Nhà ở và điện nước 1.270.",
+          "start": 1.8,
+          "end": 5.941
+        },
+        {
+          "text": "Ăn uống 325.",
+          "start": 5.941,
+          "end": 8.301
+        },
+        {
+          "text": "Đi lại 740.",
+          "start": 8.301,
+          "end": 10.661
+        },
+        {
+          "text": "Sức khỏe 270.",
+          "start": 10.661,
+          "end": 12.848
+        },
+        {
+          "text": "Internet và điện thoại 135.",
+          "start": 12.848,
+          "end": 17.061
+        },
+        {
+          "text": "Chi tiêu cá nhân 250.",
+          "start": 17.061,
+          "end": 19.765
+        },
+        {
+          "text": "Tổng cộng: khoảng 3.000 đô một tháng, tương đương gần 80 triệu đồng.",
+          "start": 19.765,
+          "end": 25.509
+        },
+        {
+          "text": "Theo MIT, để trang trải mức sống cơ bản này,",
+          "start": 25.509,
+          "end": 30.301
+        },
+        {
+          "text": "một người ở Houston cần thu nhập khoảng 22 đô một giờ,",
+          "start": 30.301,
+          "end": 34.401
+        },
+        {
+          "text": "tức khoảng 46.000 đô một năm trước thuế.",
+          "start": 34.401,
+          "end": 37.941
+        }
+      ],
+      "markers": {
+        "l1": 1.8,
+        "l2": 5.941,
+        "l3": 8.301,
+        "l4": 10.661,
+        "l5": 12.848,
+        "l6": 17.061,
+        "sum": 19.765,
+        "vnd": 23.248,
+        "income": 25.509
+      }
+    },
+    {
+      "id": "states",
+      "file": "states.mp3",
+      "hash": "0ed407294ad7",
+      "durationSec": 74.057,
+      "cues": [
+        {
+          "text": "Vậy có phải sống ở Mỹ nơi nào cũng đắt đỏ như nhau?",
+          "start": 0.0,
+          "end": 3.64
+        },
+        {
+          "text": "Câu trả lời là không.",
+          "start": 3.64,
+          "end": 5.3
+        },
+        {
+          "text": "Chi phí nhà ở, thuế,",
+          "start": 5.3,
+          "end": 7.413
+        },
+        {
+          "text": "đi lại và các dịch vụ thiết yếu có thể khác nhau đáng kể giữa các bang,",
+          "start": 7.413,
+          "end": 12.272
+        },
+        {
+          "text": "thậm chí giữa các thành phố trong cùng một bang.",
+          "start": 12.272,
+          "end": 15.08
+        },
+        {
+          "text": "Hãy thử đặt cùng người đó vào Quận Cam, California.",
+          "start": 15.08,
+          "end": 19.2
+        },
+        {
+          "text": "Giá thuê chuẩn do chính phủ Mỹ công bố cho căn một phòng ngủ ở đây là khoảng 2.750 đô,",
+          "start": 19.2,
+          "end": 26.72
+        },
+        {
+          "text": "hơn gấp đôi Houston.",
+          "start": 26.72,
+          "end": 28.592
+        },
+        {
+          "text": "Cộng các khoản khác, tổng chi phí lên tới khoảng 4.600 đô một tháng,",
+          "start": 28.592,
+          "end": 34.08
+        },
+        {
+          "text": "tức hơn 100 triệu đồng.",
+          "start": 34.08,
+          "end": 36.34
+        },
+        {
+          "text": "Mức thu nhập cần có theo MIT là khoảng 36 đô một giờ, so với 22 đô ở Houston.",
+          "start": 36.34,
+          "end": 45.177
+        },
+        {
+          "text": "Thuế cũng khác: Texas không thu thuế thu nhập tiểu bang,",
+          "start": 45.177,
+          "end": 49.977
+        },
+        {
+          "text": "còn California thu từ một đến hơn mười ba phần trăm.",
+          "start": 49.977,
+          "end": 54.19
+        },
+        {
+          "text": "Nhưng một nơi có chi phí thấp hơn chưa chắc đã giúp bạn tiết kiệm hơn,",
+          "start": 54.19,
+          "end": 59.917
+        },
+        {
+          "text": "nếu cơ hội việc làm hạn chế, mức lương thấp hơn,",
+          "start": 59.917,
+          "end": 63.209
+        },
+        {
+          "text": "hoặc phải di chuyển quãng đường dài mỗi ngày.",
+          "start": 63.209,
+          "end": 66.244
+        },
+        {
+          "text": "Vì vậy, bạn nên so sánh tổng chi phí sinh hoạt với thu nhập,",
+          "start": 66.244,
+          "end": 71.209
+        },
+        {
+          "text": "thay vì chỉ dựa vào một khoản chi riêng lẻ.",
+          "start": 71.209,
+          "end": 74.057
+        }
+      ],
+      "markers": {
+        "no": 3.64,
+        "diff": 5.3,
+        "ca": 15.08,
+        "rent": 19.2,
+        "total": 28.592,
+        "vnd": 34.08,
+        "wage": 36.34,
+        "tax": 45.177,
+        "but": 54.19,
+        "jobs": 60.297,
+        "pay": 61.917,
+        "commute": 63.705,
+        "so": 66.244
+      }
+    },
+    {
+      "id": "student",
+      "file": "student.mp3",
+      "hash": "ed5ece3ed7c6",
+      "durationSec": 16.08,
+      "cues": [
+        {
+          "text": "Còn với du học sinh, bức tranh khác hẳn.",
+          "start": 0.0,
+          "end": 2.68
+        },
+        {
+          "text": "Nếu ở ghép với bạn, đi xe buýt hoặc đi chung xe, và dùng bảo hiểm của trường,",
+          "start": 2.68,
+          "end": 8.6
+        },
+        {
+          "text": "chi phí sinh hoạt ở Houston thường vào khoảng 1.400 đến 1.800 đô mỗi tháng,",
+          "start": 8.6,
+          "end": 14.992
+        },
+        {
+          "text": "chưa tính học phí.",
+          "start": 14.992,
+          "end": 16.08
+        }
+      ],
+      "markers": {
+        "share": 2.68,
+        "nocar": 4.693,
+        "ins": 6.507,
+        "tuition": 14.992
+      }
+    },
+    {
+      "id": "outro",
+      "file": "outro.mp3",
+      "hash": "8dd1af8fe4a7",
+      "durationSec": 48.64,
+      "cues": [
+        {
+          "text": "Như vậy, để biết sống ở Mỹ tốn bao nhiêu tiền mỗi tháng,",
+          "start": 0.0,
+          "end": 3.867
+        },
+        {
+          "text": "chúng ta cần xem xét ít nhất năm yếu tố:",
+          "start": 3.867,
+          "end": 6.352
+        },
+        {
+          "text": "tiền nhà, ăn uống, đi lại, bảo hiểm và chi tiêu cá nhân.",
+          "start": 6.352,
+          "end": 11.293
+        },
+        {
+          "text": "Không có một con số phù hợp cho tất cả mọi người:",
+          "start": 11.293,
+          "end": 14.84
+        },
+        {
+          "text": "một người độc thân ở Houston cần khoảng 3.000 đô,",
+          "start": 14.84,
+          "end": 18.84
+        },
+        {
+          "text": "ở Quận Cam khoảng 4.600 đô, và một gia đình có con nhỏ sẽ cần nhiều hơn thế.",
+          "start": 18.84,
+          "end": 25.248
+        },
+        {
+          "text": "Điều quan trọng nhất là so sánh thu nhập thực nhận",
+          "start": 25.248,
+          "end": 28.68
+        },
+        {
+          "text": "với chi phí sinh hoạt tại chính nơi bạn dự định sống.",
+          "start": 28.68,
+          "end": 32.176
+        },
+        {
+          "text": "Theo bạn, một gia đình Việt Nam sống tại Mỹ cần tối thiểu bao nhiêu tiền mỗi tháng?",
+          "start": 32.176,
+          "end": 37.74
+        },
+        {
+          "text": "Hãy chia sẻ ý kiến của bạn ở phần bình luận.",
+          "start": 37.74,
+          "end": 41.16
+        },
+        {
+          "text": "Đừng quên đăng ký kênh để cùng tìm hiểu thêm những câu chuyện thực tế về cuộc sống,",
+          "start": 41.16,
+          "end": 45.96
+        },
+        {
+          "text": "thu nhập và chi phí sinh hoạt tại Mỹ.",
+          "start": 45.96,
+          "end": 48.64
+        }
+      ],
+      "markers": {
+        "o1": 6.352,
+        "o2": 7.573,
+        "o3": 8.24,
+        "o4": 9.1,
+        "o5": 10.22,
+        "none": 11.293,
+        "ex": 14.84,
+        "key": 25.248,
+        "q": 32.176,
+        "sub": 41.16
+      }
+    }
+  ]
+}
