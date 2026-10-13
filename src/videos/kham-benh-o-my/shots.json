@@ -1,0 +1,216 @@
+{
+  "_help": "Cảnh quay nền. at = mốc {key} hoặc số giây; query = từ khóa NGẮN trên Pixabay; id = mã video Pixabay đã chọn. Tải: npm run broll -- kham-benh-o-my",
+  "scenes": {
+    "hook": [
+      {
+        "at": 0,
+        "query": "doctor patient",
+        "id": 49808
+      },
+      {
+        "at": "birth",
+        "query": "newborn baby",
+        "id": 567
+      },
+      {
+        "at": "er",
+        "query": "emergency room",
+        "id": 27385
+      },
+      {
+        "at": "q",
+        "query": "hospital corridor",
+        "id": 136458
+      },
+      {
+        "at": "plan",
+        "query": "stethoscope",
+        "id": 22704
+      }
+    ],
+    "prices": [
+      {
+        "at": 0,
+        "query": "clinic",
+        "id": 40353
+      },
+      {
+        "at": "visit",
+        "query": "doctor consultation",
+        "id": 49815
+      },
+      {
+        "at": "urgent",
+        "query": "nurse",
+        "id": 143376
+      },
+      {
+        "at": "er",
+        "query": "hospital emergency",
+        "id": 144015
+      },
+      {
+        "at": "amb",
+        "query": "ambulance",
+        "id": 165252
+      },
+      {
+        "at": "day",
+        "query": "hospital bed",
+        "id": 151295
+      }
+    ],
+    "how": [
+      {
+        "at": 0,
+        "query": "insurance form",
+        "id": 80314
+      },
+      {
+        "at": "ded",
+        "query": "calculator",
+        "id": 209854
+      },
+      {
+        "at": "max",
+        "query": "money",
+        "id": 172892
+      },
+      {
+        "at": "ex",
+        "query": "hospital bill",
+        "id": 21936
+      },
+      {
+        "at": "you",
+        "query": "paying card",
+        "id": 209456
+      },
+      {
+        "at": "big",
+        "query": "worried woman",
+        "id": 293081
+      }
+    ],
+    "employer": [
+      {
+        "at": 0,
+        "query": "office workers",
+        "id": 107425
+      },
+      {
+        "at": "share",
+        "query": "salary",
+        "id": 50621
+      },
+      {
+        "at": "family",
+        "query": "family",
+        "id": 172667
+      },
+      {
+        "at": "ded",
+        "query": "pharmacy",
+        "id": 49816
+      }
+    ],
+    "market": [
+      {
+        "at": 0,
+        "query": "laptop",
+        "id": 39892
+      },
+      {
+        "at": "bench",
+        "query": "woman laptop",
+        "id": 130645
+      },
+      {
+        "at": "sub",
+        "query": "bills",
+        "id": 153458
+      },
+      {
+        "at": "open",
+        "query": "calendar",
+        "id": 3019
+      },
+      {
+        "at": "medicaid",
+        "query": "texas",
+        "id": 243119
+      }
+    ],
+    "immigrants": [
+      {
+        "at": 0,
+        "query": "immigrants",
+        "id": 1366
+      },
+      {
+        "at": "wait",
+        "query": "passport",
+        "id": 134789
+      },
+      {
+        "at": "rate",
+        "query": "people city",
+        "id": 23796
+      },
+      {
+        "at": "parents",
+        "query": "elderly couple",
+        "id": 172681
+      },
+      {
+        "at": "medicare",
+        "query": "senior",
+        "id": 6096
+      }
+    ],
+    "tips": [
+      {
+        "at": 0,
+        "query": "pharmacy",
+        "id": 49811
+      },
+      {
+        "at": "t2",
+        "query": "community",
+        "id": 379716
+      },
+      {
+        "at": "t3",
+        "query": "video call",
+        "id": 34485
+      },
+      {
+        "at": "t4",
+        "query": "telephone",
+        "id": 61704
+      },
+      {
+        "at": "t5",
+        "query": "pills",
+        "id": 40948
+      }
+    ],
+    "outro": [
+      {
+        "at": 0,
+        "query": "hospital exterior",
+        "id": 13659
+      },
+      {
+        "at": "key",
+        "query": "sunrise",
+        "id": 201308
+      },
+      {
+        "at": "q",
+        "query": "city",
+        "id": 91744
+      }
+    ]
+  }
+}

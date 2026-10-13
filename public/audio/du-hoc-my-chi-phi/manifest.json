@@ -1,0 +1,509 @@
+{
+  "slug": "du-hoc-my-chi-phi",
+  "voice": "vi-VN-NamMinhNeural",
+  "rate": "-4%",
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "hook.mp3",
+      "hash": "d5ebf580886e",
+      "durationSec": 29.507,
+      "cues": [
+        {
+          "text": "Du học Mỹ là giấc mơ của rất nhiều gia đình Việt.",
+          "start": 0.0,
+          "end": 3.062
+        },
+        {
+          "text": "Năm học 2024 đến 2025, có hơn 25.500 sinh viên Việt Nam đang học ở Mỹ,",
+          "start": 3.062,
+          "end": 10.696
+        },
+        {
+          "text": "cao kỷ lục, đứng thứ năm thế giới.",
+          "start": 10.696,
+          "end": 12.821
+        },
+        {
+          "text": "Nhưng một năm du học Mỹ thực sự tốn bao nhiêu?",
+          "start": 12.821,
+          "end": 16.5
+        },
+        {
+          "text": "Từ khoảng 700 triệu đồng ở một trường cao đẳng cộng đồng,",
+          "start": 16.5,
+          "end": 19.786
+        },
+        {
+          "text": "đến hơn 2,6 tỷ đồng ở một trường tư danh tiếng.",
+          "start": 19.786,
+          "end": 23.821
+        },
+        {
+          "text": "Hôm nay, Tin Nước Mỹ sẽ tính đủ, từ lúc nộp hồ sơ đến tấm bằng tốt nghiệp.",
+          "start": 23.821,
+          "end": 29.5
+        }
+      ],
+      "markers": {
+        "stat": 3.062,
+        "q": 12.821,
+        "ans": 16.5,
+        "top": 19.786,
+        "plan": 23.821
+      }
+    },
+    {
+      "id": "before",
+      "file": "before.mp3",
+      "hash": "532a2c5682fa",
+      "durationSec": 38.003,
+      "cues": [
+        {
+          "text": "Khoản đầu tiên phát sinh ngay khi còn ở Việt Nam.",
+          "start": 0.0,
+          "end": 2.607
+        },
+        {
+          "text": "Thi IELTS: khoảng 4,7 triệu đồng.",
+          "start": 2.607,
+          "end": 5.667
+        },
+        {
+          "text": "Phí nộp hồ sơ: từ năm mươi đến chín mươi lăm đô mỗi trường;",
+          "start": 5.667,
+          "end": 9.911
+        },
+        {
+          "text": "nộp năm trường là khoảng 450 đô.",
+          "start": 9.911,
+          "end": 12.524
+        },
+        {
+          "text": "Phí SEVIS 350 đô, phí phỏng vấn visa du học 185 đô.",
+          "start": 12.524,
+          "end": 18.429
+        },
+        {
+          "text": "Từ năm 2025, luật Mỹ còn đặt thêm phí bảo đảm visa 250 đô,",
+          "start": 18.429,
+          "end": 24.696
+        },
+        {
+          "text": "tuy việc thu chưa đồng đều giữa các lãnh sự quán.",
+          "start": 24.696,
+          "end": 28.071
+        },
+        {
+          "text": "Và vé máy bay khứ hồi sang Mỹ: khoảng 30 triệu đồng, mùa cao điểm còn đắt hơn.",
+          "start": 28.071,
+          "end": 33.714
+        },
+        {
+          "text": "Cộng lại, gần 70 triệu đồng trước khi đặt chân vào lớp học.",
+          "start": 33.714,
+          "end": 38.0
+        }
+      ],
+      "markers": {
+        "l1": 2.607,
+        "l2": 5.667,
+        "l3": 12.524,
+        "l4": 14.946,
+        "l5": 18.429,
+        "l6": 28.071,
+        "sum": 33.714
+      }
+    },
+    {
+      "id": "tuition",
+      "file": "tuition.mp3",
+      "hash": "f4d855e59eb2",
+      "durationSec": 32.359,
+      "cues": [
+        {
+          "text": "Khoản lớn nhất: học phí.",
+          "start": 0.0,
+          "end": 1.929
+        },
+        {
+          "text": "Điều nhiều người không biết:",
+          "start": 1.929,
+          "end": 3.743
+        },
+        {
+          "text": "sinh viên quốc tế ở trường công phải trả mức học phí dành cho người ngoài tiểu bang,",
+          "start": 3.743,
+          "end": 8.464
+        },
+        {
+          "text": "cao gần gấp ba người bản địa.",
+          "start": 8.464,
+          "end": 10.143
+        },
+        {
+          "text": "Năm học 2025 đến 2026,",
+          "start": 10.143,
+          "end": 14.268
+        },
+        {
+          "text": "học phí trung bình ở đại học công bốn năm cho",
+          "start": 14.268,
+          "end": 16.881
+        },
+        {
+          "text": "người ngoài bang là khoảng 31.900 đô một năm.",
+          "start": 16.881,
+          "end": 20.893
+        },
+        {
+          "text": "Ở đại học tư phi lợi nhuận: khoảng 45.000 đô.",
+          "start": 20.893,
+          "end": 24.071
+        },
+        {
+          "text": "Còn ở trường cao đẳng cộng đồng, ví dụ De Anza ở California,",
+          "start": 24.071,
+          "end": 28.357
+        },
+        {
+          "text": "học phí cho sinh viên quốc tế khoảng 10.200 đô một năm.",
+          "start": 28.357,
+          "end": 32.357
+        }
+      ],
+      "markers": {
+        "rule": 1.929,
+        "pub": 10.143,
+        "priv": 20.893,
+        "cc": 24.071
+      }
+    },
+    {
+      "id": "living",
+      "file": "living.mp3",
+      "hash": "d7921abd4bc2",
+      "durationSec": 36.177,
+      "cues": [
+        {
+          "text": "Rồi đến tiền ăn ở và sinh hoạt.",
+          "start": 0.0,
+          "end": 2.206
+        },
+        {
+          "text": "Ở ký túc xá và ăn ở trường công tốn trung bình khoảng 13.900 đô một năm,",
+          "start": 2.206,
+          "end": 7.65
+        },
+        {
+          "text": "trường tư khoảng 15.900 đô.",
+          "start": 7.65,
+          "end": 10.849
+        },
+        {
+          "text": "Bảo hiểm y tế là bắt buộc: thường từ 1.700 đến hơn 3.200 đô một năm.",
+          "start": 10.849,
+          "end": 17.218
+        },
+        {
+          "text": "Thêm sách vở, đi lại và chi tiêu cá nhân: khoảng 5.000 đô.",
+          "start": 17.218,
+          "end": 22.376
+        },
+        {
+          "text": "Tính tất cả, một năm ở đại học công bốn năm là khoảng 51.000 đô, tức hơn 1,3 tỷ đồng.",
+          "start": 22.376,
+          "end": 30.662
+        },
+        {
+          "text": "Ở đại học tư: khoảng 65.500 đô, tức khoảng 1,7 tỷ đồng.",
+          "start": 30.662,
+          "end": 36.162
+        }
+      ],
+      "markers": {
+        "room": 2.206,
+        "ins": 10.849,
+        "other": 17.218,
+        "total": 22.376,
+        "totalpriv": 30.662
+      }
+    },
+    {
+      "id": "schools",
+      "file": "schools.mp3",
+      "hash": "f5014b40906d",
+      "durationSec": 34.801,
+      "cues": [
+        {
+          "text": "Con số trung bình chưa nói hết.",
+          "start": 0.0,
+          "end": 1.991
+        },
+        {
+          "text": "Hãy xem ba trường thật, năm học 2026 đến 2027.",
+          "start": 1.991,
+          "end": 6.983
+        },
+        {
+          "text": "Cao đẳng cộng đồng De Anza: khoảng 27.200 đô một năm, tức khoảng 700 triệu đồng.",
+          "start": 6.983,
+          "end": 13.804
+        },
+        {
+          "text": "Đại học công UC Irvine:",
+          "start": 13.804,
+          "end": 15.96
+        },
+        {
+          "text": "khoảng 85.000 đô một năm cho sinh viên ngoài bang, hơn 2,2 tỷ đồng.",
+          "start": 15.96,
+          "end": 21.769
+        },
+        {
+          "text": "Đại học tư USC ở Los Angeles: hơn 103.000 đô một năm, gần 2,7 tỷ đồng.",
+          "start": 21.769,
+          "end": 29.258
+        },
+        {
+          "text": "Nhân với bốn năm, một tấm bằng ở USC có thể tốn gần 11 tỷ đồng.",
+          "start": 29.258,
+          "end": 34.787
+        }
+      ],
+      "markers": {
+        "s1": 6.983,
+        "s2": 13.804,
+        "s3": 21.769,
+        "four": 29.258
+      }
+    },
+    {
+      "id": "funds",
+      "file": "funds.mp3",
+      "hash": "2e58716d37dd",
+      "durationSec": 36.193,
+      "cues": [
+        {
+          "text": "Vậy tiền ở đâu ra?",
+          "start": 0.0,
+          "end": 1.381
+        },
+        {
+          "text": "Để được cấp giấy I-20, gia đình phải chứng minh đủ tiền cho ít nhất năm học đầu tiên,",
+          "start": 1.381,
+          "end": 6.229
+        },
+        {
+          "text": "bằng đúng chi phí trường ước tính.",
+          "start": 6.229,
+          "end": 8.257
+        },
+        {
+          "text": "Sinh viên quốc tế không được vay hay nhận trợ cấp của chính phủ liên bang Mỹ.",
+          "start": 8.257,
+          "end": 12.762
+        },
+        {
+          "text": "Trên thực tế, hơn một nửa sinh viên quốc tế ở Mỹ",
+          "start": 12.762,
+          "end": 16.018
+        },
+        {
+          "text": "dựa chủ yếu vào tiền của bản thân và gia đình.",
+          "start": 16.018,
+          "end": 18.849
+        },
+        {
+          "text": "Được đi làm không?",
+          "start": 18.849,
+          "end": 20.385
+        },
+        {
+          "text": "Có, nhưng chỉ trong trường, tối đa hai mươi giờ mỗi tuần trong học kỳ.",
+          "start": 20.385,
+          "end": 24.885
+        },
+        {
+          "text": "Với lương tối thiểu California năm 2026, đó là khoảng 340 đô một tuần trước thuế:",
+          "start": 24.885,
+          "end": 32.227
+        },
+        {
+          "text": "đủ trang trải một phần sinh hoạt, nhưng không thể gánh học phí.",
+          "start": 32.227,
+          "end": 36.18
+        }
+      ],
+      "markers": {
+        "i20": 1.381,
+        "fafsa": 8.257,
+        "family": 12.762,
+        "work": 18.849,
+        "wage": 24.885
+      }
+    },
+    {
+      "id": "policy",
+      "file": "policy.mp3",
+      "hash": "5e0611178d17",
+      "durationSec": 30.515,
+      "cues": [
+        {
+          "text": "Những thay đổi gia đình cần biết.",
+          "start": 0.0,
+          "end": 1.833
+        },
+        {
+          "text": "Từ năm 2025, người xin visa du học được yêu cầu để chế độ",
+          "start": 1.833,
+          "end": 6.7
+        },
+        {
+          "text": "công khai cho tài khoản mạng xã hội khi được xét duyệt.",
+          "start": 6.7,
+          "end": 9.75
+        },
+        {
+          "text": "Mùa thu năm 2025, số sinh viên quốc tế mới nhập học tại Mỹ giảm khoảng 17%.",
+          "start": 9.75,
+          "end": 16.381
+        },
+        {
+          "text": "Và đầu tháng Mười năm 2026,",
+          "start": 16.381,
+          "end": 19.286
+        },
+        {
+          "text": "Bộ An ninh Nội địa đề xuất thu phí rất cao",
+          "start": 19.286,
+          "end": 22.25
+        },
+        {
+          "text": "cho chương trình thực tập sau tốt nghiệp OPT.",
+          "start": 22.25,
+          "end": 24.964
+        },
+        {
+          "text": "Đây mới là đề xuất, chưa có hiệu lực.",
+          "start": 24.964,
+          "end": 27.821
+        },
+        {
+          "text": "Hãy theo dõi thông tin chính thức trước khi quyết định.",
+          "start": 27.821,
+          "end": 30.5
+        }
+      ],
+      "markers": {
+        "vet": 1.833,
+        "drop": 9.75,
+        "opt": 16.381,
+        "note": 24.964
+      }
+    },
+    {
+      "id": "save",
+      "file": "save.mp3",
+      "hash": "e10c57dffd36",
+      "durationSec": 34.94,
+      "cues": [
+        {
+          "text": "Làm sao để giảm chi phí?",
+          "start": 0.0,
+          "end": 1.686
+        },
+        {
+          "text": "Cách phổ biến nhất là lộ trình hai cộng hai:",
+          "start": 1.686,
+          "end": 4.232
+        },
+        {
+          "text": "học hai năm đầu ở cao đẳng cộng đồng, rồi chuyển tiếp lên đại học.",
+          "start": 4.232,
+          "end": 8.429
+        },
+        {
+          "text": "Hơn một phần năm sinh viên Việt Nam ở Mỹ đang học tại trường cao đẳng cộng đồng.",
+          "start": 8.429,
+          "end": 12.643
+        },
+        {
+          "text": "Ví dụ: hai năm ở De Anza rồi hai năm ở UC Irvine tốn khoảng 225.000 đô,",
+          "start": 12.643,
+          "end": 19.453
+        },
+        {
+          "text": "so với khoảng 341.000 đô nếu học cả bốn năm ở UC Irvine: tiết kiệm khoảng 3 tỷ đồng.",
+          "start": 19.453,
+          "end": 25.893
+        },
+        {
+          "text": "Ngoài ra: săn học bổng dựa trên thành tích,",
+          "start": 25.893,
+          "end": 29.186
+        },
+        {
+          "text": "chọn bang có chi phí sinh hoạt thấp như Texas,",
+          "start": 29.186,
+          "end": 32.0
+        },
+        {
+          "text": "và thuê nhà ở ghép ngoài trường từ năm thứ hai.",
+          "start": 32.0,
+          "end": 34.929
+        }
+      ],
+      "markers": {
+        "cc": 1.686,
+        "vn": 8.429,
+        "calc": 12.643,
+        "saving": 19.453,
+        "more": 25.893
+      }
+    },
+    {
+      "id": "outro",
+      "file": "outro.mp3",
+      "hash": "47b9a9de8234",
+      "durationSec": 17.438,
+      "cues": [
+        {
+          "text": "Du học Mỹ là khoản đầu tư lớn nhất của nhiều gia đình Việt.",
+          "start": 0.0,
+          "end": 2.786
+        },
+        {
+          "text": "Hãy tính cho cả bốn năm, không chỉ năm đầu tiên.",
+          "start": 2.786,
+          "end": 6.0
+        },
+        {
+          "text": "Còn bạn, nếu cho con đi du học Mỹ,",
+          "start": 6.0,
+          "end": 8.625
+        },
+        {
+          "text": "bạn sẽ chọn bắt đầu từ cao đẳng cộng đồng hay vào thẳng đại học?",
+          "start": 8.625,
+          "end": 12.0
+        },
+        {
+          "text": "Hãy chia sẻ ở phần bình luận.",
+          "start": 12.0,
+          "end": 14.0
+        },
+        {
+          "text": "Đừng quên đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo.",
+          "start": 14.0,
+          "end": 17.429
+        }
+      ],
+      "markers": {
+        "key": 2.786,
+        "q": 6.0,
+        "sub": 14.0
+      }
+    }
+  ]
+}

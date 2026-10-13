@@ -1,0 +1,48 @@
+{
+  "slug": "kham-benh-o-my",
+  "title": "Đi khám bệnh ở Mỹ tốn bao nhiêu? Sự thật về bảo hiểm y tế",
+  "tts": {
+    "provider": "elevenlabs",
+    "voiceId": "jdlxsPOZOHdGEfcItXVu",
+    "name": "Hien - Warm and Deep Broadcaster (giọng nữ Hà Nội)",
+    "model": "eleven_v3",
+    "tempo": 1.12,
+    "settings": {"stability": 0.5, "similarity_boost": 0.8, "style": 0.15, "use_speaker_boost": true}
+  },
+  "tighten": {"sentence": 0.42, "comma": 0.2},
+  "_syntax": "[hiển thị|đọc] = phụ đề | giọng đọc. {key} = mốc để cảnh quay/đồ họa đổi đúng lúc.",
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Ở Việt Nam, một lần đi khám bệnh có thể chỉ tốn vài trăm ngàn đồng. Ở Mỹ thì khác. {birth}Một ca sinh con có tổng chi phí trung bình hơn [20.000 đô|hai mươi ngàn đô], tức hơn nửa tỷ đồng. {er}Một lần vào phòng cấp cứu: trung bình gần [2.500 đô|hai ngàn rưỡi đô]. {q}Vì sao y tế Mỹ đắt như vậy, và bảo hiểm thực sự giúp được bao nhiêu? {plan}Hôm nay, Tin Nước Mỹ sẽ giải thích từ đầu, kèm những điều người Việt mới sang cần biết."
+    },
+    {
+      "id": "prices",
+      "text": "Trước hết là giá. {visit}Một lần khám bác sĩ gia đình cho bệnh nhân mới, khoảng bốn mươi lăm phút: bảo hiểm thường trả khoảng [180 đô|một trăm tám mươi đô], chưa tính xét nghiệm. {urgent}Phòng khám khẩn cấp, gọi là urgent care, có giá tương tự. {er}Nhưng phòng cấp cứu thì khác hẳn: tổng hóa đơn trung bình khoảng [2.450 đô|hai ngàn bốn trăm năm mươi đô], người bệnh có bảo hiểm vẫn tự trả khoảng [650 đô|sáu trăm năm mươi đô]. {amb}Một chuyến xe cứu thương có thể bị tính hơn [1.200 đô|một ngàn hai trăm đô]. {day}Và bệnh viện Mỹ chi trung bình khoảng [3.300 đô|ba ngàn ba trăm đô] cho mỗi ngày bệnh nhân nằm viện, ở California là hơn [4.700 đô|bốn ngàn bảy trăm đô]."
+    },
+    {
+      "id": "how",
+      "text": "Bảo hiểm y tế ở Mỹ có bốn khái niệm phải hiểu. {prem}Phí bảo hiểm: tiền đóng hằng tháng, dù có đi khám hay không. {ded}Mức khấu trừ: số tiền bạn tự trả trước khi bảo hiểm bắt đầu chi. {coins}Đồng chi trả: phần trăm bạn vẫn phải trả sau đó, thường là hai mươi phần trăm. {max}Và mức trần tự trả: năm [2026|hai ngàn không trăm hai mươi sáu], tối đa [10.600 đô|mười ngàn sáu trăm đô] một người một năm. {ex}Ví dụ: hóa đơn cấp cứu [3.000 đô|ba ngàn đô], mức khấu trừ [2.000|hai ngàn], đồng chi trả hai mươi phần trăm. {you}Bạn trả [2.000|hai ngàn], cộng hai mươi phần trăm của một ngàn còn lại: tổng cộng [2.200 đô|hai ngàn hai trăm đô]. {big}Nếu hóa đơn là một trăm ngàn đô, bạn chỉ phải trả tối đa [10.600|mười ngàn sáu trăm]. Đó là lý do không ai nên sống ở Mỹ mà không có bảo hiểm."
+    },
+    {
+      "id": "employer",
+      "text": "Phần lớn người Mỹ dưới sáu mươi lăm tuổi có bảo hiểm qua công ty. {single}Năm [2025|hai ngàn không trăm hai mươi lăm], gói cho một người có giá trung bình khoảng [9.300 đô|chín ngàn ba trăm đô] một năm, {share}người lao động tự đóng khoảng [1.440 đô|một ngàn bốn trăm bốn mươi đô], tức [120 đô|một trăm hai mươi đô] mỗi tháng. {family}Gói gia đình: gần [27.000 đô|hai mươi bảy ngàn đô], người lao động đóng khoảng [6.850 đô|sáu ngàn tám trăm năm mươi đô]. {ded}Mức khấu trừ trung bình cho một người gần [1.900 đô|một ngàn chín trăm đô], và cứ ba người lao động thì có một người phải chịu mức khấu trừ từ [2.000 đô|hai ngàn đô] trở lên."
+    },
+    {
+      "id": "market",
+      "text": "Không có bảo hiểm qua công ty? Bạn có thể tự mua trên chợ bảo hiểm của chính phủ, quen gọi là Obamacare. {bench}Năm [2026|hai ngàn không trăm hai mươi sáu], gói bạc chuẩn cho một người bốn mươi tuổi có giá trung bình [625 đô|sáu trăm hai mươi lăm đô] một tháng trước trợ cấp, tăng khoảng [26%|hai mươi sáu phần trăm]. {sub}Khoản trợ cấp tăng cường đã hết hạn cuối năm [2025|hai ngàn không trăm hai mươi lăm], nên muốn giữ nguyên gói cũ, người mua phải trả thêm trung bình hơn [1.000 đô|một ngàn đô] mỗi năm, {drop}và số người đóng bảo hiểm qua chợ đã giảm xuống khoảng [19,2 triệu|mười chín phẩy hai triệu]. {open}Đợt đăng ký cho năm [2027|hai ngàn không trăm hai mươi bảy] mở từ ngày một tháng Mười Một năm nay đến ngày mười lăm tháng Một. {medicaid}Thu nhập thấp thì có Medicaid: ở các bang mở rộng, người độc thân thu nhập dưới khoảng [22.000 đô|hai mươi hai ngàn đô] một năm có thể đủ điều kiện. Texas là bang chưa mở rộng."
+    },
+    {
+      "id": "immigrants",
+      "text": "Với người nhập cư, luật đang thay đổi. {wait}Nhiều người có thẻ xanh phải chờ năm năm mới được hưởng Medicaid. {sub}Từ năm [2027|hai ngàn không trăm hai mươi bảy], trợ cấp mua bảo hiểm trên chợ chỉ còn dành cho người có thẻ xanh và một số nhóm đặc biệt; người có visa lao động hay diện bảo vệ tạm thời sẽ mất trợ cấp. {rate}Hiện gần [29%|hai mươi chín phần trăm] người trưởng thành không có quốc tịch Mỹ không có bảo hiểm y tế, so với khoảng [11%|mười một phần trăm] ở toàn bộ người trưởng thành. {parents}Còn cha mẹ sang thăm con: bảo hiểm du lịch cho người bảy mươi tuổi có thể tốn từ hai trăm đến hơn bốn trăm đô mỗi tháng, và thường không chi trả bệnh có sẵn. {medicare}Muốn có Medicare, cha mẹ phải có thẻ xanh, sống ở Mỹ đủ năm năm liên tục, và nếu chưa từng đi làm ở Mỹ thì phí phần A là [565 đô|năm trăm sáu mươi lăm đô] mỗi tháng, chưa kể phần B khoảng [203 đô|hai trăm lẻ ba đô]."
+    },
+    {
+      "id": "tips",
+      "text": "Vậy làm sao để bớt lo về chi phí y tế? {t1}Một: không nguy kịch thì đến urgent care thay vì phòng cấp cứu. {t2}Hai: tìm trung tâm y tế cộng đồng, nơi thu phí theo thu nhập, kể cả với người chưa có bảo hiểm. {t3}Ba: khám từ xa qua video, có nơi chỉ từ khoảng ba mươi đến năm mươi đô. {t4}Bốn: không có bảo hiểm thì hỏi giá trước. Luật chống hóa đơn bất ngờ cho phép bạn yêu cầu bản ước tính chi phí, và khiếu nại nếu hóa đơn cao hơn từ bốn trăm đô trở lên. {t5}Năm: đăng ký bảo hiểm đúng hạn, và luôn hỏi thuốc generic để giảm tiền thuốc."
+    },
+    {
+      "id": "outro",
+      "text": "Tóm lại, ở Mỹ, bảo hiểm y tế không phải khoản chi tùy chọn. {key}Nó là tấm lưới an toàn giữa bạn và một hóa đơn có thể lên đến hàng chục ngàn đô. {q}Còn bạn, đã bao giờ nhận một hóa đơn y tế bất ngờ ở Mỹ chưa? Hãy chia sẻ ở phần bình luận. {sub}Đừng quên đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo."
+    }
+  ]
+}

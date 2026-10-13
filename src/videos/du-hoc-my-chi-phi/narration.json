@@ -1,0 +1,52 @@
+{
+  "slug": "du-hoc-my-chi-phi",
+  "title": "Du học Mỹ 2026 tốn bao nhiêu tiền? Tính đủ từ visa đến tấm bằng",
+  "tts": {
+    "provider": "elevenlabs",
+    "voiceId": "jdlxsPOZOHdGEfcItXVu",
+    "name": "Hien - Warm and Deep Broadcaster (giọng nữ Hà Nội)",
+    "model": "eleven_v3",
+    "tempo": 1.12,
+    "settings": {"stability": 0.5, "similarity_boost": 0.8, "style": 0.15, "use_speaker_boost": true}
+  },
+  "tighten": {"sentence": 0.42, "comma": 0.2},
+  "_syntax": "[hiển thị|đọc] = phụ đề | giọng đọc. {key} = mốc để cảnh quay/đồ họa đổi đúng lúc.",
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Du học Mỹ là giấc mơ của rất nhiều gia đình Việt. {stat}Năm học [2024|hai ngàn không trăm hai mươi bốn] đến [2025|hai ngàn không trăm hai mươi lăm], có hơn [25.500|hai mươi lăm ngàn năm trăm] sinh viên Việt Nam đang học ở Mỹ, cao kỷ lục, đứng thứ năm thế giới. {q}Nhưng một năm du học Mỹ thực sự tốn bao nhiêu? {ans}Từ khoảng [700 triệu đồng|bảy trăm triệu đồng] ở một trường cao đẳng cộng đồng, {top}đến hơn [2,6 tỷ đồng|hai phẩy sáu tỷ đồng] ở một trường tư danh tiếng. {plan}Hôm nay, Tin Nước Mỹ sẽ tính đủ, từ lúc nộp hồ sơ đến tấm bằng tốt nghiệp."
+    },
+    {
+      "id": "before",
+      "text": "Khoản đầu tiên phát sinh ngay khi còn ở Việt Nam. {l1}Thi [IELTS|ai-en]: khoảng [4,7 triệu đồng|bốn phẩy bảy triệu đồng]. {l2}Phí nộp hồ sơ: từ năm mươi đến chín mươi lăm đô mỗi trường; nộp năm trường là khoảng [450 đô|bốn trăm năm mươi đô]. {l3}Phí [SEVIS|xê-vít] [350 đô|ba trăm năm mươi đô], {l4}phí phỏng vấn visa du học [185 đô|một trăm tám mươi lăm đô]. {l5}Từ năm [2025|hai ngàn không trăm hai mươi lăm], luật Mỹ còn đặt thêm phí bảo đảm visa [250 đô|hai trăm năm mươi đô], tuy việc thu chưa đồng đều giữa các lãnh sự quán. {l6}Và vé máy bay khứ hồi sang Mỹ: khoảng [30 triệu đồng|ba mươi triệu đồng], mùa cao điểm còn đắt hơn. {sum}Cộng lại, gần [70 triệu đồng|bảy mươi triệu đồng] trước khi đặt chân vào lớp học."
+    },
+    {
+      "id": "tuition",
+      "text": "Khoản lớn nhất: học phí. {rule}Điều nhiều người không biết: sinh viên quốc tế ở trường công phải trả mức học phí dành cho người ngoài tiểu bang, cao gần gấp ba người bản địa. {pub}Năm học [2025|hai ngàn không trăm hai mươi lăm] đến [2026|hai ngàn không trăm hai mươi sáu], học phí trung bình ở đại học công bốn năm cho người ngoài bang là khoảng [31.900 đô|ba mươi mốt ngàn chín trăm đô] một năm. {priv}Ở đại học tư phi lợi nhuận: khoảng [45.000 đô|bốn mươi lăm ngàn đô]. {cc}Còn ở trường cao đẳng cộng đồng, ví dụ [De Anza|Đê An-da] ở California, học phí cho sinh viên quốc tế khoảng [10.200 đô|mười ngàn hai trăm đô] một năm."
+    },
+    {
+      "id": "living",
+      "text": "Rồi đến tiền ăn ở và sinh hoạt. {room}Ở ký túc xá và ăn ở trường công tốn trung bình khoảng [13.900 đô|mười ba ngàn chín trăm đô] một năm, trường tư khoảng [15.900 đô|mười lăm ngàn chín trăm đô]. {ins}Bảo hiểm y tế là bắt buộc: thường từ [1.700|một ngàn bảy trăm] đến hơn [3.200 đô|ba ngàn hai trăm đô] một năm. {other}Thêm sách vở, đi lại và chi tiêu cá nhân: khoảng [5.000 đô|năm ngàn đô]. {total}Tính tất cả, một năm ở đại học công bốn năm là khoảng [51.000 đô|năm mươi mốt ngàn đô], tức hơn [1,3 tỷ đồng|một phẩy ba tỷ đồng]. {totalpriv}Ở đại học tư: khoảng [65.500 đô|sáu mươi lăm ngàn năm trăm đô], tức khoảng [1,7 tỷ đồng|một phẩy bảy tỷ đồng]."
+    },
+    {
+      "id": "schools",
+      "text": "Con số trung bình chưa nói hết. Hãy xem ba trường thật, năm học [2026|hai ngàn không trăm hai mươi sáu] đến [2027|hai ngàn không trăm hai mươi bảy]. {s1}Cao đẳng cộng đồng [De Anza|Đê An-da]: khoảng [27.200 đô|hai mươi bảy ngàn hai trăm đô] một năm, tức khoảng [700 triệu đồng|bảy trăm triệu đồng]. {s2}Đại học công [UC Irvine|diu-xi ơ-vin]: khoảng [85.000 đô|tám mươi lăm ngàn đô] một năm cho sinh viên ngoài bang, hơn [2,2 tỷ đồng|hai phẩy hai tỷ đồng]. {s3}Đại học tư [USC|diu-ét-xi] ở Los Angeles: hơn [103.000 đô|một trăm lẻ ba ngàn đô] một năm, gần [2,7 tỷ đồng|hai phẩy bảy tỷ đồng]. {four}Nhân với bốn năm, một tấm bằng ở [USC|diu-ét-xi] có thể tốn gần [11 tỷ đồng|mười một tỷ đồng]."
+    },
+    {
+      "id": "funds",
+      "text": "Vậy tiền ở đâu ra? {i20}Để được cấp giấy [I-20|ai hai mươi], gia đình phải chứng minh đủ tiền cho ít nhất năm học đầu tiên, bằng đúng chi phí trường ước tính. {fafsa}Sinh viên quốc tế không được vay hay nhận trợ cấp của chính phủ liên bang Mỹ. {family}Trên thực tế, hơn một nửa sinh viên quốc tế ở Mỹ dựa chủ yếu vào tiền của bản thân và gia đình. {work}Được đi làm không? Có, nhưng chỉ trong trường, tối đa hai mươi giờ mỗi tuần trong học kỳ. {wage}Với lương tối thiểu California năm [2026|hai ngàn không trăm hai mươi sáu], đó là khoảng [340 đô|ba trăm bốn mươi đô] một tuần trước thuế: đủ trang trải một phần sinh hoạt, nhưng không thể gánh học phí."
+    },
+    {
+      "id": "policy",
+      "text": "Những thay đổi gia đình cần biết. {vet}Từ năm [2025|hai ngàn không trăm hai mươi lăm], người xin visa du học được yêu cầu để chế độ công khai cho tài khoản mạng xã hội khi được xét duyệt. {drop}Mùa thu năm [2025|hai ngàn không trăm hai mươi lăm], số sinh viên quốc tế mới nhập học tại Mỹ giảm khoảng [17%|mười bảy phần trăm]. {opt}Và đầu tháng Mười năm [2026|hai ngàn không trăm hai mươi sáu], Bộ An ninh Nội địa đề xuất thu phí rất cao cho chương trình thực tập sau tốt nghiệp [OPT|ô-pi-ti]. {note}Đây mới là đề xuất, chưa có hiệu lực. Hãy theo dõi thông tin chính thức trước khi quyết định."
+    },
+    {
+      "id": "save",
+      "text": "Làm sao để giảm chi phí? {cc}Cách phổ biến nhất là lộ trình hai cộng hai: học hai năm đầu ở cao đẳng cộng đồng, rồi chuyển tiếp lên đại học. {vn}Hơn một phần năm sinh viên Việt Nam ở Mỹ đang học tại trường cao đẳng cộng đồng. {calc}Ví dụ: hai năm ở [De Anza|Đê An-da] rồi hai năm ở [UC Irvine|diu-xi ơ-vin] tốn khoảng [225.000 đô|hai trăm hai mươi lăm ngàn đô], {saving}so với khoảng [341.000 đô|ba trăm bốn mươi mốt ngàn đô] nếu học cả bốn năm ở [UC Irvine|diu-xi ơ-vin]: tiết kiệm khoảng [3 tỷ đồng|ba tỷ đồng]. {more}Ngoài ra: săn học bổng dựa trên thành tích, chọn bang có chi phí sinh hoạt thấp như Texas, và thuê nhà ở ghép ngoài trường từ năm thứ hai."
+    },
+    {
+      "id": "outro",
+      "text": "Du học Mỹ là khoản đầu tư lớn nhất của nhiều gia đình Việt. {key}Hãy tính cho cả bốn năm, không chỉ năm đầu tiên. {q}Còn bạn, nếu cho con đi du học Mỹ, bạn sẽ chọn bắt đầu từ cao đẳng cộng đồng hay vào thẳng đại học? Hãy chia sẻ ở phần bình luận. {sub}Đừng quên đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo."
+    }
+  ]
+}

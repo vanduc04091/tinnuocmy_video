@@ -1,0 +1,238 @@
+{
+  "_help": "Cảnh quay nền. at = mốc {key} hoặc số giây; query = từ khóa NGẮN trên Pixabay; id = mã video Pixabay đã chọn. Tải: npm run broll -- du-hoc-my-chi-phi",
+  "scenes": {
+    "hook": [
+      {
+        "at": 0,
+        "query": "graduation",
+        "id": 370206
+      },
+      {
+        "at": "stat",
+        "query": "university campus",
+        "id": 90907
+      },
+      {
+        "at": "q",
+        "query": "student studying",
+        "id": 124252
+      },
+      {
+        "at": "ans",
+        "query": "college students",
+        "id": 159024
+      },
+      {
+        "at": "plan",
+        "query": "airport",
+        "id": 29806
+      }
+    ],
+    "before": [
+      {
+        "at": 0,
+        "query": "passport",
+        "id": 134789
+      },
+      {
+        "at": "l2",
+        "query": "laptop typing",
+        "id": 107425
+      },
+      {
+        "at": "l4",
+        "query": "visa passport",
+        "id": 15129
+      },
+      {
+        "at": "l6",
+        "query": "airplane",
+        "id": 22245
+      },
+      {
+        "at": "sum",
+        "query": "airport travel",
+        "id": 3586
+      }
+    ],
+    "tuition": [
+      {
+        "at": 0,
+        "query": "university building",
+        "id": 32708
+      },
+      {
+        "at": "rule",
+        "query": "lecture hall",
+        "id": 21470
+      },
+      {
+        "at": "pub",
+        "query": "campus students",
+        "id": 378608
+      },
+      {
+        "at": "priv",
+        "query": "university library",
+        "id": 69622
+      },
+      {
+        "at": "cc",
+        "query": "classroom",
+        "id": 33632
+      }
+    ],
+    "living": [
+      {
+        "at": 0,
+        "query": "student apartment",
+        "id": 145428
+      },
+      {
+        "at": "room",
+        "query": "dorm room",
+        "id": 86867
+      },
+      {
+        "at": "ins",
+        "query": "doctor",
+        "id": 49814
+      },
+      {
+        "at": "other",
+        "query": "books study",
+        "id": 4953
+      },
+      {
+        "at": "total",
+        "query": "campus walk",
+        "id": 21472
+      },
+      {
+        "at": "totalpriv",
+        "query": "los angeles",
+        "id": 32864
+      }
+    ],
+    "schools": [
+      {
+        "at": 0,
+        "query": "college campus",
+        "id": 90933
+      },
+      {
+        "at": "s1",
+        "query": "san jose california",
+        "id": 139272
+      },
+      {
+        "at": "s2",
+        "query": "irvine california",
+        "id": 281993
+      },
+      {
+        "at": "s3",
+        "query": "los angeles",
+        "id": 32858
+      },
+      {
+        "at": "four",
+        "query": "graduates",
+        "id": 369804
+      }
+    ],
+    "funds": [
+      {
+        "at": 0,
+        "query": "family money",
+        "id": 225947
+      },
+      {
+        "at": "i20",
+        "query": "bank",
+        "id": 20857
+      },
+      {
+        "at": "family",
+        "query": "smartphone social media",
+        "id": 183448
+      },
+      {
+        "at": "work",
+        "query": "barista coffee",
+        "id": 32246
+      },
+      {
+        "at": "wage",
+        "query": "barista coffee",
+        "id": 15483
+      }
+    ],
+    "policy": [
+      {
+        "at": 0,
+        "query": "smartphone social media",
+        "id": 130650
+      },
+      {
+        "at": "drop",
+        "query": "empty lecture hall",
+        "id": 138495
+      },
+      {
+        "at": "opt",
+        "query": "office work",
+        "id": 27091
+      },
+      {
+        "at": "note",
+        "query": "newspaper",
+        "id": 2241
+      }
+    ],
+    "save": [
+      {
+        "at": 0,
+        "query": "students campus",
+        "id": 378586
+      },
+      {
+        "at": "vn",
+        "query": "asian students",
+        "id": 133895
+      },
+      {
+        "at": "calc",
+        "query": "calculator",
+        "id": 209855
+      },
+      {
+        "at": "saving",
+        "query": "graduates",
+        "id": 369787
+      },
+      {
+        "at": "more",
+        "query": "texas",
+        "id": 243119
+      }
+    ],
+    "outro": [
+      {
+        "at": 0,
+        "query": "students walking",
+        "id": 256696
+      },
+      {
+        "at": "key",
+        "query": "sunrise",
+        "id": 201308
+      },
+      {
+        "at": "q",
+        "query": "students walking",
+        "id": 256695
+      }
+    ]
+  }
+}
