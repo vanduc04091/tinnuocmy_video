@@ -1,0 +1,189 @@
+{
+  "_help": "Cảnh quay nền. at = mốc {key} hoặc số giây; query = từ khóa NGẮN trên Pixabay; id = mã video Pixabay đã chọn. Tải: npm run broll -- mua-nha-o-my",
+  "scenes": {
+    "hook": [
+      {
+        "at": 0,
+        "query": "family new home"
+      },
+      {
+        "at": "price",
+        "query": "house for sale"
+      },
+      {
+        "at": "age",
+        "query": "couple house"
+      },
+      {
+        "at": "q",
+        "query": "real estate"
+      },
+      {
+        "at": "plan",
+        "query": "houston"
+      }
+    ],
+    "down": [
+      {
+        "at": 0,
+        "query": "saving money"
+      },
+      {
+        "at": "fha",
+        "query": "bank"
+      },
+      {
+        "at": "real",
+        "query": "couple moving"
+      },
+      {
+        "at": "pmi",
+        "query": "documents"
+      },
+      {
+        "at": "ex",
+        "query": "suburb houses"
+      }
+    ],
+    "closing": [
+      {
+        "at": 0,
+        "query": "signing contract"
+      },
+      {
+        "at": "more",
+        "query": "calculator"
+      },
+      {
+        "at": "cash",
+        "query": "house keys"
+      }
+    ],
+    "monthly": [
+      {
+        "at": 0,
+        "query": "interest rate"
+      },
+      {
+        "at": "l1",
+        "query": "house aerial"
+      },
+      {
+        "at": "rent",
+        "query": "apartment building"
+      }
+    ],
+    "taxins": [
+      {
+        "at": 0,
+        "query": "houses neighborhood"
+      },
+      {
+        "at": "tx",
+        "query": "texas"
+      },
+      {
+        "at": "ca",
+        "query": "california houses"
+      },
+      {
+        "at": "ins",
+        "query": "storm"
+      },
+      {
+        "at": "flood",
+        "query": "flood"
+      },
+      {
+        "at": "cains",
+        "query": "wildfire"
+      }
+    ],
+    "oc": [
+      {
+        "at": 0,
+        "query": "orange county"
+      },
+      {
+        "at": "price",
+        "query": "luxury house"
+      },
+      {
+        "at": "month",
+        "query": "beach california"
+      },
+      {
+        "at": "vs",
+        "query": "houston skyline"
+      }
+    ],
+    "income": [
+      {
+        "at": 0,
+        "query": "family budget"
+      },
+      {
+        "at": "median",
+        "query": "office workers"
+      },
+      {
+        "at": "family",
+        "query": "family dinner"
+      }
+    ],
+    "newcomers": [
+      {
+        "at": 0,
+        "query": "immigrants"
+      },
+      {
+        "at": "conv",
+        "query": "bank"
+      },
+      {
+        "at": "itin",
+        "query": "documents"
+      },
+      {
+        "at": "help",
+        "query": "house keys"
+      }
+    ],
+    "tips": [
+      {
+        "at": 0,
+        "query": "house"
+      },
+      {
+        "at": "t2",
+        "query": "piggy bank"
+      },
+      {
+        "at": "t3",
+        "query": "laptop"
+      },
+      {
+        "at": "t4",
+        "query": "storm"
+      },
+      {
+        "at": "t5",
+        "query": "new home"
+      }
+    ],
+    "outro": [
+      {
+        "at": 0,
+        "query": "house sunset"
+      },
+      {
+        "at": "key",
+        "query": "neighborhood"
+      },
+      {
+        "at": "q",
+        "query": "city night"
+      }
+    ]
+  }
+}
