@@ -74,6 +74,11 @@ npm run render -- <tên-video>    # 2. render -> out/<tên-video>.mp4 (1080p, -1
 
 Tên tác giả cảnh quay (dán vào mô tả YouTube): `public/broll/<tên-video>/credits.txt`.
 
+**Thumbnail:** 3 mẫu mỗi tập đã có sẵn trong `thumbnails/<tên-video>-a.jpg`, `-b.jpg`, `-c.jpg` (dùng với Test & Compare).
+Sửa chữ ở `src/thumbnails/list.ts` rồi `npm run thumbs` (hoặc `npm run thumbs -- <tên-video>`).
+
+**Chiến lược kênh, lịch đăng, mẫu báo cáo:** `docs/chien-luoc-kenh.md`.
+
 ## Tạo giọng đọc mới (chỉ khi sửa lời đọc)
 
 Cần `pip install edge-tts numpy` và `ELEVENLABS_API_KEY` trong `.env`, rồi `npm run tts -- <tên-video>` —

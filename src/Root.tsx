@@ -1,4 +1,6 @@
-import {Composition} from 'remotion';
+import {Composition, Still} from 'remotion';
+import {Thumbnail} from './thumbnails/Thumbnail';
+import {thumbnails} from './thumbnails/list';
 import {videos} from './videos/registry';
 
 export const RemotionRoot: React.FC = () => (
@@ -16,5 +18,10 @@ export const RemotionRoot: React.FC = () => (
         height={v.height}
       />
     ))}
+    {Object.entries(thumbnails).flatMap(([slug, set]) =>
+      Object.entries(set).map(([k, props]) => (
+        <Still key={`${slug}-${k}`} id={`thumb-${slug}-${k}`} component={Thumbnail as React.FC<Record<string, unknown>>} width={1280} height={720} defaultProps={props as Record<string, unknown>} />
+      )),
+    )}
   </>
 );
