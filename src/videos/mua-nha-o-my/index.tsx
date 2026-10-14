@@ -108,8 +108,8 @@ const Monthly = () => (
     <Window from="l1">
       <Dim v={0.55} />
       <ReceiptLayout
-        kicker="HOUSTON · NHÀ $330.000 · TRẢ TRƯỚC 10% · LÃI 7,4%"
-        title="Mỗi tháng phải trả"
+        kicker=""
+        title="Houston · trả trước 10%"
         rows={[
           {at: 'l1', icon: Landmark, label: 'Gốc + lãi', value: HOU.pi},
           {at: 'l2', icon: FileText, label: 'Thuế nhà đất (~2%)', value: HOU.tax},
@@ -158,8 +158,8 @@ const OC = () => (
   <>
     <ChapterTitle index="05" title="Quận Cam" hold={2.2} />
     <Window from="price">
-      <VsPanel left={{name: 'HOUSTON', color: 'gold'}} right={{name: 'QUẬN CAM', color: 'red'}} title="Trả trước 20% · vay 30 năm 7,4%" width={1150}>
-        <VsRow at="price" label="Giá nhà trung vị" left="$330.000" right="$1,22 triệu" big />
+      <VsPanel left={{name: 'HOUSTON', color: 'gold'}} right={{name: 'QUẬN CAM', color: 'red'}} title="Trả trước 20% · vay 30 năm 7,4%" width={1150} top={60}>
+        <VsRow at="price" label="Giá nhà trung vị" left="$330.000" right="$1,22 triệu" />
         <VsRow at="down" label="Trả trước 20%" left="$66.000" right="$244.000" />
         <VsRow at="month" label="Góp + thuế + bảo hiểm / tháng" left="~$2.760" right="~$8.100" />
         <VsRow at="income" label="Thu nhập cần có / năm (quy tắc 28%)" left="~$118.000" right="~$347.000" winner="left" winAt="vs" />

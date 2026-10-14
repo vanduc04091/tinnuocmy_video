@@ -124,8 +124,8 @@ export const VsRow: React.FC<{
 };
 
 /** Bảng so kè: tiêu đề hai bên + các hàng VsRow. */
-export const VsPanel: React.FC<{left: Side; right: Side; title?: string; children: React.ReactNode; width?: number}> = ({left, right, title, children, width = 1100}) => (
-  <AbsoluteFill style={{alignItems: 'center', paddingTop: 175}}>
+export const VsPanel: React.FC<{left: Side; right: Side; title?: string; children: React.ReactNode; width?: number; top?: number}> = ({left, right, title, children, width = 1100, top = 175}) => (
+  <AbsoluteFill style={{alignItems: 'center', paddingTop: top}}>
     <div style={{width, background: 'rgba(7,12,22,0.86)', borderRadius: 26, border: `1px solid ${theme.line}`, padding: '24px 40px 28px', display: 'flex', flexDirection: 'column', gap: 18, boxShadow: '0 30px 80px rgba(0,0,0,0.5)'}}>
       {title && <div style={{fontSize: 24, fontWeight: 800, letterSpacing: '0.14em', color: theme.muted, textAlign: 'center'}}>{title.toUpperCase()}</div>}
       <div style={{display: 'flex', gap: 18, alignItems: 'center'}}>

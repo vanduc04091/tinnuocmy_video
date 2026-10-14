@@ -4,185 +4,226 @@
     "hook": [
       {
         "at": 0,
-        "query": "family new home"
+        "query": "real estate",
+        "id": 1027
       },
       {
         "at": "price",
-        "query": "house for sale"
+        "query": "house for sale",
+        "id": 64750
       },
       {
         "at": "age",
-        "query": "couple house"
+        "query": "couple house",
+        "id": 1027
       },
       {
         "at": "q",
-        "query": "real estate"
+        "query": "real estate",
+        "id": 198888
       },
       {
         "at": "plan",
-        "query": "houston"
+        "query": "neighborhood aerial",
+        "id": 136838
       }
     ],
     "down": [
       {
         "at": 0,
-        "query": "saving money"
+        "query": "saving money",
+        "id": 93550
       },
       {
         "at": "fha",
-        "query": "bank"
+        "query": "bank",
+        "id": 59138
       },
       {
         "at": "real",
-        "query": "couple moving"
+        "query": "couple moving",
+        "id": 363828
       },
       {
         "at": "pmi",
-        "query": "documents"
+        "query": "documents",
+        "id": 87146
       },
       {
         "at": "ex",
-        "query": "suburb houses"
+        "query": "suburb houses",
+        "id": 136838
       }
     ],
     "closing": [
       {
         "at": 0,
-        "query": "signing contract"
+        "query": "signing contract",
+        "id": 198901
       },
       {
         "at": "more",
-        "query": "calculator"
+        "query": "calculator",
+        "id": 202134
       },
       {
         "at": "cash",
-        "query": "house keys"
+        "query": "house keys",
+        "id": 154140
       }
     ],
     "monthly": [
       {
         "at": 0,
-        "query": "interest rate"
+        "query": "interest rate",
+        "id": 20857
       },
       {
         "at": "l1",
-        "query": "house aerial"
+        "query": "house aerial",
+        "id": 137210
       },
       {
         "at": "rent",
-        "query": "apartment building"
+        "query": "apartment building",
+        "id": 57922
       }
     ],
     "taxins": [
       {
         "at": 0,
-        "query": "houses neighborhood"
+        "query": "houses neighborhood",
+        "id": 215303
       },
       {
         "at": "tx",
-        "query": "texas"
+        "query": "suburban house",
+        "id": 31094
       },
       {
         "at": "ca",
-        "query": "california houses"
+        "query": "california houses",
+        "id": 92010
       },
       {
         "at": "ins",
-        "query": "storm"
+        "query": "storm",
+        "id": 22070
       },
       {
         "at": "flood",
-        "query": "flood"
+        "query": "flood",
+        "id": 135765
       },
       {
         "at": "cains",
-        "query": "wildfire"
+        "query": "wildfire",
+        "id": 44186
       }
     ],
     "oc": [
       {
         "at": 0,
-        "query": "orange county"
+        "query": "california beach city",
+        "id": 31089
       },
       {
         "at": "price",
-        "query": "luxury house"
+        "query": "luxury home",
+        "id": 92009
       },
       {
         "at": "month",
-        "query": "beach california"
+        "query": "luxury home",
+        "id": 78557
       },
       {
         "at": "vs",
-        "query": "houston skyline"
+        "query": "california beach city",
+        "id": 31090
       }
     ],
     "income": [
       {
         "at": 0,
-        "query": "family budget"
+        "query": "family budget",
+        "id": 59139
       },
       {
         "at": "median",
-        "query": "office workers"
+        "query": "office workers",
+        "id": 107425
       },
       {
         "at": "family",
-        "query": "family dinner"
+        "query": "family dinner",
+        "id": 172686
       }
     ],
     "newcomers": [
       {
         "at": 0,
-        "query": "immigrants"
+        "query": "immigrants",
+        "id": 1366
       },
       {
         "at": "conv",
-        "query": "bank"
+        "query": "bank",
+        "id": 20857
       },
       {
         "at": "itin",
-        "query": "documents"
+        "query": "documents",
+        "id": 349087
       },
       {
         "at": "help",
-        "query": "house keys"
+        "query": "real estate",
+        "id": 198888
       }
     ],
     "tips": [
       {
         "at": 0,
-        "query": "house"
+        "query": "house",
+        "id": 14476
       },
       {
         "at": "t2",
-        "query": "piggy bank"
+        "query": "piggy bank",
+        "id": 138317
       },
       {
         "at": "t3",
-        "query": "laptop"
+        "query": "laptop",
+        "id": 39892
       },
       {
         "at": "t4",
-        "query": "storm"
+        "query": "storm",
+        "id": 112957
       },
       {
         "at": "t5",
-        "query": "new home"
+        "query": "luxury home",
+        "id": 258301
       }
     ],
     "outro": [
       {
         "at": 0,
-        "query": "house sunset"
+        "query": "house sunset",
+        "id": 230248
       },
       {
         "at": "key",
-        "query": "neighborhood"
+        "query": "neighborhood",
+        "id": 137210
       },
       {
         "at": "q",
-        "query": "city night"
+        "query": "city night",
+        "id": 3134
       }
     ]
   }

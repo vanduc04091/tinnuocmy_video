@@ -1,0 +1,583 @@
+{
+  "slug": "mua-nha-o-my",
+  "voice": "vi-VN-NamMinhNeural",
+  "rate": "-4%",
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "hook.mp3",
+      "hash": "642ada850771",
+      "durationSec": 35.296,
+      "cues": [
+        {
+          "text": "Người Việt có câu an cư lạc nghiệp.",
+          "start": 0.0,
+          "end": 2.386
+        },
+        {
+          "text": "Sang Mỹ, giấc mơ có một căn nhà của riêng mình vẫn vậy.",
+          "start": 2.386,
+          "end": 5.988
+        },
+        {
+          "text": "Nhưng tháng Chín năm 2026,",
+          "start": 5.988,
+          "end": 9.0
+        },
+        {
+          "text": "giá nhà trung vị toàn nước Mỹ là 417.500 đô, gần 11 tỷ đồng.",
+          "start": 9.0,
+          "end": 14.929
+        },
+        {
+          "text": "Tuổi trung vị của người mua nhà lần đầu đã lên tới bốn mươi,",
+          "start": 14.929,
+          "end": 18.857
+        },
+        {
+          "text": "cao nhất từ trước đến nay, và họ chỉ chiếm 21% số người mua, thấp kỷ lục.",
+          "start": 18.857,
+          "end": 24.893
+        },
+        {
+          "text": "Vậy thực sự cần bao nhiêu tiền để mua một căn nhà ở Mỹ?",
+          "start": 24.893,
+          "end": 29.071
+        },
+        {
+          "text": "Hôm nay, Tin Nước Mỹ tính từng khoản, với hai ví dụ quen thuộc: Houston và Quận Cam.",
+          "start": 29.071,
+          "end": 35.286
+        }
+      ],
+      "markers": {
+        "price": 5.988,
+        "age": 14.929,
+        "share": 20.976,
+        "q": 24.893,
+        "plan": 29.071
+      }
+    },
+    {
+      "id": "down",
+      "file": "down.mp3",
+      "hash": "d4c81a308c53",
+      "durationSec": 42.8,
+      "cues": [
+        {
+          "text": "Khoản đầu tiên: tiền trả trước.",
+          "start": 0.0,
+          "end": 2.411
+        },
+        {
+          "text": "Nhiều người nghĩ phải có đủ hai mươi phần trăm.",
+          "start": 2.411,
+          "end": 4.744
+        },
+        {
+          "text": "Thực tế, người mua lần đầu ở Mỹ trả trước trung vị khoảng mười phần trăm,",
+          "start": 4.744,
+          "end": 9.298
+        },
+        {
+          "text": "người mua lần sau khoảng 23%.",
+          "start": 9.298,
+          "end": 12.278
+        },
+        {
+          "text": "Vay theo chương trình FHA của chính phủ,",
+          "start": 12.278,
+          "end": 14.939
+        },
+        {
+          "text": "chỉ cần trả trước 3,5% nếu điểm tín dụng từ năm trăm tám mươi trở lên;",
+          "start": 14.939,
+          "end": 20.028
+        },
+        {
+          "text": "một số khoản vay thông thường chỉ cần ba phần trăm.",
+          "start": 20.028,
+          "end": 23.195
+        },
+        {
+          "text": "Nhưng trả trước dưới hai mươi phần trăm,",
+          "start": 23.195,
+          "end": 25.743
+        },
+        {
+          "text": "bạn phải đóng thêm bảo hiểm khoản vay mỗi tháng.",
+          "start": 25.743,
+          "end": 28.385
+        },
+        {
+          "text": "Với căn nhà trung vị ở Houston giá 330.000 đô: trả trước 3,5% là khoảng 11.600 đô,",
+          "start": 28.385,
+          "end": 37.514
+        },
+        {
+          "text": "mười phần trăm là 33.000, hai mươi phần trăm là 66.000 đô.",
+          "start": 37.514,
+          "end": 42.799
+        }
+      ],
+      "markers": {
+        "myth": 2.411,
+        "real": 4.744,
+        "fha": 12.278,
+        "pmi": 23.195,
+        "ex": 28.385
+      }
+    },
+    {
+      "id": "closing",
+      "file": "closing.mp3",
+      "hash": "525274ae7c3a",
+      "durationSec": 27.215,
+      "cues": [
+        {
+          "text": "Khoản thứ hai: chi phí đóng hồ sơ.",
+          "start": 0.0,
+          "end": 2.429
+        },
+        {
+          "text": "Phí bảo hiểm quyền sở hữu, phí làm thủ tục và đăng ký trung bình khoảng 4.500 đô.",
+          "start": 2.429,
+          "end": 8.229
+        },
+        {
+          "text": "Cộng thêm phí của ngân hàng và tiền thuế, bảo hiểm phải đóng trước,",
+          "start": 8.229,
+          "end": 12.482
+        },
+        {
+          "text": "nên hãy dự trù từ hai đến năm phần trăm giá nhà.",
+          "start": 12.482,
+          "end": 15.714
+        },
+        {
+          "text": "Ví dụ ở Houston, trả trước mười phần trăm cộng chi phí đóng hồ sơ,",
+          "start": 15.714,
+          "end": 21.071
+        },
+        {
+          "text": "bạn cần sẵn khoảng 43.000 đô tiền mặt, tức hơn 1,1 tỷ đồng, chưa kể quỹ dự phòng.",
+          "start": 21.071,
+          "end": 27.214
+        }
+      ],
+      "markers": {
+        "avg": 2.429,
+        "more": 8.229,
+        "cash": 15.714
+      }
+    },
+    {
+      "id": "monthly",
+      "file": "monthly.mp3",
+      "hash": "3365a4b854f7",
+      "durationSec": 42.871,
+      "cues": [
+        {
+          "text": "Khoản thứ ba, kéo dài ba mươi năm: tiền góp hằng tháng.",
+          "start": 0.0,
+          "end": 4.323
+        },
+        {
+          "text": "Đầu tháng Mười năm 2026, lãi suất vay ba mươi năm trung bình là 7,4%,",
+          "start": 4.323,
+          "end": 11.448
+        },
+        {
+          "text": "cao nhất từ cuối năm 2023, so với 6,3% một năm trước.",
+          "start": 11.448,
+          "end": 17.994
+        },
+        {
+          "text": "Với căn nhà Houston, trả trước mười phần trăm: tiền gốc và lãi khoảng 2.060 đô.",
+          "start": 17.994,
+          "end": 24.985
+        },
+        {
+          "text": "Thuế nhà đất khoảng 550.",
+          "start": 24.985,
+          "end": 27.896
+        },
+        {
+          "text": "Bảo hiểm nhà khoảng 380.",
+          "start": 27.896,
+          "end": 30.842
+        },
+        {
+          "text": "Bảo hiểm khoản vay khoảng 120.",
+          "start": 30.842,
+          "end": 34.074
+        },
+        {
+          "text": "Tổng cộng hơn 3.100 đô mỗi tháng,",
+          "start": 34.074,
+          "end": 37.396
+        },
+        {
+          "text": "trong khi giá thuê trung vị một căn hộ ở Mỹ chỉ khoảng 1.400 đô.",
+          "start": 37.396,
+          "end": 42.86
+        }
+      ],
+      "markers": {
+        "rate": 4.323,
+        "l1": 17.994,
+        "l2": 24.985,
+        "l3": 27.896,
+        "l4": 30.842,
+        "sum": 34.074,
+        "rent": 37.396
+      }
+    },
+    {
+      "id": "taxins",
+      "file": "taxins.mp3",
+      "hash": "268add350329",
+      "durationSec": 48.075,
+      "cues": [
+        {
+          "text": "Ở Mỹ, mua nhà xong vẫn phải trả hai khoản mãi mãi: thuế nhà đất và bảo hiểm.",
+          "start": 0.0,
+          "end": 5.107
+        },
+        {
+          "text": "Texas không có thuế thu nhập tiểu bang,",
+          "start": 5.107,
+          "end": 7.607
+        },
+        {
+          "text": "nhưng thuế nhà đất ở Houston khoảng hai phần trăm giá trị nhà mỗi năm;",
+          "start": 7.607,
+          "end": 11.557
+        },
+        {
+          "text": "nhà ở chính được miễn trừ một phần, từ năm 2025 là 140.000 đô cho thuế trường học.",
+          "start": 11.557,
+          "end": 18.555
+        },
+        {
+          "text": "California thì ngược lại: nhờ luật Prop 13, người mới mua ở Quận Cam đóng khoảng 1,1%,",
+          "start": 18.555,
+          "end": 25.551
+        },
+        {
+          "text": "và mỗi năm chỉ được tăng tối đa hai phần trăm.",
+          "start": 25.551,
+          "end": 28.611
+        },
+        {
+          "text": "Bảo hiểm nhà ở Texas trung bình khoảng 4.600 đô một năm vì bão,",
+          "start": 28.611,
+          "end": 33.956
+        },
+        {
+          "text": "và vùng Houston còn có thể phải mua thêm bảo hiểm lũ lụt.",
+          "start": 33.956,
+          "end": 37.682
+        },
+        {
+          "text": "Còn ở California, cháy rừng khiến nhiều hãng ngừng bán bảo hiểm mới,",
+          "start": 37.682,
+          "end": 42.456
+        },
+        {
+          "text": "và gói bảo hiểm cuối cùng của tiểu bang tăng giá 29% từ giữa tháng Mười năm nay.",
+          "start": 42.456,
+          "end": 48.075
+        }
+      ],
+      "markers": {
+        "tx": 5.107,
+        "ca": 18.555,
+        "ins": 28.611,
+        "flood": 33.956,
+        "cains": 37.682
+      }
+    },
+    {
+      "id": "oc",
+      "file": "oc.mp3",
+      "hash": "b7b58f84ab58",
+      "durationSec": 31.213,
+      "cues": [
+        {
+          "text": "Giờ hãy sang Quận Cam, nơi có Little Saigon.",
+          "start": 0.0,
+          "end": 3.0
+        },
+        {
+          "text": "Giá nhà trung vị ở đây khoảng 1,22 triệu đô, hơn 31 tỷ đồng.",
+          "start": 3.0,
+          "end": 8.381
+        },
+        {
+          "text": "Trả trước hai mươi phần trăm đã là 244.000 đô.",
+          "start": 8.381,
+          "end": 12.738
+        },
+        {
+          "text": "Tiền góp, thuế và bảo hiểm khoảng 8.100 đô mỗi tháng.",
+          "start": 12.738,
+          "end": 17.286
+        },
+        {
+          "text": "Theo nguyên tắc chi cho nhà không quá hai mươi tám phần trăm thu nhập,",
+          "start": 17.286,
+          "end": 21.661
+        },
+        {
+          "text": "gia đình cần khoảng 350.000 đô một năm.",
+          "start": 21.661,
+          "end": 25.349
+        },
+        {
+          "text": "Còn ở Houston, cũng trả trước hai mươi phần trăm, con số này khoảng 118.000 đô.",
+          "start": 25.349,
+          "end": 31.207
+        }
+      ],
+      "markers": {
+        "price": 3.0,
+        "down": 8.381,
+        "month": 12.738,
+        "income": 17.286,
+        "vs": 25.349
+      }
+    },
+    {
+      "id": "income",
+      "file": "income.mp3",
+      "hash": "7af94971afcb",
+      "durationSec": 23.858,
+      "cues": [
+        {
+          "text": "So với thu nhập thật của người Mỹ thì sao?",
+          "start": 0.0,
+          "end": 1.986
+        },
+        {
+          "text": "Theo Redfin, để mua một căn nhà điển hình,",
+          "start": 1.986,
+          "end": 5.179
+        },
+        {
+          "text": "một gia đình cần thu nhập khoảng 110.000 đô một năm,",
+          "start": 5.179,
+          "end": 8.119
+        },
+        {
+          "text": "trong khi thu nhập trung vị của hộ gia đình Mỹ chỉ khoảng 87.600 đô.",
+          "start": 8.119,
+          "end": 13.0
+        },
+        {
+          "text": "Khoảng cách hơn hai mươi hai ngàn đô này là",
+          "start": 13.0,
+          "end": 15.976
+        },
+        {
+          "text": "lý do người mua lần đầu ngày càng lớn tuổi,",
+          "start": 15.976,
+          "end": 18.857
+        },
+        {
+          "text": "và hơn một phần năm người mua lần đầu phải nhờ",
+          "start": 18.857,
+          "end": 21.321
+        },
+        {
+          "text": "gia đình hoặc bạn bè hỗ trợ tiền trả trước.",
+          "start": 21.321,
+          "end": 23.857
+        }
+      ],
+      "markers": {
+        "need": 1.986,
+        "median": 8.119,
+        "gap": 13.0,
+        "family": 18.857
+      }
+    },
+    {
+      "id": "newcomers",
+      "file": "newcomers.mp3",
+      "hash": "2fa30c0af3b2",
+      "durationSec": 50.635,
+      "cues": [
+        {
+          "text": "Với người mới sang, có ba điều phải biết.",
+          "start": 0.0,
+          "end": 2.571
+        },
+        {
+          "text": "Một: từ cuối tháng Năm năm 2025,",
+          "start": 2.571,
+          "end": 6.782
+        },
+        {
+          "text": "khoản vay FHA chỉ còn dành cho công dân Mỹ và người có thẻ xanh;",
+          "start": 6.782,
+          "end": 10.833
+        },
+        {
+          "text": "người có visa lao động hay du học không còn đủ điều kiện.",
+          "start": 10.833,
+          "end": 14.554
+        },
+        {
+          "text": "Hai: khoản vay thông thường vẫn có thể vay được nếu",
+          "start": 14.554,
+          "end": 18.411
+        },
+        {
+          "text": "bạn có số an sinh xã hội và tình trạng cư trú hợp lệ,",
+          "start": 18.411,
+          "end": 21.976
+        },
+        {
+          "text": "nhưng cần lịch sử tín dụng ở Mỹ, thường từ sáu trăm hai mươi điểm trở lên.",
+          "start": 21.976,
+          "end": 26.42
+        },
+        {
+          "text": "Ba: vay bằng mã số thuế ITIN thường phải trả trước từ mười đến hai mươi phần trăm,",
+          "start": 26.42,
+          "end": 32.688
+        },
+        {
+          "text": "với lãi suất cao hơn.",
+          "start": 32.688,
+          "end": 34.438
+        },
+        {
+          "text": "Tin tốt là có chương trình hỗ trợ:",
+          "start": 34.438,
+          "end": 37.324
+        },
+        {
+          "text": "Texas có trợ giúp tiền trả trước vài phần trăm khoản vay;",
+          "start": 37.324,
+          "end": 41.076
+        },
+        {
+          "text": "California có chương trình Dream For All, hỗ trợ tới hai mươi phần trăm giá nhà,",
+          "start": 41.076,
+          "end": 47.116
+        },
+        {
+          "text": "tối đa 150.000 đô, xét theo hình thức bốc thăm.",
+          "start": 47.116,
+          "end": 50.634
+        }
+      ],
+      "markers": {
+        "fha": 2.571,
+        "conv": 14.554,
+        "itin": 26.42,
+        "help": 34.438
+      }
+    },
+    {
+      "id": "tips",
+      "file": "tips.mp3",
+      "hash": "cbae2ecb5dee",
+      "durationSec": 34.067,
+      "cues": [
+        {
+          "text": "Vậy chuẩn bị mua nhà thế nào?",
+          "start": 0.0,
+          "end": 1.821
+        },
+        {
+          "text": "Một: xây dựng điểm tín dụng ít nhất hai năm trước khi vay.",
+          "start": 1.821,
+          "end": 6.393
+        },
+        {
+          "text": "Hai: để dành đủ tiền trả trước,",
+          "start": 6.393,
+          "end": 9.3
+        },
+        {
+          "text": "cộng thêm khoảng ba phần trăm cho chi phí đóng hồ sơ và vài tháng dự phòng.",
+          "start": 9.3,
+          "end": 14.119
+        },
+        {
+          "text": "Ba: hỏi lãi suất ở ít nhất ba ngân hàng;",
+          "start": 14.119,
+          "end": 17.738
+        },
+        {
+          "text": "chênh nhau nửa phần trăm có thể là hàng chục ngàn đô sau ba mươi năm.",
+          "start": 17.738,
+          "end": 22.206
+        },
+        {
+          "text": "Bốn: hỏi giá bảo hiểm nhà và bảo hiểm lũ trước khi đặt cọc.",
+          "start": 22.206,
+          "end": 26.831
+        },
+        {
+          "text": "Năm: tìm hiểu chương trình hỗ trợ người mua lần đầu,",
+          "start": 26.831,
+          "end": 30.658
+        },
+        {
+          "text": "và nộp đơn miễn trừ thuế nhà ở chính ngay sau khi mua.",
+          "start": 30.658,
+          "end": 34.063
+        }
+      ],
+      "markers": {
+        "t1": 1.821,
+        "t2": 6.393,
+        "t3": 14.119,
+        "t4": 22.206,
+        "t5": 26.831
+      }
+    },
+    {
+      "id": "outro",
+      "file": "outro.mp3",
+      "hash": "f4ca1d4bd20e",
+      "durationSec": 20.531,
+      "cues": [
+        {
+          "text": "Tóm lại, mua nhà ở Mỹ không chỉ là giá căn nhà.",
+          "start": 0.0,
+          "end": 2.81
+        },
+        {
+          "text": "Đó là tiền trả trước, chi phí đóng hồ sơ, và ba mươi năm tiền góp, thuế và bảo hiểm.",
+          "start": 2.81,
+          "end": 8.491
+        },
+        {
+          "text": "Còn bạn, bạn đang thuê nhà hay đã mua, và nếu mua, bạn chọn Texas hay California?",
+          "start": 8.491,
+          "end": 15.027
+        },
+        {
+          "text": "Hãy chia sẻ ở phần bình luận.",
+          "start": 15.027,
+          "end": 17.126
+        },
+        {
+          "text": "Đừng quên đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo.",
+          "start": 17.126,
+          "end": 20.519
+        }
+      ],
+      "markers": {
+        "key": 2.81,
+        "q": 8.491,
+        "sub": 17.126
+      }
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "slug": "lam-nail-o-my",
+  "voice": "vi-VN-NamMinhNeural",
+  "rate": "-4%",
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "hook.mp3",
+      "hash": "d5173eb65feb",
+      "durationSec": 29.875,
+      "cues": [
+        {
+          "text": "Nhắc đến người Việt ở Mỹ, nhiều người nghĩ ngay đến tiệm nail.",
+          "start": 0.0,
+          "end": 3.768
+        },
+        {
+          "text": "Khoảng ba phần tư thợ nail ở Mỹ là người gốc Á,",
+          "start": 3.768,
+          "end": 6.571
+        },
+        {
+          "text": "và theo ước tính, hơn một nửa thợ nail cả nước là người Việt.",
+          "start": 6.571,
+          "end": 11.0
+        },
+        {
+          "text": "Ở California, cứ năm thợ nail sinh ra ở nước",
+          "start": 11.0,
+          "end": 13.703
+        },
+        {
+          "text": "ngoài thì hơn bốn người sinh ra tại Việt Nam.",
+          "start": 13.703,
+          "end": 16.75
+        },
+        {
+          "text": "Vậy làm nail ở Mỹ thực sự kiếm được bao nhiêu?",
+          "start": 16.75,
+          "end": 20.404
+        },
+        {
+          "text": "Có phải ai cũng giàu như lời đồn?",
+          "start": 20.404,
+          "end": 22.929
+        },
+        {
+          "text": "Hôm nay, Tin Nước Mỹ nhìn vào số liệu thật:",
+          "start": 22.929,
+          "end": 25.726
+        },
+        {
+          "text": "lương, tiền tip, thuế, và cả cái giá sức khỏe.",
+          "start": 25.726,
+          "end": 29.857
+        }
+      ],
+      "markers": {
+        "share": 3.768,
+        "ca": 11.0,
+        "q": 16.75,
+        "plan": 22.929
+      }
+    },
+    {
+      "id": "industry",
+      "file": "industry.mp3",
+      "hash": "14b380258568",
+      "durationSec": 30.008,
+      "cues": [
+        {
+          "text": "Trước hết, ngành nail lớn cỡ nào?",
+          "start": 0.0,
+          "end": 2.107
+        },
+        {
+          "text": "Năm 2023, nước Mỹ có khoảng 34.400 tiệm nail có thuê nhân viên,",
+          "start": 2.107,
+          "end": 8.071
+        },
+        {
+          "text": "với gần 150.000 người làm công.",
+          "start": 8.071,
+          "end": 10.571
+        },
+        {
+          "text": "Thêm gần 300.000 thợ làm riêng hoặc thuê ghế trong tiệm.",
+          "start": 10.571,
+          "end": 14.446
+        },
+        {
+          "text": "Năm 2022, riêng các tiệm có nhân viên đã có doanh thu gần 13 tỷ đô.",
+          "start": 14.446,
+          "end": 20.976
+        },
+        {
+          "text": "Và nơi tập trung thợ nail đông nhất nước Mỹ chính",
+          "start": 20.976,
+          "end": 24.19
+        },
+        {
+          "text": "là vùng Garden Grove và Westminster ở Quận Cam,",
+          "start": 24.19,
+          "end": 28.114
+        },
+        {
+          "text": "trái tim của Little Saigon.",
+          "start": 28.114,
+          "end": 30.0
+        }
+      ],
+      "markers": {
+        "salons": 2.107,
+        "solo": 10.571,
+        "rev": 14.446,
+        "gg": 20.976
+      }
+    },
+    {
+      "id": "wage",
+      "file": "wage.mp3",
+      "hash": "e242e25b3a1a",
+      "durationSec": 34.993,
+      "cues": [
+        {
+          "text": "Vậy thợ nail kiếm bao nhiêu?",
+          "start": 0.0,
+          "end": 1.357
+        },
+        {
+          "text": "Theo Cục Thống kê Lao động Mỹ, tháng Năm năm 2025,",
+          "start": 1.357,
+          "end": 5.072
+        },
+        {
+          "text": "thu nhập trung vị của thợ nail là 17,19 đô một giờ,",
+          "start": 5.072,
+          "end": 9.109
+        },
+        {
+          "text": "tức khoảng 35.800 đô một năm, khoảng 77 triệu đồng mỗi tháng.",
+          "start": 9.109,
+          "end": 13.823
+        },
+        {
+          "text": "Mười phần trăm thấp nhất dưới 29.000 đô một năm,",
+          "start": 13.823,
+          "end": 17.202
+        },
+        {
+          "text": "mười phần trăm cao nhất trên 50.000 đô.",
+          "start": 17.202,
+          "end": 19.754
+        },
+        {
+          "text": "California trung vị khoảng 36.600, Texas khoảng 34.000, còn Washington gần 50.000 đô.",
+          "start": 19.754,
+          "end": 28.168
+        },
+        {
+          "text": "Lưu ý: con số này đã gồm tiền tip được khai báo,",
+          "start": 28.168,
+          "end": 31.929
+        },
+        {
+          "text": "nhưng chưa tính những thợ thuê ghế hay tự làm chủ.",
+          "start": 31.929,
+          "end": 34.989
+        }
+      ],
+      "markers": {
+        "median": 1.357,
+        "vnd": 11.389,
+        "range": 13.823,
+        "states": 19.754,
+        "note": 28.168
+      }
+    },
+    {
+      "id": "pay",
+      "file": "pay.mp3",
+      "hash": "fe8b3a5c9a79",
+      "durationSec": 50.221,
+      "cues": [
+        {
+          "text": "Thợ nail được trả lương theo ba cách.",
+          "start": 0.0,
+          "end": 1.839
+        },
+        {
+          "text": "Một: lương giờ; ở California năm 2026, tối thiểu 16,90 đô một giờ.",
+          "start": 1.839,
+          "end": 9.254
+        },
+        {
+          "text": "Hai: ăn chia, phổ biến là năm mươi năm mươi hoặc sáu bốn,",
+          "start": 9.254,
+          "end": 14.153
+        },
+        {
+          "text": "thợ hưởng sáu mươi phần trăm.",
+          "start": 14.153,
+          "end": 16.296
+        },
+        {
+          "text": "Ba: thuê ghế, tự lo khách và vật liệu, rất phổ biến ở Texas và Florida.",
+          "start": 16.296,
+          "end": 22.621
+        },
+        {
+          "text": "Còn tiền tip: ở California, tip trung vị cho một lần làm móng tay khoảng mười đô.",
+          "start": 22.621,
+          "end": 28.857
+        },
+        {
+          "text": "Ví dụ minh họa: một thợ ở Quận Cam làm sáu khách móng tay mỗi ngày,",
+          "start": 28.857,
+          "end": 33.75
+        },
+        {
+          "text": "giá năm mươi đô, ăn chia sáu mươi phần trăm, cộng tip, mỗi ngày khoảng 240 đô.",
+          "start": 33.75,
+          "end": 39.946
+        },
+        {
+          "text": "Hai mươi hai ngày công là khoảng 5.300 đô một tháng trước thuế.",
+          "start": 39.946,
+          "end": 44.679
+        },
+        {
+          "text": "Nhưng nếu chỉ có bốn khách mỗi ngày, con số giảm còn khoảng 3.500 đô.",
+          "start": 44.679,
+          "end": 50.214
+        }
+      ],
+      "markers": {
+        "hourly": 1.839,
+        "comm": 9.254,
+        "booth": 16.296,
+        "tip": 22.621,
+        "ex": 28.857,
+        "month": 39.946,
+        "slow": 44.679
+      }
+    },
+    {
+      "id": "tax",
+      "file": "tax.mp3",
+      "hash": "bcbc9036098f",
+      "durationSec": 30.717,
+      "cues": [
+        {
+          "text": "Chuyện thuế và tiền tip.",
+          "start": 0.0,
+          "end": 1.429
+        },
+        {
+          "text": "Từ năm 2025 đến 2028,",
+          "start": 1.429,
+          "end": 5.286
+        },
+        {
+          "text": "luật mới cho phép trừ tối đa 25.000 đô tiền",
+          "start": 5.286,
+          "end": 7.839
+        },
+        {
+          "text": "tip mỗi năm khỏi thu nhập chịu thuế liên bang,",
+          "start": 7.839,
+          "end": 10.381
+        },
+        {
+          "text": "và thợ nail nằm trong danh sách ngành nghề được áp dụng.",
+          "start": 10.381,
+          "end": 13.131
+        },
+        {
+          "text": "Nhưng chỉ khai báo đầy đủ thì mới được trừ.",
+          "start": 13.131,
+          "end": 15.857
+        },
+        {
+          "text": "Số liệu của Sở Thuế cho thấy chỉ khoảng 36% thợ nail làm",
+          "start": 15.857,
+          "end": 20.043
+        },
+        {
+          "text": "công khai báo từ một trăm đô tiền tip trở lên trong năm.",
+          "start": 20.043,
+          "end": 23.429
+        },
+        {
+          "text": "Khai thiếu thu nhập hôm nay nghĩa là tiền an sinh xã hội ít hơn khi về hưu,",
+          "start": 23.429,
+          "end": 28.31
+        },
+        {
+          "text": "và khó vay mua nhà hay mua xe hơn.",
+          "start": 28.31,
+          "end": 30.714
+        }
+      ],
+      "markers": {
+        "notax": 1.429,
+        "report": 13.131,
+        "irs": 15.857,
+        "why": 23.429
+      }
+    },
+    {
+      "id": "license",
+      "file": "license.mp3",
+      "hash": "43b4fb93555d",
+      "durationSec": 20.012,
+      "cues": [
+        {
+          "text": "Muốn làm nail, bạn cần bằng của tiểu bang.",
+          "start": 0.0,
+          "end": 2.026
+        },
+        {
+          "text": "California yêu cầu bốn trăm giờ học, chỉ thi lý thuyết, và bài thi có bằng tiếng Việt.",
+          "start": 2.026,
+          "end": 6.953
+        },
+        {
+          "text": "Texas yêu cầu sáu trăm giờ, thi cả lý thuyết lẫn thực hành.",
+          "start": 6.953,
+          "end": 10.821
+        },
+        {
+          "text": "Năm 2023, California có hơn 127.000 bằng nail còn hiệu lực.",
+          "start": 10.821,
+          "end": 16.661
+        },
+        {
+          "text": "Học phí tùy trường, từ khoảng một ngàn đến vài ngàn đô.",
+          "start": 16.661,
+          "end": 20.0
+        }
+      ],
+      "markers": {
+        "ca": 2.026,
+        "tx": 6.953,
+        "count": 10.821,
+        "cost": 16.661
+      }
+    },
+    {
+      "id": "health",
+      "file": "health.mp3",
+      "hash": "e72f67d1511f",
+      "durationSec": 38.894,
+      "cues": [
+        {
+          "text": "Và đây là cái giá ít ai nói: sức khỏe.",
+          "start": 0.0,
+          "end": 3.232
+        },
+        {
+          "text": "Sơn móng, nước rửa và keo có thể chứa ba hóa chất mà",
+          "start": 3.232,
+          "end": 7.5
+        },
+        {
+          "text": "cơ quan an toàn lao động Mỹ gọi là bộ ba độc hại:",
+          "start": 7.5,
+          "end": 10.7
+        },
+        {
+          "text": "toluene, formaldehyde và dibutyl phthalate.",
+          "start": 10.7,
+          "end": 15.247
+        },
+        {
+          "text": "Một khảo sát trước đây với thợ nail người Việt ở California cho thấy",
+          "start": 15.247,
+          "end": 19.426
+        },
+        {
+          "text": "gần một nửa có triệu chứng sức khỏe có thể liên quan đến dung môi.",
+          "start": 19.426,
+          "end": 23.14
+        },
+        {
+          "text": "Một nghiên cứu năm 2022 còn ghi nhận thợ nail người Việt tiếp",
+          "start": 23.14,
+          "end": 28.158
+        },
+        {
+          "text": "xúc hóa chất càng nhiều thì điểm kiểm tra trí nhớ càng thấp.",
+          "start": 28.158,
+          "end": 31.69
+        },
+        {
+          "text": "Cộng thêm đau lưng, vai, cổ tay, và ở California,",
+          "start": 31.69,
+          "end": 35.452
+        },
+        {
+          "text": "khoảng 65% thợ nail không có ngày nghỉ ốm có lương.",
+          "start": 35.452,
+          "end": 38.89
+        }
+      ],
+      "markers": {
+        "trio": 3.232,
+        "study": 15.247,
+        "brain": 23.14,
+        "body": 31.69,
+        "sick": 34.294
+      }
+    },
+    {
+      "id": "tips",
+      "file": "tips.mp3",
+      "hash": "d9a1a16f75c5",
+      "durationSec": 37.935,
+      "cues": [
+        {
+          "text": "Vậy làm sao để làm nail bền và kiếm khá?",
+          "start": 0.0,
+          "end": 2.554
+        },
+        {
+          "text": "Một: giữ khách quen; khách quay lại là thu nhập ổn định nhất.",
+          "start": 2.554,
+          "end": 7.321
+        },
+        {
+          "text": "Hai: học thêm gel, đắp bột và vẽ móng, những dịch vụ khách đang chọn nhiều nhất.",
+          "start": 7.321,
+          "end": 13.262
+        },
+        {
+          "text": "Ba: bảo vệ sức khỏe: khẩu trang đúng loại,",
+          "start": 13.262,
+          "end": 16.643
+        },
+        {
+          "text": "găng tay, quạt hút tại bàn, và nghỉ giữa giờ.",
+          "start": 16.643,
+          "end": 20.196
+        },
+        {
+          "text": "Bốn: khai báo đủ thu nhập và tiền tip để được trừ thuế, và có hồ sơ khi cần vay.",
+          "start": 20.196,
+          "end": 25.714
+        },
+        {
+          "text": "Năm: tìm hiểu kỹ trước khi mở tiệm riêng,",
+          "start": 25.714,
+          "end": 29.119
+        },
+        {
+          "text": "vì tiền thuê mặt bằng và vật liệu đều đang tăng.",
+          "start": 29.119,
+          "end": 32.0
+        },
+        {
+          "text": "Tin tốt là theo dự báo,",
+          "start": 32.0,
+          "end": 34.357
+        },
+        {
+          "text": "số việc làm thợ nail ở Mỹ sẽ tăng khoảng chín phần trăm trong mười năm tới.",
+          "start": 34.357,
+          "end": 37.929
+        }
+      ],
+      "markers": {
+        "t1": 2.554,
+        "t2": 7.321,
+        "t3": 13.262,
+        "t4": 20.196,
+        "t5": 25.714,
+        "future": 32.0
+      }
+    },
+    {
+      "id": "outro",
+      "file": "outro.mp3",
+      "hash": "4b25882e78f9",
+      "durationSec": 20.367,
+      "cues": [
+        {
+          "text": "Tóm lại, làm nail ở Mỹ không phải mỏ vàng,",
+          "start": 0.0,
+          "end": 2.964
+        },
+        {
+          "text": "nhưng là con đường lập nghiệp thật của hàng chục ngàn gia đình Việt.",
+          "start": 2.964,
+          "end": 6.205
+        },
+        {
+          "text": "Thu nhập phụ thuộc vào tay nghề, lượng khách,",
+          "start": 6.205,
+          "end": 8.69
+        },
+        {
+          "text": "và cách bạn chăm sóc sức khỏe của chính mình.",
+          "start": 8.69,
+          "end": 11.054
+        },
+        {
+          "text": "Bạn hoặc người thân có làm nail ở Mỹ không?",
+          "start": 11.054,
+          "end": 13.821
+        },
+        {
+          "text": "Thu nhập thật sự thế nào?",
+          "start": 13.821,
+          "end": 15.286
+        },
+        {
+          "text": "Hãy chia sẻ ở phần bình luận.",
+          "start": 15.286,
+          "end": 17.143
+        },
+        {
+          "text": "Đừng quên đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo.",
+          "start": 17.143,
+          "end": 20.357
+        }
+      ],
+      "markers": {
+        "key": 6.205,
+        "q": 11.054,
+        "sub": 17.143
+      }
+    }
+  ]
+}

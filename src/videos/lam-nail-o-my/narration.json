@@ -1,0 +1,52 @@
+{
+  "slug": "lam-nail-o-my",
+  "title": "Làm nail ở Mỹ kiếm bao nhiêu tiền? Sự thật về nghề của người Việt",
+  "tts": {
+    "provider": "elevenlabs",
+    "voiceId": "jdlxsPOZOHdGEfcItXVu",
+    "name": "Hien - Warm and Deep Broadcaster (giọng nữ Hà Nội)",
+    "model": "eleven_v3",
+    "tempo": 1.12,
+    "settings": {"stability": 0.5, "similarity_boost": 0.8, "style": 0.15, "use_speaker_boost": true}
+  },
+  "tighten": {"sentence": 0.42, "comma": 0.2},
+  "_syntax": "[hiển thị|đọc] = phụ đề | giọng đọc. {key} = mốc để cảnh quay/đồ họa đổi đúng lúc.",
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Nhắc đến người Việt ở Mỹ, nhiều người nghĩ ngay đến tiệm nail. {share}Khoảng ba phần tư thợ nail ở Mỹ là người gốc Á, và theo ước tính, hơn một nửa thợ nail cả nước là người Việt. {ca}Ở California, cứ năm thợ nail sinh ra ở nước ngoài thì hơn bốn người sinh ra tại Việt Nam. {q}Vậy làm nail ở Mỹ thực sự kiếm được bao nhiêu? Có phải ai cũng giàu như lời đồn? {plan}Hôm nay, Tin Nước Mỹ nhìn vào số liệu thật: lương, tiền tip, thuế, và cả cái giá sức khỏe."
+    },
+    {
+      "id": "industry",
+      "text": "Trước hết, ngành nail lớn cỡ nào? {salons}Năm [2023|hai ngàn không trăm hai mươi ba], nước Mỹ có khoảng [34.400|ba mươi bốn ngàn bốn trăm] tiệm nail có thuê nhân viên, với gần [150.000|một trăm năm mươi ngàn] người làm công. {solo}Thêm gần [300.000|ba trăm ngàn] thợ làm riêng hoặc thuê ghế trong tiệm. {rev}Năm [2022|hai ngàn không trăm hai mươi hai], riêng các tiệm có nhân viên đã có doanh thu gần [13 tỷ đô|mười ba tỷ đô]. {gg}Và nơi tập trung thợ nail đông nhất nước Mỹ chính là vùng Garden Grove và Westminster ở Quận Cam, trái tim của [Little Saigon|Lít-tồ Sài Gòn]."
+    },
+    {
+      "id": "wage",
+      "text": "Vậy thợ nail kiếm bao nhiêu? {median}Theo Cục Thống kê Lao động Mỹ, tháng Năm năm [2025|hai ngàn không trăm hai mươi lăm], thu nhập trung vị của thợ nail là [17,19 đô|mười bảy đô mười chín xu] một giờ, tức khoảng [35.800 đô|ba mươi lăm ngàn tám trăm đô] một năm, {vnd}khoảng [77 triệu đồng|bảy mươi bảy triệu đồng] mỗi tháng. {range}Mười phần trăm thấp nhất dưới [29.000 đô|hai mươi chín ngàn đô] một năm, mười phần trăm cao nhất trên [50.000 đô|năm mươi ngàn đô]. {states}California trung vị khoảng [36.600|ba mươi sáu ngàn sáu trăm], Texas khoảng [34.000|ba mươi bốn ngàn], còn Washington gần [50.000 đô|năm mươi ngàn đô]. {note}Lưu ý: con số này đã gồm tiền tip được khai báo, nhưng chưa tính những thợ thuê ghế hay tự làm chủ."
+    },
+    {
+      "id": "pay",
+      "text": "Thợ nail được trả lương theo ba cách. {hourly}Một: lương giờ; ở California năm [2026|hai ngàn không trăm hai mươi sáu], tối thiểu [16,90 đô|mười sáu đô chín mươi xu] một giờ. {comm}Hai: ăn chia, phổ biến là năm mươi năm mươi hoặc sáu bốn, thợ hưởng sáu mươi phần trăm. {booth}Ba: thuê ghế, tự lo khách và vật liệu, rất phổ biến ở Texas và Florida. {tip}Còn tiền tip: ở California, tip trung vị cho một lần làm móng tay khoảng mười đô. {ex}Ví dụ minh họa: một thợ ở Quận Cam làm sáu khách móng tay mỗi ngày, giá năm mươi đô, ăn chia sáu mươi phần trăm, cộng tip, mỗi ngày khoảng [240 đô|hai trăm bốn mươi đô]. {month}Hai mươi hai ngày công là khoảng [5.300 đô|năm ngàn ba trăm đô] một tháng trước thuế. {slow}Nhưng nếu chỉ có bốn khách mỗi ngày, con số giảm còn khoảng [3.500 đô|ba ngàn năm trăm đô]."
+    },
+    {
+      "id": "tax",
+      "text": "Chuyện thuế và tiền tip. {notax}Từ năm [2025|hai ngàn không trăm hai mươi lăm] đến [2028|hai ngàn không trăm hai mươi tám], luật mới cho phép trừ tối đa [25.000 đô|hai mươi lăm ngàn đô] tiền tip mỗi năm khỏi thu nhập chịu thuế liên bang, và thợ nail nằm trong danh sách ngành nghề được áp dụng. {report}Nhưng chỉ khai báo đầy đủ thì mới được trừ. {irs}Số liệu của Sở Thuế cho thấy chỉ khoảng [36%|ba mươi sáu phần trăm] thợ nail làm công khai báo từ một trăm đô tiền tip trở lên trong năm. {why}Khai thiếu thu nhập hôm nay nghĩa là tiền an sinh xã hội ít hơn khi về hưu, và khó vay mua nhà hay mua xe hơn."
+    },
+    {
+      "id": "license",
+      "text": "Muốn làm nail, bạn cần bằng của tiểu bang. {ca}California yêu cầu bốn trăm giờ học, chỉ thi lý thuyết, và bài thi có bằng tiếng Việt. {tx}Texas yêu cầu sáu trăm giờ, thi cả lý thuyết lẫn thực hành. {count}Năm [2023|hai ngàn không trăm hai mươi ba], California có hơn [127.000|một trăm hai mươi bảy ngàn] bằng nail còn hiệu lực. {cost}Học phí tùy trường, từ khoảng một ngàn đến vài ngàn đô."
+    },
+    {
+      "id": "health",
+      "text": "Và đây là cái giá ít ai nói: sức khỏe. {trio}Sơn móng, nước rửa và keo có thể chứa ba hóa chất mà cơ quan an toàn lao động Mỹ gọi là bộ ba độc hại: toluene, formaldehyde và dibutyl phthalate. {study}Một khảo sát trước đây với thợ nail người Việt ở California cho thấy gần một nửa có triệu chứng sức khỏe có thể liên quan đến dung môi. {brain}Một nghiên cứu năm [2022|hai ngàn không trăm hai mươi hai] còn ghi nhận thợ nail người Việt tiếp xúc hóa chất càng nhiều thì điểm kiểm tra trí nhớ càng thấp. {body}Cộng thêm đau lưng, vai, cổ tay, {sick}và ở California, khoảng [65%|sáu mươi lăm phần trăm] thợ nail không có ngày nghỉ ốm có lương."
+    },
+    {
+      "id": "tips",
+      "text": "Vậy làm sao để làm nail bền và kiếm khá? {t1}Một: giữ khách quen; khách quay lại là thu nhập ổn định nhất. {t2}Hai: học thêm gel, đắp bột và vẽ móng, những dịch vụ khách đang chọn nhiều nhất. {t3}Ba: bảo vệ sức khỏe: khẩu trang đúng loại, găng tay, quạt hút tại bàn, và nghỉ giữa giờ. {t4}Bốn: khai báo đủ thu nhập và tiền tip để được trừ thuế, và có hồ sơ khi cần vay. {t5}Năm: tìm hiểu kỹ trước khi mở tiệm riêng, vì tiền thuê mặt bằng và vật liệu đều đang tăng. {future}Tin tốt là theo dự báo, số việc làm thợ nail ở Mỹ sẽ tăng khoảng chín phần trăm trong mười năm tới."
+    },
+    {
+      "id": "outro",
+      "text": "Tóm lại, làm nail ở Mỹ không phải mỏ vàng, nhưng là con đường lập nghiệp thật của hàng chục ngàn gia đình Việt. {key}Thu nhập phụ thuộc vào tay nghề, lượng khách, và cách bạn chăm sóc sức khỏe của chính mình. {q}Bạn hoặc người thân có làm nail ở Mỹ không? Thu nhập thật sự thế nào? Hãy chia sẻ ở phần bình luận. {sub}Đừng quên đăng ký kênh Tin Nước Mỹ để xem những tập tiếp theo."
+    }
+  ]
+}

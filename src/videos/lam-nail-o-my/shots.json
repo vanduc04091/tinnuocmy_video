@@ -1,0 +1,213 @@
+{
+  "_help": "Cảnh quay nền. at = mốc {key} hoặc số giây; query = từ khóa NGẮN trên Pixabay; id = mã video Pixabay đã chọn. Tải: npm run broll -- lam-nail-o-my",
+  "scenes": {
+    "hook": [
+      {
+        "at": 0,
+        "query": "manicure",
+        "id": 121293
+      },
+      {
+        "at": "share",
+        "query": "nail salon",
+        "id": 256241
+      },
+      {
+        "at": "ca",
+        "query": "nail polish",
+        "id": 121288
+      },
+      {
+        "at": "q",
+        "query": "manicure",
+        "id": 113819
+      },
+      {
+        "at": "plan",
+        "query": "nail art",
+        "id": 121299
+      }
+    ],
+    "industry": [
+      {
+        "at": 0,
+        "query": "nail salon",
+        "id": 29916
+      },
+      {
+        "at": "solo",
+        "query": "beauty salon",
+        "id": 29917
+      },
+      {
+        "at": "rev",
+        "query": "money",
+        "id": 120177
+      },
+      {
+        "at": "gg",
+        "query": "california beach city",
+        "id": 31090
+      }
+    ],
+    "wage": [
+      {
+        "at": 0,
+        "query": "manicure",
+        "id": 121287
+      },
+      {
+        "at": "range",
+        "query": "nail polish",
+        "id": 121290
+      },
+      {
+        "at": "states",
+        "query": "fingernails",
+        "id": 168341
+      },
+      {
+        "at": "note",
+        "query": "calculator",
+        "id": 59138
+      }
+    ],
+    "pay": [
+      {
+        "at": 0,
+        "query": "spa salon",
+        "id": 51913
+      },
+      {
+        "at": "comm",
+        "query": "manicure",
+        "id": 121287
+      },
+      {
+        "at": "booth",
+        "query": "beauty salon",
+        "id": 29917
+      },
+      {
+        "at": "tip",
+        "query": "tip money",
+        "id": 20857
+      },
+      {
+        "at": "ex",
+        "query": "fingernails",
+        "id": 121299
+      },
+      {
+        "at": "slow",
+        "query": "empty salon",
+        "id": 6997
+      }
+    ],
+    "tax": [
+      {
+        "at": 0,
+        "query": "tax documents",
+        "id": 293084
+      },
+      {
+        "at": "report",
+        "query": "calculator",
+        "id": 59138
+      },
+      {
+        "at": "irs",
+        "query": "documents",
+        "id": 159030
+      },
+      {
+        "at": "why",
+        "query": "retirement",
+        "id": 20454
+      }
+    ],
+    "license": [
+      {
+        "at": 0,
+        "query": "students classroom",
+        "id": 296169
+      },
+      {
+        "at": "tx",
+        "query": "exam",
+        "id": 158618
+      },
+      {
+        "at": "cost",
+        "query": "school",
+        "id": 36888
+      }
+    ],
+    "health": [
+      {
+        "at": 0,
+        "query": "chemicals",
+        "id": 197486
+      },
+      {
+        "at": "study",
+        "query": "mask",
+        "id": 63241
+      },
+      {
+        "at": "brain",
+        "query": "woman tired",
+        "id": 83875
+      },
+      {
+        "at": "body",
+        "query": "back pain",
+        "id": 701
+      },
+      {
+        "at": "sick",
+        "query": "woman tired",
+        "id": 83874
+      }
+    ],
+    "tips": [
+      {
+        "at": 0,
+        "query": "fingernails",
+        "id": 121288
+      },
+      {
+        "at": "t3",
+        "query": "fingernails",
+        "id": 121293
+      },
+      {
+        "at": "t5",
+        "query": "small business",
+        "id": 63241
+      },
+      {
+        "at": "future",
+        "query": "spa salon",
+        "id": 6997
+      }
+    ],
+    "outro": [
+      {
+        "at": 0,
+        "query": "manicure",
+        "id": 121293
+      },
+      {
+        "at": "key",
+        "query": "sunset",
+        "id": 201308
+      },
+      {
+        "at": "q",
+        "query": "city night",
+        "id": 3134
+      }
+    ]
+  }
+}
