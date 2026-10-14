@@ -20,9 +20,17 @@ if (!existsSync(`public/audio/${slug}/manifest.json`) && !noAudio) {
   process.exit(1);
 }
 
+// Gọi thẳng Remotion đã cài trong node_modules (không qua npx — trên Windows npx hay báo
+// "could not determine executable to run" khi chưa cài đủ gói).
+const cli = 'node_modules/@remotion/cli/remotion-cli.js';
+if (!existsSync(cli)) {
+  console.error('Chưa cài Remotion trong thư mục dự án. Chạy lệnh này ở thư mục tinnuocmy_video rồi thử lại:');
+  console.error('   npm install');
+  process.exit(1);
+}
 const run = (args) => {
-  console.log('>', 'npx', args.join(' '));
-  return spawnSync('npx', args, {stdio: 'inherit', shell: process.platform === 'win32'}).status ?? 1;
+  console.log('> remotion', args.join(' '));
+  return spawnSync(process.execPath, [cli, ...args], {stdio: 'inherit'}).status ?? 1;
 };
 
 // Video có shots.json thì phải có đủ cảnh quay (npm run broll) trước khi render bản chính thức
@@ -42,13 +50,13 @@ if (existsSync(shotsPath) && !rest.includes('--allow-missing-broll')) {
 mkdirSync('out', {recursive: true});
 const output = passthrough.find((a) => !a.startsWith('-')) ?? `out/${slug}${noAudio ? '-khong-tieng' : ''}.mp4`;
 const raw = noAudio ? output : output.replace(/\.mp4$/, '.raw.mp4');
-const status = run(['remotion', 'render', 'src/index.ts', slug, raw, ...passthrough.filter((a) => a !== output)]);
+const status = run(['render', 'src/index.ts', slug, raw, ...passthrough.filter((a) => a !== output)]);
 if (status !== 0) process.exit(status);
 
 if (!noAudio) {
   console.log('\nChuẩn hóa âm lượng về -14 LUFS...');
   const norm = run([
-    'remotion', 'ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-i', raw,
+    'ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-i', raw,
     '-c:v', 'copy', '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-ar', '48000', '-c:a', 'aac', '-b:a', '192k',
     output,
   ]);
