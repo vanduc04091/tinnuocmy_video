@@ -69,6 +69,8 @@ npm run render -- <tên-video>    # 2. render -> out/<tên-video>.mp4 (1080p, -1
 | 6 | `chi-phi-o-to` | `docs/youtube/tap-06-chi-phi-o-to.md` |
 | 7 | `du-hoc-my-chi-phi` | `docs/youtube/tap-07-du-hoc-my-chi-phi.md` |
 | 8 | `kham-benh-o-my` | `docs/youtube/tap-08-kham-benh-o-my.md` |
+| 9 | `lam-nail-o-my` | `docs/youtube/tap-09-lam-nail-o-my.md` |
+| 10 | `mua-nha-o-my` | `docs/youtube/tap-10-mua-nha-o-my.md` |
 
 Tên tác giả cảnh quay (dán vào mô tả YouTube): `public/broll/<tên-video>/credits.txt`.
 
