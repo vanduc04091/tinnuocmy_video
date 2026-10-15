@@ -54,4 +54,4 @@ mua nhà ở mỹ, mua nhà ở mỹ cần bao nhiêu tiền, giá nhà ở mỹ
 
 - **Danh mục:** Giáo dục · **Altered content:** Không
 - **Thumbnail gợi ý:** chìa khóa nhà trước căn nhà Mỹ, chữ lớn "MUA NHÀ Ở MỸ: CẦN BAO NHIÊU?", góc nhỏ "Không cần đủ 20%!"
-- **Playlist:** "Chi phí sống ở Mỹ" · **End screen:** gắn tập 3 + nút đăng ký
+- **Playlist:** "Chi Phí Sống Ở Mỹ 2026 — Tính Đủ Từng Khoản" · **End screen:** gắn tập 3 + nút đăng ký

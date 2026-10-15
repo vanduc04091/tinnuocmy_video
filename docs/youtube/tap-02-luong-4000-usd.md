@@ -55,5 +55,5 @@ lương ở mỹ, lương 4000 đô ở mỹ, lương 4000 usd, sống ở mỹ 
 
 - **Danh mục:** Giáo dục · **Ngôn ngữ:** Tiếng Việt · **Altered content:** Không
 - **Thumbnail gợi ý:** con số "$4.000" lớn màu vàng, mũi tên đỏ xuống "$406", chữ "ĐỦ SỐNG?"; nền phiếu lương mờ
-- **Playlist:** "Chi phí sống ở Mỹ" (sau tập 1) · **End screen:** gắn tập 1 + nút đăng ký
+- **Playlist:** "Chi Phí Sống Ở Mỹ 2026 — Tính Đủ Từng Khoản" (sau tập 1) · **End screen:** gắn tập 1 + nút đăng ký
 - Sau khi đăng, sửa mô tả tập 1: thêm "▶ Tập 2" với link tập này

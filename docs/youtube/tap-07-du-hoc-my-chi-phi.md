@@ -53,4 +53,4 @@ du học mỹ, chi phí du học mỹ, du học mỹ 2026, du học mỹ bao nhi
 
 - **Danh mục:** Giáo dục · **Altered content:** Không
 - **Thumbnail gợi ý:** mũ tốt nghiệp tung lên trời, chữ lớn "DU HỌC MỸ: 700TR → 2,7 TỶ/NĂM", góc nhỏ "Tiết kiệm 3 tỷ?"
-- **Playlist:** "Du học & định cư Mỹ" (mới) · **End screen:** gắn tập 1 + nút đăng ký
+- **Playlist:** "Du Học & Định Cư Mỹ — Chuẩn Bị Gì, Tốn Bao Nhiêu?" · **End screen:** gắn tập 1 + nút đăng ký

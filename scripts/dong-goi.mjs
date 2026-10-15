@@ -48,7 +48,7 @@ const parseDoc = (md) => {
 
 let done = 0;
 for (const doc of readdirSync('docs/youtube').filter((d) => /^tap-\d+/.test(d)).sort()) {
-  const md = readFileSync(`docs/youtube/${doc}`, 'utf8');
+  const md = readFileSync(`docs/youtube/${doc}`, 'utf8').replace(/\r\n/g, '\n'); // Windows (CRLF) -> LF
   const slug = (md.match(/File: `out\/(.+?)\.mp4`/) ?? [])[1];
   if (!slug || (only && only !== slug)) continue;
   const num = doc.match(/^tap-(\d+)/)[1];

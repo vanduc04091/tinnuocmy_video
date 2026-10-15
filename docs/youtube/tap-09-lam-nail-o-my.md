@@ -54,4 +54,4 @@ làm nail ở mỹ, thợ nail ở mỹ kiếm bao nhiêu, nghề nail ở mỹ,
 
 - **Danh mục:** Giáo dục · **Altered content:** Không
 - **Thumbnail gợi ý:** cận cảnh tay sơn móng, chữ lớn "LÀM NAIL: $5.300/THÁNG?", góc nhỏ "Sự thật ít ai nói"
-- **Playlist:** "Việc làm & thu nhập ở Mỹ" (mới) · **End screen:** gắn tập 2 + nút đăng ký
+- **Playlist:** "Việc Làm & Thu Nhập Ở Mỹ — Lương Thật Của Người Việt" · **End screen:** gắn tập 2 + nút đăng ký

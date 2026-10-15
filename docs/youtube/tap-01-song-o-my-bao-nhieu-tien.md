@@ -59,5 +59,5 @@ sống ở mỹ, chi phí sinh hoạt ở mỹ, sống ở mỹ một tháng h�
 - **Ngôn ngữ video:** Tiếng Việt; **phụ đề:** đã đốt sẵn trong video — vẫn nên bật phụ đề tự động tiếng Việt
 - **Nội dung thay đổi/tổng hợp (Altered content):** chọn **Không** — video dùng cảnh quay thật, giọng đọc TTS không giả mạo người thật
 - **Thumbnail gợi ý:** nửa trái cảnh Houston, nửa phải Little Saigon; chữ lớn "80 TRIỆU hay 100 TRIỆU?"; góc dưới "2026"
-- **Playlist:** "Chi phí sống ở Mỹ" (tập 2 sẽ là "Lương 4.000 USD/tháng có đủ sống?")
+- **Playlist:** "Chi Phí Sống Ở Mỹ 2026 — Tính Đủ Từng Khoản" (tập 2 sẽ là "Lương 4.000 USD/tháng có đủ sống?")
 - **Màn hình kết thúc (end screen):** 20 giây cuối — gắn video tập 2 + nút đăng ký

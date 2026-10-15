@@ -55,4 +55,4 @@ lương cao ở mỹ, tiết kiệm tiền ở mỹ, vì sao không tiết kiệ
 
 - **Danh mục:** Giáo dục · **Altered content:** Không
 - **Thumbnail gợi ý:** người đàn ông ôm đầu trước laptop, chữ lớn "$150.000 VẪN HẾT TIỀN?", góc nhỏ "46%"
-- **Playlist:** "Chi phí sống ở Mỹ" · **End screen:** gắn tập 2 + nút đăng ký
+- **Playlist:** "Chi Phí Sống Ở Mỹ 2026 — Tính Đủ Từng Khoản" · **End screen:** gắn tập 2 + nút đăng ký

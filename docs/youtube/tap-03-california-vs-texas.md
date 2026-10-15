@@ -54,4 +54,4 @@ california hay texas, california vs texas, sống ở đâu tiết kiệm hơn, 
 
 - **Danh mục:** Giáo dục · **Altered content:** Không
 - **Thumbnail gợi ý:** nửa trái cờ/bản đồ California (xanh ngọc), nửa phải Texas (vàng), chữ "VS" lớn ở giữa, chữ "AI THẮNG?"
-- **Playlist:** "Chi phí sống ở Mỹ" · **End screen:** gắn tập 4 (gia đình 4 người) + nút đăng ký
+- **Playlist:** "Chi Phí Sống Ở Mỹ 2026 — Tính Đủ Từng Khoản" · **End screen:** gắn tập 4 (gia đình 4 người) + nút đăng ký

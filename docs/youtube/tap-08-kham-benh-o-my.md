@@ -53,4 +53,4 @@ bảo hiểm y tế mỹ, khám bệnh ở mỹ, chi phí y tế ở mỹ, đi c
 
 - **Danh mục:** Giáo dục · **Altered content:** Không
 - **Thumbnail gợi ý:** hóa đơn bệnh viện + ống nghe, chữ lớn "SINH CON $20.000?", góc nhỏ "Bảo hiểm trả bao nhiêu?"
-- **Playlist:** "Chi phí sống ở Mỹ" · **End screen:** gắn tập 4 + nút đăng ký
+- **Playlist:** "Chi Phí Sống Ở Mỹ 2026 — Tính Đủ Từng Khoản" · **End screen:** gắn tập 4 + nút đăng ký

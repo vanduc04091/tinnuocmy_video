@@ -54,4 +54,4 @@ chi phí nuôi xe ở mỹ, mua xe ở mỹ, giá xe ở mỹ, vay mua xe ở m�
 
 - **Danh mục:** Giáo dục · **Altered content:** Không
 - **Thumbnail gợi ý:** tay cầm chìa khóa xe trước bãi xe, chữ lớn "$1.070/THÁNG", góc nhỏ "Giá xe chỉ là phần nổi"
-- **Playlist:** "Chi phí sống ở Mỹ" · **End screen:** gắn tập 3 + nút đăng ký
+- **Playlist:** "Chi Phí Sống Ở Mỹ 2026 — Tính Đủ Từng Khoản" · **End screen:** gắn tập 3 + nút đăng ký

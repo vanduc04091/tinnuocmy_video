@@ -55,4 +55,4 @@ gia đình 4 người ở mỹ, chi phí nuôi con ở mỹ, gia đình ở mỹ
 
 - **Danh mục:** Giáo dục · **Altered content:** Không
 - **Thumbnail gợi ý:** gia đình 4 người nhìn từ sau, chữ lớn "$7.000/THÁNG?", góc nhỏ "Giữ trẻ > tiền nhà!"
-- **Playlist:** "Chi phí sống ở Mỹ" · **End screen:** gắn tập 3 + nút đăng ký
+- **Playlist:** "Chi Phí Sống Ở Mỹ 2026 — Tính Đủ Từng Khoản" · **End screen:** gắn tập 3 + nút đăng ký
