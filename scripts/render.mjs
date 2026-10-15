@@ -67,3 +67,6 @@ if (!noAudio) {
   }
 }
 console.log(`\nĐã lưu: ${output}`);
+
+// Video chính thức -> gom vào out/Tap-XX-<slug>/ cùng tiêu đề, mô tả, tags, thumbnail, phụ đề
+if (!noAudio && output === `out/${slug}.mp4`) spawnSync(process.execPath, ['scripts/dong-goi.mjs', slug], {stdio: ['ignore', 'inherit', 'inherit']});

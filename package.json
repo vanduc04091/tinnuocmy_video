@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "broll": "node scripts/python.mjs scripts/broll.py",
     "music": "node scripts/python.mjs scripts/music.py",
-    "thumbs": "node scripts/thumbs.mjs"
+    "thumbs": "node scripts/thumbs.mjs",
+    "dong-goi": "node scripts/dong-goi.mjs"
   },
   "dependencies": {
     "@fontsource/be-vietnam-pro": "5.3.0",
