@@ -80,6 +80,18 @@ Video đã render từ trước: chạy `npm run dong-goi` để gom lại.
 **Thumbnail:** 3 mẫu mỗi tập đã có sẵn trong `thumbnails/<tên-video>-a.jpg`, `-b.jpg`, `-c.jpg` (dùng với Test & Compare).
 Sửa chữ ở `src/thumbnails/list.ts` rồi `npm run thumbs` (hoặc `npm run thumbs -- <tên-video>`).
 
+**Shorts (video dọc 1080×1920):** dùng lại giọng đọc + cảnh quay của tập dài, không tốn credit ElevenLabs.
+
+```bash
+npm run render -- short-song-o-my-phong-su-a   # rồi -b, -c  -> out/Tap-01-song-o-my-phong-su/shorts/
+```
+
+| Tập | Shorts | Tiêu đề, mô tả, lịch đăng |
+|---|---|---|
+| 1 | `short-song-o-my-phong-su-a`, `-b`, `-c` | `docs/youtube/shorts/tap-01-song-o-my-phong-su.md` |
+
+Soát khung hình trước khi render: `node scripts/tools/anh-kiem-tra-short.mjs <short-id>` + `python scripts/tools/ghep-luoi.py out/kiem-tra/<short-id>`.
+
 **Chiến lược kênh, lịch đăng, mẫu báo cáo:** `docs/chien-luoc-kenh.md`.
 
 ## Tạo giọng đọc mới (chỉ khi sửa lời đọc)

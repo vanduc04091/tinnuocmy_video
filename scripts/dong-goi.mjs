@@ -9,6 +9,8 @@
 //   thumb-test-A/B/C.jpg       3 mẫu cho "Test & Compare"
 //   phu-de.vi.srt              phụ đề tiếng Việt (Subtitles → Upload file → With timing)
 //   nguon-canh-quay.txt        tên tác giả cảnh quay Pixabay
+//   shorts/short-a.mp4 …       Shorts dọc (npm run render -- short-<slug>-a)
+//   shorts/youtube-shorts.md   tiêu đề, mô tả, lịch đăng Shorts (từ docs/youtube/shorts/tap-XX-<slug>.md)
 import {copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, renameSync, rmSync, writeFileSync} from 'node:fs';
 
 const only = process.argv.slice(2).find((a) => !a.startsWith('-'));
@@ -104,7 +106,17 @@ for (const doc of readdirSync('docs/youtube').filter((d) => /^tap-\d+/.test(d)).
   if (existsSync(`public/audio/${slug}/manifest.json`)) writeFileSync(`${dir}/phu-de.vi.srt`, srt(slug));
   if (existsSync(`public/broll/${slug}/credits.txt`)) copyFileSync(`public/broll/${slug}/credits.txt`, `${dir}/nguon-canh-quay.txt`);
 
-  console.log(`${hasVideo ? '✓' : '… (chưa có video — render xong chạy lại)'} ${dir}`);
+  // Shorts của tập này
+  const shortFiles = readdirSync('out').filter((f) => f.startsWith(`short-${slug}-`) && /-[a-z]\.mp4$/.test(f));
+  const shortDoc = `docs/youtube/shorts/tap-${num}-${slug}.md`;
+  if (shortFiles.length || existsSync(shortDoc)) {
+    mkdirSync(`${dir}/shorts`, {recursive: true});
+    for (const f of shortFiles) renameSync(`out/${f}`, `${dir}/shorts/short-${f.slice(-5)}`);
+    if (existsSync(shortDoc)) copyFileSync(shortDoc, `${dir}/shorts/youtube-shorts.md`);
+  }
+  const nShorts = existsSync(`${dir}/shorts`) ? readdirSync(`${dir}/shorts`).filter((f) => f.endsWith('.mp4')).length : 0;
+
+  console.log(`${hasVideo ? '✓' : '… (chưa có video — render xong chạy lại)'} ${dir}${nShorts ? ` (+${nShorts} Shorts)` : ''}`);
   done++;
 }
 console.log(`Xong ${done} tập.`);

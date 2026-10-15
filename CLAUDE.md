@@ -52,6 +52,17 @@ File này tóm tắt toàn bộ những gì chủ kênh và Claude đã thống 
    dòng 🔔 đăng ký @tinnuocmy, hashtag `#tinnuocmy` đầu tiên, tags, cài đặt upload). Thêm dòng vào bảng trong README.
 10. `npm run typecheck`, commit, push. Chủ kênh chỉ cần `git pull` → `npm run broll` → `npm run render`.
 
+## 3b. Làm Shorts cho một tập (2–3 Short/tập, 30–55 giây)
+
+- Code: `src/videos/<slug>/shorts.tsx` (dùng `defineShort` + khối `Flip`/`Stat`/`Receipt`/`Versus`/`Verdict` trong
+  `src/shorts/parts.tsx`), thêm vào `src/shorts/registry.ts`. Mã composition: `short-<slug>-a|b|c`.
+- Mỗi Short = các đoạn cắt `{scene, from, to}` (mốc `{marker}` hoặc giây) từ giọng đọc có sẵn — **không chạy tts**.
+  2 giây đầu phải là câu hỏi/con số gây tò mò. Phụ đề cụm từ to tự sinh từ `*.words.json`.
+- Bố cục chừa vùng giao diện Shorts: trên 0–150, dưới 1460–1920, mép phải từ y≈1100.
+- Soát: `node scripts/tools/anh-kiem-tra-short.mjs <id>` + `ghep-luoi.py`. SEO + lịch: `docs/youtube/shorts/tap-XX-<slug>.md`.
+- Render: `npm run render -- short-<slug>-a` → tự gom vào `out/Tap-XX-<slug>/shorts/`.
+- Đăng Short **sau** tập dài, gắn "Related video" = tập dài. Lịch: 1 Short/ngày vào các ngày không có video dài.
+
 ## 4. Quy ước kỹ thuật
 
 - Remotion 4.0.534 + React 19 + TypeScript. 1920×1080, 30fps.
@@ -77,5 +88,6 @@ File này tóm tắt toàn bộ những gì chủ kênh và Claude đã thống 
 ## 6. Việc đang chờ
 
 - Chủ kênh render xong 10 tập, đăng tập 1 vào thứ Ba 20:00 giờ Houston, rồi gửi báo cáo 48 giờ.
-- Đề xuất còn để ngỏ: cắt 2–3 Shorts dọc/tập (Remotion 1080×1920), banner phiên bản sáng hợp với avatar mới
-  (`thumbnails/kenh-avatar-sang-1.png` là avatar đang dùng).
+- Shorts: đã xong 3 Short tập 1 (16/10/2026). Tiếp theo làm Shorts theo thứ tự đăng: tập 9 → 7 → 2 → 10 → 3 → 8 → 4 → 6 → 5.
+- Đề xuất còn để ngỏ: banner phiên bản sáng hợp với avatar mới (`thumbnails/kenh-avatar-sang-1.png` là avatar đang dùng).
+- Chủ kênh giao Claude quyết định hướng đi; khi họ hỏi "giờ làm gì tiếp" → chọn việc ưu tiên nhất và làm luôn.

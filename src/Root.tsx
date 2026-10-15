@@ -2,6 +2,7 @@ import {Composition, Still} from 'remotion';
 import {Avatar, AvatarSang, Banner} from './thumbnails/Brand';
 import {Thumbnail} from './thumbnails/Thumbnail';
 import {thumbnails} from './thumbnails/list';
+import {shorts} from './shorts/registry';
 import {videos} from './videos/registry';
 
 export const RemotionRoot: React.FC = () => (
@@ -17,6 +18,19 @@ export const RemotionRoot: React.FC = () => (
         fps={v.fps}
         width={v.width}
         height={v.height}
+      />
+    ))}
+    {shorts.map((s) => (
+      <Composition
+        key={s.id}
+        id={s.id}
+        component={s.Component}
+        calculateMetadata={s.calculateMetadata}
+        defaultProps={{timeline: null}}
+        durationInFrames={300}
+        fps={s.fps}
+        width={s.width}
+        height={s.height}
       />
     ))}
     {Object.entries(thumbnails).flatMap(([slug, set]) =>

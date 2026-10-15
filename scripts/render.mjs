@@ -1,6 +1,7 @@
 // Render một video ra thư mục out/ (không đưa lên GitHub).
 //   npm run render -- song-o-my-1-thang            -> out/song-o-my-1-thang.mp4
 //   npm run render -- song-o-my-1-thang --no-audio -> cho phép render khi chưa tạo giọng
+//   npm run render -- short-song-o-my-phong-su-a   -> Short dọc (src/videos/<slug>/shorts.tsx), gom vào out/Tap-XX-<slug>/shorts/
 // Các tham số khác được chuyển thẳng cho `remotion render` (vd: --scale=0.5, --frames=0-300).
 // Sau khi render, âm lượng được chuẩn hóa về -14 LUFS (chuẩn YouTube) bằng ffmpeg đi kèm Remotion.
 import {spawnSync} from 'node:child_process';
@@ -13,10 +14,13 @@ if (!slug) {
   process.exit(1);
 }
 const noAudio = rest.includes('--no-audio');
+// Short dùng giọng đọc + cảnh quay của tập gốc: short-<slug>-<a|b|c> -> <slug>
+const isShort = slug.startsWith('short-');
+const base = isShort ? slug.replace(/^short-/, '').replace(/-[a-z]$/, '') : slug;
 const passthrough = rest.filter((a) => a !== '--no-audio' && a !== '--allow-missing-broll');
 
-if (!existsSync(`public/audio/${slug}/manifest.json`) && !noAudio) {
-  console.error(`Chưa có giọng đọc cho "${slug}". Chạy trước:  npm run tts -- ${slug}`);
+if (!existsSync(`public/audio/${base}/manifest.json`) && !noAudio) {
+  console.error(`Chưa có giọng đọc cho "${slug}". Chạy trước:  npm run tts -- ${base}`);
   console.error('(hoặc thêm --no-audio để render bản xem thử không tiếng)');
   process.exit(1);
 }
@@ -41,14 +45,14 @@ const run = (args) => {
 };
 
 // Video có shots.json thì phải có đủ cảnh quay (npm run broll) trước khi render bản chính thức
-const shotsPath = `src/videos/${slug}/shots.json`;
+const shotsPath = `src/videos/${base}/shots.json`;
 if (existsSync(shotsPath) && !rest.includes('--allow-missing-broll')) {
   const shots = JSON.parse(readFileSync(shotsPath, 'utf8')).scenes;
-  const manPath = `public/broll/${slug}/manifest.json`;
+  const manPath = `public/broll/${base}/manifest.json`;
   const have = existsSync(manPath) ? JSON.parse(readFileSync(manPath, 'utf8')).shots : {};
   const missing = Object.entries(shots).flatMap(([scene, items]) => items.map((_, i) => `${scene}-${i}`)).filter((id) => !have[id]);
   if (missing.length) {
-    console.error(`Thiếu ${missing.length} cảnh quay nền. Chạy trước:  npm run broll -- ${slug}`);
+    console.error(`Thiếu ${missing.length} cảnh quay nền. Chạy trước:  npm run broll -- ${base}`);
     console.error('(hoặc thêm --allow-missing-broll để render bản nháp có ô báo thiếu cảnh)');
     process.exit(1);
   }
@@ -80,4 +84,4 @@ rmSync(tmp, {recursive: true, force: true});
 console.log(`\nĐã lưu: ${output}`);
 
 // Video chính thức -> gom vào out/Tap-XX-<slug>/ cùng tiêu đề, mô tả, tags, thumbnail, phụ đề
-if (!noAudio && output === `out/${slug}.mp4`) spawnSync(process.execPath, ['scripts/dong-goi.mjs', slug], {stdio: ['ignore', 'inherit', 'inherit']});
+if (!noAudio && output === `out/${slug}.mp4`) spawnSync(process.execPath, ['scripts/dong-goi.mjs', base], {stdio: ['ignore', 'inherit', 'inherit']});
