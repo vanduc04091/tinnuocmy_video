@@ -1,5 +1,5 @@
 import {Composition, Still} from 'remotion';
-import {Avatar, Banner} from './thumbnails/Brand';
+import {Avatar, AvatarSang, Banner} from './thumbnails/Brand';
 import {Thumbnail} from './thumbnails/Thumbnail';
 import {thumbnails} from './thumbnails/list';
 import {videos} from './videos/registry';
@@ -26,6 +26,9 @@ export const RemotionRoot: React.FC = () => (
     )}
     <Still id="thumb-kenh-avatar-chu" component={Avatar} width={800} height={800} defaultProps={{variant: 'chu' as const}} />
     <Still id="thumb-kenh-avatar-tuong" component={Avatar} width={800} height={800} defaultProps={{variant: 'tuong' as const}} />
+    <Still id="thumb-kenh-avatar-sang-1" component={AvatarSang} width={800} height={800} defaultProps={{img: 'brand-liberty-11-sq', x: 0, y: 0, scale: 1}} />
+    <Still id="thumb-kenh-avatar-sang-2" component={AvatarSang} width={800} height={800} defaultProps={{img: 'brand-liberty-16-sq', x: 0, y: 0, scale: 1}} />
+    <Still id="thumb-kenh-avatar-sang-3" component={AvatarSang} width={800} height={800} defaultProps={{img: 'brand-liberty-18-sq', x: 0, y: 0, scale: 1}} />
     <Still id="thumb-kenh-banner" component={Banner} width={2560} height={1440} />
   </>
 );

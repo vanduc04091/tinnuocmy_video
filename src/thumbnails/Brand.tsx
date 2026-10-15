@@ -51,3 +51,18 @@ export const Banner: React.FC = () => {
     </AbsoluteFill>
   );
 };
+
+/** Ảnh đại diện sáng: tượng Nữ thần Tự do trên trời xanh + dải vàng có tên kênh ở dưới. */
+export const AvatarSang: React.FC<{img: string; x: number; y: number; scale: number}> = ({img, x, y, scale}) => {
+  useFonts();
+  return (
+    <AbsoluteFill style={{background: '#3E8EDE', fontFamily: theme.font, overflow: 'hidden'}}>
+      <Img src={staticFile(`thumbs/bg/${img}.jpg`)} style={{position: 'absolute', left: x, top: y, width: 800 * scale, filter: 'brightness(1.12) saturate(1.3) contrast(1.05)'}} />
+      <div style={{position: 'absolute', left: 0, right: 0, top: 540, bottom: 0, background: theme.gold, display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: 14}}>
+        <div style={{fontSize: 56, fontWeight: 800, color: '#0A1220', lineHeight: 1, letterSpacing: '0.12em'}}>TIN</div>
+        <div style={{fontSize: 104, fontWeight: 800, color: '#0A1220', lineHeight: 1.05, whiteSpace: 'nowrap'}}>NƯỚC MỸ</div>
+      </div>
+      <div style={{position: 'absolute', left: 0, right: 0, top: 530, height: 10, background: '#FFFFFF'}} />
+    </AbsoluteFill>
+  );
+};
