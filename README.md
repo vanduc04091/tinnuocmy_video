@@ -73,7 +73,7 @@ npm run render -- <tên-video>    # 2. render -> out/<tên-video>.mp4 (1080p, -1
 | 10 | `mua-nha-o-my` | `docs/youtube/tap-10-mua-nha-o-my.md` |
 
 Render xong, video được gom vào **`out/Tap-XX-<tên-video>/`** cùng mọi thứ cần để đăng YouTube:
-video `.mp4`, `1-tieu-de.txt`, `2-mo-ta.txt`, `3-tags.txt`, `4-cai-dat.txt`, `thumbnail.jpg`,
+video `.mp4`, `youtube.md` (tiêu đề, mô tả, tags, cài đặt), `thumbnail.jpg`,
 `thumb-test-A/B/C.jpg` (Test & Compare), `phu-de.vi.srt` (phụ đề), `nguon-canh-quay.txt`.
 Video đã render từ trước: chạy `npm run dong-goi` để gom lại.
 

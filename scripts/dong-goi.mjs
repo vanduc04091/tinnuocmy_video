@@ -4,15 +4,12 @@
 //
 // out/Tap-01-song-o-my-phong-su/
 //   song-o-my-phong-su.mp4     video (chuyển từ out/ vào đây)
-//   1-tieu-de.txt              tiêu đề (dòng đầu là tiêu đề khuyên dùng)
-//   2-mo-ta.txt                mô tả, dán nguyên vào ô Description
-//   3-tags.txt                 tags, dán vào ô Tags
-//   4-cai-dat.txt              danh mục, playlist, gợi ý thumbnail…
+//   youtube.md                 tiêu đề, mô tả, tags, cài đặt upload — tất cả trong một file
 //   thumbnail.jpg              thumbnail chính (= mẫu A)
 //   thumb-test-A/B/C.jpg       3 mẫu cho "Test & Compare"
 //   phu-de.vi.srt              phụ đề tiếng Việt (Subtitles → Upload file → With timing)
 //   nguon-canh-quay.txt        tên tác giả cảnh quay Pixabay
-import {copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, renameSync, writeFileSync} from 'node:fs';
+import {copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, renameSync, rmSync, writeFileSync} from 'node:fs';
 
 const only = process.argv.slice(2).find((a) => !a.startsWith('-'));
 const channel = JSON.parse(readFileSync('src/shared/channel.json', 'utf8'));
@@ -63,10 +60,41 @@ for (const doc of readdirSync('docs/youtube').filter((d) => /^tap-\d+/.test(d)).
   const hasVideo = existsSync(`${dir}/${slug}.mp4`);
 
   const {titles, desc, tags, settings} = parseDoc(md);
-  writeFileSync(`${dir}/1-tieu-de.txt`, titles.join('\n\n') + '\n');
-  writeFileSync(`${dir}/2-mo-ta.txt`, desc + '\n');
-  writeFileSync(`${dir}/3-tags.txt`, tags + '\n');
-  writeFileSync(`${dir}/4-cai-dat.txt`, settings + '\n');
+  const heading = (md.match(/^# YouTube — (.+)$/m) ?? [])[1] ?? slug;
+  writeFileSync(`${dir}/youtube.md`, [
+    `# ${heading}`,
+    '',
+    `Video: \`${slug}.mp4\` · Thumbnail: \`thumbnail.jpg\` · Test & Compare: \`thumb-test-A/B/C.jpg\` · Phụ đề: \`phu-de.vi.srt\``,
+    '',
+    '## Tiêu đề (Title)',
+    '',
+    '```',
+    titles[0] ?? '',
+    '```',
+    '',
+    ...(titles.length > 1 ? ['Phương án khác:', '', ...titles.slice(1).map((t) => `- ${t}`), ''] : []),
+    '## Mô tả (Description)',
+    '',
+    '```',
+    desc,
+    '```',
+    '',
+    '## Tags',
+    '',
+    '```',
+    tags,
+    '```',
+    '',
+    '## Cài đặt khi upload',
+    '',
+    settings,
+    '',
+    '## Phụ đề',
+    '',
+    'Subtitles → Add language: Vietnamese → Upload file → With timing → chọn `phu-de.vi.srt`.',
+    '',
+  ].join('\n'));
+  for (const old of ['1-tieu-de.txt', '2-mo-ta.txt', '3-tags.txt', '4-cai-dat.txt']) rmSync(`${dir}/${old}`, {force: true});
 
   for (const v of ['a', 'b', 'c']) {
     const src = `thumbnails/${slug}-${v}.jpg`;
