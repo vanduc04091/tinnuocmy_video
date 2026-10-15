@@ -35,12 +35,12 @@ Du học Mỹ tốn bao nhiêu tiền năm 2026? Tin Nước Mỹ tính đủ ch
 Lộ trình 2+2 là ước tính, chưa tính tăng học phí. Video tham khảo, không phải tư vấn du học.
 
 💬 Nếu cho con đi du học Mỹ, bạn chọn bắt đầu từ cao đẳng cộng đồng hay vào thẳng đại học? Chia sẻ ở phần bình luận!
-🔔 Đăng ký Tin Nước Mỹ để xem các tập tiếp theo.
+🔔 Đăng ký Tin Nước Mỹ (@tinnuocmy) để xem các tập tiếp theo: https://www.youtube.com/@tinnuocmy?sub_confirmation=1
 ▶ Tập 1 — Sống ở Mỹ một tháng hết bao nhiêu tiền?: [link]
 
 Video nền: Pixabay. Nhạc nền: Tin Nước Mỹ tự sản xuất. Giọng đọc: AI (ElevenLabs).
 
-#duhocmy #duhoc #chiphiduhoc #duhocsinh #songomy #nguoivietomy #cocongdong
+#tinnuocmy #duhocmy #duhoc #chiphiduhoc #duhocsinh #songomy #nguoivietomy #cocongdong
 ```
 
 ## Tags

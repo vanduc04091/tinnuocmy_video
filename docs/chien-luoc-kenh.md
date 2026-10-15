@@ -12,7 +12,8 @@
 
 ## 2. Tuần 0 — dựng kênh (làm một lần, khoảng 2 giờ)
 
-- [ ] Tạo kênh bằng **tài khoản thương hiệu** (Brand Account), tên **Tin Nước Mỹ**, handle **@tinnuocmy** (hoặc gần nhất còn trống).
+- [ ] Tạo kênh bằng **tài khoản thương hiệu** (Brand Account), tên **Tin Nước Mỹ**, handle **@tinnuocmy** ✅ (đã có).
+- Link kênh: https://www.youtube.com/@tinnuocmy · Link đăng ký nhanh (dán vào Facebook, bình luận): https://www.youtube.com/@tinnuocmy?sub_confirmation=1
 - [ ] **Xác minh số điện thoại** (YouTube Studio → Settings → Channel → Feature eligibility). Bắt buộc, nếu không sẽ không tải được thumbnail riêng.
 - [ ] Ảnh đại diện + banner (nhờ tôi làm, cùng phong cách vàng/xanh đậm).
 - [ ] **Mô tả kênh:** "Tin Nước Mỹ giải thích chi phí, thu nhập và cuộc sống ở Mỹ bằng số liệu thật, có nguồn. Dành cho người Việt ở Mỹ và người đang chuẩn bị sang Mỹ du học, định cư. Video mới thứ Ba và thứ Sáu."

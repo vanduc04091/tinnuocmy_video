@@ -35,12 +35,12 @@ File: `out/kham-benh-o-my.mp4`
 Giá bảo hiểm du lịch là báo giá tham khảo. Video tham khảo, không phải tư vấn y tế hay bảo hiểm.
 
 💬 Bạn từng nhận hóa đơn y tế bất ngờ ở Mỹ chưa? Chia sẻ ở phần bình luận!
-🔔 Đăng ký Tin Nước Mỹ để xem các tập tiếp theo.
+🔔 Đăng ký Tin Nước Mỹ (@tinnuocmy) để xem các tập tiếp theo: https://www.youtube.com/@tinnuocmy?sub_confirmation=1
 ▶ Tập 4 — Một gia đình 4 người tại Mỹ chi bao nhiêu tiền mỗi tháng?: [link]
 
 Video nền: Pixabay. Nhạc nền: Tin Nước Mỹ tự sản xuất. Giọng đọc: AI (ElevenLabs).
 
-#baohiemyte #ytemy #khambenhomy #obamacare #songomy #nguoivietomy #dinhcumy
+#tinnuocmy #baohiemyte #ytemy #khambenhomy #obamacare #songomy #nguoivietomy #dinhcumy
 ```
 
 ## Tags

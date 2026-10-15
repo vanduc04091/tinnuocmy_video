@@ -40,11 +40,11 @@ Sống ở Mỹ một tháng hết bao nhiêu tiền? 30 triệu, 50 triệu hay
 Số liệu mang tính tham khảo, không phải tư vấn tài chính. Chi phí thực tế tùy khu vực và thói quen chi tiêu.
 
 💬 Bạn đang sống ở đâu tại Mỹ và chi phí mỗi tháng của bạn là bao nhiêu? Hãy chia sẻ ở phần bình luận!
-🔔 Đăng ký kênh Tin Nước Mỹ để xem thêm video về cuộc sống, việc làm, du học và chi phí sinh hoạt tại Mỹ.
+🔔 Đăng ký Tin Nước Mỹ (@tinnuocmy) để xem các tập tiếp theo: https://www.youtube.com/@tinnuocmy?sub_confirmation=1
 
 Video nền: Pixabay. Nhạc nền: Tin Nước Mỹ tự sản xuất. Giọng đọc: AI (ElevenLabs).
 
-#songomy #chiphisinhhoat #nguoivietomy #duhocmy #houston #littlesaigon #cuocsongmy
+#tinnuocmy #songomy #chiphisinhhoat #nguoivietomy #duhocmy #houston #littlesaigon #cuocsongmy
 ```
 
 ## Tags (dán vào ô Tags, tổng < 500 ký tự)

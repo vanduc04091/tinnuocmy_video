@@ -36,12 +36,12 @@ Làm nail ở Mỹ kiếm bao nhiêu tiền? Tin Nước Mỹ nhìn vào số li
 Ví dụ thu nhập một tháng là minh họa. Video tham khảo, không phải tư vấn thuế hay pháp lý.
 
 💬 Bạn hoặc người thân có làm nail ở Mỹ không? Thu nhập thật sự thế nào? Chia sẻ ở phần bình luận!
-🔔 Đăng ký Tin Nước Mỹ để xem các tập tiếp theo.
+🔔 Đăng ký Tin Nước Mỹ (@tinnuocmy) để xem các tập tiếp theo: https://www.youtube.com/@tinnuocmy?sub_confirmation=1
 ▶ Tập 2 — Lương 4.000 USD/tháng sống ở Mỹ có đủ không?: [link]
 
 Video nền: Pixabay. Nhạc nền: Tin Nước Mỹ tự sản xuất. Giọng đọc: AI (ElevenLabs).
 
-#lamnailomy #thonail #nailsalon #nguoivietomy #songomy #dinhcumy #nghenail
+#tinnuocmy #lamnailomy #thonail #nailsalon #nguoivietomy #songomy #dinhcumy #nghenail
 ```
 
 ## Tags

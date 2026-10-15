@@ -36,12 +36,12 @@ Mua nhà ở Mỹ cần bao nhiêu tiền năm 2026? Tin Nước Mỹ tính đ�
 Tiền góp là ước tính (thuế, bảo hiểm, PMI theo giả định ghi trên màn hình). Video tham khảo, không phải tư vấn tài chính hay bất động sản.
 
 💬 Bạn đang thuê hay đã mua nhà — Texas hay California? Chia sẻ ở phần bình luận!
-🔔 Đăng ký Tin Nước Mỹ để xem các tập tiếp theo.
+🔔 Đăng ký Tin Nước Mỹ (@tinnuocmy) để xem các tập tiếp theo: https://www.youtube.com/@tinnuocmy?sub_confirmation=1
 ▶ Tập 3 — California và Texas: Sống ở đâu tiết kiệm hơn?: [link]
 
 Video nền: Pixabay. Nhạc nền: Tin Nước Mỹ tự sản xuất. Giọng đọc: AI (ElevenLabs).
 
-#muanhaomy #batdongsanmy #vaymuanha #songomy #nguoivietomy #houston #quancam
+#tinnuocmy #muanhaomy #batdongsanmy #vaymuanha #songomy #nguoivietomy #houston #quancam
 ```
 
 ## Tags

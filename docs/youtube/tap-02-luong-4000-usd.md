@@ -37,12 +37,12 @@ Lương 4.000 USD mỗi tháng — hơn 100 triệu đồng — sống ở Mỹ 
 Thuế là ước tính cho người độc thân dùng khấu trừ chuẩn, chưa trừ bảo hiểm hay quỹ hưu trí. Video mang tính tham khảo, không phải tư vấn tài chính hay thuế.
 
 💬 Nếu sống ở Mỹ với 4.000 đô mỗi tháng, bạn nghĩ mình sẽ thoải mái hay chật vật? Bình luận cho mọi người cùng tham khảo!
-🔔 Đăng ký Tin Nước Mỹ để xem tiếp các tập về cuộc sống, việc làm và chi phí sinh hoạt tại Mỹ.
+🔔 Đăng ký Tin Nước Mỹ (@tinnuocmy) để xem các tập tiếp theo: https://www.youtube.com/@tinnuocmy?sub_confirmation=1
 ▶ Tập 1 — Sống ở Mỹ một tháng hết bao nhiêu tiền?: [dán link tập 1]
 
 Video nền: Pixabay. Nhạc nền: Tin Nước Mỹ tự sản xuất. Giọng đọc: AI (ElevenLabs).
 
-#luongomy #songomy #chiphisinhhoat #nguoivietomy #thueomy #houston #littlesaigon
+#tinnuocmy #luongomy #songomy #chiphisinhhoat #nguoivietomy #thueomy #houston #littlesaigon
 ```
 
 ## Tags

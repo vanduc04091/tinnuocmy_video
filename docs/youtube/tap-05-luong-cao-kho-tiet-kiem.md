@@ -37,12 +37,12 @@ Lương 150.000 đô một năm (khoảng 3,9 tỷ đồng) — vậy mà gần 
 Thuế là ước tính (độc thân, khấu trừ chuẩn). Bảng chi một tháng là ví dụ minh họa. Video tham khảo, không phải tư vấn tài chính.
 
 💬 Nếu được tăng lương 1.000 đô mỗi tháng, bạn sẽ làm gì đầu tiên? Chia sẻ ở phần bình luận!
-🔔 Đăng ký Tin Nước Mỹ để xem các tập tiếp theo.
+🔔 Đăng ký Tin Nước Mỹ (@tinnuocmy) để xem các tập tiếp theo: https://www.youtube.com/@tinnuocmy?sub_confirmation=1
 ▶ Tập 2 — Lương 4.000 USD/tháng sống ở Mỹ có đủ không?: [link]
 
 Video nền: Pixabay. Nhạc nền: Tin Nước Mỹ tự sản xuất. Giọng đọc: AI (ElevenLabs).
 
-#luongomy #tietkiem #songomy #nguoivietomy #taichinhcanhan #sanfrancisco #hetthanghettien
+#tinnuocmy #luongomy #tietkiem #songomy #nguoivietomy #taichinhcanhan #sanfrancisco #hetthanghettien
 ```
 
 ## Tags

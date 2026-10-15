@@ -36,12 +36,12 @@ File: `out/chi-phi-o-to.mp4`
 Tiền xăng giả định 25 dặm/ga-lông. Video tham khảo, không phải tư vấn tài chính.
 
 💬 Chiếc xe của bạn tốn bao nhiêu mỗi tháng — bạn chọn xe mới hay xe cũ? Chia sẻ ở phần bình luận!
-🔔 Đăng ký Tin Nước Mỹ để xem các tập tiếp theo.
+🔔 Đăng ký Tin Nước Mỹ (@tinnuocmy) để xem các tập tiếp theo: https://www.youtube.com/@tinnuocmy?sub_confirmation=1
 ▶ Tập 3 — California và Texas: Sống ở đâu tiết kiệm hơn?: [link]
 
 Video nền: Pixabay. Nhạc nền: Tin Nước Mỹ tự sản xuất. Giọng đọc: AI (ElevenLabs).
 
-#otoomy #muaxeomy #songomy #nguoivietomy #chiphisinhhoat #baohiemxe #diemtindung
+#tinnuocmy #otoomy #muaxeomy #songomy #nguoivietomy #chiphisinhhoat #baohiemxe #diemtindung
 ```
 
 ## Tags

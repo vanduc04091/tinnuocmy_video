@@ -35,13 +35,13 @@ California hay Texas — hai bang có nhiều người Việt nhất nước M�
 Số liệu tham khảo, không phải tư vấn tài chính hay thuế.
 
 💬 Nếu được chọn, bạn sẽ sống ở California hay Texas? Bình luận lý do của bạn!
-🔔 Đăng ký Tin Nước Mỹ để xem các tập về cuộc sống, việc làm và chi phí sinh hoạt tại Mỹ.
+🔔 Đăng ký Tin Nước Mỹ (@tinnuocmy) để xem các tập tiếp theo: https://www.youtube.com/@tinnuocmy?sub_confirmation=1
 ▶ Tập 1 — Sống ở Mỹ một tháng hết bao nhiêu tiền?: [link]
 ▶ Tập 2 — Lương 4.000 USD/tháng có đủ sống?: [link]
 
 Video nền: Pixabay. Nhạc nền: Tin Nước Mỹ tự sản xuất. Giọng đọc: AI (ElevenLabs).
 
-#californiavstexas #songomy #nguoivietomy #chiphisinhhoat #texas #california #chuyenbang
+#tinnuocmy #californiavstexas #songomy #nguoivietomy #chiphisinhhoat #texas #california #chuyenbang
 ```
 
 ## Tags

@@ -37,12 +37,12 @@ Một gia đình 4 người ở Mỹ — hai vợ chồng, hai con nhỏ — m�
 Đi lại và chi tiêu khác là ước tính. Video tham khảo, không phải tư vấn tài chính.
 
 💬 Gia đình bạn đang chi bao nhiêu mỗi tháng — khoản nào lớn nhất? Chia sẻ ở phần bình luận!
-🔔 Đăng ký Tin Nước Mỹ để xem các tập tiếp theo.
+🔔 Đăng ký Tin Nước Mỹ (@tinnuocmy) để xem các tập tiếp theo: https://www.youtube.com/@tinnuocmy?sub_confirmation=1
 ▶ Tập 3 — California và Texas: Sống ở đâu tiết kiệm hơn?: [link]
 
 Video nền: Pixabay. Nhạc nền: Tin Nước Mỹ tự sản xuất. Giọng đọc: AI (ElevenLabs).
 
-#giadinhomy #nuoiconomy #songomy #chiphisinhhoat #nguoivietomy #houston #giutre
+#tinnuocmy #giadinhomy #nuoiconomy #songomy #chiphisinhhoat #nguoivietomy #houston #giutre
 ```
 
 ## Tags
