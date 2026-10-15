@@ -30,7 +30,7 @@ if (!existsSync(cli)) {
 }
 const run = (args) => {
   console.log('> remotion', args.join(' '));
-  return spawnSync(process.execPath, [cli, ...args], {stdio: 'inherit'}).status ?? 1;
+  return spawnSync(process.execPath, [cli, ...args], {stdio: ['ignore', 'inherit', 'inherit']}).status ?? 1;
 };
 
 // Video có shots.json thì phải có đủ cảnh quay (npm run broll) trước khi render bản chính thức
@@ -56,7 +56,7 @@ if (status !== 0) process.exit(status);
 if (!noAudio) {
   console.log('\nChuẩn hóa âm lượng về -14 LUFS...');
   const norm = run([
-    'ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-i', raw,
+    'ffmpeg', '-nostdin', '-y', '-hide_banner', '-loglevel', 'error', '-i', raw,
     '-c:v', 'copy', '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-ar', '48000', '-c:a', 'aac', '-b:a', '192k',
     output,
   ]);

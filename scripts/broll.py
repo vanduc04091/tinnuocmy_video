@@ -168,10 +168,10 @@ def main():
                     tmp.write_bytes(http_get(video["link"]))
                     clip = min(video["duration"], MAX_CLIP_SEC, max(need + 2, 8))
                     subprocess.run(
-                        ff + ["-y", "-v", "error", "-i", str(tmp), "-t", f"{clip:.2f}", "-an",
+                        ff + ["-nostdin", "-y", "-v", "error", "-i", str(tmp), "-t", f"{clip:.2f}", "-an",
                               "-vf", "scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30",
                               "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-pix_fmt", "yuv420p", str(dst)],
-                        check=True,
+                        check=True, stdin=subprocess.DEVNULL,
                     )
                 except Exception as e:  # noqa: BLE001
                     print(f"    ! bỏ qua video {video['id']}: {e}")
