@@ -10,3 +10,6 @@ __pycache__/
 
 # Khóa API (ElevenLabs, Pixabay…): chỉ lưu trên máy, KHÔNG đưa lên git
 .env
+
+# Thư mục tạm khi render
+.tmp-render/

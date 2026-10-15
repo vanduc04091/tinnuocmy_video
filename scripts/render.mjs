@@ -5,6 +5,7 @@
 // Sau khi render, âm lượng được chuẩn hóa về -14 LUFS (chuẩn YouTube) bằng ffmpeg đi kèm Remotion.
 import {spawnSync} from 'node:child_process';
 import {existsSync, mkdirSync, readFileSync, renameSync, rmSync} from 'node:fs';
+import path from 'node:path';
 
 const [slug, ...rest] = process.argv.slice(2);
 if (!slug) {
@@ -28,9 +29,15 @@ if (!existsSync(cli)) {
   console.error('   npm install');
   process.exit(1);
 }
+// Thư mục tạm riêng trong dự án (cùng ổ với dự án). Thư mục Temp mặc định của Windows (ổ C:) có thể bị
+// dọn dẹp/antivirus xóa giữa chừng hoặc đầy ổ -> lỗi "remotion-audio-mixing\\0.wav: No such file or directory".
+const tmp = path.resolve('.tmp-render', `${slug}-${process.pid}`);
+rmSync(tmp, {recursive: true, force: true});
+mkdirSync(tmp, {recursive: true});
+const env = {...process.env, TEMP: tmp, TMP: tmp, TMPDIR: tmp};
 const run = (args) => {
   console.log('> remotion', args.join(' '));
-  return spawnSync(process.execPath, [cli, ...args], {stdio: ['ignore', 'inherit', 'inherit']}).status ?? 1;
+  return spawnSync(process.execPath, [cli, ...args], {stdio: ['ignore', 'inherit', 'inherit'], env}).status ?? 1;
 };
 
 // Video có shots.json thì phải có đủ cảnh quay (npm run broll) trước khi render bản chính thức
@@ -51,7 +58,10 @@ mkdirSync('out', {recursive: true});
 const output = passthrough.find((a) => !a.startsWith('-')) ?? `out/${slug}${noAudio ? '-khong-tieng' : ''}.mp4`;
 const raw = noAudio ? output : output.replace(/\.mp4$/, '.raw.mp4');
 const status = run(['render', 'src/index.ts', slug, raw, ...passthrough.filter((a) => a !== output)]);
-if (status !== 0) process.exit(status);
+if (status !== 0) {
+  rmSync(tmp, {recursive: true, force: true});
+  process.exit(status);
+}
 
 if (!noAudio) {
   console.log('\nChuẩn hóa âm lượng về -14 LUFS...');
@@ -66,6 +76,7 @@ if (!noAudio) {
     renameSync(raw, output);
   }
 }
+rmSync(tmp, {recursive: true, force: true});
 console.log(`\nĐã lưu: ${output}`);
 
 // Video chính thức -> gom vào out/Tap-XX-<slug>/ cùng tiêu đề, mô tả, tags, thumbnail, phụ đề
